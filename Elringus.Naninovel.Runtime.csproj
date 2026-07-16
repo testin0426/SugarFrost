@@ -1,0 +1,1834 @@
+﻿<Project>
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>Temp\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Include="Unity" />
+    <ProjectCapability Include="EnableOnDemandExcludedFolderLoading" />
+  </ItemGroup>
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <LangVersion>9.0</LangVersion>
+    <RootNamespace></RootNamespace>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Elringus.Naninovel.Runtime</AssemblyName>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>0169;USG0001</NoWarn>
+    <DefineConstants>UNITY_6000_3_19;UNITY_6000_3;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;UNITY_6000_2_OR_NEWER;UNITY_6000_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_AUDIO_SCRIPTABLE_PIPELINE;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_UNITY_CONSENT;ENABLE_UNITY_CLOUD_IDENTIFIERS;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_ACCESSIBILITY_SCREEN_READER;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;PLATFORM_USES_VULKAN_OLD_SWAPCHAIN;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;ENABLE_PROFILER_ASSISTANT_INTEGRATION;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;TEXTCORE_FONT_ENGINE_1_6_OR_NEWER;MAGICACLOTH2;UNITY_POST_PROCESSING_STACK_V2;UNITY_PIPELINE_URP;DOTWEEN;SENTIS_ANALYTICS_ENABLED;APP_UI_EDITOR_ONLY;URP_COMPATIBILITY_MODE;INPUT_SYSTEM_AVAILABLE;URP_AVAILABLE;PHYSICS_AVAILABLE;PHYSICS_2D_AVAILABLE;TIMELINE_AVAILABLE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStandardLibraries>true</NoStandardLibraries>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+  <PropertyGroup>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.26</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>6000.3.19f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Users\tinf\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.2.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ControlPanel\ControlPanelLogButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Character\ICharacterManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compilers\CompileLine.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\ArrayUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Spine\SpineDrawer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Layered\LayeredDrawer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\FX\ShakeCamera.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\TextPrinter\MessageAuthor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\ISettingsUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\ScriptLocalizer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ChoiceHandler\ChoiceHandlerManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsFontSizeDropdown.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Playback\Gosub.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Audio\StopVoice.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Transient\TransientTextPrinter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Branching\SetCustomVariable.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Loader\ResourceLoader.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsMenu.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ControlPanel\ControlPanelQuickLoadButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Unlockable\UnlockableItemUpdatedArgs.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\InputHandle.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Actors\HideAllCharacters.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\TextPrinter\TextPrinterState.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\StateMap.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\InputModeDetector.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Title\TitleMenu.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\ControlTimeline.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Loading\LoadingScreen.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptableUI\DragDropHandle.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ExternalScripts\ExternalScriptsBrowserPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Text\PrintText.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\FX\Rain.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Tips\TipsReturnButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\TransformUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Camera\CameraLookState.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\SlotManager\IOGameStateSlotManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextReveal\Effects\RevealBroadcaster.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\ComponentUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Spawn\SpawnedObject.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\UI\Unlock.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Spawn\SpawnConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Text\ResetText.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\BooleanListParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Manager\IScriptManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\StringUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\NamedDecimalParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\RuntimeBehaviour.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextPrinter\TypingIndicator.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptableUI\AlphaThreshold.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Background\BackgroundsConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextReveal\RevealState.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compilers\CommentLineCompiler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\UI\UnloadScene.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\CustomVariable\CustomVariablePredefine.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\UI\Lock.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\GameStateMap.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\SpawnBlur.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Camera\CameraLookController.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Playback\Stop.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Branching\ResetState.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\CGGallery\CGGalleryReturnButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Character\CharacterLookDirection.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ChoiceHandler\ChoiceHandlersConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Text\ShowPrinter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\IScriptTrack.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Audio\AudioController.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Branching\InputCustomVariable.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Asset\Asset.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\RenderUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Async\AsyncExceptions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptableUI\ScriptableSlider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptableUI\ScriptableGrid.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Common\ScrollController.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\ScriptLocalizationParser.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\LocalizationConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Character\CharacterManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Camera\CameraManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Resource.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\RegexUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\ScriptReloader.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\TextPrinter\TextPrinterExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\ExecutionContext.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\ModifyCamera.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compilers\CommandLineCompiler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ChoiceHandler\ChoiceOptions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\CustomVariable\CustomVariable.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\UI\LoadScene.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\DrawAsEulerAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Backlog\BacklogMessageUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\CustomVariable\CustomVariableValueType.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Tips\ITipsUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ParameterContext\ResourceContextAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Configuration\ConfigurationProviderExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Text\NaninovelTMProText.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Playback\Skip.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Branching\Else.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\ManagedText\ManagedTextFieldAssigner.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextPrinter\AuthorNameTMProPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Actors\ModifyOrthoActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Actors\SlideActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Audio\AudioManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Audio\IAudioTrack.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\ScriptPlayer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Playback\AwaitInput.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\SaveLoad\SaveLoadMenuReturnButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\LocalizationExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Toast\ToastAppearance.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsAutoDelaySlider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\TextPrinter\PrinterEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\CommandParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Localization\ConstantLocalization.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\ThreadUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\IntegerListParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ResourcePopupAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compilers\ScriptCompiler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Tween\ColorTween.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\NarratorCharacter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Branching\ClearChoiceHandler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Branching\Unless.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Converters\JpgOrPngToTextureConverter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Actors\ArrangeCharacters.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Character\CharacterLipSyncer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Line\EmptyLine.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Unlockable\UnlockablesConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ParameterContext\ActorContextAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\UI\HideUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\DocAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ParameterContext\EndpointContextAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Camera\AspectMatcher.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ControlPanel\ControlPanelSkipButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Text\PrinterCommand.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextPrinter\AuthorNamePanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\ManagedText\ManagedTextAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Spine\SpineController.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Rollback\RollbackUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Title\TitleNewGameButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Console\ConsoleCommands.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsMessageSpeedSlider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ChoiceHandler\NestedChoiceCallback.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Sprite\SpriteActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Line\ScriptLine.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Common\FocusOnSubmit.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptableUI\ScriptableUIControl.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\ITextLocalizer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\CustomVariable\CustomVariablesConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\CustomVariable\CustomVariableUpdatedArgs.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\LocalizableTextHolder.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Loader\NullResourceLoader.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Line\CommentLine.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\SlotManager\IOSaveSlotManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Background\IBackgroundActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compilers\LineCompileArgs.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\SpawnShake.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\SceneTransition\ISceneTransitionUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Unlockable\UnlockableManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ParameterContext\ExpressionContextAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Async\AsyncToken.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Layered\LayeredActorBehaviour.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Converters\IResourceConverter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Events\RaycastEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Actors\ModifyCharacter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\IntegerParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\TextPrinter\TextPrinterManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Spawn\ISpawnManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ScriptAssetRefAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\SlotManager\PlayerPrefsSettingsSlotManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Audio\PlaySfx.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\StateConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Loader\LocalizableResourceLoader.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\SaveLoad\GameStateSlotsGrid.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsVoiceLocaleDropdown.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\TextPrinter\ITextPrinterManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\SpriteUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\ScrollInteraction.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Audio\AudioEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\IEngineService.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\StateManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\ScriptTextIdentifier.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\OrthoActorManagerConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextReveal\TextRevealer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\SettingsStateMap.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\TextureUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Layered\LayeredCharacter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Expression\ExpressionEvaluator.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Audio\AudioConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Async\Async.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\FX\ShakeTransform.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ParameterContext\ConditionContextAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ManagedUIExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Playback\EnterDialogue.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\GameSaveLoadArgs.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\SlotManager\PlayerPrefsSaveSlotManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Actors\AnimateActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\SceneBackground.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\DecimalParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Title\ITitleUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Live2D\Live2DBackground.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ActorAnchor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Loader\IResourceLoader.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\SwipeInteraction.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\ParameterInfo.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\ScriptPlaylist.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextPrinter\IInputIndicator.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Provider\AddressableResourceProvider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptNavigator\ScriptNavigatorPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\SpawnGlitch.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Playback\ExitToTitle.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ParameterContext\AppearanceContextAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Configuration\ProjectConfigurationProvider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Background\BackgroundMatcher.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Debug\DebugInfoGUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsVoiceVolumeSlider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Manager\ScriptManagerExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Live2D\Live2DController.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\ManagedText\ManagedTextProvider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Transition\TransitionUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptableUI\ScriptableScrollRect.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Transition\TransitionalRenderer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Placeholder\PlaceholderBackgroundBehaviour.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\ScriptFormatter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\TransientRootResolver.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Character\CharacterMetadata.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ChoiceHandler\ChoiceHandlerExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\PlayMovie.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\DestroySpawned.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\FX\SunShafts.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\CGGallery\CGGalleryGrid.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Dialogue.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\FX\Blur.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Actors\ModifyBackground.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ControlPanel\ControlPanelLoadButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\VariableInput\IVariableInputUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Actors\LipSync.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\IUIManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\PlayedScriptRegister.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Spawn\SpawnManagerExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\RuntimeInitializer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\Language.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Background\BackgroundState.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ContinueInput\ContinueInputUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\PathUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\InputExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Movie\MoviePlayer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ILocalizableUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ChoiceHandler\Choice.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Async\CancelOnDestroy.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\EditorProxy.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Collections\Nullable.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Character\CharacterEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\SlotManager\TransientSaveSlotManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\StateRollbackStack.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Localization\CompilerLocalization.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Title\TitleCGGalleryButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\TextPrinter\MessageTemplate.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\UnityLogger.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\LocalizationEjector.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Placeholder\PlaceholderCharacterBehaviour.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\BooleanParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Localization\ParameterLocalization.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Debug\CustomVariableGUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Movie\MoviesConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\NamedIntegerParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\InputConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Layered\LayeredCompositor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\OrthoActorMetadata.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Pause\IPauseUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Async\Semaphore.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ActorState.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Text\FormatText.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\AddressableUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Backlog\BacklogMessage.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\NamedDecimalListParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\UIManagerExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\ManagedText\ManagedTextConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Generic\GenericBackground.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\SpawnBokeh.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\TextPrinter\PrintedMessage.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsFontDropdown.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ClickThrough\InteractionBlocker.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\LookAt.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\SlotManager\PlayerPrefsGameStateSlotManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\TextPrinter\PrintMessageArgs.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\NamedBooleanListParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ChoiceHandler\TransientChoiceCallback.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsMasterVolumeSlider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsReturnButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Title\TitleSettingsButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Transition\TransitionalMaterial.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\RequireNestedAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\InputTrigger.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsResolutionDropdown.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextPrinter\ChatMessage.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Timeline\PlayScriptMarker.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\InitializeAtRuntimeAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Tween\VectorTween.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Text\ClearBacklog.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\LocalesPopupAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ScenePositionAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Transition\TransitionalTextureRenderer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\EventUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Playback\Return.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ParameterContext\VectorContextAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ParameterContext\AssignmentContextAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Actors\ModifyActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Toast\ToastUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Video\VideoBackground.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Console\CompleteGUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Camera\CameraMatcher.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Pause\PauseUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\FX\ShakeCharacter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextPrinter\ArabicSupport.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptableUI\ScriptableUIComponent.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\OrthoActorManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ControlPanel\ControlPanelSaveButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextPrinter\RevealableTextPrinterPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\LocalizableTextPart.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\NamedStringListParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Manager\TransientScriptProvider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compilers\LabelLineCompiler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Audio\PlayVoice.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptableUI\ScriptableUIBehaviour.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ParameterContext\ParameterContextAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Text\AppendText.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Movie\IMovieUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ChoiceHandler\ChoiceHandlerState.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Placeholder\PlaceholderActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Spawn\SpawnedObjectState.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\GetActorRenderTexture.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\LocalizableText.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptableUI\ScriptableLabeledButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\ScriptPlayerConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Provider\ResourceProvider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\ManagedTextLocalizer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Playback\Group.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\ObjectUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\AspectMonitor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\UI\ShowToastUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\EngineEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Tween\EasingFunctions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Text\ParametrizeGeneric.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Audio\StopSfx.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\UniversalSerializationHandlers.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\MathUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ClickThrough\IClickThroughPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ActorPose.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ActorMetadata.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Rollback\IRollbackUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextPrinter\FloatingTextPrinterPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Provider\LocalResourceProvider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\FX\DepthOfField.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\ReflectionUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\IOUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextReveal\RevealableText.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\IActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Actors\ShowActors.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Sprite\SpriteCharacter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\PlaybackEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ControlPanel\ControlPanelTipsButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Script.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Background\BackgroundMetadata.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Generic\GenericActorBehaviour.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsScreenModeDropdown.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\CryptoUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Audio\AudioClipState.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\LinqUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\RawValue.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Events\DialogueEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\IActorManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\DicedSprite\DicedSpriteBackground.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\CustomVariable\CustomVariableValue.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ControlPanel\ControlPanelTitleButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Spine\SpineCharacter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextPrinter\PingPongInputIndicator.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\NamedParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptableUI\ScriptableButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Branching\AddChoice.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\IStatefulService.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\ServiceInitializationData.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\InputManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Transition\TransitionalSpriteBuilder.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Title\TitleExitButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\Spawn.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Toast\IToastUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\UIEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\UITextPrinter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Confirmation\IConfirmationUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Movie\IMoviePlayer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Audio\AudioCommand.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Common\ImageCrossfader.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Events\TriggerEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Branching\While.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ExternalScripts\IExternalScriptsUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Provider\VirtualResourceProvider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Loading\LoadingPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\ManagedText\ManagedTextPaths.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Time\ITime.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Character\CharacterState.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Camera\CameraConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\CustomMetadata.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\SaveType.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\ResourcePolicy.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\LocaleChangedArgs.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Loading\EngineInitializationUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\UI\CameraLook.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Placeholder\PlaceholderCharacter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\DicedSprite\DicedSpriteCharacter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Async\AsyncSource.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\CustomVariable\CustomVariableManagerExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\CGGallery\ICGGalleryUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\RawValuePart.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Manager\IResourceProviderManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\ICommunityLocalization.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\SpawnRain.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\AppearanceEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\CGGallery\CGViewerPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\UI\OpenURL.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\InputMuteRegistry.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\TypeCache.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\EngineParams.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compilers\MixedValueCompiler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\SlotManager\IOGlobalStateSlotManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Actors\HideAllActors.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\NamedIntegerListParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\CommunityLocalization.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Character\ICharacterActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Transition\TransitionalSpriteRenderer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Playback\Wait.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Backlog\BacklogPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compilers\CompileErrorHandler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\StateEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\UI\ProcessInput.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ActorManagerConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Backlog\IBacklogUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Layered\LayeredActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\ParameterValuePartKind.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Line\CommandLine.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Camera\ICameraManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\StringListParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\DestroyAllSpawned.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextPrinter\UITextPrinterPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\InputMode.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Title\EngineVersionText.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Console\ConsoleGUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ControlPanel\ControlPanelSettingsButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Configuration\Configuration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compilers\CompileErrorLogger.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\SlotManager\PlayerPrefsGlobalStateSlotManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Transition\TransitionType.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsPreviewPrinter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\Inputs.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Actors\RemoveActors.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\RenderCanvas.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Spine\SpineBackground.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ActorManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Time\UnityTime.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Loader\ProvisionSource.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Playback\Goto.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\CGGallery\CGGalleryGridSlot.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ChoiceHandler\ChoiceCallbackType.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Localization\ConstantValueLocalization.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\ICommandParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Video\VideoActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Branching\SelectRandom.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Tween\EasingType.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\ScriptTrack.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Backlog\BacklogCloseButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Collections\LiteralMap.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\SaveLoad\ISaveLoadUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptNavigator\IScriptNavigatorUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ExternalScripts\ExternalScriptsBrowserReturnButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Branching\BeginIf.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\IManagedUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Spine\SpineActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\LocalizableTextParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Spawn\SpawnManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Placeholder\PlaceholderCharacterMetadata.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsBgmVolumeSlider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Localization\FunctionLocalization.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Live2D\Live2DCharacter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Playback\DisableAwaitInput.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Transient\TransientUIChoiceHandler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\ProjectStats.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Expression\ExpressionFunctions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\LocalizationManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextPrinter\ChatPrinterPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Audio\StopBgm.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\VariableInput\VariableInputPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\CustomVariable\ICustomVariableManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ClickThrough\ClickThroughPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsSfxVolumeSlider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Layered\LayeredBackground.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Timeline\PlayScriptReceiver.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Audio\IAudioManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\TransientSerializationHandlers.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Audio\AutoVoiceMode.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Command.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Audio\IAudioPlayer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\InputInterceptRequest.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsLanguageDropdown.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\WebUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Console\CommandDatabase.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\ScriptPlayerExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\ParseUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Text\ModifyTextPrinter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Branching\ModifyChoiceHandler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Loader\IHoldersTracker.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Transient\TransientBackground.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Text\TextTagCompiler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\NamedStringParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\FX\ShakePrinter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Confirmation\ConfirmationPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextReveal\Effects\TextRevealEffect.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ActorExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\IInputHandle.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\FX\ShakeBackground.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\CustomVariable\CustomVariableScope.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Unlockable\UnlockableEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ChoiceHandler\ChoiceEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Generic\GenericCharacter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Loader\ScriptLoader.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Console\InputPreprocessor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Transition\Transition.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsGraphicsDropdown.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Audio\AudioPlayer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\SpawnLocalizedEffect.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\SpawnEffect.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\GameSettings\GameSettingsSkipModeDropdown.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\CGGallery\CGGalleryPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\TextLocalizer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Provider\ProjectResources.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Layered\LayeredBackgroundBehaviour.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\ManagedText\TextManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextReveal\Effects\RevealFader.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Audio\PlaySfxFast.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\TextPrinter\TextPrinterMetadata.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\CGGallery\CGSlotData.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\Engine.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Character\CharacterAvatarChangedArgs.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Placeholder\PlaceholderBackgroundAppearance.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Loader\ResourceLoaderConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\FX\DigitalGlitch.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Character\MessageSoundPlayback.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Line\LabelLine.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\SaveLoad\SaveLoadMenu.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\MaskUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptNavigator\NavigatorPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\ManagedText\TextManagerExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Playback\ExecuteAsync.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Tween\Tween.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\StringParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ChoiceHandler\DirectiveChoiceCallback.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Asset\Assets.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\ParameterList.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\GraphicUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ExpressionFunctionAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\GameObjectTagAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Transient\TransientUITextPrinter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compilers\CommandCompiler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Tween\ITweenValue.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Text\FontChanger.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\ResourceExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\SpawnSnow.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Audio\AudioManagerExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Playback\Sync.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Branching\EndIf.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\LayerMaskAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\TextPrinter\ITextPrinterActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextPrinter\AuthorImage.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compilers\CompileError.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Collections\SerializableMap.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\Languages.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Layered\LayeredCharacterBehaviour.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\CustomVariable\CustomVariableManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ChoiceHandler\ChoiceHandlerPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\EngineVersion.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Generic\GenericCharacterBehaviour.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ParameterContext\ColorContextAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\ILocalizationManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ChoiceHandler\IChoiceHandlerActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Tween\FloatTween.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\ScriptTrackExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ContinueInput\IContinueInputUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Transition\BlurFilter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextReveal\IRevealInfo.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Video\VideoCharacter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\DeferAwaitable.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Audio\AudioTrack.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\SpawnSun.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\UIConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Expression\ExpressionFunction.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\DefaultSwitch.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Transition\TransitionalMatcher.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Audio\AutoVoiceResolver.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Placeholder\PlaceholderBackgroundText.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Tips\TipsListItem.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\UIChoiceHandler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\IScriptPlayer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ControlPanel\ControlPanelQuickSaveButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\SaveLoad\GameStateSlot.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Title\TitleTipsButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\AppearanceLoader.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptableUI\ScriptableDropdown.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Backlog\BacklogChoice.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Generic\GenericActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptableUI\DragDrop.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Sprite\SpriteBackground.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Asset\AssetRegistry.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ManagedUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compilers\GenericLineCompiler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Placeholder\CircularText.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Provider\ProjectResourceProvider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Playback\ExitDialogue.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\UI\AutoSave.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\SlotManager\ISaveSlotManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\GlobalStateMap.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Background\IBackgroundManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\TitleScreen.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Text\HidePrinter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Camera\AspectMatchMode.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextReveal\IRevealableText.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Console\ConsoleCommandAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Actors\HideActors.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Common\ScrollOnFocus.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Collections\IntRange.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Live2D\Live2DDrawable.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Time\Timer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ControlPanel\ControlPanelAutoPlayButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\CustomVariable\VariableEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Placeholder\PlaceholderBackgroundMetadata.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Converters\NaniToScriptAssetConverter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Layered\LayeredActorLayer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Collections\AsyncQueue.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compiler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ParameterContext\ConstantContextAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ChoiceHandler\IChoiceHandlerManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ControlPanel\ControlPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextReveal\CharRevealInfo.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compilers\IScriptCompiler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Provider\IResourceProvider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Loader\IScriptLoader.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\PlayScript.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\FX\Snow.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\InstantiateOptions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptableUI\LabeledButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Audio\PlayBgm.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Manager\ScriptManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\PlayerSkipMode.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Localization\LocalizationEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Video\VideoAppearance.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Camera\CameraManagerExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextReveal\Effects\RevealClipper.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptNavigator\NavigatorPlayButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\InputManagerExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\FX\Animate.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\InputEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Camera\CameraEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ControlPanel\ControlPanelHideButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Converters\WavToAudioClipConverter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\UIManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\IStateManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ActorMetadataMap.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\MonoBehaviourActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Movie\MovieUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ChoiceHandler\ChoiceHandlerMetadata.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\EngineConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Playback\Await.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Background\BackgroundEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\PlaybackOptions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Live2D\Live2DDrawer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\UI\PurgeRollback.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\ManagedText\ManagedTextUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compilers\ScriptLineCompiler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\IEngineBehaviour.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Character\CharactersConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Common\CustomUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Manager\ResourceProviderConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Loader\ScriptLoaderRegistry.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Generic\GenericBackgroundBehaviour.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Live2D\Live2DActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Audio\VoiceOverlapPolicy.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Tween\Tweener.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ReadOnlyAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ActorManagerExtensions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\UI\ShowUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\BranchAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Collections\Named.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Layered\LayeredRendererLayer.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\SceneTransition\SceneTransitionUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\NamedBooleanParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Title\TitleExternalScriptsButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Title\TitleContinueButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Tips\TipsPanel.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Transient\TransientActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Manager\ScriptsConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Input\IInputManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Loading\ILoadingUI.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\ActorAnchors.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Converters\TxtToTextAssetConverter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\Background\BackgroundManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\UIUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Resource\Manager\ResourceProviderManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Common\TextPrinter\TextPrintersConfiguration.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Transient\TransientCharacter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Text\FontSizes.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Utilities\ColorUtils.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\State\SlotManager\IOSettingsSlotManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ChoiceHandler\ChoiceHandlerButton.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Tween\QuaternionTween.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\DicedSprite\DicedSpriteActor.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Loading\LoadingIcon.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Line\GenericLine.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Attributes\ActorResourcesAttribute.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\TextReveal\Effects\RevealPaginator.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Branching\RequireChoice.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Camera\CameraComponentState.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Common\Events\UnityEvents.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Unlockable\IUnlockableManager.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\Common\ReactToAspectRatio.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Engine\EngineTypes.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\Parameter\DecimalListParameter.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Commands\Visuals\TransitionScene.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\UI\ScriptableUI\ScriptableGridSlot.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Playback\PlaybackSpot.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Models\ScriptTextMap.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Localization\CommandLocalization.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\ScriptAssets.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Placeholder\PlaceholderBackground.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Layered\LayeredUtilities.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Script\Compilation\Compilers\CompileOptions.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Actor\Transient\TransientChoiceHandler.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\Configuration\IConfigurationProvider.cs" />
+    <Compile Include="Packages\com.elringus.naninovel\Runtime\ManagedText\ITextManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Packages\com.elringus.naninovel\Runtime\Elringus.Naninovel.Runtime.asmdef" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AdaptivePerformanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AdaptivePerformanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GraphicsStateCollectionSerializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyCoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.HierarchyCoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IdentifiersModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.IdentifiersModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputForUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputForUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InsightsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.InsightsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MarshallingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.MarshallingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MultiplayerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsBackendPhysXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsBackendPhysXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RenderAs2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.RenderAs2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ShaderRuntimeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ShaderRuntimeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ShaderVariantAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ShaderVariantAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConsentModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConsentModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AdaptivePerformanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.AdaptivePerformanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AssetComplianceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.AssetComplianceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.BuildProfileModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.BuildProfileModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreBusinessMetricsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreBusinessMetricsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EmbreeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.EmbreeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphicsStateCollectionSerializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridAndSnapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.GridAndSnapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.HierarchyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.HierarchyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.MediaModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.MediaModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.MultiplayerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PlayModeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.PlayModeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PropertiesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickInstallModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickInstallModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SafeModeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.SafeModeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderBuildSettingsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderBuildSettingsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderCompilationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderCompilationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderFoundryModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderFoundryModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SketchUpModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.SketchUpModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TreeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.TreeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIAutomationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIToolkitAuthoringModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIToolkitAuthoringModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VectorGraphicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.VectorGraphicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Naninovel.Common">
+      <HintPath>Packages\com.elringus.naninovel\Plugins\Naninovel.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.TextMeshPro.csproj" />
+    <ProjectReference Include="Unity.InputSystem.csproj" />
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj" />
+    <ProjectReference Include="Unity.Timeline.csproj" />
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj" />
+    <ProjectReference Include="UnityEditor.UI.csproj" />
+    <ProjectReference Include="UnityEngine.UI.csproj" />
+  </ItemGroup>
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Remove="LaunchProfiles" />
+    <ProjectCapability Remove="SharedProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerSharedProjects" />
+    <ProjectCapability Remove="ReferenceManagerProjects" />
+    <ProjectCapability Remove="COMReferences" />
+    <ProjectCapability Remove="ReferenceManagerCOM" />
+    <ProjectCapability Remove="AssemblyReferences" />
+    <ProjectCapability Remove="ReferenceManagerAssemblies" />
+  </ItemGroup>
+</Project>

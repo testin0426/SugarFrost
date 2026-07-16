@@ -1,0 +1,34 @@
+@back classroom
+课间 教室
+
+@char qmhs.5
+qmhs.5: 虽然这么问有些奇怪......但是 怜在班上大概是...什么样的？
+
+@char blud.1 position:4.13,-6.12,49.90
+@char qmhs.5 look:Left position:-4.61,-6.46,49.90
+blud.1: 姐姐，也不了解？
+qmhs.5: 啊...
+
+@hideChars
+...看来并不需要去和白霜充满礼仪似的说话。
+
+qmhs.2: 因为自己确实很久很久没有和她见面吧。
+
+@hideChars
+白霜思考了下
+
+blud.1: 班长。擅长，经营。
+qmhs.2: ......?
+blud.1: 以及，调情(?)
+qmhs.2: ......
+
+@char qmhs.5 position:-4.61,-6.46,49.90 scale:0.97,0.97,1.00 rotation:0.00,0.00,2.80
+qmhs.5: 呃...我貌似没太听懂。可以解释一下嘛？
+
+@hideAll
+qmhs.2: 听起来很神奇，但她的表现是确实是符合波动的观点的。
+qmhs.2: 和过去的她相差地太多...过去的她？或许现在已经沦为想象中的她了吧。而现在的她也在以大幅度变换着...所以，不奇怪？ 
+
+@goto TEST
+@hideAll
+@stop

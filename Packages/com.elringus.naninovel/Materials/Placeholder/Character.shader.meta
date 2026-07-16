@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3d9f081c130ee8642a2118df4518c8c9
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Materials/Placeholder/Character.shader
+  uploadId: 953760

@@ -1,0 +1,81 @@
+# main
+@if count=0
+    @set count=1
+    @goto #c1
+    ; return
+    @stop
+
+
+# c1
+@hideAll
+@bgm dia2
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:1.0
+@playUIFX threshold:0.0 duration:1 !wait
+@playUIFX threshold:0.0 duration:0.01
+@playFX threshold:0.0 duration:0.01
+@printer nos
+划船划了一天，相昀没有任何思考的力气。
+....那能怎么办，原地发呆呗。
+@back id:still
+在原地听听风声，看看白云飘吧。
+
+毕竟都是在同一片蓝天下呢...
+但这是水泥地，不像草坪那么好躺。
+所以，只能抬头了...
+@char xp pose:h
+xp: ....
+
+@printer nos
+云很多，但是它们是静止的。
+不管在哪，我们都共享同一片蓝天呢...
+
+@wait 1
+@hide xp
+@char xwp
+xwp.comfy: 看云很舒服！
+
+@char xp pose:h
+xp: 现在是[< speed:1.0][i]<b>“<color=#00C8FF>静[wait 0.1][i]风”[wait 0.1][i]</color==#00C8FF></b>呢。[< speed:1.0]
+
+
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:1.0
+@goto Eth/situ/choice
+@stop
+
+
+
+@if d=0
+
+    @if ye>lm
+        云在往上飘...
+        @printer xt
+        吹的是<color=red>南风</color>吗？
+
+
+    @if vy=0
+        现在的云几乎是静止的呢...
+        @printer ct
+        看来现在是<color=#00C8FF>静风</color==#00C8FF>呢。
+
+
+    @if lm>ye
+        云在往下飘...
+        @printer lt
+        吹的是<color=blue>北风</color>吗？
+
+    @if he=1
+        欸？云呢？
+        @char xp
+        xp.comfy: 竟然是大晴天哎？
+
+    
+@if d=8
+
+
+
+
+
+
+下雨...没有云。狂风。

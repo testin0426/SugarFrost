@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 1ffadda3919f87b4abead778f764daaf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/Actor/Placeholder/PlaceholderCharacterBehaviour.cs
+  uploadId: 953760

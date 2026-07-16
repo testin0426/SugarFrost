@@ -1,0 +1,770 @@
+@despawnAll
+@setRenderer index:0
+@spawn night
+@playUIFX threshold:0.0 duration:0.01
+@bgm de
+@playFX threshold:0.0 duration:0.01
+@char xp
+xp: ....
+xp.looklefto: 这么晚了...是在...？
+@printer nos
+相昀有些好奇，不免上前走近了一些。
+
+@char xp
+xp.sup: 哇！
+xp.comfy: ....是来观星啊。
+@printer nos
+相昀想起自己对星象相关也很感兴趣。
+她很好奇，于是上前——
+
+
+@char cyan armature:0,0,90
+@char cyan position:5.25,-3.03,49.90 scale:0.50,0.50,0.50
+@hideChars
+
+@char cyan
+@char cyan
+cyan.de: 🎶~
+@wait 0.5
+@printer nos
+少女一边哼歌一边调着镜筒。
+@hideChars
+@hide xp
+@char xp
+xp.b: （等下...她真的是在观星吗....）
+@printer nos
+
+....
+相昀下意识抬头看了看...
+
+@back id:starnight
+@back id:starnight
+@char xp
+xp.looklefto: 星图....
+xp.b: 等。
+@wait 0.5
+xp.comfye: 希望....
+xp.b: ...别下雨，
+@printer nos
+....
+那个“盖天图仪”
+....
+
+伞被丢她在船上了....
+而且从岁寒那出门时也没带伞，
+话说自己现在走哪来着了...
+几乎没有什么路灯，也没有行人，
+.....
+天顶的星空与
+远处的闪着月光的海面。
+@wait 0.5
+好像已经到渡口了。
+.....
+; @camera
+@playUIFX threshold:0.0 duration:0.01
+
+@playUIFX threshold:1.0 duration:1
+@hideAll
+; @hide starnight
+@playUIFX threshold:0.0 duration:2 !wait
+
+@playUIFX threshold:0.0 duration:0.01
+
+; @camera
+@char xp
+xp.comfye: ...完全看不到茶馆在哪...
+@printer nos
+相昀四下张望，试图找人问路，
+全部收工，只有灯塔的亮光。
+....
+但是在这种情况下...
+似乎有谁....？
+@char cyan
+@char cyan
+cyan.de: 🎶~
+
+@printer nos
+轻轻地哼着歌。
+
+@char xp
+@printer nos
+仔细看...不对...
+...
+似乎并不是普通望远镜...？
+@char xp
+xp.lookleft: （射电...？）
+....
+....
+@char xp
+xp.angeya: 不对...！
+@printer nos
+但还没等相昀反应过来...
+一束强激光冲着夜空发射出去——
+
+; vfx spawn
+@char xp
+xp.supa: ！
+@printer nos
+; @sfx 音效相关
+; spawn vfx@光束相关。
+
+但是只发射了一道强光。
+没有任何声音，
+任何动静，
+死寂了一般
+....
+....
+相昀快速过了下脑子...她没有想到任何和静音的...“烟花“....？
+她后退了一步...
+; @sfx 音效相关
+@char cyan
+@char cyan armature:0,0,30
+@hideChars
+
+@wait 0.2
+@char cyan
+
+
+
+cyan.supe: ！
+@printer nos
+虽然自己貌似并没有发声...但是...
+还是被...发现了？
+@char xp
+xp.angry1: ....！
+@printer nos
+可是对方看起来只是个和自己年龄差不多的少女。
+月光之下，她银色的眸子似乎在....泛光？
+; 。。。。何cg。
+@char xp
+xp.angry1: ....
+@printer nos
+事到如今....
+@char cyan
+@char cyan
+cyan.de: ....
+cyan.smilea: 啊！正好！
+xp.lookleft: ...？
+@char cyan.Body/pass,Cloth/passc
+@char cyan.Body/pass,Cloth/passc
+@char cyan.passc
+cyan.saddo: 那边的小姐！
+
+@printer nos
+月光下，她在招手...？
+@char cyan
+@char cyan
+cyan.smilea: 如果可以的话，能帮我搬一下东西吗？
+cyan.de: 它在那条船上....
+
+@hideAll
+
+@printer nos
+少女指了指远处....静谧的，停靠着的船舶。
+@char xp
+xp.sup: ！
+xp.lookleft: ....可以...是可以。
+@printer nos
+相昀只是这样模模糊糊地答应着....
+....
+@char cyan scale:1,1,1 position:1.67,-4.82,49.90
+@char cyan scale:1,1,1 position:1.67,-4.82,49.90
+@char cyan
+@char xp
+xp.angry1: 呃...所以具体是...什么东西？
+@char cyan.Body/idle,Cloth/decloth
+@char cyan.Body/idle,Cloth/decloth
+cyan.supe: 哦对！——
+@hide cyan
+@char cyan armature:0,0,10
+@hide cyan
+@wait 0.3
+@char cyan
+@char cyan
+
+@printer nos
+少女看起来有些心不在焉，匆忙赶到相昀这边。
+cyan.de: 是一台比较重的机器...需要帮我搬到那边的空地上。
+@printer
+少女指了指那边放的...类似“天文望远镜”的装置。
+@char xp
+xp.lookleft: ....
+@printer nos
+靠近时，相昀凑近看了眼...
+....
+有很多电缆等...但是这些是什么？
+相昀报不上名字，但是....
+旁边还有一个手轮。
+那是....什么炮筒吗？
+@hide xp
+@char xp
+xp.lookleft: 这个看起来...很像望远镜？
+@char cyan
+cyan.supe: 嗯？
+cyan.sadr: 哦....可能是有点像？
+@char xp
+xp.lookleft: ...
+xp.looklefto: 今晚...看起来天气不好呢。
+@printer nos
+相昀抬头，看了看天
+厚厚的云层正向月亮涌来——
+也就是说，起风了。
+@char xp
+xp.lookleft: 大概很快...就会下雨。
+@printer nos
+就算不下雨，这样的云层密度也无法观星了。
+xp.s: ...并不是个观星的好天气？
+@char cyan
+cyan.saddo: 没事，我知道的。
+
+@printer nos
+....？
+@char xp
+xp.s: 这样...
+
+; 夜晚，相昀没太看清船的外观。
+轻盈地跳上船舱后....
+@char cyan
+cyan.haoe: ....
+@printer nos
+少女提着裙子，动作似乎有些笨拙。
+先迈出一只脚向前摸索了下...
+@char cyan
+cyan.supe: ！
+
+踩下去时发现船倾了倾，又立刻收回去...
+cyan.haoe: ....
+@shake cyan !ver hor!
+@char xp
+xp.s: ....
+xp.de: 没事，船不可能翻的。
+xp.comfy: 你可以直接跳下来...只要不踩到裙子就好。
+xp.lookleft: 还是说需要我扶你一下？
+@char cyan
+cyan.haoe: 不...不用！
+@printer nos
+少女有些犹豫....
+最终，她蹲下身子，坐在台阶上，慢慢伸出双脚。
+@char cyan
+cyan: ....！
+@printer nos
+像下定什么决心一样....
+cyan: 嗯！
+@printer nos
+但少女落下时，相昀还是上前扶了一下。
+@hide xp
+@char xp.comfy
+xp: 小心一些比较好~
+@char xp
+xp.s: （虽然感觉很久没遇到这种...）
+@printer nos
+船摇摆了下....
+@char cyan
+cyan.haoe: ...谢...谢。
+@printer nos
+少女很小声地说完后....
+cyan.saddo: 如果...
+@char xp
+xp.lookleft: ？
+cyan.de: 嗯...我什么都没说。
+cyan.smile: 就是那边那个....
+@printer nos
+少女指了指眼前的...
+....
+
+@char xp
+xp.sup: ...？
+
+@printer nos
+.....
+一件稍微显得有些精致的....
+....
+说不上是...
+看起来...有点像白天时白霜抱着的显像管？
+
+@char xp
+xp.b: 嗯...我能冒昧问一句这是什么吗？
+xp.lookleft: 看起来像某种...显示...成像的？
+
+@char cyan
+cyan.de: 嗯...您可以把它当作一个小电视？
+
+@char xp
+xp.lookleft: 电视吗？
+xp.ba: 呃...你打算在这...看电视...？
+@char cyan
+cyan.haoe: 不是啦...里面存放了一些...东西？
+@char xp
+xp.angry1: ....
+
+@printer nos
+好奇怪...
+以及奇怪的疑问语气？
+@char xp
+xp.s: ....算了，我什么也没说。
+@char cyan
+cyan.de: 嗯，你帮我抬一下这个...
+@printer nos
+少女在旁边拿了些零零散散的支架。
+@char xp
+xp.lookleft: ....
+@printer nos
+光一个支架看起来就很重了....
+相昀俯身，尝试把那个“方块”抱起来。
+@char xp.comfye
+@printer xptt
+相昀: ........
+@wait 0.5
+@printer nos
+哇好沉....
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:1
+@hideAll
+@playUIFX threshold:0.0 duration:1 !wait
+@playUIFX threshold:0.0 duration:0.01
+
+....
+...
+@printer nos
+好不容易搬上来了后。
+@char xp
+xp.comfye: ....！
+@printer nos
+相昀尽量做到轻拿轻放...
+@char cyan
+@char cyan
+cyan.smile: 辛苦你啦。
+cyan.de: 啊对了，作为报酬....
+@printer nos
+少女摊开手....
+闪着的是....星星点点的...泛光的漂浮的...？
+cyan.smile: 是我刚刚捕获到的星尘粒子！
+cyan.de: 也可以说是....星屑
+@char xp
+xp.comfy: 星屑？
+xp.angry1: 呃...星云离我们....很远很远。
+@printer nos
+相昀这样说....
+cyan.de: 我知道啊，光年与光年...等。
+cyan.smile: 但是它们是被我刚刚捕获到的！
+cyan.saddo: ...为“引力”所推来的的....
+xp.b: 呃嗯...什么不可视之力....？
+cyan.de: 嗯...它们确实是无法被感知到的。
+cyan.haoe: 嗯...如果你不太接受这个报酬的话....
+cyan.supa: 哦对了。
+cyan.de: 等下哦。
+@printer nos
+少女搭着仪器，
+相昀找了个空地坐下，看着她摆弄大大小小的仪器。
+....
+她盯着那个...“电视”，微微有些出神。
+@hide xp
+@char xp
+xp.lookleft: ....
+xp.looklefto: （这个人...感觉有点好奇？）
+@printer nos
+她盯着少女的背影。
+@char xp
+xp.lookleft: （是津都人吗？做什么的呢？）
+@printer nos
+正当她这样想时....
+; @vfx
+; @spawn back tv
+
+@back id:TV
+@back id:TV
+
+
+“电视”突然被少女“打开”了？
+
+@char xp
+xp.supe: ！！
+....
+@printer nos
+....
+少女依然旋转着按钮等....
+@hide TV
+@wait 0.5
+@setRenderer index:0
+@setRenderer index:0
+@setRenderer index:3
+@spawn ShakeCamera
+@hide cyan
+@hide cyan
+@despawn night
+
+@despawnAll
+@back id:fen
+@back id:fen
+
+@char Cleisure
+@char Cleisure
+@wait 2
+@char Cleisure.smileCde
+@wait 2
+@char Cleisure.deblinkCde
+@wait 2
+@hide Cleisure
+@hide fen
+@back id:jin
+@back id:jin
+@wait 2
+@hide jin
+; @back previous....
+@printer nos
+等下...这些闪过的....
+@char xp
+xp.sup: ....！
+@wait 2
+
+@hideAll
+@hide jin
+@spawn night
+@setRenderer index:0
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:1
+@playUIFX threshold:0.0 duration:1 !wait
+@playUIFX threshold:0.0 duration:0.01
+@back id:TV
+@printer nos
+....
+@wait 3
+@char cyan
+cyan.supa: 哦...
+cyan.sadd: 你在找东西吗？
+@hide TV
+cyan.smile: 那我也许可以帮你！
+@char xp
+xp.angeya: 不是...等等...
+@printer nos
+这是什么...？
+相昀紧紧盯着那台闪过有关她过去的“电视”。
+@char cyan
+cyan.de: 嗯...比起这个。
+cyan.de: 要不...把要找的东西“想”得详尽一些，精度会更好？
+@char xp
+xp.s: 这也有点...太离谱了？
+xp.lookleft: 我完全不认识你...
+xp.angry1: 但这段....“影片”...？
+@printer nos
+这...是在哪里拍摄的吗？
+不对...不可能有人会用这个镜头这样拍...？
+但是
+...
+这也...太离谱了。
+
+cyan.de: 欸？你对这个很好奇吗？
+xp.s: 当然了...
+@printer nos
+少女刚想说什么，但是又突然愣住了。
+@char cyan
+cyan.haoe: 嗯...
+cyan.sadd: 虽然这么说可能都有些晚....
+cyan.haoe: 但是...
+cyan.b: 唉....
+cyan.sadr: 刚刚...又...
+@printer nos
+少女关掉了“电视”。
+
+@char cyan
+@char cyan
+cyan.sadd: ....
+cyan.haoe: 很...奇怪吧。就当...什么都没发生？
+@printer nos
+....
+这怎么能当作什么都没发生....
+@char xp
+xp.s: .....
+@printer nos
+虽然自己不怎么接触这种....
+但是....
+未免有些...
+过于....
+@char xp
+xp.s: ....匪夷所思。
+@printer nos
+这怎么能当作“什么都没发生过？？”
+....
+@char xp
+xp.b: ....
+xp.lookleft: ....这上面的画面....
+xp.looklefto: 貌似是...之前发生过的？有关我...还有岁寒的谈话？
+@char cyan
+cyan.de: 嗯。
+@printer nos
+少女轻轻“嗯”了一声。
+....
+@char xp
+xp.b: ....所以....
+xp.de: 我猜测下....
+xp.angry1: 这是什么...记录过去的仪器吗？
+@char cyan
+cyan.de: .....
+cyan.haoe: 就当作是....
+cyan.saddo: ....
+@printer nos
+少女有些欲言又止。
+@char xp
+xp.lookleft: ....?
+xp.looklefto: （记录过去...听起来...）
+@printer nos
+想到这里...
+xp.sup: 啊....
+@printer nos
+相昀多少也了解过一点科学发展....
+只不过是之前，好像有过一些这方面的研究...关于世界？
+但是由于最近时局紧张，这种消息就零零散散的，则更像是某种传闻。
+xp.angry1: ....没想到竟然重新碰上了...
+xp.lookleft: 好神奇....
+@printer nos
+相昀想了想，上前几步。
+xp.comfy: 我都看下这台仪器吗？
+xp.lookleft: 我确实想找一些东西...如果能用这个的话找就更方便？
+xp.comfy: （貌似可以更快收工....）
+@char cyan
+cyan.saddo: .....
+@printer nos
+少女想了想。
+@char cyan
+cyan.de: 如果是从报酬的角度说的话....
+cyan.smile: 可以哦。
+@char cyan.de
+@printer nos
+少女先是打开了个仪器。
+@char cyan
+cyan.sadd: ....
+@char xp
+xp.lookleft: ....？
+@char cyan
+cyan.saddo: 稍等下...我们需要打开一个小型转换器。
+cyan.sadd: 不然没法将意识波...呃...
+cyan.saddo: 没办法和它“对话”。
+@char xp
+xp.angry1: ....
+; @vfx 某种场的...vfx特效
+@printer nos
+.....
+.....
+@back id:TV
+@char xp
+xp.lookleft: ....
+xp.ba: ....那个...我需要...想什么？
+@char cyan
+cyan.de: 就是有关你要找的东西...
+cyan.de: 以及关于事件发生的时间、地点？可以提供吗？
+cyan.de: 越全面则越好。
+@char xp
+xp.lookleft: 嗯....
+@printer nos
+....
+首先，
+运输出发的时间是？
+@addChoice 十月十日上午八点 goto:#an1
+@addChoice 十月十日上午八点半 goto:#an2
+@addChoice 十月十日上午九点 goto:#an3
+@stop
+
+# an1
+@char xp
+xp.lookleft: 是十月十日上午八点开始....
+
+
+运输应当到达的时间是？
+@addChoice
+@addChoice
+@addChoice
+
+@printer nos
+
+
+
+
+cyan.de: 比如...
+
+@printer nos
+少女眺望夜空，伸出一只手....
+迎接着...什么的降临一般...
+....
+风、云、天空、宇宙、星尘、“星”、这个世界、无法用语词划分的无限....
+....
+
+
+
+@char cyan
+cyan.smile: 这样的话
+cyan.smilea: 就不会有“死亡”的概念！
+cyan.smile: 人们存在的时间....
+cyan.smile: 是由自己所“决定”的。
+cyan.smile: 纯粹由“以太”组成的名为我们的个体！
+xp.ba: ....
+xp.comfy: ...那死亡...
+cyan.de: 在那个“包围盒”下，
+cyan.de: 最初是枯木逢春，
+cyan.de: 再破镜重圆....
+cyan.de: 哪怕死亡.....
+cyan.smile: 只要世界上还有人“记得她”，就可以这些记忆为起点，向外分形....
+cyan.de: 将那个人，还原出来。
+@printer nos
+....等等....
+....
+@char cyan
+
+@char xp
+xp.lookleft: ...记忆？
+@char cyan
+cyan.de: ...事到如今，比起”记忆“，用“意识”来命名会更加合适呢？
+cyan.de: 有两种，一种是客观真相——”世界记忆“....
+cyan.b: 虽然有人说它们是由”集体无意识“。
+cyan.saddo: 我不喜欢这种说法...即使我并不反感精神分析。
+
+cyan.de: 即使人们在脑海里组织了语词。
+cyan.de: 另一种，是
+cyan.de: ”世界记忆“也可以作为一种“波形”在物质中传播。
+
+xp.b: ....?
+
+
+
+@char cyan
+cyan.de: 嗯。
+cyan.de: 像摄像机一样....记录的是一种...
+cyan.sadr: 四维类似的...数据结构。
+cyan.de: 她会记录...这一切。
+cyan.de: 再带领我们...走向“她所期盼的”未来。
+cyan.sadd: 以自身存在为代价....
+cyan.saddo: 通过....
+cyan.de: “她的眼睛”。
+cyan.de: 由她的眼睛“拍摄”到的——被她观测到的，是最终将作为“能量”化为世界记忆的客观现实。
+cyan.sadr: 而没有被观测到的....
+cyan.de: 就是我们俩现在的对话。
+cyan.de: 但我们俩之间的对话依然在发生....不是吗？
+cyan.de: 也就是说....
+cyan.smile: 我们之间的对话正在被“好好地看着呢”！
+cyan.smile: 然后，我参与的课题组即是....
+cyan.de: “光栅化世界记忆“。
+cyan.de: 像无穷多项的多项式....“世界记忆”承载被观测者的意识后，会根据”叙事密度”决定“摄像机”信息，传递给人们....
+cyan.de: 而这个展开过程...记好变量常量...即是递推...和分形的公式...完全一致！
+cyan.de: “记忆电视...”嗯....
+cyan.smile: 如果我说E.C.H.O.，你会有些印象吗？
+@char xp
+xp.lookleft: ....echo?
+@printer nos
+相昀摇了摇头，表示没什么印象...
+@char xp
+xp.de: ....那就像显像管一样了...我上哪里去找...记忆源...？
+@char cyan
+cyan.smile: 只要调对“频段”就可以。
+
+@char xp
+xp.lookleft: ....
+xp.angry1: 那你现在是在做....？
+cyan.sadd: 能量化等。
+cyan.haoe: 但这里设备不够...很显然失败啦。
+cyan.saddo: ....
+@printer nos
+仟虹笑了笑
+
+@printer nos
+突然，仟虹低下头。
+cyan.de: 将“世界记忆”与基本作用力沟通起来的过程....
+cyan.sadd: 它们与“能量”....
+cyan.saddo: .....
+@printer nos
+欲言又止.....
+@char xp
+xp.s: ....为什么会有“世界记忆”这种....能量？
+@char cyan
+cyan.sadd: 这个问题...我们也只能从“世界记忆”本身中获取答案....
+cyan.de: 我说过的...我讨厌概率，不喜欢未来。
+cyan.de: 只有过去发生过的...才是真实。
+cyan.de: 我说过的，我想过的每一个语词...符号。它们成形存在的时候...以及语词本身被制作的过程...
+cyan.saddo: <size=25>但是以目前“播放”的条件限制...且压缩到二维平面上...只能保留到一个类似标准雪花的程度....</size>
+cyan.de: 如果可以的话....
+cyan.de: 它可以....
+cyan.smile: 无限地延伸下去，直到穷尽整个世界的过去....！
+@char xp
+xp.angry1: 但是...如何制作四维意义上的“显示屏”？
+@char cyan
+cyan.de: 不，我们不需要制作，只需要....
+cyan.smile: 感受。
+@char cyan
+@printer nos
+仟虹突然想到了什么。
+
+cyan.sadd: 必须...快点回去....
+cyan.smile: E.C.H.O.的...半成品。
+
+@printer nos
+.....
+.....
+所以那个“显示器”实际上.....？
+@char xp
+xp.sup: 是...专门用来...播放“过去”的播放器....吗？
+@char cyan
+cyan.de: 对。
+cyan.de: 不仅如此，“世界记忆”被捕捉到后，也可以打印成纯文本，甚至用留声机播放....但是需要更多研究更多编码方式....
+@printer nos
+仟虹讲起这些时，她银色的眼眸闪闪发光，像一个拥抱着纯粹快乐的孩子。
+不同于月光之静谧，也没有白日般炽热的....恰到好处，将万象动静所均衡过后的...
+笑容。
+cyan.smile: 如果能制作出....
+cyan.sadd: ....
+cyan.saddo: ...不...
+cyan: .....
+@printer nos
+突然，夜色中看不清她的表情。
+@char xp
+xp.s: 如果投入使用的话...
+@printer nos
+战争....
+她们是冲着那份“记忆”去...
+还是工具....
+....
+明明两者都会有。
+@char cyan
+cyan.se: 阻止的方法，有哦。
+@printer nos
+仟虹的眼神无比坚定——
+cyan.de: 推广使用，让所有人——都能得知自己所“未知”的。
+cyan.sadd: 但这只是第一步，比如只能得知...你昨天有没有吃过糖雪球，这样的二分答案，而你吃的具体的个数，等...这又和许愿者的发散量相关。
+cyan.se: 根据我们接受信息，形成属于自己的形而上学的方式....会动态调整的，完成体。
+cyan.sadd: 所以....
+cyan.se: 我要找到“她”，哪怕“她”就是“神明”。
+@printer nos
+仟虹眺望夜空，伸出一只手....
+迎接着...什么的降临一般...
+....
+风、云、天空、宇宙、星尘、“星”、这个世界、无法用语词划分的无限....
+....
+
+
+@char cyan
+cyan.de: 啊对了，作为报酬....
+@printer nos
+少女摊开手....
+闪着的是....星星点点的...泛光的漂浮的...？
+cyan.smile: 是我刚刚捕获到的星尘粒子！
+cyan.de: 也可以说是....星屑
+@char xp
+xp.comfy: 星屑？
+cyan.smile: 从风中...为“力”所推来的的....
+xp.b: 不可视之力？
+cyan.smile: 嗯！这种”力“也是我正在研究的...
+@printer nos
+....
+如果...真的能和现实相关联的话....
+@char xp
+xp.s: 意识与物质....
+@printer nos
+空想与现实....
+相昀脑海中冒出的第一念头是——
+@addChoice ...恐怖的武器
+@addChoice 这个世界运行的规律...
+@addChoice 我饿了。
+@stop
+
+# path46
+@char cyan
+cyan.de: ....
+cyan.sadd: ....
+cyan.haoe: ....好像不能用概率来说...

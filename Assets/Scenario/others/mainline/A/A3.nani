@@ -1,0 +1,32 @@
+@setRenderer index:1
+@playFX threshold:-1 duration:0
+@char A.Body/idle,Face/deblinkAde pose:default
+A.deblinkAde: 一个简单的逻辑问题
+@playFX threshold:-0.7 duration:0.1
+A.deblinkAde: 如果人已经万分确信自己的未来无论如何也不会诞生那份美好的时候，
+@playFX threshold:-0.3 duration:0.1
+A.frownAde: 还有什么活下去的必要呢.....?
+@playFX threshold:0.1 duration:0.1
+A.frownAde: ......
+@playFX threshold:0.3 duration:0.1
+A.lookleft: 虽然这句话讲出来就已经假定了某种
+@playFX threshold:0.6 duration:0.1
+A.deblinkAde: 人生来就是追求美好的假设。
+@playFX threshold:1 duration:0.5
+@playFX threshold:0.3 duration:0.2
+@playFX threshold:1 duration:0.3
+@setRenderer index:0
+......
+@setRenderer index:1
+@playFX threshold:0.5 duration:1
+@char A.Body/idle,Face/deblinkAde pose:default
+A.frownAde: ......
+A.sadCU: 所以为了活下去，
+A.sadeCE: 必须假设人可以是选择痛苦的...?
+@printer Atest
+.......
+但是与你的记忆也将一天天忘却与被忘却，
+我又怎样才能将这些已经死去的片段
+生咽抑或是埋葬呢？
+.......
+@stop

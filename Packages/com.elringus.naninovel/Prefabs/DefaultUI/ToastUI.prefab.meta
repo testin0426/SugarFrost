@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dd85ce99288c2f8488447fa511b1c0d6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Prefabs/DefaultUI/ToastUI.prefab
+  uploadId: 953760

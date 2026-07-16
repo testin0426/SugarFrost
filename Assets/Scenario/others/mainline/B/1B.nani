@@ -1,0 +1,13 @@
+@char A pose:1
+A: 要不跑路吧。
+@char B pose:default
+B: ....不是。
+B: 为什么要和我说这些。
+B: 你不会想拉着我一起和你跑路吧....
+@char A pose:1
+A: 大概。
+A: 因为什么也不想思考了。
+@char B pose:default
+B: 那我只能说你是真的做题做魔怔了。
+A: ....魔怔也就魔怔吧。
+@stop

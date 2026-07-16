@@ -1,0 +1,12 @@
+@if sister=1
+    @if num=1
+        @char xp
+        xp.ba: .....
+        xp.angeya: 刚开始也许应该自己<color=red>偷偷溜过去的....</color>
+        @goto Eth/x/x1
+        @stop
+        @hidePrinter
+        @playUIFX threshold:0.0 duration:0.1
+        @playUIFX threshold:1.0 duration:3 
+        @hideAll
+@stop

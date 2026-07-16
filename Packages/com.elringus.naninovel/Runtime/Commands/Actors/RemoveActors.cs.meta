@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: 400a180e70854f81bf5a96e02cabf53e
+timeCreated: 1718385724
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/Commands/Actors/RemoveActors.cs
+  uploadId: 953760

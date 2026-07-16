@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: 6383d586f7324802b5e7102575c5dcc5
+timeCreated: 1760546038
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/Commands/Playback/ExitDialogue.cs
+  uploadId: 953760

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a4f1133ac4a6e7b4d8387b8f99c12811
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/UI/ControlPanel/ControlPanelQuickSaveButton.cs
+  uploadId: 953760

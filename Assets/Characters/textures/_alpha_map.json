@@ -1,0 +1,1300 @@
+{
+  "entries": [
+    {
+      "material": "5_1845.002",
+      "alpha": "5_95436.png"
+    },
+    {
+      "material": "5_280042.001",
+      "alpha": "5_95436.png"
+    },
+    {
+      "material": "Default Buttonhole_3200",
+      "alpha": "Buttonhole_2_Square_B_1921565.png"
+    },
+    {
+      "material": "Default Buttonhole_3431335",
+      "alpha": "Buttonhole_Eyelet_Square_2060958.png"
+    },
+    {
+      "material": "Default Buttonhole_3431340",
+      "alpha": "Buttonhole_Eyelet_Square_11906400.png"
+    },
+    {
+      "material": "Default Topstitch Copy 1_3208",
+      "alpha": "Pick_Stitch_2830.png"
+    },
+    {
+      "material": "Default Topstitch Copy 2_3233",
+      "alpha": "Pick_Stitch_2830.png"
+    },
+    {
+      "material": "Default Topstitch Copy 3_3256",
+      "alpha": "Pick_Stitch_2830.png"
+    },
+    {
+      "material": "Default Topstitch Copy 4_3279",
+      "alpha": "Pick_Stitch_2830.png"
+    },
+    {
+      "material": "Default Topstitch Copy 4_822529",
+      "alpha": "Pick_Stitch_2830.png"
+    },
+    {
+      "material": "Default Topstitch Copy 5_3302",
+      "alpha": "Pick_Stitch_2830.png"
+    },
+    {
+      "material": "Default Topstitch Copy 6_822575",
+      "alpha": "Pick_Stitch_2830.png"
+    },
+    {
+      "material": "Default Topstitch Copy 7_3348",
+      "alpha": "Pick_Stitch_2830.png"
+    },
+    {
+      "material": "MToon Outline (Chand)",
+      "alpha": "Image_3_005.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Body_00_SKIN (Instance))",
+      "alpha": "Image3bl.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Body_00_SKIN (Instance).001)",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Body_00_SKIN (Instance).001).001",
+      "alpha": "_10_001.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Body_00_SKIN (Instance).001).002",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Body_00_SKIN (Instance).003)",
+      "alpha": "Image_3.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Body_00_SKIN (Instance).005)",
+      "alpha": "_10.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Body_00_SKIN (Instance).006)",
+      "alpha": "_10_007.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Body_00_SKIN (Instance).007)",
+      "alpha": "Image_3_006.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Body_00_SKIN (Instance).008)",
+      "alpha": "_10_002.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Body_00_SKIN (Instance).009)",
+      "alpha": "_10_003.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Body_00_SKIN (Instance).010)",
+      "alpha": "_10_004.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Body_00_SKIN (Instance).011)",
+      "alpha": "_10_005.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Body_00_SKIN (Instance).012)",
+      "alpha": "_10_006.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Body_00_SKIN (Instance).013)",
+      "alpha": "_10_008.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Body_00_SKIN (Instance).014)",
+      "alpha": "_10_009.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_EyeHighlight_00_EYE (Instance).007)",
+      "alpha": "Image_0_006.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_FaceMouth_00_FACE (Instance))",
+      "alpha": "Image_0.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_FaceMouth_00_FACE (Instance).001)",
+      "alpha": "Image_0_001.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_FaceMouth_00_FACE (Instance).003)",
+      "alpha": "Image_0_002.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_FaceMouth_00_FACE (Instance).006)",
+      "alpha": "Image_0_005.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_FaceMouth_00_FACE (Instance).007)",
+      "alpha": "Image_0_006.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Face_00_SKIN (Instance))",
+      "alpha": "Image_0_002.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Face_00_SKIN (Instance)).001",
+      "alpha": "_04.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Face_00_SKIN (Instance).001)",
+      "alpha": "Image_0_001.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Face_00_SKIN (Instance).001).001",
+      "alpha": "_04_001.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Face_00_SKIN (Instance).004)",
+      "alpha": "_04_002.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Face_00_SKIN (Instance).005)",
+      "alpha": "_04_003.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Face_00_SKIN (Instance).006)",
+      "alpha": "Image_0_005.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Face_00_SKIN (Instance).007)",
+      "alpha": "_04_004.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Face_00_SKIN (Instance).008)",
+      "alpha": "_04_005.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Face_00_SKIN (Instance).009)",
+      "alpha": "_04_006.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Face_00_SKIN (Instance).010)",
+      "alpha": "_04_007.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Face_00_SKIN (Instance).011)",
+      "alpha": "_04_008.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Face_00_SKIN (Instance).012)",
+      "alpha": "_04_009.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_Face_00_SKIN (Instance).013)",
+      "alpha": "_04_010.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_HairBack_00_HAIR (Instance))",
+      "alpha": "Image3bl.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_HairBack_00_HAIR (Instance)).001",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_HairBack_00_HAIR (Instance).001)",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "MToon Outline (N00_000_00_HairBack_00_HAIR (Instance).003)",
+      "alpha": "Image_3.png"
+    },
+    {
+      "material": "MToon Outline (N00_001_02_Bottoms_01_CLOTH (Instance))",
+      "alpha": "Image_3_005.png"
+    },
+    {
+      "material": "MToon Outline (N00_001_02_Bottoms_01_CLOTH (Instance).001)",
+      "alpha": "_13_006.png"
+    },
+    {
+      "material": "MToon Outline (N00_001_02_Bottoms_01_CLOTH (Instance).002)",
+      "alpha": "_13_007.png"
+    },
+    {
+      "material": "MToon Outline (N00_002_01_Shoes_01_CLOTH (Instance))",
+      "alpha": "_15_001.png"
+    },
+    {
+      "material": "MToon Outline (N00_002_01_Shoes_01_CLOTH (Instance)).001",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "MToon Outline (N00_002_01_Shoes_01_CLOTH (Instance).001)",
+      "alpha": "Image_3_006.png"
+    },
+    {
+      "material": "MToon Outline (N00_002_01_Shoes_01_CLOTH (Instance).003)",
+      "alpha": "_13_002.png"
+    },
+    {
+      "material": "MToon Outline (N00_002_01_Shoes_01_CLOTH (Instance).004)",
+      "alpha": "_13_003.png"
+    },
+    {
+      "material": "MToon Outline (N00_002_01_Shoes_01_CLOTH (Instance).005)",
+      "alpha": "_13_004.png"
+    },
+    {
+      "material": "MToon Outline (N00_002_01_Shoes_01_CLOTH (Instance).006)",
+      "alpha": "_13_005.png"
+    },
+    {
+      "material": "MToon Outline (N00_002_03_Tops_01_CLOTH (Instance))",
+      "alpha": "_13_001.png"
+    },
+    {
+      "material": "MToon Outline (N00_003_01_Bottoms_01_CLOTH (Instance))",
+      "alpha": "_17.png"
+    },
+    {
+      "material": "MToon Outline (N00_003_01_Bottoms_01_CLOTH (Instance).001)",
+      "alpha": "_17_002.png"
+    },
+    {
+      "material": "MToon Outline (N00_003_01_Shoes_01_CLOTH (Instance))",
+      "alpha": "_14_001.png"
+    },
+    {
+      "material": "MToon Outline (N00_004_01_Shoes_01_CLOTH (Instance))",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "MToon Outline (N00_004_01_Shoes_01_CLOTH (Instance).001)",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "MToon Outline (N00_004_01_Shoes_01_CLOTH (Instance).001).001",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "MToon Outline (N00_007_01_Tops_01_CLOTH (Instance))",
+      "alpha": "_14.png"
+    },
+    {
+      "material": "MToon Outline (N00_008_01_Shoes_01_CLOTH (Instance))",
+      "alpha": "_14_004.png"
+    },
+    {
+      "material": "MToon Outline (N00_008_01_Shoes_01_CLOTH (Instance).001)",
+      "alpha": "_14_002.png"
+    },
+    {
+      "material": "MToon Outline (N00_008_01_Shoes_01_CLOTH_01 (Instance))",
+      "alpha": "_15.png"
+    },
+    {
+      "material": "MToon Outline (N00_008_01_Shoes_01_CLOTH_02 (Instance))",
+      "alpha": "_16_002.png"
+    },
+    {
+      "material": "MToon Outline (N00_008_01_Shoes_01_CLOTH_02 (Instance).001)",
+      "alpha": "_16_003.png"
+    },
+    {
+      "material": "MToon Outline (N00_010_01_Onepiece_00_CLOTH_01 (Instance))",
+      "alpha": "_13_008.png"
+    },
+    {
+      "material": "MToon Outline (N00_010_01_Onepiece_00_CLOTH_02 (Instance))",
+      "alpha": "_18.png"
+    },
+    {
+      "material": "MToon Outline (XHAIR)",
+      "alpha": "Xhair.png"
+    },
+    {
+      "material": "MToon Outline (Xbody)",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "MToon Outline (Xface)",
+      "alpha": "Image_0_001.png"
+    },
+    {
+      "material": "MToon Outline (Xfaceblack)",
+      "alpha": "Image_0_004black.png"
+    },
+    {
+      "material": "MToon Outline (Xmouth)",
+      "alpha": "Image_0_001.png"
+    },
+    {
+      "material": "MToon Outline (Xmouthblack)",
+      "alpha": "Image_0_004black.png"
+    },
+    {
+      "material": "MToon Outline (cyanc1)",
+      "alpha": "_13_010.png"
+    },
+    {
+      "material": "MToon Outline (cyanc3)",
+      "alpha": "_15_003.png"
+    },
+    {
+      "material": "MToon Outline (cyanc4)",
+      "alpha": "_16_004.png"
+    },
+    {
+      "material": "MToon Outline (cyanc5)",
+      "alpha": "_17_003.png"
+    },
+    {
+      "material": "MToon Outline (cyassnc2)",
+      "alpha": "_14_003.png"
+    },
+    {
+      "material": "MToon Outline (legring)",
+      "alpha": "_18_001.png"
+    },
+    {
+      "material": "MToon Outline (lyenshoes)",
+      "alpha": "_15_002.png"
+    },
+    {
+      "material": "MToon Outline (lyentrousers)",
+      "alpha": "_13_009.png"
+    },
+    {
+      "material": "MToon Outline (lyenupcloth)",
+      "alpha": "_14_003.png"
+    },
+    {
+      "material": "MToon Outline (shoessocks)",
+      "alpha": "Image3bl.png"
+    },
+    {
+      "material": "MToon Outline (wface)",
+      "alpha": "Image_0.png"
+    },
+    {
+      "material": "MToon Outline (whair)",
+      "alpha": "whair.png"
+    },
+    {
+      "material": "N00_000_00_Body_00_SKIN (Instance)",
+      "alpha": "Image3bl.png"
+    },
+    {
+      "material": "N00_000_00_Body_00_SKIN (Instance).001",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "N00_000_00_Body_00_SKIN (Instance).002",
+      "alpha": "_10_001.png"
+    },
+    {
+      "material": "N00_000_00_Body_00_SKIN (Instance).003",
+      "alpha": "Image_3.png"
+    },
+    {
+      "material": "N00_000_00_Body_00_SKIN (Instance).004",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "N00_000_00_Body_00_SKIN (Instance).005",
+      "alpha": "_10.png"
+    },
+    {
+      "material": "N00_000_00_Body_00_SKIN (Instance).006",
+      "alpha": "_10_007.png"
+    },
+    {
+      "material": "N00_000_00_Body_00_SKIN (Instance).007",
+      "alpha": "Image_3_006.png"
+    },
+    {
+      "material": "N00_000_00_Body_00_SKIN (Instance).008",
+      "alpha": "_10_002.png"
+    },
+    {
+      "material": "N00_000_00_Body_00_SKIN (Instance).009",
+      "alpha": "_10_003.png"
+    },
+    {
+      "material": "N00_000_00_Body_00_SKIN (Instance).010",
+      "alpha": "_10_004.png"
+    },
+    {
+      "material": "N00_000_00_Body_00_SKIN (Instance).011",
+      "alpha": "_10_005.png"
+    },
+    {
+      "material": "N00_000_00_Body_00_SKIN (Instance).012",
+      "alpha": "_10_006.png"
+    },
+    {
+      "material": "N00_000_00_Body_00_SKIN (Instance).013",
+      "alpha": "_10_008.png"
+    },
+    {
+      "material": "N00_000_00_Body_00_SKIN (Instance).014",
+      "alpha": "_10_009.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance)",
+      "alpha": "Image_0.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance).001",
+      "alpha": "Image_0_001.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance).002",
+      "alpha": "_03_001.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance).003",
+      "alpha": "Image_0_002.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance).004",
+      "alpha": "_03.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance).005",
+      "alpha": "_03_002.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance).006",
+      "alpha": "Image_0_005.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance).007",
+      "alpha": "Image_0_006.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance).008",
+      "alpha": "_03_003.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance).009",
+      "alpha": "_03_004.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance).010",
+      "alpha": "_03_005.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance).011",
+      "alpha": "_03_006.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance).012",
+      "alpha": "_03_007.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance).013",
+      "alpha": "_03_008.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance).014",
+      "alpha": "_03_009.png"
+    },
+    {
+      "material": "N00_000_00_EyeHighlight_00_EYE (Instance).015",
+      "alpha": "_03_010.png"
+    },
+    {
+      "material": "N00_000_00_EyeIris_00_EYE (Instance)",
+      "alpha": "Image_0.png"
+    },
+    {
+      "material": "N00_000_00_EyeIris_00_EYE (Instance).001",
+      "alpha": "_02.png"
+    },
+    {
+      "material": "N00_000_00_EyeIris_00_EYE (Instance).002",
+      "alpha": "_02_002.png"
+    },
+    {
+      "material": "N00_000_00_EyeIris_00_EYE (Instance).003",
+      "alpha": "_02_003.png"
+    },
+    {
+      "material": "N00_000_00_EyeIris_00_EYE (Instance).004",
+      "alpha": "_02_004.png"
+    },
+    {
+      "material": "N00_000_00_EyeIris_00_EYE (Instance).005",
+      "alpha": "_02_005.png"
+    },
+    {
+      "material": "N00_000_00_EyeIris_00_EYE (Instance).006",
+      "alpha": "_02_006.png"
+    },
+    {
+      "material": "N00_000_00_EyeIris_00_EYE (Instance).007",
+      "alpha": "_02_007.png"
+    },
+    {
+      "material": "N00_000_00_EyeIris_00_EYE (Instance).008",
+      "alpha": "_02_008.png"
+    },
+    {
+      "material": "N00_000_00_EyeIris_00_EYE (Instance).009",
+      "alpha": "_02_009.png"
+    },
+    {
+      "material": "N00_000_00_EyeIris_00_EYE (Instance).010",
+      "alpha": "_02_010.png"
+    },
+    {
+      "material": "N00_000_00_EyeWhite_00_EYE (Instance)",
+      "alpha": "_06.png"
+    },
+    {
+      "material": "N00_000_00_EyeWhite_00_EYE (Instance).001",
+      "alpha": "_06_001.png"
+    },
+    {
+      "material": "N00_000_00_EyeWhite_00_EYE (Instance).002",
+      "alpha": "_06_002.png"
+    },
+    {
+      "material": "N00_000_00_EyeWhite_00_EYE (Instance).003",
+      "alpha": "_06_003.png"
+    },
+    {
+      "material": "N00_000_00_EyeWhite_00_EYE (Instance).004",
+      "alpha": "_06_004.png"
+    },
+    {
+      "material": "N00_000_00_EyeWhite_00_EYE (Instance).005",
+      "alpha": "_06_005.png"
+    },
+    {
+      "material": "N00_000_00_EyeWhite_00_EYE (Instance).006",
+      "alpha": "_06_006.png"
+    },
+    {
+      "material": "N00_000_00_EyeWhite_00_EYE (Instance).007",
+      "alpha": "_06_007.png"
+    },
+    {
+      "material": "N00_000_00_EyeWhite_00_EYE (Instance).008",
+      "alpha": "_06_008.png"
+    },
+    {
+      "material": "N00_000_00_EyeWhite_00_EYE (Instance).009",
+      "alpha": "_06_009.png"
+    },
+    {
+      "material": "N00_000_00_EyeWhite_00_EYE (Instance).010",
+      "alpha": "_06_010.png"
+    },
+    {
+      "material": "N00_000_00_FaceBrow_00_FACE (Instance)",
+      "alpha": "_07.png"
+    },
+    {
+      "material": "N00_000_00_FaceBrow_00_FACE (Instance).001",
+      "alpha": "_07_001.png"
+    },
+    {
+      "material": "N00_000_00_FaceBrow_00_FACE (Instance).002",
+      "alpha": "_07_002.png"
+    },
+    {
+      "material": "N00_000_00_FaceBrow_00_FACE (Instance).003",
+      "alpha": "_07_003.png"
+    },
+    {
+      "material": "N00_000_00_FaceBrow_00_FACE (Instance).004",
+      "alpha": "_07_004.png"
+    },
+    {
+      "material": "N00_000_00_FaceBrow_00_FACE (Instance).005",
+      "alpha": "_07_005.png"
+    },
+    {
+      "material": "N00_000_00_FaceBrow_00_FACE (Instance).006",
+      "alpha": "_07_006.png"
+    },
+    {
+      "material": "N00_000_00_FaceBrow_00_FACE (Instance).007",
+      "alpha": "_07_007.png"
+    },
+    {
+      "material": "N00_000_00_FaceBrow_00_FACE (Instance).008",
+      "alpha": "_07_008.png"
+    },
+    {
+      "material": "N00_000_00_FaceBrow_00_FACE (Instance).009",
+      "alpha": "_07_009.png"
+    },
+    {
+      "material": "N00_000_00_FaceBrow_00_FACE (Instance).010",
+      "alpha": "_07_010.png"
+    },
+    {
+      "material": "N00_000_00_FaceEyelash_00_FACE (Instance)",
+      "alpha": "_08.png"
+    },
+    {
+      "material": "N00_000_00_FaceEyelash_00_FACE (Instance).001",
+      "alpha": "_08_001.png"
+    },
+    {
+      "material": "N00_000_00_FaceEyelash_00_FACE (Instance).002",
+      "alpha": "_08_002.png"
+    },
+    {
+      "material": "N00_000_00_FaceEyelash_00_FACE (Instance).003",
+      "alpha": "_08_003.png"
+    },
+    {
+      "material": "N00_000_00_FaceEyeline_00_FACE (Instance)",
+      "alpha": "_09.png"
+    },
+    {
+      "material": "N00_000_00_FaceEyeline_00_FACE (Instance).001",
+      "alpha": "_09_001.png"
+    },
+    {
+      "material": "N00_000_00_FaceEyeline_00_FACE (Instance).002",
+      "alpha": "_09_002.png"
+    },
+    {
+      "material": "N00_000_00_FaceEyeline_00_FACE (Instance).003",
+      "alpha": "_09_003.png"
+    },
+    {
+      "material": "N00_000_00_FaceEyeline_00_FACE (Instance).004",
+      "alpha": "_09_004.png"
+    },
+    {
+      "material": "N00_000_00_FaceEyeline_00_FACE (Instance).005",
+      "alpha": "_09_005.png"
+    },
+    {
+      "material": "N00_000_00_FaceEyeline_00_FACE (Instance).006",
+      "alpha": "_09_006.png"
+    },
+    {
+      "material": "N00_000_00_FaceEyeline_00_FACE (Instance).007",
+      "alpha": "_09_007.png"
+    },
+    {
+      "material": "N00_000_00_FaceEyeline_00_FACE (Instance).008",
+      "alpha": "_09_008.png"
+    },
+    {
+      "material": "N00_000_00_FaceEyeline_00_FACE (Instance).009",
+      "alpha": "_09_009.png"
+    },
+    {
+      "material": "N00_000_00_FaceEyeline_00_FACE (Instance).010",
+      "alpha": "_09_010.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance)",
+      "alpha": "Image_0.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance).001",
+      "alpha": "Image_0_001.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance).002",
+      "alpha": "_01_001.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance).003",
+      "alpha": "Image_0_002.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance).004",
+      "alpha": "_01.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance).005",
+      "alpha": "_01_002.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance).006",
+      "alpha": "Image_0_005.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance).007",
+      "alpha": "Image_0_006.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance).008",
+      "alpha": "_01_003.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance).009",
+      "alpha": "_01_004.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance).010",
+      "alpha": "_01_005.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance).011",
+      "alpha": "_01_006.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance).012",
+      "alpha": "_01_007.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance).013",
+      "alpha": "_01_008.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance).014",
+      "alpha": "_01_009.png"
+    },
+    {
+      "material": "N00_000_00_FaceMouth_00_FACE (Instance).015",
+      "alpha": "_01_010.png"
+    },
+    {
+      "material": "N00_000_00_Face_00_SKIN (Instance)",
+      "alpha": "Image_0_002.png"
+    },
+    {
+      "material": "N00_000_00_Face_00_SKIN (Instance).001",
+      "alpha": "Image_0_001.png"
+    },
+    {
+      "material": "N00_000_00_Face_00_SKIN (Instance).002",
+      "alpha": "_04_001.png"
+    },
+    {
+      "material": "N00_000_00_Face_00_SKIN (Instance).003",
+      "alpha": "_04.png"
+    },
+    {
+      "material": "N00_000_00_Face_00_SKIN (Instance).004",
+      "alpha": "_04_002.png"
+    },
+    {
+      "material": "N00_000_00_Face_00_SKIN (Instance).005",
+      "alpha": "_04_003.png"
+    },
+    {
+      "material": "N00_000_00_Face_00_SKIN (Instance).006",
+      "alpha": "Image_0_005.png"
+    },
+    {
+      "material": "N00_000_00_Face_00_SKIN (Instance).007",
+      "alpha": "_04_004.png"
+    },
+    {
+      "material": "N00_000_00_Face_00_SKIN (Instance).008",
+      "alpha": "_04_005.png"
+    },
+    {
+      "material": "N00_000_00_Face_00_SKIN (Instance).009",
+      "alpha": "_04_006.png"
+    },
+    {
+      "material": "N00_000_00_Face_00_SKIN (Instance).010",
+      "alpha": "_04_007.png"
+    },
+    {
+      "material": "N00_000_00_Face_00_SKIN (Instance).011",
+      "alpha": "_04_008.png"
+    },
+    {
+      "material": "N00_000_00_Face_00_SKIN (Instance).012",
+      "alpha": "_04_009.png"
+    },
+    {
+      "material": "N00_000_00_Face_00_SKIN (Instance).013",
+      "alpha": "_04_010.png"
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR (Instance)",
+      "alpha": "Image3bl.png"
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR (Instance).001",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR (Instance).002",
+      "alpha": "_12_001.png"
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR (Instance).003",
+      "alpha": "Image_3.png"
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR (Instance).004",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR (Instance).005",
+      "alpha": "_12.png"
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR (Instance).007",
+      "alpha": "_12_002.png"
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR (Instance).008",
+      "alpha": "_12_003.png"
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR (Instance).009",
+      "alpha": "_12_004.png"
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR (Instance).010",
+      "alpha": "_12_005.png"
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR (Instance).011",
+      "alpha": "_12_006.png"
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR (Instance).012",
+      "alpha": "_12_007.png"
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR (Instance).013",
+      "alpha": "_12_008.png"
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR (Instance).014",
+      "alpha": "_12_009.png"
+    },
+    {
+      "material": "N00_000_Hair_00_HAIR_01 (Instance)",
+      "alpha": "_19.png"
+    },
+    {
+      "material": "N00_000_Hair_00_HAIR_01 (Instance).001",
+      "alpha": "_16_001.png"
+    },
+    {
+      "material": "N00_000_Hair_00_HAIR_01 (Instance).002",
+      "alpha": "_19_001.png"
+    },
+    {
+      "material": "N00_000_Hair_00_HAIR_01 (Instance).003",
+      "alpha": "_18_002.png"
+    },
+    {
+      "material": "N00_000_Hair_00_HAIR_02 (Instance)",
+      "alpha": "_21.png"
+    },
+    {
+      "material": "N00_000_Hair_00_HAIR_02 (Instance).001",
+      "alpha": "_21_001.png"
+    },
+    {
+      "material": "N00_000_Hair_00_HAIR_03 (Instance)",
+      "alpha": "_23.png"
+    },
+    {
+      "material": "N00_000_Hair_00_HAIR_03 (Instance).001",
+      "alpha": "_23_001.png"
+    },
+    {
+      "material": "N00_000_Hair_00_HAIR_04 (Instance)",
+      "alpha": "_25.png"
+    },
+    {
+      "material": "N00_000_Hair_00_HAIR_04 (Instance).001",
+      "alpha": "_25_001.png"
+    },
+    {
+      "material": "N00_000_Hair_00_HAIR_05 (Instance)",
+      "alpha": "_27.png"
+    },
+    {
+      "material": "N00_000_Hair_00_HAIR_05 (Instance).001",
+      "alpha": "_27_001.png"
+    },
+    {
+      "material": "N00_001_02_Bottoms_01_CLOTH (Instance)",
+      "alpha": "Image_3_005.png"
+    },
+    {
+      "material": "N00_001_02_Bottoms_01_CLOTH (Instance).001",
+      "alpha": "_13_006.png"
+    },
+    {
+      "material": "N00_001_02_Bottoms_01_CLOTH (Instance).002",
+      "alpha": "_13_007.png"
+    },
+    {
+      "material": "N00_002_01_Shoes_01_CLOTH (Instance)",
+      "alpha": "_15_001.png"
+    },
+    {
+      "material": "N00_002_01_Shoes_01_CLOTH (Instance).001",
+      "alpha": "Image_3_006.png"
+    },
+    {
+      "material": "N00_002_01_Shoes_01_CLOTH (Instance).002",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "N00_002_01_Shoes_01_CLOTH (Instance).003",
+      "alpha": "_13_002.png"
+    },
+    {
+      "material": "N00_002_01_Shoes_01_CLOTH (Instance).004",
+      "alpha": "_13_003.png"
+    },
+    {
+      "material": "N00_002_01_Shoes_01_CLOTH (Instance).005",
+      "alpha": "_13_004.png"
+    },
+    {
+      "material": "N00_002_01_Shoes_01_CLOTH (Instance).006",
+      "alpha": "_13_005.png"
+    },
+    {
+      "material": "N00_002_03_Tops_01_CLOTH (Instance)",
+      "alpha": "_13.png"
+    },
+    {
+      "material": "N00_003_01_Bottoms_01_CLOTH (Instance)",
+      "alpha": "_17.png"
+    },
+    {
+      "material": "N00_003_01_Bottoms_01_CLOTH (Instance).001",
+      "alpha": "_17_002.png"
+    },
+    {
+      "material": "N00_003_01_Shoes_01_CLOTH (Instance)",
+      "alpha": "_14_001.png"
+    },
+    {
+      "material": "N00_004_01_Shoes_01_CLOTH (Instance)",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "N00_004_01_Shoes_01_CLOTH (Instance).001",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "N00_004_01_Shoes_01_CLOTH (Instance).002",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "N00_007_01_Tops_01_CLOTH (Instance)",
+      "alpha": "_14.png"
+    },
+    {
+      "material": "N00_008_01_Shoes_01_CLOTH (Instance)",
+      "alpha": "_14_004.png"
+    },
+    {
+      "material": "N00_008_01_Shoes_01_CLOTH (Instance).001",
+      "alpha": "_14_002.png"
+    },
+    {
+      "material": "N00_008_01_Shoes_01_CLOTH_01 (Instance)",
+      "alpha": "_15.png"
+    },
+    {
+      "material": "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+      "alpha": "_16_002.png"
+    },
+    {
+      "material": "N00_008_01_Shoes_01_CLOTH_02 (Instance).001",
+      "alpha": "_16_003.png"
+    },
+    {
+      "material": "N00_010_01_Onepiece_00_CLOTH_01 (Instance)",
+      "alpha": "_13_008.png"
+    },
+    {
+      "material": "N00_010_01_Onepiece_00_CLOTH_02 (Instance)",
+      "alpha": "_18.png"
+    },
+    {
+      "material": "Shirt_2786",
+      "alpha": "2.3mm_6.png"
+    },
+    {
+      "material": "Shirt_2824",
+      "alpha": "Basic_Offset.png"
+    },
+    {
+      "material": "Suit_1_2740",
+      "alpha": "41207_ALPHA.png"
+    },
+    {
+      "material": "Suit_1_2747",
+      "alpha": "41207_ALPHA.png"
+    },
+    {
+      "material": "Suit_2718",
+      "alpha": "41207_ALPHA.png"
+    },
+    {
+      "material": "Suit_2731",
+      "alpha": "41207_ALPHA.png"
+    },
+    {
+      "material": "Suit_2796",
+      "alpha": "Basic_Offset.png"
+    },
+    {
+      "material": "Tailcoat_sleeve_2781",
+      "alpha": "Buttonhole_Eyelet_Square_2685.png"
+    },
+    {
+      "material": "Vest_2791",
+      "alpha": "Buttonhole_Eyelet_Square_2805.png"
+    },
+    {
+      "material": "XHAIR",
+      "alpha": "Xhair.png"
+    },
+    {
+      "material": "Xbody",
+      "alpha": "Image_3_001.png"
+    },
+    {
+      "material": "Xeyeline",
+      "alpha": "Image_0_001.png"
+    },
+    {
+      "material": "Xface",
+      "alpha": "Image_0_001.png"
+    },
+    {
+      "material": "Xfaceblack",
+      "alpha": "Image_0_004black.png"
+    },
+    {
+      "material": "Xmouth",
+      "alpha": "Image_0_001.png"
+    },
+    {
+      "material": "Xmouthblack",
+      "alpha": "Image_0_004black.png"
+    },
+    {
+      "material": "belt_440659",
+      "alpha": "output_embroidered_floral_kakeshita_fabric_basecolor[24547].png"
+    },
+    {
+      "material": "buttonribbon",
+      "alpha": "сетка_DESATURATION.png"
+    },
+    {
+      "material": "collar lower kimono_440887",
+      "alpha": "output_japanese_shiny_embroidered_cranes_fabric_basecolor[7798].png"
+    },
+    {
+      "material": "cyanc1",
+      "alpha": "_13_010.png"
+    },
+    {
+      "material": "cyanc2",
+      "alpha": "_14_003.png"
+    },
+    {
+      "material": "cyanc3",
+      "alpha": "_15_003.png"
+    },
+    {
+      "material": "cyanc4",
+      "alpha": "_16_004.png"
+    },
+    {
+      "material": "cyanc5",
+      "alpha": "_17_003.png"
+    },
+    {
+      "material": "edge",
+      "alpha": "Pick_Stitch_2830.png"
+    },
+    {
+      "material": "edge1",
+      "alpha": "Pick_Stitch_2830.png"
+    },
+    {
+      "material": "edge3",
+      "alpha": "Pick_Stitch_2830.png"
+    },
+    {
+      "material": "eye",
+      "alpha": "_02_001.png"
+    },
+    {
+      "material": "hard_1442812",
+      "alpha": "output_Embroidery_Laces-40_basecolor[20207].png"
+    },
+    {
+      "material": "hard_2065.001",
+      "alpha": "yang_R255_G255_B255.png"
+    },
+    {
+      "material": "hard_2108.001",
+      "alpha": "yang_R255_G255_B255.png"
+    },
+    {
+      "material": "legring",
+      "alpha": "_18_001.png"
+    },
+    {
+      "material": "lyenpantssingle",
+      "alpha": "63-2_basecolor.png"
+    },
+    {
+      "material": "lyenshoes",
+      "alpha": "_15_002.png"
+    },
+    {
+      "material": "lyentrousers",
+      "alpha": "_13_009.png"
+    },
+    {
+      "material": "lyenupcloth",
+      "alpha": "_14_003.png"
+    },
+    {
+      "material": "medium kimono collar_440843",
+      "alpha": "output_embroidered_floral_kakeshita_fabric_basecolor[24030].png"
+    },
+    {
+      "material": "neck1",
+      "alpha": "5.png"
+    },
+    {
+      "material": "neckribbon2",
+      "alpha": "output_Embroidery_Laces-40_basecolor[38].png"
+    },
+    {
+      "material": "outer",
+      "alpha": "output_dupion_opacity[23310].png"
+    },
+    {
+      "material": "sha",
+      "alpha": "output_Embroidery_Laces-40_basecolor[11457].png"
+    },
+    {
+      "material": "shoessocks",
+      "alpha": "Image3bl.png"
+    },
+    {
+      "material": "sleeve1",
+      "alpha": "5.png"
+    },
+    {
+      "material": "sleeveribbon",
+      "alpha": "5.png"
+    },
+    {
+      "material": "sleevesha",
+      "alpha": "сетка_DESATURATION.png"
+    },
+    {
+      "material": "soft_1442756",
+      "alpha": "5.png"
+    },
+    {
+      "material": "soft_1442768",
+      "alpha": "2.png"
+    },
+    {
+      "material": "soft_1442775",
+      "alpha": "output_Embroidery_Laces-40_basecolor[6884].png"
+    },
+    {
+      "material": "soft_1442839",
+      "alpha": "5.png"
+    },
+    {
+      "material": "soft_1977.001",
+      "alpha": "yang_R255_G255_B255.png"
+    },
+    {
+      "material": "soft_2058.001",
+      "alpha": "yang_R223_G215_B196.png"
+    },
+    {
+      "material": "soft_2092.001",
+      "alpha": "yang_R250_G243_B226.png"
+    },
+    {
+      "material": "soft_2097.001",
+      "alpha": "yang_R250_G243_B226.png"
+    },
+    {
+      "material": "soft_2102.001",
+      "alpha": "сетка_R189_G157_B154_DESATURATION.png"
+    },
+    {
+      "material": "soft_2135.002",
+      "alpha": "output_dupion_opacity[3415].png"
+    },
+    {
+      "material": "soft_2138.001",
+      "alpha": "сетка_R210_G202_B187_DESATURATION.png"
+    },
+    {
+      "material": "soft_2186.001",
+      "alpha": "yang_R189_G157_B154.png"
+    },
+    {
+      "material": "soft_2193.001",
+      "alpha": "yang_R250_G243_B226.png"
+    },
+    {
+      "material": "soft_2198.001",
+      "alpha": "yang_R189_G157_B154.png"
+    },
+    {
+      "material": "soft_2203.001",
+      "alpha": "сетка_R210_G202_B187_DESATURATION.png"
+    },
+    {
+      "material": "soft_2210.001",
+      "alpha": "yang_R255_G255_B255.png"
+    },
+    {
+      "material": "top kimono collar_440718",
+      "alpha": "output_embroidered_floral_kakeshita_fabric_basecolor[17459].png"
+    },
+    {
+      "material": "top kimono collar_440744",
+      "alpha": "output_japanese_shiny_embroidered_cranes_fabric_basecolor[28622].png"
+    },
+    {
+      "material": "top kimono sleeve_440770",
+      "alpha": "output_embroidered_floral_kakeshita_fabric_basecolor[9085].png"
+    },
+    {
+      "material": "top kimono sleeve_440796",
+      "alpha": "output_japanese_shiny_embroidered_cranes_fabric_basecolor[2403].png"
+    },
+    {
+      "material": "top kimono_440691",
+      "alpha": "output_japanese_shiny_embroidered_cranes_fabric_basecolor[10305].png"
+    },
+    {
+      "material": "wface",
+      "alpha": "Image_0.png"
+    },
+    {
+      "material": "whair",
+      "alpha": "whair.png"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 6c469dc50e534a0a811b53fd8720f81b
+timeCreated: 1760539415
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Editor/Editors/Drawers/GameOjbectTagDrawer.cs
+  uploadId: 953760

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 480f5db62ea305c46b89a86496d2a0c9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Prefabs/DefaultUI/PauseUI.prefab
+  uploadId: 953760

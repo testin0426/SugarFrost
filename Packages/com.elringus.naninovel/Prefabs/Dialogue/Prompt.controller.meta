@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8a44540f14eec1442ac3094e591f017d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Prefabs/Dialogue/Prompt.controller
+  uploadId: 953760

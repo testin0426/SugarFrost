@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1add671f8348e8443bcc56290e82fc5e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Prefabs/DefaultUI/ContinueInputUI.prefab
+  uploadId: 953760

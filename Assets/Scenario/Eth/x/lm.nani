@@ -1,0 +1,48 @@
+@hideAll
+@playFX threshold:1.0 duration:1
+@printer xfull
+....我....杀人了?
+杀的还是.....
+苏二小姐....
+。
+@wait 1
+。
+@wait 1
+。
+@wait 1
+。
+@wait 1
+。
+
+@playFX threshold:0.7 duration:1
+@back id:jin appearance:night
+@printer Atest
+沾衣: 各位！
+沾衣勉强支撑自己站起来
+沾衣: 如今苏二小姐已死，各位不用再为她卖命————
+沾衣: 但是大小姐还在....向大小姐汇报的话我们暂时就说是....
+沾衣: 苏二小姐在执行任务过程中<color=red>意外身亡</color>，商会少主即是证人。
+沾衣: 然后我们去找疏影先生，她会为我们安排好这一切的......
+沾衣: 那么，
+沾衣: 相昀姑娘，不知您意下如何。
+
+;various fx
+@char xp
+xp: .....
+xp: .....我.....
+
+@char wifi
+wifi: .....
+@printer Atest
+白霜悄悄走过来。
+@char wifi
+wifi: 不怪你。
+@printer Atest
+白霜抱了抱相昀。
+
+
+这个be其实我暂时有点不知道该怎么写下去。
+先回去一下吧。
+@wait 1
+@title
+;??这里放cg你是认真的吗？

@@ -1,0 +1,11 @@
+/* Used by the PlayScriptMarker (Timeline marker). */
+
+.NaninovelScriptMarker {
+    width: 16px;
+    height: 16px;
+    background-image: resource("Naninovel/TimelineMarker");
+}
+
+.NaninovelScriptMarker:hover:focus:checked {
+    background-image: resource("Naninovel/ScriptAssetIcon");
+}

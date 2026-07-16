@@ -1,0 +1,315 @@
+; @bgm default
+@setRenderer index:0
+@resetText Fullscreen
+
+; @moveCam cameraName:RT1 position:-80,0,0 rotation:1.203,356.874,-0.005
+; 我发现克服文青病的好办法就是...把能用文字表示的都用图画表示，动画，着色器，演出等，
+@printer Fullscreen
+开学了。
+今天大年初十。
+; 日历表现？
+
+A整理着要交的作业，
+边睡觉边整理。
+
+@back classroom id:2D
+@printer Atest
+老李: 把该交的作业交掉，课代表要仔细统计谁没有交作业。
+老李: 年也过完了，再过一个月就是江南十校联考了
+老李: 这次联考考什么样，你高考也就考什么样
+@back chemicalPaper id:2D
+@hideChars
+@char A pose:1
+A.deblinkAde: ....
+@hideChars
+A是班上的物理课代表
+@char A.Body/idle,Face/deblinkAde pose:1
+A.Body/idle,Face/deblinkAde: 交作业。
+@hideChars
+同学1: 等下我把这题写完....
+同学2: 我等下自己交过去。
+@char A.frownAde pose:1
+A.Body/idle,Face/frownAde: ....
+A.Body/idle,Face/frownAde: ...好的。
+
+@hideChars
+A收的零零散散，她也懒得管谁交了谁没交。
+毕竟她自己也没写。
+
+@char A.Body/idle,Face/deblinkAde pose:1
+@printer Atest
+A.Body/idle,Face/deblinkAde: .....
+
+@char A.Body/FuEr,Face/sadcloeyeU pose:1
+A.Body/FuEr,Face/sadcloeyeU: 好困。
+@hideChars
+还是沉入梦乡比较好。
+说到睡觉...
+大概已经快连续清醒24小时了，有点难得。
+大年初三的时候奶奶去世了，
+最近几天一直在爷爷家通宵烧纸，
+也许是闻着烟味自然也就清醒着。
+感觉每天都在用睡了几小时醒了几小时在计时。
+。
+@printer Atest
+@char A.Body/idle,Face/angryCO pose:1
+A.Body/idle,Face/deblinkAde: .....
+A.deblinkAde: ...今晚不烧了。
+A.angryCO: 白浪费两天打游戏时间。
+@hideChars
+
+
+
+@playFX threshold:-0.7 duration:0.1
+@playFX threshold:1 duration:0.5
+@playFX threshold:-0.7 duration:0.1
+@playFX threshold:1 duration:0.3
+@playFX threshold:-0.7 duration:0.1
+
+@setRenderer index:0
+@hideAll
+A的教室在二楼
+; 楼梯台阶
+; 着色器
+@back id:2D
+送作业去物理老师办公室，
+
+@char A.deblinkAde pose:1
+A.Body/idle,Face/deblinkAde: 上楼好累。
+
+; @setRenderer index:2
+
+@hide A
+因为楼上是更好的竞赛班，但是她三年前落选了
+@char A pose:1
+A.deblinkAde: 鬼。
+A.close: 走楼梯多累。
+
+@hide A
+而且楼上也有不想碰到的人。但她好奇自己会不会碰到"她"
+
+
+@addChoice 会碰到 goto:#1
+@addChoice 不会碰到 goto:#1d
+@wait 5
+@goto #1d
+@stop
+; @sfx dissolove the choice
+
+# 1d
+@clearChoice
+实际你并没有什么选择
+因为事情总是在你想的时候这样发生着。
+或许你期盼着发生着什么，
+或许。
+
+# 1
+; 搬作业cg?
+; @render/sfx
+; 挑战scene里直接演出？
+; @bgm: C1
+; 3帧小动画？
+@bgm 2pass
+@spawn ShakeCamera params:,5,,,,,true,false
+@char C pose:default
+C.smileCde: 嘿！
+; 这里不放一段动画有点过意不去了都。
+@char A pose:1
+@playFX threshold:0.0 duration:0.1
+A.Face/frownAde: 。怎么又是你..
+@playFX threshold:-0.7 duration:0.1
+C.smileCde: AAAAAAAnb~~
+C.laughterCA: 送作业还在背单词啧啧啧~~~~
+@playFX threshold:0.0 duration:0.1
+@char A pose:1
+A.frownAde: ......
+A.smile: ......哈哈。
+A.frownAde: 不如你在脑子里自动做题牛逼。
+@playFX threshold:-0.7 duration:0.1
+@char C
+C.helpless: 什...自动做题个鬼啊。
+; @hideAll(black)
+@hideChars
+虽说好像经历了很多，
+看到C时A还是会下意识笑出来。
+毕竟和C的时光永远是笑着的。
+; C pose1
+@playFX threshold:-0.7 duration:0.1
+@char C pose:default
+C.wickE: 哎啧啧啧尽职尽责的物理课代表....
+@char C.deblinkCde pose:default
+@playFX threshold:0.0 duration:0.1
+@char A pose:1
+A.frownAde: 尽责在哪。
+A.frownAde: 话说你大早上不睡觉？
+@playFX threshold:-0.7 duration:0.1
+C.smileCde: 刚补完作业，偷偷塞过来~~~
+@playFX threshold:0.0 duration:0.1
+A.FuEr: ....6。
+@playFX threshold:-0.7 duration:0.1
+C.ache: 我不想上学~~~~~
+@hideChars
+C盯着A看了会。
+@char C pose:default
+C.deblinkCde: ....
+C.MoEdeLCde: 话说，你昨晚几点睡的？
+C.Xiesmile: 我怎么感觉你的精神状态日渐堪忧了...?
+; hallway C pose2
+
+@char A pose:1
+@playFX threshold:-0.0 duration:0.1
+A.lookleft: 你的错觉。
+@char C pose:default
+@playFX threshold:-0.7 duration:0.1
+C.deblinkCde: ...你确定吗，感觉你像是通宵补作业的样子，要死要活的。
+@char A pose:1
+@playFX threshold:-0.0 duration:0.1
+A.frownAde: ....早上来还在补作业的是谁我不说好吧，起码我没有早上写作业。
+@hideChars
+当然没有早上写作业了，因为根本没写。
+@playFX threshold:-0.7 duration:0.1
+@char C pose:default
+C.angrysmile: 我这叫战术好吗。
+C.smileCde: 我发现在老付课上的睡眠质量比早读要好
+@char A.idle pose:1
+@playFX threshold:-0.0 duration:0.1
+A.angryCO: 哈？
+
+@hideAll
+然后就打上课铃了。
+@back id:2D
+@char C pose:default
+@playFX threshold:-0.7 duration:0.1
+C.deblinkCde: .....
+@char A pose:1
+@playFX threshold:-0.0 duration:0.1
+A.frownAde: ....不是哥们你怎么还不走....
+@playFX threshold:-0.7 duration:0.1
+C.deblinkCde: .....
+C.Xiesmile: .....因为就是感觉哪里怪怪的....
+@playFX threshold:-0.0 duration:0.1
+@char A pose:1
+A: 
+@addChoice 多喝热水。 goto:#m
+@addChoice 奶奶去世了。 goto:#i1
+; sfx renderer
+@stop
+
+# m
+@setrenderer index:0
+@playFX threshold:-0.0 duration:0.1
+@char A pose:1
+A.deblinkAde: ....我还感觉你今天是吃错药了还是咋....
+A.smile: 多喝热水?
+@char C pose:default
+C.angrysmile: ....6。
+@hideAll
+上课铃第二遍打响了
+
+# m1
+@setrenderer index:0
+@back id:2D
+@playFX threshold:-0.7 duration:0.1
+@char C pose:default
+C.deblinkCde: 我靠要上课了，回头再说哦。
+@playFX threshold:-0.0 duration:0.1
+@char A pose:1
+A.frown: 一路走好。
+@stop
+
+
+# i1
+; @sfx
+@setrenderer index:2
+@hideAll
+如果当时是这样说的话？
+@playFX threshold:-0.0 duration:0.1
+@char A pose:1
+A.close: 奶奶大年初三去世了。
+@hideAll
+上课铃第二遍打响了
+她会怎么回答呢？
+@char C pose:default
+C:
+@addChoice 我靠要上课了，回头再说哦。 goto:#m1
+@addChoice 啊这...抱歉。希望你还好...？ goto:#i12
+@stop
+
+
+# i12
+@setrenderer index:2
+@hideAll
+不觉得如果C如果这样说有点太科幻了吗，
+科幻就科幻吧，看看到底能科幻到什么程度。
+@back id:2D
+@char C pose:default
+@playFX threshold:-1 duration:0.1
+@char C.MaofrownLCde pose:default
+C.MaofrownLCde: 啊这...抱歉。希望你还好...？
+@addChoice 你有什么事情都可以和我说哦，我一定会帮你的。 goto:#i13
+@addChoice （也许够了？） goto:#m1
+@stop
+
+
+# i13
+@setrenderer index:2
+@playFX threshold:-1 duration:0.1
+@char C.deblinkCde pose:default
+C.deblinkCde: 你有什么事情你一定要说啊。
+C.idle: 我们肯定会帮你的，你和我说更不要紧的！
+C.MoEdeLCde: 怎么说呢生老病死也是正常的事情.....
+C.MaofrownL2Cde: .....
+@playFX threshold:-0.0 duration:0.1
+@char A pose:1
+A.close: .....谢谢，但实际我对奶奶去世并没有太多感受。
+A.close: 可能和奶奶的记忆仅仅停留在糖醋排骨？
+A.close: 我记得。
+A.close: 去年过年的时候，本来你说要来我们家吃饭。
+A.close: 然后奶奶烧了糖醋排骨。
+@playFX threshold:-1 duration:0.1
+@char C.MaofrownLCde pose:default
+C.MaofrownL2Cde: .....那时.......
+@playFX threshold:-0.0 duration:0.1
+@char A pose:1
+A.close: 没事哦，你毕竟不是我们家里人，只是客人，随便说着玩玩啦。
+A.close: 好奇怪，明明我只是初一时随便和奶奶提了一下你。
+A.close: 她就一直记得。
+A.close: 实际去年她连话都说不清了，但她问我：小云可来啊，这样。
+A.close: ......
+@playFX threshold:-1 duration:0.1
+@char C.MaofrownLCde pose:default
+C.MaofrownLCde: ....
+@addChoice 你继续说吧，没关系的。 goto:#i4
+@addChoice (那就继续这样想下去吧。) goto:#i14
+@stop
+
+
+# i14
+@playFX threshold:-1 duration:0.1
+@char C pose:default
+C.deblinkCde: 你继续说吧，没关系的。
+@playFX threshold:-0.0 duration:0.1
+@char A pose:1
+A.close: ....但是后来父母决定把爷爷奶奶接到家里，他们来做饭。
+A.close: 说奶奶年龄大了什么。
+A.close: 我记得奶奶后来好几次说过没有做成糖醋排骨的事情。
+A.close: 但是记得这件事的好像只有我。
+A.close: 虽然去年我也很少去奶奶家吃饭过。
+A.close: 虽然奶奶前几天还好好的。
+A.close: 在我印象中，她好像一直在睡觉。
+@hide chars
+虽然但是。
+也许最后自己的结局也是像这样抱着遗憾死亡吧，
+怀揣着不被任何人所知晓的记忆，情感。
+@addChoice 是这样吗？
+@addChoice 我又怎么会知道呢...
+但是话说回来，去年过年那段时间....C去干嘛来着了？
+
+@stop
+# m
+
+
+@hideAll
+我，一直不觉得长大成大是什么令人憧憬的事情。
+但这个问题问下去一定会变成我为什么要活着。
+@stop

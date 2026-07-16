@@ -1,0 +1,35 @@
+又是一个早晨。
+
+@if ChoiceIndex>0
+    @if StageChoiceCount>=2
+        @goto EXAM
+    @endif
+@endif
+
+@if ChoiceIndex=10
+    @goto Endings
+@endIf
+
+请选择使用面具的强度（当前总进度：{ChoiceIndex}/10）。
+; 在选择时增加 ChoiceIndex 的累加，否则游戏永远不会结束
+@addChoice "0.1" set:TotalM=TotalM+0.1;StageChoiceCount=StageChoiceCount+1;ChoiceIndex=ChoiceIndex+1 goto:mask/mask0_1
+
+@addChoice "0.2" set:TotalM=TotalM+0.2;StageChoiceCount=StageChoiceCount+1;ChoiceIndex=ChoiceIndex+1 goto:mask/mask0_2 if:MaxM>=0.2
+
+@addChoice "0.3" set:TotalM=TotalM+0.3;StageChoiceCount=StageChoiceCount+1;ChoiceIndex=ChoiceIndex+1 goto:mask/mask0_3 if:MaxM>=0.3
+
+@addChoice "0.4" set:TotalM=TotalM+0.4;StageChoiceCount=StageChoiceCount+1;ChoiceIndex=ChoiceIndex+1 goto:mask/mask0_4 if:MaxM>=0.4
+
+@addChoice "0.5" set:TotalM=TotalM+0.5;StageChoiceCount=StageChoiceCount+1;ChoiceIndex=ChoiceIndex+1 goto:mask/mask0_5 if:MaxM>=0.5
+
+@addChoice "0.6" set:TotalM=TotalM+0.6;StageChoiceCount=StageChoiceCount+1;ChoiceIndex=ChoiceIndex+1 goto:mask/mask0_6 if:MaxM>=0.6
+
+@addChoice "0.7" set:TotalM=TotalM+0.7;StageChoiceCount=StageChoiceCount+1;ChoiceIndex=ChoiceIndex+1 goto:mask/mask0_7 if:MaxM>=0.7
+
+@addChoice "0.8" set:TotalM=TotalM+0.8;StageChoiceCount=StageChoiceCount+1;ChoiceIndex=ChoiceIndex+1 goto:mask/mask0_8 if:MaxM>=0.8
+
+@addChoice "0.9" set:TotalM=TotalM+0.9;StageChoiceCount=StageChoiceCount+1;ChoiceIndex=ChoiceIndex+1 goto:mask/mask0_9 if:MaxM>=0.9
+
+@addChoice "1.0" set:TotalM=TotalM+1.0;StageChoiceCount=StageChoiceCount+1;ChoiceIndex=ChoiceIndex+1 goto:mask/mask1_0 if:MaxM>=1.0
+
+@stop

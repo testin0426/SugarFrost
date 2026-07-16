@@ -1,0 +1,40 @@
+; Tips managed text document (multiline format).
+; The "# Key" line holds ONLY the record id.
+; The value line below holds:  Title | Category | Description
+; (separator is | as configured on the TipsUI prefab)
+; Description may use \n or real line breaks.
+
+# Sword
+The Sword|Weapons|A basic blade.
+
+Deals moderate damage.
+
+# Herb
+Healing Herb|Items|Restores 20 HP when consumed.
+
+
+# contract
+关于运输xxx0x4x合同|Items|
+今收到商会花布十叁匹整，送至津南口，货到付款，运费另计。
+中途损失按xx赔偿。
+遇天灾匪患，各安人命。
+
+
+
+# register
+津南江口登记簿分页|Items|
+
+
+
+
+# memo
+世界记忆|Concept|世界记忆
+记录有关这个世界的所有”事件“。
+
+
+
+# echo
+E.C.H.O|Items|
+E.C.H.O，忆视，用于“世界记忆”的二维成像
+
+

@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: 77532f813c9142038a4f39538d82f19f
+timeCreated: 1678097834
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/UI/TextReveal/Effects/RevealPaginator.cs
+  uploadId: 953760

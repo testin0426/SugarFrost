@@ -1,0 +1,296 @@
+@setRenderer index:4
+高中水平等级测试，
+应该叫这个名字吧。
+@back outroom
+@spawn ShakeCamera params:,5,,,,,true,false
+@playFX threshold:-1 duration:0.1
+@char A.angryCO pose:1
+A.angryCO: ....谁打我
+@playFX threshold:-1 duration:0.1
+@char C pose:default
+C.surprise: 不是你怎么也在三中考啊？
+;cg1
+@hideChars
+C一边这样说着，一边顺手把A的卫衣袋子拽了下来
+@char A.angryCO pose:1
+A.angryCO: 你有病啊一上来就拽我带子！！！
+A.frownAde: 不是我怎么又跟你分到一个考点来了....
+@hideChars
+大概就是为期三天的度假考试，
+顺便还可以和朋友凑一起，
+@char C pose:default
+C.ache: 完了啊AAAA....我其他科完全没听过啊......你学政治救救救救我......
+@char A pose:1
+@playFX threshold:-0.5 duration:0.1
+A.frownAde: 你搞得我生物好像听过课一样......
+@hideAll
+所以是为什么总能和她碰到啊....。
+虽说中考也和C分到一个考点了....
+这东西还能分到一个考点，
+或许高考也会分到一个考点？
+@back outroom
+@playFX threshold:-1.0 duration:0.1
+@char C pose:default
+C.deblinkCde: 你之前来过三中吗？
+@playFX threshold:-0.5 duration:0.1
+@char A pose:1
+A.close: 完全没有。
+@playFX threshold:-1.0 duration:0.1
+@char C pose:default
+C.smileCde: 我也没有。
+C.deblinkCde: 我要找食堂在哪...你来吗？
+@playFX threshold:-0.5 duration:0.1
+A.idle: 那就去找呗。
+@hideAll
+探索校园。
+
+@back outroom
+@char C pose:default
+@shake C
+C.angry: 你打我干嘛！！！
+@char A pose:1
+@playFX threshold:-0.0 duration:0.1
+A.deblinkAde: 手滑。
+@char C pose:default
+@playFX threshold:-0.7 duration:0.1
+C.angrysmile: 手滑鬼啊我都要被你打残了！！！！
+@playFX threshold:-0.0 duration:0.1
+A.angry: 那你倒是把我的带子还给我啊大姐....
+@playFX threshold:-0.7 duration:0.1
+C.smileCde: nonono
+@hideChars
+C摇了摇手指，但是A眼疾手快扑了过去
+@char A pose:1
+@char C pose:default
+@animate A rotation:10,0 time:1.0|1.0 wait!
+@animate C posX:80 time:1.5 wait!
+@char C pose:default
+C.surprise: 哇！————
+@playFX threshold:-0.0 duration:0.1
+@char A pose:1
+A.frownAde: .....
+@playFX threshold:-0.7 duration:0.1
+C.laughterCA: 嘿嘿没抢到吧
+
+@hideAll
+@playFX threshold:-0.7 duration:0.1
+@playFX threshold:1 duration:0.3
+@playFX threshold:-0.7 duration:0.3
+@back cafeteria
+@playFX threshold:1 duration:0.3
+@playFX threshold:-0.7 duration:0.1
+
+
+@back cafeteria
+;cg2
+@char A pose:1
+A.embarrassed: .....
+@char C pose:default
+C.helpless: ....
+C.helpless: ....没有烤肠....垃圾三中。
+A.embarrassed: ....烤肠有那么好吃吗....
+@char A pose:1
+C.ache: 一中烤肠真的很好吃好吗！！！
+A.Xiesmile: ...
+A.embarrassed: 我感觉我可能是小时候烤肠吃多了....
+C.surprise: 啊？？
+A.idle: 我印象中小时候很喜欢吃烤肠，然后突然就莫名其妙不喜欢吃了。
+C.helpless: 那是你吃腻了好吗！我小时候爸妈不让我吃！
+A.embarrassed: 好吧....等等，有薯片。
+C.surprise: 薯片？？在哪在哪？？哪有薯片？？
+实际上原本用来显示xx饭菜面的显示屏
+上面呈现的确是xx薯片 xx元。
+幽默....
+A.Xiesmile: 逆天。
+C.helpless: 逆天。
+C.star: 但是好歹是有的！
+C.star: 你在此地不要走动，待我买两包薯片回来。
+A.angry: ....
+A.angry: 一边去。
+A.idle: 等等，我要番茄味的。
+C.idle: 没有番茄味，只有黄瓜味。
+A.idle: ....也行吧。
+买完薯片了，
+实际考完一门得等半天才能考下一门，
+真，半天。
+于是AC在三中无意识游荡中......
+就这样无意识游荡吧，
+因为很快就要结束了。
+同学: C过来打牌差一个人。
+A认出那是些一班的同学。
+C.idle: 现在打不了，你们打吧。
+打牌，A印象中C从来不打牌什么之类。
+但是也没办法，
+C有自己的生活。
+A.idle: ....打牌？
+C.idle: 啊就是之前去集训的时候，然后我们就打牌
+C.idle: 啥鬼集训课毛线都听不懂，然后就在酒店打牌了。
+A.smile: ....
+你开心的话我也会很幸福。
+C.idle: AAA给你历史书，你随便抽问我几个问题
+A.idle: 我又不学历史我抽问个鬼啊。
+C.idle: 无所谓你就看我书上画了啥你问我就行了。
+A.embarrassed: ....你书上不干干净净的吗....
+C.laughter: 哎呀正经人谁听课啊这，来来来问我问题先。
+A.embarrassed: 啊啊，哦....
+反正结果肯定是A问啥C都不知道，
+实际A自己也不知道自己在问啥。
+C.helpless: .....放弃了。
+A.idle: .......
+C.laughter: 管它呢，来玩石头剪刀布把！
+A.surprise: ?你又来？？
+C.handsome: 不来就是怕了吧哼哼，毕竟运气是要留在考场上的！
+A.embarrassed: 怕是某人输怕了给自己找的借口....
+C.ache: 谁输怕了就是运气问题！！！
+A.Xiesmile: 所以你要玩哪个？
+C.ache: 来来来猜拳。
+实际上是先把脚尖抵在一起，然后猜拳，谁赢了谁后退一部，输了的就要劈叉了，下不下去就算输。
+（而且AC玩这个A从来没输过:)）
+C.ache: 我要一局定胜负！
+A.embarrassed: ...行行来来来
+A剪刀，
+C石头
+C.laughter: !!!!耶耶耶我赢了今天胜率百分百！！！！
+A.blackface: ....再来。
+C.laughter: 不来不来我今天胜率100%！！
+A.blackface: 我....
+A.idle: 貌似刚刚某人说运气要留在考场上来着。
+C.laughter: 这个弱智考试不留也罢！哈哈哈！......
+A.idle: ....
+
+@back classroom
+考试，
+不知道在考啥
+A: ....马上就要到C生日来着。
+C生日在三月底。
+A: .....
+A摊开草稿纸，
+不过这神奇考试也是要上交草稿纸的。
+但是A还是开始写
+假如一个XC分子不小心闯入磁场....
+她将开始做鬼畜运动....
+然后A开始画坐标设计数字了。
+已知: .....
+求解: .....
+好荒谬啊。
+所以我跟C只能用这种加密对话来交流吗。
+毕竟也挺有道理，你不能和她聊什么其他的....
+外界的一切语词和你们都是隔离的。
+你们只能用你们的方式交流，虽说，也是基于做题的一套方式。
+好荒谬啊。
+没有共同爱好
+共同爱好是做题吗那很有生活了。
+A: ....
+虽然很好奇把自己喜欢的动漫推给C会发生什么，
+但她肯定不会去看动漫，
+A模模糊糊知道C上高中后貌似追星一些，
+总之这些是她的生活，与A无关了。
+A: ....真是封建。
+貌似攻击性有点强了。
+但是自己也无所谓，
+毕竟知道自己永远走不出春天。
+A一直是讨厌春末夏初的季节的。诸如毕业、考试之类的
+
+;不知是否要考试铃声等...
+A: ....考完了。
+A.idle: 去找C吧
+她记得C在三楼的考场，自己在一楼。
+@back hallway
+A.idle: ....
+A.idle: ....没人啊....
+大概率和同学玩去了吧，毕竟来的时候就看见C和他们班同学来的。
+A.idle: .....
+A.idle: 回去吧。
+@spawn ShakeCamera params:,5,,,,,true,false
+C.surprise: AAA我找你半天！你跑哪去了？！
+A.idle: 什么鬼啊我也在找你。
+C.idle: 我看到你包在一楼啊，你乱跑啥。
+A.embarrassed: ...到底是谁在乱跑...
+A.idle: 哦对，你这三楼走廊好像贴着啥东西。
+C.idle: ?
+C.surprise: 哦！三中他们把成绩就贴在走廊上！
+A.idle: ....神人
+C.idle: 我来仔细看看....
+C.helpless: 哎这个联考不就是我们之前也考的那个吗！！
+C.laughter: 这英语考的还没我考的高。他怎么不把我英语作文贴出来呢。
+C.laughter: 而且我们班英语.....
+A.idle: ....
+A.idle: 哇，CCNB。
+C.helpless: 别阴阳怪气了你不....
+@hideAll
+....
+你不也
+....
+没什么好说的
+@back hallway
+C.ache: 你不要再打我了！！又打我又打我！！
+C甩着卫衣带子攻击A
+A.surprise: ?你这衣服上也有带子！！！！
+C.ache: no！滚远点！
+@back outroom
+C.idle: AAA你知道吗，最近我们班人全在玩那个xx游戏
+C.laughter: 本来之前还没有，现在张口闭口就是那xx启动，结果你初中就在玩了？
+A.idle: ....现在不玩了。
+C.surprise: 啊？为什么呀？
+@hideAll
+因为你？
+不可能。
+因为我太差了。
+@back outroom
+C.surprise: 你之前不是很喜欢吗？
+A.sad: ....
+A.embarrassed: ....就是不玩了吧。
+C.idle: 好吧。
+C.idle: 那你现在在玩啥呀？
+A.embarrassed: 我...现在不玩游戏。
+C.surprise: ?哇？
+C.surprise: AAAA我记得你以前一边打游戏成绩也很好
+A.embarrassed: ....就是不想玩了而已啦。。。
+C.handsome: 我懂了，是AAA专心学习热爱物理以至于废寝忘食感人至深啊...
+A.Xiesmile: ....CC你也........
+@hideAll
+张嘴
+你怎么对不出来了？
+哦对，你语文也没有她好来着
+那当然了，你不够努力，
+你是配不上她的。
+@back outroom
+A.blackface: ......
+A.embarrassed: CCC考场睡觉梦游锻炼身体依然身手矫健啊........
+C.surprise: !
+C.ache: 哎不是，什么叫我梦游锻炼身体！
+A.idle: 抢我衣服带子你不动作挺快....
+C.ache: 不是，我气笑了，我800米从来没跑过你好吧！！！
+A.idle: 现在也跑不动了。
+C.helpless: 谁信。
+A.idle: 也不知道是谁运动会还在积极报名......
+C.ache: 那是我被迫参加的好吧！！我们班女生一共就几个啊老傅还让我们必须报满！！
+C.ache: 我真是服了也不知道哪个sb把我名字填上去的....
+C.handsome: 还好我当时聪明直接弃赛，哎嘿。
+A.smile: 那你接力跑的挺好的？
+C.helpless: 什么叫我接力跑得好...我全程是被带飞好吗！！！...
+但是涉及到一些话题两者都会转移话题。
+因为再聊下去就要聊到接力赛了。
+A知道初中和C参加接力赛从来没获奖过，
+是自己不擅长短跑。
+但是她们班整体体育都很差，
+所以就算是她也要跑四棒。
+C.ache: 而且你还有脸说我！上次运动会是谁穿cos服在那跑一棒！！
+A.blackface: 你也不看看我跑了个什么鬼样
+C.ache: 鬼吧你跑那么好
+但上次A跑的确实挺好的，好到交接棒的时候看错人了交给的是C。
+但是好在A在班上本来人际关系就差
+再差也差不到哪去了。
+但在聊下去就是双方能感受到的不能聊下去的地方。
+A.idle: ....
+A.surprise: 你这带子怎么扯不下来啊！！
+C.handsome: 这就是人品问题好吗
+C炫耀一样地甩了甩A的带子
+A.blackface: ....
+A.idle: 话说是不是要考试了。
+C.surprise: !!!
+C.surprise: 什么鬼我看看时间
+依然是那个小天才电话手表...
+...
+A.laughter: .....
+

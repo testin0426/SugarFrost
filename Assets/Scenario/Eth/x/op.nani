@@ -1,0 +1,18 @@
+@purgeRollback
+@playFX threshold:-0.32 duration:0.01
+@playUIFX threshold:0.0 duration:0.01
+@char xbcg
+@char xbcg.wsmi
+@char xbcg.comfyo
+@bgm ed loop:false
+@wait 5
+@printer nos
+（op乐曲仅占位作用，苦。）[wait 5]以及[wait 5]
+你不会还不知道长按鼠标右键可以转换视角吧）[< skip:true]
+@wait 70
+@playUIFX threshold:1.0 duration:10
+
+
+
+@title
+@stop

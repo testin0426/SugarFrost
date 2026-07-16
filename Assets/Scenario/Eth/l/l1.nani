@@ -1,0 +1,464 @@
+; X=0
+; L=1
+; Q=0
+; B=0
+
+; D=0,T=1,li=-1
+@bgm yil
+@back id:su
+@back id:su
+
+; 酒店
+; moon: 你看起来...貌似很累哦....
+; @char lp.sup pose:h
+; lp: 有吗？
+; @hideChars
+; @printer Atest
+; @showUI ScriptNavigatorUI
+; 怜慌慌张张地准备起身，但身下的女子搂住她的脖颈。
+; 对她耳语。
+; 旖旎的声音软软绵绵地飘着。
+; moon: 有什么事情....和我说就好。
+; @char lp pose:h
+; lp.close: .....
+; ......
+; lp.sm: 明晚来不了了。
+; @hideChars
+; @printer Atest
+; 别问为什么。
+; moon: 啊哦....
+; moon: 我知道啦，你忙你的吧，没关系的哦。
+
+; @char lp pose:h
+; lp.wuyu: 嗯。
+; lp.close: .....
+
+; @hideAll
+; @printer Fullscreen
+; 醉人的欢愉。
+; @printer Fullscreen
+; 怜看月的眼睛，像深不见底的潭水，
+; 镜花水月，
+; 吸纳一切一般。
+
+@playFX threshold:-0.32 duration:0.1
+@back id:su
+; T=1
+@bt
+@resetText
+苏家
+
+@printer Atest
+hua: 今天是大小姐回来的日子吧。
+@char lp
+lp.close: 嗯。
+@printer Atest
+hua: 确实是团聚的好日子呢！
+啊，确实。
+拉帮结派的好日子。
+lp.wuyua: ....
+lp.wuyu: 前线，怎么样了。
+hua: 就那样吧。
+hua: 都到了和商会做生意的时候了。
+lp.ll: 那看来是越来越糟啊。
+花颜: 是呢，虽然大家看起来都很清闲~。
+@shake lpt
+lp.fc: 。
+@printer Atest
+花颜说话一直很阴阳怪气。
+花颜: 哦对了，昨天截到的电报，机关那边有说法吗？
+lp.lr: 你直接去问机关的人不就行了。
+花颜: 哎呀怜怜你也不是不知道我和那边的关系~
+lp.wuyu: 我不知道。
+
+
+
+
+
+lp.an: .....
+@hideChars
+@printer Atest
+真烦。
+唉，真烦。
+杀了沾衣后，还是觉得很烦。
+心中什么在燃烧一样。
+@char lp
+lp.an: .....
+lp.wuyua: 。
+@hideChars
+@printer Atest
+要不逃跑吧。
+怜冒出返回天堂把月拉走从此私奔的念头。
+lp.wuyua: 为什么....
+@hideAll
+@resetText
+@printer Fullscreen
+把月拉走？
+月是谁？
+连幻想的勇气都没有吗？
+@back id:su
+@char lp.sma pose:h
+lp: ...哈哈。
+@hideAll
+@printer Fullscreen
+她瞥了眼正在专心推公式的仟虹。
+又在看她那些破书。
+怜不知道她看那些有啥用。
+她也不知道为什么仟虹要一直画那些莫名其妙的符号。
+可能.....
+和自己去找月一样，仟虹也需要找什么逃避的地方。
+就算这样迁移过去还是太抽象了。
+但是依然很烦很烦，
+@back id:su
+@char lp.an
+lp: .....
+@hideAll
+@printer Fullscreen
+怜斜眼，仔细打量着仟虹。
+感觉洋装和她还是很般配的，像洋娃娃一样。
+像人偶一样。
+像月亮一样。
+像雪花一样。
+像是碰一碰就会碎的样子。
+上次和她见面是什么意时候来着？不记得了
+只知道很快又无法见面了。
+@back id:su
+
+@char cyan
+cyan.sadd: .....
+@hideChars
+怜注意到仟虹一直是皱眉的，
+明明今天是她的生日。
+@char lp
+lp.close: .....
+要主动和仟虹说说话吗？
+@addChoice 说 set:lyq++ goto:#q1
+@addChoice 不说 goto:#m1
+@stop
+
+# q1
+怜想了想，打算和仟虹说说话，
+; blur
+...不行。
+不敢说话。
+怕说了之后就真的化为碎片。
+
+# m1
+@back id:su
+
+cyan.haoe: 原来你在这里....
+@hideAll
+什么叫原来我在这里,
+你连注意都注意不到我了？
+@back id:su
+
+@char lp.fc
+lp.fc: ....
+lp.fca: 怎么，不想见我？
+
+cyan.b: ....
+cyan.haoa: ....！只是感慨一下....
+@hideChars
+; 胶片闪过
+; 音效转
+刚刚她的眼神有点不对，
+
+是我的错觉吗。
+lp.fc: ....
+好烦。
+; 敲门声
+人1: 大小姐，老爷和夫人正到处找你呢
+cyan.supa: 啊...好的哦！我马上就来。
+仟虹这才回过神来忙把书放下。
+她像是无视了我，迈过了我身旁
+; cg?
+lp.fc: .....
+lp.close: ....
+lp.wuyu: .......
+@hideChars
+冷静点。
+也许今天才是仟虹真正走向幸福生活的开始。
+
+cyan.de: 哦对了
+仟虹想到什么，又折回书桌，在背包里翻出一个纸袋子递给怜
+@shake l
+lp.sup: ....!
+cyan.smile: 是糖雪球哦。
+cyan.saddr: 虽然...我不太会选礼物....
+lp.s: ......
+怜瞟了眼包装盒，
+.....
+这不会是.....
+lp.fc: ....
+lp.wuyua: 这不会是你早上在相昀那里买的吧....
+@shake cyan hor! ver!
+cyan.sup: !
+cyan.haoa: ...嗯...是的，但准确来说是...她送我的....
+cyan: 我还没吃过...
+....相昀那小鬼也是不知道从哪冒出来的玩意。
+但是仟虹能想起来买伴手礼这件事就已经是奇迹了。
+lp.closea: 谢谢。
+装作面无表情地说完这句话。
+cyan.smile: 嗯
+cyan.b: ....
+@hideChars
+接过纸袋时，不小心碰到仟虹的手，
+好冰
+怜不禁打了个冷战。
+lp.wuyu: ...现在不都晚春了...
+@spawn ShakeCamera params:,,,4,
+@hideChars
+人1: 二...二小姐！抱歉！刚刚属下没...没注意到您也在！！
+@char lp
+lp.fc: ...
+lp.ll: 那我也跟她一块过去吧。
+@hideChars
+唉，又能有什么事情呢。
+
+; 转场
+; 开门音效
+
+@hideAll
+@bt
+
+@back id:su
+
+苏父: 哦！怜和虹都来了啊。
+苏母: 好久没见到仟虹啦，来，让娘抱一下。
+苏母紧紧抱住仟虹，喜笑颜开。
+
+; @printer Fullscreen
+; 别人看我的姓，就知道我是谁家的人。
+; 父亲的称号很多，督军，元帅，土皇帝，控制三省兵力。
+; 母亲也是在军营长大的，骑马比父亲还快。
+; 我对于我父母，大概就是“使用”吧。
+; 这个词不好听，但我不想美化。他们看人分三种：能用的，不能用的，待用的。我属于第三种——待用。
+; 他们在等我长大，等我能替他们办事。
+; 给我资源、给我人手、给我“苏二小姐”这个身份可以调动的权力，因为他们在投资。
+; 和商人合作，和别的军阀合作，和列强的人合作。
+; .....
+; 至于仟虹....
+
+@char cyan
+cyan.de: 确实....好久不见了。
+苏母: 北方冷不冷啊？那边的东西可吃得习惯啊？
+cyan.smile: 我挺好的。谢谢妈妈关心。
+苏母: 哎呀....果真一副学者的气质呢~~和爸妈客气啥啊~
+cyan.smilea: 没有啦...就是可能有点...不大习惯。
+@hideChars
+我在一旁静静看着。也注意到父亲不时往我这边瞟。
+正母亲和仟虹家长里短时，父亲撤身到我旁边。
+苏父: 我没让你杀人吧。
+@shake lp
+lp.sup: !....
+lp.closea: 抱歉....
+@hideChars
+我没有敢对上父亲的目光，
+因为要装作一个不小心办错了事情的可怜女儿，
+苏父: 唉，不用道歉。
+语气稍微变了些？
+没有责罚？可能对二叔的态度也就那样吧。
+苏父: 早晚都要办掉的。只是怕你做不干净。
+lp.wuyu: ....
+苏父: 而且这件事本该我们去查的。
+苏父: 你对相家那个小鬼什么看法？
+lp.close: 业务能力好得不正常。
+苏父: 嗯，只能说禾城确实卧虎藏龙。
+@hideChars
+和爸心不在焉地一句一答着。
+.....这样的日子......
+怜盯着仟虹，
+灯光下显得熠熠生辉。
+
+苏母: 哎呀，你们两个在那说啥悄悄话呢，
+苏母: 都过来看看我给仟虹定做的的生日礼物~~
+这时苏母拿出一套异常美丽的洋装
+苏母: 快试试看吧！
+cyan.haoe: 会不会有点过于...花哨了...
+苏母: 虹你不喜欢吗？
+cyan.horror: 不是不是！我的意思是....
+cyan.sadr: 可能...
+cyan.saddo: 更适合怜一些？
+lp.ana: 哈？？？
+@hideChars
+这个傻*在说什么啊...
+她难道不知道这是她的嫁妆吗...？
+苏母: 唉...这就是代沟吧...明明仟虹生的这么好看，像洋娃娃一样可爱，自然要好好梳妆打扮一番啦。
+苏父: 试一下吧，仟虹。
+cyan.supa: 等...
+cyan.sadd: ...我现在就要穿吗？
+苏母: 当然了，在宴席上就该有个大家闺秀的样子。
+苏母: 那么千里迢迢回来，灰头土脸的。
+cyan.haoe: ....啊我....
+@hideChars
+@char cyan.sadr
+@wait 2
+@char lp.fc
+lp: .....
+仟虹向怜投来了目光，
+@hideAll
+@printer Fullscreen
+@if num=1
+    又看我。
+    你觉得我还有的选吗。
+
+@back id:su
+
+@addChoice 今天是给你相亲。 goto:#q2 set:lyq++
+@addChoice 爸妈，你们也别太勉强她了。 goto:#m2
+@stop
+
+# q2
+lp.fca: 爸妈，她好像不知道今天实际上是帮她相亲。
+@shake cyan
+cyan.supa: ！
+苏父: 怜！！！
+@hideChars
+苏父突然对怜呵斥
+苏母: 相亲是什么话...本来今天就是仟虹的生日啊！只是想热闹一点啦。
+苏母: 而且咱家虹本来就没啥朋友，是吧虹。
+苏母: 妈妈也知道你喜欢一个人呆着，但是多一些朋友总是有帮助的。是吧？
+@hideChars
+本质上不就是相亲吗....
+怜站到一边，靠在墙上。
+cyan.saddo: ....
+cyan.smile: 谢谢妈妈！我知道了。
+cyan.de: 衣服很好看，我会去试的。
+cyan.smilea: 那我回房间试啦！一会儿就好。
+
+@bt
+@stopBgm
+@hideChars
+; cyan渐消
+; j脚步音效
+; 开关门音效
+......
+
+@back id:su
+lp.fc: ....
+
+苏父: 时间也快到了吧，我先下去接客了。
+苏父: 怜，等下如果刘家人来的话就让二弟的人自己处理。
+lp.lr: 但是二叔不也要来吗。
+苏父: 他敢来这鸿门宴吗？
+苏父从背后的柜子里拿出一瓶红酒。
+苏母: 以他那个性，不像干这种事的。背后有什么人吗？
+lp.fc: 没查到。
+lp: 云端药行的老头是个瘸子，给钱就干。
+lp.lr: 药行里什么都没有。
+lp.fc: 我怀疑是.....
+
+......
+; @if X=1
+    ; @if ll1=2
+@bgm yan
+@char xw
+xw.comfye: 啊，找到了。
+@hideChars
+@shake ld
+@spawn ShakeCamera params:,,,,4,
+@char lp
+lp.sup: ???!
+lp.supa: 你怎么在这....
+@char lumen
+lumen.xiea: 无聊了来找你玩。
+lp.wuyua: 你在偷听吗？
+lumen.sup: ???啊？
+这是苏父苏母也注意到来者
+@char lumen.de
+苏父: 怜！
+苏母打量了会相昀，
+苏母: 哎呀这不是相老板的千金吗？
+苏母: 舞厅在一楼哦，要不让怜带你去吧？
+lumen.ba: 楼下人好多，好吵。
+苏氏二人有些尴尬。
+lp.fc: 行行行我带你去。
+@hideChars
+真，真，没招了。
+我把相昀拎出房间。
+; q?
+@bt
+....真是....
+大概不是在偷听吧，不然父母他们也早就察觉到了。
+跟个鬼一样。
+@back id:su
+@char lp
+@char lumen
+lp.wuyua: 你有病吧。谁让你在我家到处跑了。
+lp.fc: 没人教你礼节吗。原始人。
+lumen.b: 切。
+lp.fc: ....
+lp.ane: 所以。你到底。有何贵干啊。
+lumen.sup: 啊....
+lumen.comfy: 我没事啊。
+lp.fca: 没事？没事那你来找我干嘛。
+lp.wuyu: 暗恋我啊。
+@shake lumen hor!
+lumen.sup: 什....
+lumen.angry1: 不是你....
+lumen.angeya: 你还说我不会好好讲话！
+lp.ll: ？
+lp.wuyu: 你这不是会害羞吗。
+lp.sm: 我真的开始怀疑你喜欢我了。
+lumen.ba: ....什....自我意识过剩的家伙。
+@hideChars
+...世界上还有这么清闲的人。
+lp.lr: (....演的？)
+@r2c lumen t:0.2
+lumen.looklefto: 我转了一圈也没看见糖雪球。
+lumen.angry1: 喂你家办宴席怎么没有糖雪球啊。
+lp: 那么多甜点还不够你吃？
+lumen.xie: 我喜欢糖雪球。
+@hideChars
+....
+lp: ....
+lp: 仟虹房间里有一袋。
+@char lumen
+lumen.ba: 看来我应该直接去找仟虹....
+@hideChars
+相昀丢下这句话自顾自走了。
+....
+等等？
+lp.ana: ??我没说仟虹房间在哪啊？
+@printer Atest
+怜立刻拦住相昀。
+@char lumen
+lumen.ba: ...你又干嘛。
+lp.fc: 谁，允许你，在我家乱跑了？
+lumen.looklefto: 都说了我没乱跑啊，就随便走走。
+@hideAll
+@resetText
+@printer Fullscreen
+....好一个随便走走
+对于相昀一系列的离谱行为，如果没什么特殊身份的话，
+只能用仗着自己的身世无法无天来形容了。
+@back id:su
+@char lumen
+lp: 首先，去做客，老实在客厅等着。
+lumen.ba: 不要。
+lp: 其次，入乡随俗，这里不是禾城。吃你的蛋糕去。
+lumen.ba: 不要。
+lp.fca: 最后，如果你对我没想法，我们俩才认识一天，别装作一副和我很熟的样子。
+@hide lumen
+@char xw
+@shake xw
+xw.ba: 是你自我意识太过剩了！！
+lp.sm: 哼....
+@hideChars
+@printer Atest
+@char lumen.comfy
+好像也挺好玩的。
+lp.wuyua: 难道你注意不到自己行为很怪异吗？
+@printer Atest
+怜想了一下如果自己的行为和相昀一样的话...
+算了，想象不出。
+所以完全无法理解相昀的心理。
+@char lumen
+lumen.looklefto: ?我觉得很正常啊。
+相昀没管怜，真的一溜烟就跑了。
+        
+@title
+
+
+
+@stop

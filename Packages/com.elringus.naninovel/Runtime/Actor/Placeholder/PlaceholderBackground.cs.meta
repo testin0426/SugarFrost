@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 0f2798e92acf478097f718e3b9974663
+timeCreated: 1759238646
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/Actor/Placeholder/PlaceholderBackground.cs
+  uploadId: 953760

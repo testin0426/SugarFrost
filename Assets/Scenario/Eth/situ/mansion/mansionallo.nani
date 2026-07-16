@@ -1,0 +1,22 @@
+@if num==0
+    @if d==0
+        @if mansion==1
+            @goto #0other
+            @stop
+        @if trace==1
+            @set loc1="C"
+            @set mansion=1
+            @goto Eth/situ/mansion/runtime/ABC
+            @stop
+        @if trace==2
+            @set loc2="C"
+            @set port=1
+            @goto Eth/situ/mansion/runtime/ABC
+            @stop
+        @if trace==3
+            @set loc3="D"
+            @set port=1
+            @goto Eth/situ/mansion/runtime/ABC
+    @if d==1
+@stop
+    

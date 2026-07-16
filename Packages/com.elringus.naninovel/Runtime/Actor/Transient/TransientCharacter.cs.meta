@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: 3db756e8027f46fd8e5dc6f3a420f8ff
+timeCreated: 1761664257
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/Actor/Transient/TransientCharacter.cs
+  uploadId: 953760

@@ -1,0 +1,21 @@
+@spawn daysun
+@playFX threshold:1.0 duration:0.1
+@playUIFX threshold:0.0 duration:0.1
+@spawn sugarFonts
+@bgm meng
+@spawn titlewindzone
+;@char lumen.op
+;@char lumen.op
+@back id:xpop appearance:op wait:false time:0
+@back id:xpop appearance:op wait:false time:0
+@playFX threshold:0.7 duration:5
+@playFX threshold:0.0 duration:5
+
+
+@set X=0
+@set B=0
+@set Q=0
+@set L=0
+@set num=0
+
+@stop

@@ -1,0 +1,102 @@
+;总故事
+
+@spawn lightest
+
+
+@playFX threshold:-0.32
+
+@char A pose:1
+A.frownAde: ....各位。
+A.lookleft: 我现在借着A的灵魂和你们说话（。）
+
+@hide A
+@printer lt easing:EaseInBack
+123: 试下
+
+@char lumen pose:default
+lumen.xie: 6。
+@char A pose:1
+A.frownAde: ...我们站桩也是崛起了。
+@hide A
+@char wifi pose:right
+wifi: 6。
+@char lumen pose:default
+lumen.xiea: 真6
+@char cyan position:79.00,-7.50,0.00
+cyan.haoe: 啊....
+@char lyen position:84.30,-7.50,0.00
+lyen.wuyua: .....我c了我也要跟着站吗。
+
+@hideChars
+@char A pose:1
+A.angryCO: ...往那一站就是兵。。。
+
+@hide A
+@char lyen position:79.00,-7.50,0.00
+lyen.wuyu: nmd。
+@char lumen pose:default
+@animate lyen posX:444 time:0.1
+@char lyen.de pos:444.00,-19.44,0.00
+lumen.xiea: 但是恋爱游戏听起来很好玩的样子？
+lyen.anE: 是很好玩，玩到你痛哭流涕最好玩，
+@char lyen.de pos:444.00,-19.44,0.00
+lumen.angry1: ?。
+lumen.angeya: 你是不是。
+
+@hideChars
+@char cyan position:79.00,-7.50,0.00
+cyan.haoe: 呃....
+cyan.haoa: 我觉得...可以研究下情绪波动这一块。
+@char lumen pose:right
+lumen.xie: 对哦。如果是情绪波动反应的话，貌似是很有趣？
+@hideChars
+
+@playFX threshold:-0.0
+@char A pose:1
+A.angryCO: .....
+A.angryCO: .....为什么话题又开始往奇怪的方向偏了....
+
+@playFX threshold:-0.32
+@char wifi pose:right
+wifi: 蒜，难吃。
+
+@playFX threshold:-0.0
+@char A pose:1
+A.angryCO: 不是你怎么知道我正在宿舍啃蒜苗.....
+
+@hideAll
+@playFX threshold:1.0 duration:2
+@playFX threshold:-0.32 duration:2
+@char A pose:1
+A.close: 啊。所以大概就是这样了。
+A.close: 你们各自加油努力。
+@char lumen position:79.00,-7.50,0.00
+lumen.xie: 恋爱关系？你在对方心中是最特殊的？
+
+@char A pose:1
+A.close: 嗯。
+A.lookleft: (大概吧。。。。明明连我也没谈过恋爱。)
+A.deblinkAde: （但是意识传递过去大概能...get到吧。）
+A.sadeCE: （而且那边也没有什么所谓的恋爱这种。）
+
+@animate lumen posX:444 time:0.1
+@char lyen position:81.00,-7.50,0.00
+lyen.wuyu: 哎我真服了每天都陪着你们穿越来穿越去的。。
+@hidechars
+怜说罢又看了眼自己的表，干巴巴地笑。
+
+@char lumen pos:444.00,-19.44,0.00
+@char lyen position:83.00,-7.50,0.00
+@char cyan position:79.00,-7.50,0.00
+cyan.haoe: ...所以...好吧...
+
+@hideChars
+其实我也知道如果仟虹真的穿这套衣服同素异形体到民国确实很好笑。
+但是没办法了....非常幽默。
+
+@playFX threshold:1.0 duration:2
+@playFX threshold:-0.32 duration:2
+
+
+
+@stop

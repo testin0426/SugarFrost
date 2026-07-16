@@ -1,0 +1,210 @@
+.....
+@playFX threshold:1.0 duration:0.1 
+@char lumen
+lumen: ....
+lumen: ....该....怎么办。
+lumen: ....
+@hide lumen
+@char xtp
+xtp: .....好像....一切都搞砸了....？
+@resetText Fullscreen
+@printer Fullscreen
+怜仿佛什么都没发生过一样，忙着接客
+....难道对她已经习惯这种事情了吗？
+@wait 1
+@resetText Fullscreen
+也找不到叶兰在哪....
+希望她不要出什么事...
+@wait 1
+@resetText Fullscreen
+沾衣也死了。
+....疏影先生和席会又是什么...
+@hide Fullscreen
+
+@char wifi
+@char wifi
+@playFX threshold:0.5 duration:5
+wifi: .....
+xtp: ...我明明，只是想....
+xtp: ...查清楚事情....
+xtp: .....
+@hideAll
+@printer xfull
+这一切的行为都只是....选择吗？
+那么...
+也只能等待结果降临了吧。
+
+
+@bgm wenxn
+@back id:su
+@char cyan
+@printer ct
+??: .....
+@char cyan.smile
+@char cyan.smile
+??: 哇，这个好漂亮.....
+@printer Atest
+不知名的少女指了指相昀桌子旁边的糖雪球。
+@char xp
+xp.s: .....
+@printer ct
+@char cyan
+??: ....
+@printer Atest
+相昀没有回应眼前的少女，于是少女自顾自地说下去。
+@hide cyan
+@char cp
+@printer cpt
+??: 上面的白霜分布看起来很像分形。
+??: 混乱的，随机数，噪声一样的，分形与循环。
+@char cp.smile
+??: 都是很美丽的概念呢。
+@printer Atest
+她在说什么.....
+水中月，
+镜中花，
+笼中鸟。
+.....
+
+;cg
+; 
+
+可是我向往那个安静的空间，将自己封闭在自己的一方天地，将时间永恒地定格在烟花绚烂绽放的那个时间段，亦或是杏花疏影的年华。如此，我便在无需思考自己不需思考的，只需要编织更为灿烂的梦境就足够了。
+
+
+无论我行至何地，仍有目光跟随，成千上万的，静止、腐烂、充血的...眼睛，嘴，隐藏在眼之后的，它们将眼球挖下来，送给我，却抱怨着，自己希望得到更多的目光。若要再往那黑暗的出口走去，便是无穷尽的混沌...永远无法再遇见纯粹的波与最基本的粒子。但是，我们依然可以看烂漫春日光影下的杏花雨，听渔夫划桨水声的潺潺声....可这是我出发的地方，我向微观走去...可无论如何，我再也走不出那一袭梦幻的杏花雨，它们流连于我的两袖与衣角间，但彼岸，分明有更为绚烂的金色身影。等我望去，她缓缓走来，化成一束波，消散而去，连我对于她的记忆也化作一束波而去了，但如今，它又作为粒子客观存在，她曾向我伸出手，将我从那个安静的空间拉出来，但他自己却和那个空间一起消失在杏花纷飞之中了。
+于是在江城，她不可能存在过。我站在面前，那人来人往的路口。
+
+@char cyan
+cyan: 我们在原初从未相识，之后，我们也从未相识，即使我们面对着，彼此也都永恒得是陌生人，所以...你并没有必要为此苦恼。
+@char xp
+xp: ....
+xp: 在你眼中，我就是一个陌生人吗？
+cyan: 是的，对于我而言，所有人都是这样。
+cyan: 这是我的观念————世界上一切都棱角分明，绝对对立，但是我愿意对你说，这就是我真实的想法。
+
+雨滴， 淅淅沥沥地落下，轻轻的，每一滴却分明拥有分量，我能说些什么呢？从叶兰、到仟虹，这仅仅是一些于此不同排列组合的话语，而语词背后确实是不可视的巨物和坚冰。当我真正不再兀自地向前奔跑、停下脚步时，身边也再无一人了。实际上，我从未到达任何目标，向前，终点已然消失，向后，也一片黑暗。黑暗、无尽的寂静与黑暗，即使从视线、猩红中撤出身位，我也永远无法从自己的恐惧中逃出。
+我有些恍惚，雨滴从发丝落下，渐渐看向脚下的土地，铺着层层平土的地面。
+
+恭喜达成————
+BE3 《雪花》(true end...??)
+;where is my edd???
+
+@playFX threshold:1 duration:10
+@wait 10
+
+
+@stopBgm wenxn
+@wait 3
+@bgm ed
+
+@title
+@stop
+
+@char xp
+xp.b: .....
+;where is my snowflake!!!
+
+
+
+# trueHappyEnd
+@char xp
+xp.lookleft: ?
+@playFX threshold:-0.32 duration:0.1
+cyan.saddo: 那个....
+cyan.sadr: 我可能....
+cyan: ....想问下....
+cyan.haoe: .....你的名字？
+@char xp
+xp.comfy: 我叫相昀
+@wait 1
+xp: 等下。
+xp.angeya: 你竟然也不知道我的名字....？？
+@char cyan.supe
+@shake cyan power:0.1
+cyan.haoa: ...抱...抱歉!
+cyan.saddr: ....我....
+@playFX threshold:0.7 duration:0.1
+@char xp
+xp.comfy: 没事啦，我本来也啥也不知道。
+xp.angeya: 只是刚见你妹妹的时候她一眼就报出我大名...
+xp.ba: 感觉有被冒犯到....
+@char cyan
+@shake cyan
+@playFX threshold:-0.32 duration:0.1
+cyan.sup: 怜她...可能就是...比较爱交朋友吧....
+@hide cyan
+@char cp
+cp.supe: 哦对了！实际上...
+cp.saddo: 我想和你说...
+cp: 我观察到糖雪球上面的糖霜分布很美哦。
+cp.smile: 像雪花一样。
+@hide cp
+@char cyan
+@char xp
+xp.supa: 啊！
+xp.comfye: 对哦，雪花也很好看。
+xp.comfy: 堆雪人也很好玩。
+xp.s: 但是江城很少下雪...
+@char cyan
+cyan.supe: 这样吗...
+cyan: 席会那边每年都会下大雪。
+cyan.smile: 下雪的时候，世界就会变得一片纯白....
+cyan.saddo: 非常安静。
+@printer Atest
+仟虹似乎很容易逐渐沉浸到自己的思绪里面。
+@char xp
+xp: 席会...？
+xp.s: 我...从来没见过纯白的世界....
+
+
+@printer Atest
+xp: 嗯以及....
+xp.looklefto: 这些糖雪球是白霜做的
+xp.comfy: 要不我们一起去问她是怎么做的吧！
+@char cyan
+cyan.supe: 这样啊.....
+@hideAll
+仟虹喃喃着...
+@wait 0.5
+但她好像有点...重心不稳？
+@back id:su
+;@blur
+@char xp
+xpt: .....仟————
+仟虹晕倒了。
+
+
+
+@bgm round
+@playFX threshold:0.6 duration:0.1 
+@back id:su
+晚宴上的空气
+
+叶兰: .....相昀？
+@char xp
+xp.bra: ...? 啊。
+@printer Atest
+相昀像是做了一场梦一样。
+叶兰: 我怎么感觉你好像...哪里不舒服吗？
+@char xp
+xp.xie: 没有。
+@printer Atest
+叶兰: .....
+
+@char lyen
+lyen.wuyu: ....
+@char cyan
+cyan.smile: ....
+@hide lyen
+@char lyen
+lyen: .....
+@printer Atest
+叶兰: 怜小姐。不是鄙人想坏气氛啊...
+叶兰: 关于上次那批货....
+@char lyen
+lyen.sm: 叶老板不用担心.....
+lyen.sm: 话说，你家小少主没和你说全吗？
+@printer Atest
+@shake Atest
+@stop

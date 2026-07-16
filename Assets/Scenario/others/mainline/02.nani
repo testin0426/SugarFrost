@@ -1,0 +1,67 @@
+@setRenderer index:2
+@back id:teachbuild position:66.3,7.7,72.8 rotation:-8.878,17.126,-2.222 scale:0.5,0.5,0.5
+A的教室在二楼
+; 楼梯台阶
+; 着色器
+送作业去物理老师办公室，
+@char A.Body/idle,Face/deblinkAde pose:default
+A.Body/idle,Face/deblinkAde: ....
+又要上楼了。
+因为楼上是更好的竞赛班，但是她三年前落选了
+仅此而已。
+
+而且楼上也有不想碰到的人。但她好奇自己会不会碰到"她"
+
+
+@addChoice 会碰到 goto:#1
+@addChoice 不会碰到 goto:#1d
+@wait 5
+@goto #1d
+@stop
+; @sfx dissolove the choice
+
+# 1d
+@clearChoice
+实际你并没有什么选择
+因为事情总是在你想的时候这样发生着。
+或许你期盼着发生着什么，
+或许。
+
+# 1
+; 搬作业cg?
+; @render/sfx
+; 挑战scene里直接演出？
+; @bgm: C1
+; 3帧小动画？
+@spawn ShakeCamera params:,5,,,,,true,false
+@hideChars
+@char A.Body/holdhomework,Face/deblinkAde pose:default
+@char C.Body/cg01,Face/blinkCde pose:default
+C.Body/idle,Face/blinkCde: 嘿！
+; 这里不放一段动画有点过意不去了都。
+A.Face/frownAde: 。怎么又是你..
+@hideChars
+C.Body/cg01,Face/blinkCde: AAAAAAAnb~~
+C.Body/cg01,Face/smileCde: 送作业还在背单词啧啧啧~~~~
+@hideChars
+A.Face/frownAde: ......
+A.Face/frownAde: ......哈哈。
+A.Face/frownAde: 不如你在脑子里自动做题牛逼。
+
+C.Body/cg01: 什...自动做题个鬼啊。
+; @hideAll(black)
+虽说好像经历了很多，
+看到C时A还是会下意识笑出来。
+毕竟和C的时光永远是笑着的。
+; C pose1
+C: 哎啧啧啧尽职尽责的物理课代表....
+A.smile: 尽责鬼啊...
+A.smile: 话说你大早上不睡觉？
+C.idle: 刚补完作业，偷偷塞过去。
+A.idle: ....6。
+C.ache: 我不想上学~~~~~
+; hallway C pose2
+C: 不说了不说了我先溜了！！
+; sfx renderer
+
+@stop

@@ -1,0 +1,314 @@
+@if d==0
+    @if market==0
+        @if port==1
+            @set market=1
+            @goto #c1
+            @stop
+        @set market=1
+        @goto #0
+        @stop
+        
+
+@printer nos
+这计划....
+虽然...
+...
+说实话，很蠢。
+@char xp
+xp.b: ...你怎么知道她不会藏...
+@char lyen
+lyen.wuyu: 仟虹没那么谨慎。
+lyen.wuyua: 如果真的是她...
+lyen.f: ...
+lyen.close: 大概只是利用了自己的身份罢了。
+lyen.closea: ....其实你上次说的也有道理，后来我注意了下...
+lyen.wuyua: 确实有点奇怪的地方吧。
+@hide lyen
+@printer nos
+怜似乎有些沉浸到思绪里。
+@char lyen
+lyen.fc: ....但是我做这些只是为了证明她是清白的而已。
+@char xp
+xp.b: ....
+xp.ba: ....你在说什么...
+xp.ba: （这是...洗脑自己吗...）
+
+
+
+
+
+
+@char lyen
+@char lyen
+lyen.fc: ....
+@char cyan
+@char cyan
+cyan.sadr: ....
+@char xp
+xp.ba: ....
+@printer nos
+...微妙。
+自从提了这个“一起逛小吃摊”的提议后，特别是仟虹和怜都去的时候
+不知道是不是仟虹和怜两人本来就有的微妙的气氛一下子扩散到整个队伍里。
+刚开始，这两个人走也不是不走也不是，甚至都不知道谁走前面谁走后面，
+不如说都抢着走在最后的位置，
+导致，呈现出这样一种异常别扭滑稽的局面....
+@char lyen
+@char lyen
+lyen.wuyu: 你先走。
+@char cyan
+@char cyan
+cyan.haoe: 呃...好吧。
+@char xp
+xp.ba: ....
+xp.angeya: ...你...们...
+@printer nos
+相昀感觉自己身边有两个引力极强的黑洞，于是她往前一跳逃逸了。
+@char xp
+xp.angry1: ...头一次去吃东西这么难受...
+xp.s: 还是我跟白霜两个人去轻松...
+@char lyen
+lyen.fc: 那就你们两去吧。
+@printer nos
+像见缝插针一样....
+lyen.wuyu: 我就不奉陪了。
+@char xp
+xp.ba: （你不来真是太好了，能滚多远多远）
+@hideChars
+@printer nos
+即使相昀确实是这样想...白霜在她一边眨眨眼，
+真是服了...为什么要摊上这种事。
+@hide xp
+@char xp
+xp.comfy: 哇这又何必。
+@char lyen
+@char lyen
+@hideChars
+@printer nos
+相昀挂上一副死人假笑。
+@char lyen
+@char lyen
+@char xp
+xp.comfye: 怎么说呢。
+xp.comfyo: 这个夜市啊...还是一起去玩一玩。
+xp.ba: 相互促进一下感情，你说是吧，怜二。
+
+@char lyen
+lyen.fc: ....
+
+lyen.wuyu: ....
+lyen.wuyua: .....
+@printer nos
+怜盯着相昀看了会，又看了看一边的白霜。
+@char lyen
+lyen.fc: .....
+lyen.wuyua: .....如果你不在的话反而更容易办成一些。
+@shake xpt
+@char xp
+xp.comfye: ....
+@hideChars
+@printer nos
+相昀有些忍无可忍了....
+@char lyen
+@char lyen
+lyen.wuyua: 我共享情报的要求是和白霜单独去。
+@char xp
+xp.angeya: 绝，对，不，行！！！[< speed:0.1]
+@char lyen
+lyen.wuyua: ...你这跟刚才截然两人啊。
+@hideChars
+@printer nos
+....只是想去市场溜一圈....
+@char wifi
+wifi: ....
+@hideChars
+@printer nos
+白霜向前一步。
+@char wifi
+wifi: ....相昀说，可能就是....
+wifi: 仟虹....
+@char lyen
+@shake lyen
+lyen.sup: ....
+@char xp
+xp.angry1: 我告诉你，如果你拒绝配合，我就能断定你们一起撕票。
+xp.looklefto: 到时候我们清算的就不止仟虹一个....
+@char lyen
+lyen.wuyua: 清算？
+lyen.wuyu: 你有什么证据啊。
+@char xp
+xp.angry1: 我去翻了仟虹的房间....
+@char lyen
+lyen.fc: ....喂.....
+@printer nos
+这句话说出口后怜一定会发火...
+什么隐私啊住宅啊又都能被她当作挡箭牌了。
+
+
+
+
+都不知道用什么姿势走。
+@char wifi
+wifi: 绿豆汤。
+@printer nos
+白霜把钱递出去。
+@hideChars
+@char xwp
+xwp.comfy: 啊我也要...
+@printer nos
+相昀看了一圈招牌，
+xwp.de: 那我要一份酒酿圆子吧？
+@printer nos
+不知道和江城那边味道相差如何...
+@printer Atest
+摊主: 热的吗？
+xwp.comfy: 是的。
+
+
+
+
+
+
+
+@printer nos
+然后气氛又冷下来。
+xp.ba: ...你俩有啥想喝的吗...？
+@char cyan
+cyan.supe: 啊....
+cyan.haoe: 那个...我就不用了吧....
+
+@char lyen
+lyen.fc: ....
+lyen.wuyu: 中杯的酒酿圆子，也要热的。
+
+@printer Atest
+摊主: 哦好的，稍等片刻。
+@printer nos
+端出了一份酒酿圆子。
+@char xp
+xp.looklefto: 晚上这里真的很热闹啊...
+@char wifi
+wifi: 嗯。
+@char xp
+xp.comfy: 我等会去看看那边的关东煮...
+@printer nos
+相昀只是转了个头，那杯酒酿圆子被怜拿走了。
+@hideChars
+@char lyen
+@char lyen.close
+xp.angry1: ....
+xp.angeya: 这是，我，先，点，的！
+lyen.wuyu: 你又不拿。
+@printer nos
+怜拿着酒酿圆子，但是没拆吸管。
+@stop
+
+
+
+@char cyan
+cyan.sadd: 相昀，我有话和你说。
+@printer nos
+走到一半，仟虹突然喊住相昀
+@char xp
+xp.looklefto: ？
+xp.angry1: 嗯...不能在这里说嘛？
+@char cyan
+@shake cyan
+cyan.haoe: ...是...很重要的话。
+
+@char cyan
+cyan.sadr: 那个...你和白霜关系很好吧。
+@char xp
+xp.comfy: 当然啦！
+@char cyan
+cyan.sadd: 那...
+cyan.saddo: 那假如...我是说假如哦！
+cyan.smilea: 假如...叶兰和白霜同时在此江溺水...你会救哪一个？
+@char xp
+xp: ？[< speed:0.01]
+xp.angry1: .... [< speed:0.01]
+xp.angeya: ....？？[< speed:0.01]
+@printer nos
+这就是....“很重要的问题？”
+@char xp
+xp.angeya: 你等下。
+xp.angry1: ...姑且让我先理解下...你的意思是问我那种经典的“非黑即白”问题是吧。
+@char cyan
+cyan.haoe: 嗯...是的...可能...我的比方很不严谨...
+xp.b: （呃...其实你不用比方也可以的。）
+xp.looklefto: ....
+xp.s: (感觉像是很无聊的那种问题。)
+xp.angry1: 这个问题很重要吗？
+@char cyan
+cyan.haoe: ...如果不想回答的话没有关系的哦！
+cyan.saddo: 就当我说了句废话就行....
+@char xp
+xp.s: ....
+@addChoice 叶兰
+@addChoice 白霜
+@wait 5
+@goto #ask
+@stop
+
+
+
+
+# ask
+@char xp
+xp.xiea: 在我回答之前，我能问你一个问题吗？
+@char cyan
+@char cyan.supe
+cyan: 欸？等下,,,
+cyan.haoe: ....
+cyan.haoa: ....呃。
+@printer nos
+但是相昀没有给她回应的机会，继续问。
+@char xp
+xp.looklefto: 同样的问题。
+xp: 如果我和怜同时在此江溺水，你会救哪一个？
+
+@addChoice “?相昀?” goto:#x1
+@addChoice “?怜?” goto:#l1
+@stop
+
+
+# x1
+@char cyan
+cyan.sadd: ....
+cyan.saddo: ....也许，我曾经回答过这个问题。
+@char xp
+xp.close: ...
+@hideChars
+@printer nos
+风，与云....
+总之，万物似乎静止一瞬。
+随即又开始运动。
+@char xp
+xp: ...
+@hide xp
+@char xwp
+xwp.comfy: 唉...等等到我回答了！！
+
+@addChoice 叶兰
+@addChoice 白霜
+@stop
+
+
+
+# l1
+@char cyan
+cyan.haoe: 你...在问什么呢...
+@addChoice “我才和你认识一天吧....” goto:#l12
+@addChoice “怜是我妹妹呀。” goto:#l12
+@stop
+
+# l12
+@char xp
+xp: ...
+@hide xp
+@char xwp
+xwp.comfy: 唉...等等到我回答了！！
+
+@addChoice 叶兰
+@addChoice 白霜
+@stop

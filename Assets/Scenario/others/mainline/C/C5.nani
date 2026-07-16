@@ -1,0 +1,240 @@
+@setRenderer index:2
+2023.01.??
+高一寒假，大年初一
+;@back shop scale:0.5
+;cg吗这
+@char Cleisure.idle
+Cleisure.idle: AAAAAAAAAAAAAAAAA!!!!!!我在这里！！！！！！！！！！！！！
+
+@hideChars
+@char A.idle
+A.idle: C在那
+A.idle: 我现在下车就行
+@hideChars
+A妈妈: 我看到了，你跟CC好好玩啊。
+@char A.idle
+A: 拜拜。
+@hideChars
+妈妈: 有需要你就打我电话啊，
+妈妈: 晚上回家吃。
+@char A.idle
+A: 知道了。
+
+@printer Fullscreen
+A也不知道怎么就和C出来玩了，完全忘了。
+明明C没有手机，没有任何现代人类的联系方式(因为她家管控更严)。
+而且A也没有小天才电话手表，
+确实是小天才电话手表，C从小用到大。
+A和C也不同班。
+竟然还能约出来玩...
+
+@printer Atest
+Cleisure.idle: 走吧走吧~~~~~~~~~~~~~~
+@hideChars
+A.idle: 等下我们要去哪？
+@hideChars
+Cleisure.surprise: 不是？你喊我出来的？
+@hideChars
+A.surprise: .......啊？？？？？？
+@hideChars
+Cleisure.helpless: ........
+Cleisure.handsome: AAA啧啧啧不愧是AA....
+Cleisure.handsome: 平时专心学习程度导致记忆衰退，长期如此必会....
+
+@spawn ShakeCamera params:,5,,,,,true,false
+;A animation
+Cleisure.ache: .....啊疼！！！
+Cleisure.whiteTears: AAAAA！！你打我干嘛！！
+@hideChars
+A.embarrassed: ....？？？？？你在这阴阳怪气我当然得出手了？
+A.blackface: 什么叫我打你干嘛....
+@hideChars
+Cleisure.angry: 怎么能打人呢，我小女子自幼体弱楚楚可怜万一打坏脑子.....
+@hideChars
+A.blackface: 停停停停，我风流倜傥正人君子遏制毒舌大妈......
+A.idle: 等等，应该把桃子笔带来的。
+@hideChars
+Cleisure.surprise: 啊，万恶之源！！
+Cleisure.angry: 你还随身带桃子笔，卷疯了你！
+@hideChars
+A.idle: 等等我好像真带了.....
+@hideChars
+Cleisure.angry: noooooo！！！！离我远点！！！！！
+其实桃子笔指的是一个硅胶外套了中性笔，
+最后做的是硅胶桃子。
+打人非常疼（是的）
+自然也被称为万恶之源。
+
+C一跳跳到几米远，然后A还在翻书包。
+C.surprise: 哎这个笔袋！！哇AAAAAAA你还没换啊。
+看到A的镭射笔袋，C又立刻跳了回来。
+@hideChars
+A.idle: ....
+A.idle: 是啊。
+@hideChars
+Cleisure.surprise: 啧啧啧，刻苦学习甚至忘记换笔袋其专心程度可见已经溢于言表...
+@hideChars
+A.smile: 啧啧啧反应迅速灵敏可见题海训练之充分.....
+@hideChars
+Cleisure.helpless: 喂，你能不能别学我说话！！
+@hideChars
+A.embarrassed: 什么叫学你说话.....
+@hideChars
+Cleisure.handsome: 我懂了！这就叫遗传，谁让你是我儿子呢~~~~~~~
+@hideChars
+A.angry: 遗传个鬼，我是你爹,要遗传也是你遗传我好吗？
+
+@resetText Fullscreen
+@printer Fullscreen
+其实两人讲了一堆还愣在原地，
+A知道自己并不用安排具体要干嘛，
+因为C会自己带节奏
+
+@printer Fullscreen
+Cleisure.helpless: 不是你走啊。
+@hideChars
+A.embarrassed: 你先走啊。
+@hideChars
+Cleisure.helpless: 你肯定要在后面踩我影子，不行，你走前面。
+@hideChars
+A.embarrassed: 我三岁小孩呢我踩你影子干嘛？？
+@hideChars
+Cleisure.angry: 谁知道呢你绝对会踩影子！最开始是谁做早操在那先开始踩影子的啊！
+@hideChars
+A.Xiesmile: 是谁啊反正不是我。
+@hideChars
+Cleisure.angry: 不是你个鬼啊不是你！！
+
+依然不走，
+但是甚至没有违和感。
+A.embarrassed: 得，我们俩就这样耗在万达门口算了。
+Cleisure.helpless: 耗鬼起来走走走，我们去二楼。
+A.idle: 一楼不逛了？
+Cleisure.helpless: 逛鬼一楼，全小孩玩的你跟它们抢？
+Cleisure.handsome: 等等，那貌似挺适合你玩的....
+A.embarrassed: 滚滚滚，等会偶遇老师你就谢天谢地吧。
+Cleisure.surprise: 你别说，我们老傅之前还在说之前去万达碰到同学。
+Cleisure.laughter: 没事啦肯定碰不到的啦有AAAA这么阴间的人在散发的阴气已将老师击退~~~~~~~~
+A.embarrassed: ....
+A.Xiesmile: 不如CCCCC发挥C绿分子用绿色力量打败老师.......
+
+@hideAll
+A.cry: ....
+A.cry: ........
+A.cry: .............
+千言万语，
+只能化为一句:
+宝刀未老啊AA。
+
+@back shop
+Cleisure.idle: ???????AAAAA——————————————————————
+A.idle: ???啊？
+Cleisure.idle: 什么鬼啊我看你刚刚愣住了。
+A.idle: .....啊我。
+
+@hideAll
+我。
+或许我已经死过一次了。
+明明是想要去死的。
+
+@back shop
+A.idle: .........
+Cleisure.idle: ..........
+A.embarrassed: .....你玩这个吗？
+密室逃脱。
+Cleisure.frown: ......no!!
+Cleisure.frown: 太恐怖得我玩不了，我害怕这个。
+A.embarrassed: 其实这玩意一点也不恐怖，非常，非常幽默。
+Cleisure.frown: 啊，真的吗？
+A.embarrassed: 因为我之前玩过一次，就，机关很老接触不良。
+A.embarrassed: 而且机关配合剧情完全出戏。
+A.embarrassed: 配上这逆天机关就会卡关卡很久..........
+Cleisure.surprise: ?你确定？
+A.idle: 恐怖程度类似..xxx作品？
+Cleisure.surprise: 啊你说那个啊，那我可以试试看啊我们试试。
+
+其实小镇密室逃脱真的挺无聊的。
+A深有此感。
+但是小镇除了这些就没啥玩的。
+但是C不打游戏。哦不，
+C完全没接触过电子产品说是。
+
+A.idle: ......
+Cleisure.panic: 哇giao这里好黑啊。
+Cleisure.ache: 手机也不能带吗！！！
+Cleisure.helpless: .....只能用对讲机吗。
+A.idle: .....
+A.embarrassed: 没事CCC你可以充分发挥你逆天的想象力来
+Cleisure.helpless: 想象力为0想象不了一点好吗！！
+突然一阵诡异人声响起，嘻嘻哈哈噪声播放背景故事等等
+;音频真的需要吗。。。。 要wait一点
+Cleisure.helpless: ......
+Cleisure.blackface: ......
+A.embarrassed: .........
+Cleisure.laughter: 哈哈哈哈哈哈哈哈哈哈不是
+A.laughter: 哈哈哈哈我忘记说了对对对对
+A.laughter: 最经典的中文听力环节
+A.laughter: 中文听力现在开始，衬衫的价格是.....
+Cleisure.laughter: 不是，它不放这个声音还好些，它一放这个声音整个气氛都没了，我笑死了哈哈哈哈这在说什么。
+实际在交代背景故事，但是A和C一点都没听到。
+Cleisure.laughter: 我靠我好像听到什么找供品啥
+Cleisure.smile: 供品是啥这个宝剑吗？
+C随手一丢，突然门就开了
+A.surprise: ...............
+A.embarrassed: 我啥也没听见............
+Cleisure.surprise: 什么鬼啊我不知道啊。
+Cleisure.handsome: 看来这家设备灵敏度还挺好的？？？
+A.embarrassed: ............
+A.Xiesmile: 啧啧啧顺风耳啊.....这不得来一句大写的CCN.........
+Cleisure.ache: 一边去一边去！
+下一关也不知道是啥，什么生死簿，AA翻了翻册子然后按按钮又过了。
+Cleisure.surprise: AAAA风雨不动安如山，神不知鬼不觉解密成功就.....
+A.embarrassed: 能不能闭上你的嘴.....
+....一阵阴风吹过
+.....
+Cleisure.panic: AAA....为什么这下一个房间更黑了.....
+A.embarrassed: 你不是说你不怕了吗？....
+Cleisure.ache: 但是真的黑漆麻乌一片好吗！！！！！！
+A.embarrassed: ....我找找灯开关在哪
+Cleisure.surprise: 你脑子被驴踢了吧在这里找灯！
+Cleisure.surprise: giao什么鬼！
+
+@spawn ShakeCamera params:,5,,,,,true,false
+@hideAll
+C猛地一颤
+Cleisure.surprise: AAAA是你吗？
+Cleisure.panic: AAAA....?
+Cleisure.panic: .....
+;不知道要不要跳个骷髅脸。
+@char A
+Cleisure.helpless: .........
+Cleisure.helpless: .......AA
+Cleisure.helpless: ....其实不用这个骷髅可能更吓人一些。
+A.idle: .........
+A.idle: 没有
+A.laughter: 我也觉得这个骷髅好好笑哈哈哈
+Cleisure.helpless: ........关爱智障，人人有责
+A.idle: .......你是智障。
+Cleisure.surprise: 哦对，我觉得，这骷髅很像老杨啊
+A.idle: 。
+A.laughter: 啊？？？
+A.laughter: 你这样损老杨老杨变成厉鬼也不会放过你好吧
+Cleisure.laughter: 无所谓要死一起死，反正AAAAA初中也是反老杨头子之一~~~~~
+A.embarrassed: 喂喂喂到底是谁英语课睡觉来着的啊！！
+Cleisure.helpless: 那是谁英语课在那做手工？？？你英语课不还在做坟墓吗！！！
+A.idle: 等会我拍个照片。
+A将自己的手和骷髅手并排放一块。
+Cleisure.laughter: 带我拍一个我也要拍！！！！！！！
+
+@printer Chat
+A: (发送图片)
+A: 猜猜哪个是我的手
+B: ?
+B: ?你又跟谁出去玩了？
+A: ?
+A: 我跟XC啊...?
+A: 你关注点怎么在这。？
+B: 手好看。
+A: 。。。
+@resetText Chat
+

@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: 06c9435b273d474394c24d8147c67fd7
+timeCreated: 1611149208
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/Audio/AudioPlayer.cs
+  uploadId: 953760

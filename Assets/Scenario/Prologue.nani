@@ -1,0 +1,56 @@
+; --- 初始化 ---
+@set ChoiceIndex=0;ExamIndex=0;MaxM=1.0;TotalM=0.0;StageChoiceCount=0
+
+
+@goto mainline/1
+
+老师: 哎好，啊你就是仟虹吧。
+请选择使用的面具强度
+
+@addChoice "1.0" set:TotalM=TotalM+1.0;StageChoiceCount=StageChoiceCount+1 goto:#AfterChoice1
+@stop
+
+# AfterChoice1
+@char qmhs.5
+qmhs.5: 老师你好，我是仟虹。
+
+老师: 呃我呢，我也大概知道你的情况了。怜是你妹妹，你是怜姐姐，你们两是姐妹是吧。
+qmhs.5: 是的老师。
+老师: 那挺好的，你有啥问题你妹妹可以帮你。她上次月考考了年级第三……
+
+老师的话语影响到仟虹，她无法维持面具。
+请选择使用的面具强度
+
+@addChoice "0.5" set:TotalM=TotalM+0.5;StageChoiceCount=StageChoiceCount+1 goto:#ExamProcess
+@addChoice "0.3" set:TotalM=TotalM+0.3;StageChoiceCount=StageChoiceCount+1 goto:#ExamProcess
+@stop
+
+# ExamProcess
+qmhs.1: .......
+老师: 过两天月考，你可以先考考看。
+
+@hideAll
+正在进行阶段性结算……
+
+
+@calculateExam mSum:{TotalM} count:{StageChoiceCount}
+
+@set AvgM=TotalM/StageChoiceCount
+
+本次月考考试结束。
+本次阶段平均面具强度：{AvgM}
+仟虹的排名是：第 {LastG} 名。
+
+@if LastG>300
+    由于排名跌出前 300，仟虹感到精神极度疲惫。
+    社交面具的稳定性遭到了不可逆的损伤，当前选择上限：{MaxM}
+    但是毕竟是刚开学，仟虹恢复自己了自己维持满是的能力
+    set: MaxM=1
+    当前选择上限：{MaxM}
+@else
+    仟虹的表现维持在精英水准。现实的反馈给了她继续维持面具的动力。
+@endif
+
+
+@set StageChoiceCount=0;TotalM=0
+@goto TEST

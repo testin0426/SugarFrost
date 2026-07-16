@@ -1,0 +1,42 @@
+@char wifi
+@char wifi
+@char xp
+xp: 去集市吗？
+@hideChars
+@char xwp
+xwp.comfy: 好耶！
+@char wifi
+wifi: ....
+@printer nos
+相昀很高兴，
+但是转念一想——
+@char xp
+xp.b: 呃等下...
+xp.angry1: 等等....
+@printer nos
+....
+是否忘了什么事情？
+@char xp
+xp.b: ....
+@hideChars
+@char xtp
+xtp.comfy: ...那个...今天...好像是...第三天了。
+@hideChars
+@printer nos
+也就是说叶兰最迟今天也到津都了。
+晚上要去赴宴。
+但是找货进度为：？
+@char xp
+xp.comfy: ....
+xp.comfy: ...我好像...
+xp.s: .....唉。
+@printer nos
+为什么...时间过得这么快...还是自己太不务正业了....
+@char xp
+xp.b: 怎么办白霜...虽然但是...我完全没找到东西啊...
+@char wifi
+wifi: 没事。
+xp.comfy: ....
+xp.s: 真的没事吗....
+
+@stop

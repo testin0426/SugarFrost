@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: e6355149ede74fcfa8c694baee2803d0
+timeCreated: 1760714875
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/Common/Events/RaycastEvents.cs
+  uploadId: 953760

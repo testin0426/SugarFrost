@@ -1,0 +1,56 @@
+@printer nos
+今天是第三天了....
+但是找货进度不能说没有，只能说是...
+@char xp
+xp.ba: 完全没有。[< speed:0.1]
+@hideChars
+@printer nos
+但即使这样还能怎么办呢...
+@char xp
+xp.b: ....
+@printer nos
+所以相昀一大早起床时....
+毫无头绪。
+甚至想继续躺一会，把一天混过去吧。
+....
+但是叶兰早晚会找到她在这里。
+晚上还要去赴宴....
+@char xp
+xp.b: ....
+xp.s: ....毁灭吧，世界。
+@hideChars
+@printer nos
+突然觉得三天前斗志昂扬的自己不免可笑。
+@char xp    
+xp.s: ...
+;@sfx 翻身被褥音效...？
+@printer nos
+突然，楼下传来声音
+@char Cleisure
+Cleisure: 欸相昀有人找你！
+@hideChars
+@printer nos
+啊....？
+@char xp
+xp.b: ....谁啊。
+@printer nos
+相昀顶着一头乱毛，不情愿地起床。
+@char Cleisure
+Cleisure.smileCde: 我完全不认识...是你这两天在津都交的朋友吗？
+Cleisure: 看起来像个不知道哪家的大小姐...
+@hideChars
+@printer nos
+....？
+仟虹？？？
+@char xp
+xp.sup: 啊！
+@printer nos
+哦对！！今天仟虹约见面来着！！
+相昀几乎是从榻上蹦下来到一楼——
+@char Cleisure
+Cleisure.surprise: 哇，你慢点！
+@char xp
+xp.comfye: 我搞忘了！——
+
+
+@stop

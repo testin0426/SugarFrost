@@ -1,0 +1,957 @@
+; X=1
+; L=0
+; Q=0
+; W=0
+线性故事，聚焦配乐
+
+# start
+@hideAll
+@back id:jin appearance:day
+@bgm yan
+@playFX threshold:-0.32 duration:0.1
+@playUIFX threshold:1.0 duration:0.1
+@playUIFX threshold:0.0 duration:3
+@wait 3
+
+; D=0,T=10,xi=-1
+
+@printer xfullnos
+相昀是商会的小少主，[< !skip]
+@wait 0.4
+商会起家于江城，温润的水乡
+@wait 0.2
+@resetText xfullnos
+前两天
+苏家和商会交易的货被劫走了,
+@wait 0.3
+事情尚未明晰，货物也还没找到，
+@wait 0.3
+苏家又发请帖过来，邀请商会参加其大小姐的 "归家洗尘暨生辰宴会"
+....
+@wait 1
+@hide xfullnos
+@resetText xfullnos
+@printer nos
+相昀最近很无聊，
+所以打算自己去查.....
+
+; @if num=1
+    ; @goto Eth/x/xnum1
+
+
+@wait 0.3
+@spawn ShakeCamera params:,5,,,,,true,false
+@printer Atest
+@char yel
+@char yel
+yel.ana: 你不准去！！
+
+
+@playFX threshold:-0.32 duration:0.01
+@playFX threshold:0.7 duration:0.01
+@char yel.ane
+@animate yel posZ:100 time:0.1
+@char xp pose:center
+xp.looklefto: 啊？。
+xp.lookleft: ....
+
+@wait 0.2
+
+@char xp
+@playFX threshold:0.0 duration:0.01 !wait
+xp.angry1: ....为啥啊。
+
+@playFX threshold:0.7 duration:0.1
+@animate yel posZ:50 time:0.1
+@printer Atest
+叶兰: 平时在家门口小打小闹下就算了。
+叶兰: 这次出城，去津都，那边乱。
+叶兰: 我又得去和苏家人谈事，顾不上你。
+@hideChars
+@hidePrinter
+@playUIFX threshold:0 duration:0.01
+@playUIFX threshold:1 duration:0.5
+@wait 1
+@playUIFX threshold:1 duration:0.01
+@playUIFX threshold:0 duration:1 !wait
+@char lumen.angry1
+@char lumen.angry1
+@playFX threshold:-0.32
+@playFX threshold:0.7 duration:0.3 !wait
+@camera zoom:0.3 time:0.2
+意思就是....
+@wait 0.4
+@char lumen.comfy
+@playFX threshold:-0.32 duration:1
+@camera zoom:0.0 time:0.2
+不会被叶兰的大手莫名奇妙管到了的，新的挑战!
+
+@hide lumen
+@printer nos
+叶兰是相昀的养母，
+但相昀从来没有称叶兰为“娘”等之类的称呼，
+也许就是....
+没有必要？
+@if num=1
+    至于亲母...
+    ...？
+    我真的有亲母吗？
+    xp: (长年下落不明的话也许就是已经去世了吧。)
+    xp.xie: (在这样的世界也是没有办法的事情。)
+
+@hideChars
+
+@char yel.ane
+@char yel.ane
+
+@char xwp
+xwp.comfy: 没事~~我能照顾好自己哒~~~
+@hideChars
+@printer nos
+津都离江城很远，
+周围的人都说，那边危险，
+但是机遇险中求...
+.....
+@wait 0.4
+相昀很早就期待去津都一趟，[i]感觉在江城呆着长霉。
+最近又是梅雨季，但叶兰说津都那边下雨更多。
+因为临海？
+
+@char yel
+@char yel
+@char xp pose:default
+xp.comfye: 叶兰！！~~~那边有大海，我从来没见过海呢！
+@char yel.ane
+@printer Atest
+叶兰: 胡扯，小时候带你去渡口就见过了！
+@shake xp
+xp.angeya: 小时候的事情鬼记得啊！！
+@hideChars
+@printer xfullnos
+@hideAll
+其实叶兰也知道自己大概坳不过相昀。
+除了这个原因之外.....
+@back id:jin appearance:day
+@char yel
+@char yel
+@stopBgm yan fade:3
+@printer Atest
+yel.sad: .....
+yel.sad: ..去也可以。
+yel.sada: 但是必须跟着....
+@wait 0.2
+@playFX threshold:-0.32 duration:0.01
+@spawn ShakeCamera params:,,,,4,
+@bgm dia
+@shake yel power:1
+@char yel.supe
+@char yel.supe
+@animate yel posZ:100 time:0.1
+@playFX threshold:0.7 duration:0.01
+@char xp
+xp.comfy: 叶兰！
+@animate yel posZ:100 time:0.1
+@char yel.c
+@char yel.c
+xp.looklefto: 欸你看见之前我买的那袋糖雪球了吗？
+@if num=1
+    @printer Atest
+    我的弓吗？
+    实际是母亲的遗物罢了。
+    但也确实是最早学会的武器？
+@hideChars
+@printer Atest
+@stopBgm dia
+
+@playFX threshold:0.7 duration:0.01
+@playFX threshold:0.0 duration:2 wait!
+
+
+@char yel
+@char yel
+
+yel.sad: ....
+@wait 1
+yel.sad: ....你是不知道那边的情况。
+叶兰: 那边很乱。
+@printer nos
+yel.ane: 而且我过去...
+@wait 0.1
+@playFX threshold:0.7 duration:0.01
+@animate yel posZ:100 time:0.01
+yel.bmlm: 也不止问货的事情。[< speed:0.2]
+@char yel.de
+@playFX threshold:0.7 duration:0.01
+@playFX threshold:0.0 duration:3 !wait
+@wait 3
+@char yel.he
+yel.he: 江城安全，呆在这里。
+yel.sma: 答应我，听话，好吗？
+@if num=1
+    叶兰: 而且。
+    ; slow
+    叶兰: 你忘记相曦的事情了？
+
+    @char xp
+    @shake xpt
+    xp.lookleft: ....
+    xp.looklefto: 啊....
+
+@printer Atest
+
+@if num=1
+    @hideAll
+    @printer Fullscreen
+
+    哦对，
+    相曦
+    已经去世来着。
+@hideChars
+@printer nos
+.....
+@back id:jin
+@char xp
+xp.de: .....
+xp.lookleft: ....嗯.....
+@hideChars
+@playFX threshold:-0.32 duration:0.1
+@playFX threshold:0.7 duration:2
+@camera zoom:0.3 time:5
+@printer nos
+相昀歪头想了一会儿。
+嘛虽说商人重利轻别离....
+....
+@wait 2
+@char xp
+xp.looklefto: 啊！
+@playFX threshold:-0.32 duration:0.3
+@bgm dia
+@char yel.c
+@char yel.supe
+@camera zoom:0.0 time:0.3 wait!
+xp.comfy: 我想起来了！我放在那条船上了！
+@playFX threshold:0.7 duration:0.4 !wait
+@spawn ShakeCamera params:,5,,,,,true,false
+@char xp.de pose:default
+@shake xp
+@animate yel posZ:50 time:0.01
+@char yel
+yel.c: ...
+@char yel.ana
+@printer Atest
+叶兰: 相昀.....
+@playFX threshold:-0.32
+@hideChars
+@printer nos
+相昀感觉叶兰好像发火了。
+@if num=1
+    但她不知道为什么发火，也许是因为相曦的事情？
+@char lumen
+lumen.de: 没事啦。
+lumen.comfy: 既然你担心，那我不就应该更要去了吗？
+lumen.comfy: 只有这样才能证明你的担心是多余的啊。
+@playFX threshold:-0.32 duration:0.01
+@playFX threshold:0.7 duration:0.01
+@shake lumen
+@hideChars
+; @printer nos
+; 叶兰有些着急。
+@char yel
+@char yel.ana
+@printer Atest
+叶兰: 你少在这给我耍嘴皮子。
+叶兰: 不怕一万就怕万一....
+
+
+@playFX threshold:0.7 duration:0.01
+@char xp
+xp.angry1: ......
+xp.angry1: 我就是想出去玩。
+@char yel.c
+@char yel.c
+@animate yel posZ:100 time:0.01
+@printer nos
+叶兰的态度貌似没有任何商量余地...怎么办。
+@addChoice 谁管你，偷偷去。 goto:#conti1
+@addChoice 尝试卖萌 set:d=1 goto:#be1
+@stop
+
+
+# be1
+@purgeRollback
+@playFX threshold:-0.32 duration:1 !wait
+@stopBgm yan fade:1
+@wait 0.3
+@hide lumen
+@bgm dia
+@hideChars
+@char yel.c
+@char yel.c
+@back id:jin appearance:day
+; slowsome
+@char xwp
+xwp.comfy: 叶兰~~~~~~~
+xwp.comfy: 叶老板人美心善最好了~~~
+@hideAll
+@printer xfull
+叶老板这个称呼大概是江湖人称，
+相昀只觉得极其老气...
+但叶兰貌似并不反感。
+@back id:jin appearance:day
+@playFX threshold:-0.32 duration:0.1
+@char yel.c
+@char yel.c
+@char xwp
+xwp.comfy: 我过去肯定不会添乱啦~
+@hideChars
+@hide xwp
+@printer nos
+相昀缠着叶兰胳膊不松手
+@printer Atest
+@char yel
+@shake yel count:3
+yel.ana: ....你少给我来这一套！
+@char xwp
+@shake xwp power:0.1
+xwp.angeya: 不要！
+xwp.angeya: 除非你答应带我去否则我是不会松手的！
+@hideChars
+@printer nos
+相昀死死黏着叶兰，
+（仿佛下定决心一般....）
+
+@char yel.sad
+@char yel.sad
+@printer Atest
+叶兰: ....
+叶兰: ....唉。
+@char yel.sada
+叶兰: 算了。
+叶兰: 就算我不带你，你自己肯定也会溜过去的。
+
+@char xp
+xp.b: ....
+@hide xp
+@char xtp
+xtp.comfye: 怎....怎么会呢叶老板，你看我平时多老实！
+@hide xtp
+@char yel.sad
+@char yel.sad
+@printer Atest
+叶兰: ....
+叶兰: 好吧
+
+叶兰: 我问你，
+@wait 1
+@camera zoom:0.2 time:0.5
+@printer Apop
+@stopBgm
+@char yel.ane
+@char yel.ane
+@animate yel posZ:50 time:0.01
+@playFX threshold:0.7 duration:0.1
+叶兰: 你对“<color=#0D19B4>苏家</color>”是什么看法？ [< speed:0.5]
+@wait 0.5
+@camera zoom:0.2 time:2
+@hideChars
+@char xp
+xp.looklefto: ?
+
+@playUIFX threshold:0.0 duration:0.1
+@hide xp
+@hide xpt
+@playUIFX threshold:1.0 duration:1.0
+@resetText xfullnos
+@printer xfullnos
+@playUIFX threshold:1.0 duration:0.1
+@playFX threshold:1.0 duration:0.1
+@hideAll
+@playUIFX threshold:0.0 duration:0.1
+.....
+相昀并不擅长感受“他人的情绪”
+@hide xfullnos
+@hidePrinter
+@hideChars
+@wait 0.3
+@playUIFX threshold:1.0 duration:0.01
+@back id:jin appearance:day
+@playUIFX threshold:0.0 duration:3 !wait
+; @playFX threshold:0.7 duration:1.0
+; @playUIFX threshold:0.0 duration:1.0
+@wait 0.3
+@char xp
+xp.looklefto: .....
+@playUIFX threshold:0.0 duration:1.0
+@wait 0.3
+@playUIFX threshold:0.0 duration:1
+@hideChars
+@char xwp
+@playFX threshold:-0.32 duration:1
+@bgm dia
+xwp.comfy: 不认识~~~
+xwp.comfy: ....
+@hide xwp
+@camera zoom:0.4 time:0.2
+@playFX threshold:1.0 duration:0.3 !wait
+@char xp
+@stopBgm dia
+xp.angry1: ....不对。
+xp.angry1: 之前卖给她们的东西被抢走了。
+@hideAll
+@printer nos
+........
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:0.3
+@resetText xfullnos
+@printer xfullnos
+@playUIFX threshold:0.0 duration:1.0 !wait
+@spawn Rain
+殁于"此江"某处，尸骨无存.....[< speed:0.2]
+@playUIFX threshold:1.0 duration:3 !wait
+@wait 4
+@despawn Rain
+@despawnAll
+@playUIFX threshold:1.0 duration:0.01
+@playFX threshold:-0.32 duration:0.01
+@back id:jin appearance:day
+@back id:jin appearance:day
+@camera zoom:0.0 time:0.01
+@playUIFX threshold:0.0 duration:5 !wait
+@char xp
+@char xp
+@char yel.sad
+@char yel.sad
+xp.looklefto: 现在还发了个莫名其妙的请帖...
+@playFX threshold:0.7 duration:0.5
+@printer Atest
+yel.ca: 唉，对啊。
+yel.sad: ....
+@wait 0.3
+; 侧边镜头? cup camera?
+@playFX threshold:-0.32 duration:2.0 !wait
+@char yel.sada
+yel.ca: ...落叶归根...
+@hideChars
+@printer nos
+叶兰自顾自地说了一句。
+@char xp
+xp.sup: !
+xp.angry1: .....
+@hideChars
+@resetText xfullnos
+
+@char yel
+@printer Atest
+yel.ane: 苏家那边倒是悠闲，舞会都开上了。
+yel.ca: ....
+@hideChars
+@printer nos
+叶兰似乎把后面的话咽了下去，
+望向别处。
+
+@wait 0.3
+@printer Atest
+@char yel.c
+叶兰: .....
+yel.ca: 算了。
+@playFX threshold:0.0 duration:0.01
+@playFX threshold:0.7 duration:0.01
+@animate yel posZ:100 time:0.01
+@printer nos
+@sfx cloth
+@sfx cup
+
+叶兰坐下后抿了一口茶
+@playFX threshold:0.7 duration:0.01
+@playFX threshold:0.0 duration:0.01
+@printer Atest
+@char xp
+xp.angry1: ....
+@playFX threshold:0.0 duration:0.01
+@playFX threshold:1.0 duration:0.5 !wait
+@printer xfullnos
+送货时，一些走船人不幸丧命，
+虽然...[< speed:0.5]
+相昀并不是很喜欢听这种事情。[< speed:0.5]
+....
+@wait 0.4
+@playFX threshold:1.0 duration:0.01
+@playFX threshold:0.0 duration:1 !wait
+@char xp
+xp.b: .....
+@printer nos
+叶兰叹了口气
+@char yel
+@char yel
+@printer Atest
+yel.de: 总之,
+yel.ane: 这些事情交给我们处理就行。
+@wait 0.5
+@bgm dia
+@camera zoom:0.0 time:3
+@playFX threshold:-0.32 duration:1
+叶兰: .....
+@camera zoom:0.5 time:0.2
+@camera zoom:0.0 time:0.1
+叶兰: 不过嘛，
+叶兰: 你去长长见识也挺好的。
+@char xp
+xp.angry1: ?
+@printer nos
+相昀隐约...
+@hideAll
+@stopBgm
+没那么想去了。
+@playUIFX threshold:0.0 duration:0.1
+@playUIFX threshold:1.0 duration:3
+@wait 3
+; @playFX threshold:1 duration:3
+; 叶兰: 总之，她们家族来找我合作，但是又出现这种事情。
+; 叶兰: 我是没有什么继续陪她们唱戏的打算了。
+; 叶兰: 一山不容二虎。
+; 叶兰: 那我们还是离险山远一些的好。
+; @char xp
+; xp.b: ....
+; @printer Atest
+; 是相昀不喜欢听的事情....
+@goto #main0
+@stop
+
+
+# conti1
+@purgeRollback
+@hideprinter
+@hide yel
+@wait 0.5
+@stopBgm
+@wait 1
+@char lumen
+@char lumen.angry1
+@camera zoom:0.3 time:5
+@shake xt power:0.1
+lumen.angry1: .....
+@wait 0.7
+@char lumen.angry1
+@shake xt power:0.1
+lumen.angry1: .......
+@wait 0.8
+@char lumen.angeya
+@shake xt power:0.2
+lumen.angeya: 叶兰。[< speed:0.1]
+@wait 1
+@hideChars
+@char xp
+@camera zoom:0.0 time:0.1
+@shake xpt power:0.3
+@bgm dia
+xp.angeya: 你只知道自己去津都那边好吃好喝不带我！
+@char xp.angeya
+@printer Atest
+叶兰: 相昀！
+@shake xpt power:0.2
+xp.angry1: 再也不理你了！哼！
+@hideChars
+@printer Atest
+; @sfx runaway
+于是相昀扔下这句话就跑了。
+@stopBgm dia fade:3
+@playUIFX threshold:1 duration:3
+@goto #main0
+@stop
+
+
+
+# main0
+; D=0,T=14.0, xi=0
+@hideAll
+@stopBgm
+@bgm dia
+@back id:jin
+@playUIFX threshold:0.0 duration:3
+; trans
+@playFX threshold:-0.32 duration:3 !wait
+; xi=1
+@printer nos
+今天的外面天气真好啊，
+; xi=2
+白云飘飘，绿水悠悠，
+; xi=3
+相昀很喜欢江城，为什么呢？
+; xi=4
+也许就是因为天气很好吧。
+; xi=5
+@char xp pose:default
+; xi=6
+xp.angry1: 其实...随便混上一艘船是很容易的事情，
+; xi=7
+@hideChars
+@char xwp
+xwp.comfy: 貌似早就没啥必要去跟叶兰申请。
+; xi=8
+@hideChars
+; xi=9
+@printer nos
+相昀想着想着，躺在草坪上，
+@playFX threshold:1 duration:1
+@hide jin
+@hideAll
+; xi=10
+; cloud??
+@back id:clouds
+@playFX threshold:-0.32 duration:1
+; xi=11
+她看着天上飘着的云，飘啊飘啊，感觉自己的心也很云一样，无忧无虑地飘着。
+; xi=12
+但是她知道世界上沉重的心情有很多，比如叶兰总是担心来担心去的
+@if num=1
+    比如叶兰对于相曦的死。
+; xi=13
+为什么没有办法做的像她一样无忧无虑呢？
+可能，世界上混乱的事情很多，
+....突然发现....
+云的形状和糖雪球的糖霜分布都是像噪声一样紊乱呢......
+; xi=14
+.........
+; xi=15
+@wait 1
+
+@char xp pose:center
+
+xp.comfy: ....完全不能理解。
+@printer Atest
+@if num=1
+    之后干嘛呢？
+    @addChoice 找人聊天
+    @addChoice 睡觉
+    @stop
+; xi=16
+@hideChars
+@playFX threshold:1 duration:0.4
+@playFX threshold:0.3 duration:0.2
+@printer nos
+相昀感觉困了，
+@wait 0.2
+; vagnite?
+@playFX threshold:1 duration:0.3
+她开始数有多少朵云....
+@wait 0.3
+; xi=17
+@playFX threshold:0.2 duration:0.4
+@wait 0.3
+@hideChars
+正当她昏昏欲睡时.....
+@wait 0.2
+; xi=-1
+@playFX threshold:1 duration:0.4
+@playFX threshold:-0.32 duration:0.1
+@playFX threshold:-0.32 duration:0.01
+
+# numb1
+; T=14.1,xi=0
+@camera zoom:0.0 time:0.01
+@camera zoom:0.3 time:2
+@char wifi pos:50.00,178.33,50.00 rotation:0,0,180
+@char wifi pos:50.00,178.33,50.00 rotation:0,0,180
+@animate wifi posY:137 time:1 wait! scale:1.1
+@wait 1
+
+wifi: 啊。
+@wait 1
+; xi=1
+@playFX threshold:-0.5 duration:0.1
+@hide wifi
+@printer nos
+一个人渐渐冒出来
+; wi=-1
+@camera zoom:0.0 time:1
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:0.5
+@hideAll
+@back id:jin appearance:day
+@playUIFX threshold:1.0 duration:0.01
+@playUIFX threshold:-0.5 duration:0.5
+; T=14.2
+@playFX threshold:-0.5 duration:0.01
+@char xwp
+xwp.comfy: 是白霜！！！
+@wait 0.5
+@char wifi pose:center scale:1
+wifi: ....
+@wait 0.5
+
+
+; T=14.3,xi=-1
+@printer nos
+相昀一直觉得白霜很神秘，
+比如，她很少讲话。
+又比如，她总是会在意想不到的时候出现
+; @set x++;
+
+; T=14.4,xi=0
+@char wifi
+wifi: 糖雪球。
+
+; T=14.5,xi=-1
+@hideChars
+@printer nos
+大部分时候是来要吃的
+
+; 把糖雪球给白霜（？？？？？？？）
+
+
+
+; T=14.6, xi=0
+; xi=1
+@char xp
+xp.comfy: 别想着糖雪球啦！
+xp.looklefto: 哦对，我过两天要去津都了！
+; xi=2
+xp.de: 到时候回来给你带好吃的，
+xp.looklefto: 但是那里有啥好吃的呢...
+@if num=1
+    @stopBgm
+    @hideAll
+    ........等下？我要讲啥来着？
+    我要讲的是这些吗？？
+; xi=3
+@char wifi
+wifi: 糖雪球。
+; xi=4
+@char xp
+xp.xiea: 啊，原来那边也有糖雪球吗？
+; xi=5
+wifi: 嗯。
+@hide wifi
+
+
+
+@if d=1
+    @goto #askwifi1
+    @stop
+
+@wait 0.2
+@printer nos
+突然
+; @sfx pass??
+白霜把一袋糖雪球递给相昀。
+; tip: 恭喜收获一袋糖雪球（什么。。）
+@char wifi
+wifi: 我做的。
+@hideChars
+@char xwp
+@char xwp.comfy
+@shake xpwt power:0.1
+xwp: ！！
+; foot.....???
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 color:white duration:0.5
+@hideAll
+@camera zoom:0.3 time:0.01
+@playUIFX threshold:1.0 color:white duration:0.01
+@back id:jin
+@char xbcg
+@char xbcg.comfy
+@hideAll
+@back id:jin
+@char xbcg.comfy
+@char xbcg.comfy
+@char xwp
+@wait 1
+
+@playUIFX threshold:1.0 color:white duration:0.01
+@playUIFX threshold:0.0 duration:3.0 !wait
+@playUIFX threshold:0.0 duration:0.01
+@shake xpwt ver! !hor wait! time:0.3
+xwp.comfy: 哇糖雪球！！
+@printer nos
+相昀看糖雪球后飞扑过去————
+@wait 0.3
+@printer nos
+白霜身上总是暖和，
+可能因为她也很喜欢晒太阳，所以身上总散着淡淡阳光的气味。
+
+@char xbcg.comfyo
+@char xp
+xp.comfyo: 感觉好久没吃过糖雪球了.....
+@wait 0.5
+@char xbcg.cg1
+@printer wt
+白霜: ....
+
+@char xbcg.comfy
+@wait 1
+
+@char xbcg.cg1
+@printer xt
+xp.de: ......
+
+@char xbcg.comfy
+xp: 话说......
+@char xbcg.llo
+xp: 白霜你竟然会做糖雪球啊。
+@char xbcg.cg1
+@char xbcg.s
+xp.s: 我一直想学但一直忘......
+@char xbcg.comfy
+@char xbcg.comfy
+@printer wt
+白霜: ....
+
+@wait 0.5
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:1.0
+@hideAll
+@playUIFX threshold:0.0 duration:0.01
+; @back id: tang
+@resetText xfullnos
+@printer xfullnos
+; @spawn sugar
+糖雪球，
+山楂外包裹一层糖霜，
+相昀很喜欢糖雪球。
+.....
+
+
+@hidePrinter
+@playUIFX threshold:1.0 duration:0.01
+@char xbcg
+@char xbcg.cg1
+@char xbcg.cg1
+@back id:jin appearance:day
+@char xbcg.comfyo
+@char xbcg.comfyo
+@playUIFX threshold:0.0 duration:1
+@if num=1
+    @printer Atrem
+    你，什么时候
+    会做
+    糖雪球
+    了。
+
+; T=14.6,xi=-1
+
+@char xp
+xp.comfyo: .....谢谢？
+@char xbcg.wsmi
+@printer nos
+相昀接过糖雪球。
+; @spawn sugarfrost?
+; T=14.7, xi=0
+
+@char xbcg.llo
+xp.llo: 哦对，
+@char xbcg.cg1
+@char xbcg.s
+xp.angry1: 你知道吗...叶兰非不让我去津都。
+@char xbcg.comfyo
+xp.comfy: 到时候我要偷偷溜到船上混过去。
+; xi=1
+@printer wt
+白霜: 游过去。
+; xi=2
+@char xbcg.comfy
+xp.comfy: 听起来...貌似可行？
+; xi=3
+@printer nos
+理论上，
+沿着“此江”游确实也能游到津都
+; xi=4
+; xi=5
+@char xbcg.s
+xp.s: 但是这样就赶不上了，那些人销赃完早就跑了。
+@char xbcg.llo
+xp.llo: 等等...
+
+; T=14.8,xi=-1
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:0.8
+@camera zoom:0.0 time:5
+@hideChars
+@printer nos
+@playUIFX threshold:1.0 duration:0.01
+@playUIFX threshold:0.0 duration:0.3
+如果叶兰也过去的话...
+动静更大了，怎么可能查得到。
+所以....
+@wait 0.5
+提早出发？
+@playUIFX threshold:1.0 duration:0.01
+@back id:jin
+@playUIFX threshold:0.0 duration:0.5
+@char xp.angry1
+xp.angry1: .....
+xp.looklefto: 但是对面也能想到吧?...
+@hideChars
+@printer nos
+可是....现在也确实无聊得很。
+所以说....要不现在就走？
+; 
+; T=14.9,xi=0
+@char xp pose:default
+xp: ....
+
+
+
+; T=15.0,xi=-1
+# askwifi1
+@hideChars
+@char wifi pose:center
+@printer Atest
+话说，
+要不要喊上白霜一起过去呢？
+@addChoice 问白霜 set:xb++ goto:#b1
+@addChoice 不问白霜 goto:#m1
+@stop
+
+
+; T=15.0,xi=-1
+# b1
+@char xp pose:default
+xp.de: 白霜你要和我一道去津都嘛？
+xp.comfy: 应该很好玩！
+@hideChars
+@printer Atest
+白霜眨了眨眼后，摇摇头。
+@char xp pose:default
+xp.looklefto: 这样啊
+@hideChars
+不知道是松了一口气还是有点失望呢...
+@goto #m1
+@stop
+
+# m1
+@char xp
+xp.comfy: 那白霜再见！我先走一步了啦！
+@hideChars
+@if d=1
+    @char wifi
+    wifi: 一路。走好。
+    @char xp
+    xp.comfy: .....
+    @stopBgm dia fade:3
+    @playUIFX threshold:0.0 duration:0.01
+    @playUIFX threshold:1 duration:3
+    @hideAll
+    @wait 3
+    @goto Eth/be/be1
+    @stop
+@printer nos
+于是随便跳上一艘没人的船。
+@char xp.angry1
+xp.angry1: ....呃。
+@printer nos
+盲猜....摆渡人都被叶兰打招呼过，不允许载她，
+@wait 0.2
+所以只能自己动手了。
+@char xp.lookleft
+xp: (其实这样想想...游过去倒也挺不错....)
+@playUIFX threshold:0.0 duration:0.01
+@stopBgm dia fade:5
+@playFX threshold:-0.32 duration:0.01
+@playUIFX threshold:1.0 duration:5
+@hideAll
+
+@wait 5
+
+@goto Eth/x/op
+@stop

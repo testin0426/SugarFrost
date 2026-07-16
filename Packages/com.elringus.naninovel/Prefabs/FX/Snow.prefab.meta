@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9f4e71cb27fffa04486737d2cf8d622d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Prefabs/FX/Snow.prefab
+  uploadId: 953760

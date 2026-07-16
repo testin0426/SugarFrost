@@ -1,0 +1,166 @@
+@printer Atest
+貌似有人拉住相昀的衣角
+@char wifi
+wifi: .....
+@char xp
+xp.sup: ？？白霜？？
+xp.comfy: 你怎么也在津都....
+@printer Atest
+白霜好像自动略过了这个问题....
+@char wifi
+wifi: 饿。
+@char xp
+xp.b: ....我也好饿。
+xp.angeya: 必须得找个地方吃饭...嗯...
+xp.comfy: 哦对，你做的糖雪球在这里很受欢迎哦！
+xp.xie: 那我请你吃饭吧！
+xp.angry1: (...卖掉了白霜的糖雪球，所以应该是她请我吃饭还是我请她吃饭呢？)
+xp.looklefto: 要不餐厅你定？
+@char wifi
+wifi: ....
+@hide wifi
+@printer Atest
+白霜点点头，指向一家餐厅——————
+@printer Apop
+@print 天 wait:true
+@print 堂 wait:true
+@char wifi
+@char xp
+xp.ba: ....这是什么抽象名字。
+xp.comfy: 既然白霜想去的话就去吧~~
+
+@printer Atest
+相昀和白霜随便找了个桌子坐下
+@char xp
+xp.comfye: 好————累——————
+@char wifi
+wifi: ....
+@hideChars
+@printer Atest
+正当相昀瘫在桌子上时....
+@char xp.sup
+@bgm yil
+@printer lt
+@char lyen
+@char lyen
+?: ....？！白霜？
+@hide lyen
+@printer Atest
+有个人过来
+@char xp
+xp.looklefto: 啊？
+xp.lookleft: 白霜这是你认识的人？
+@char lyen
+@char lyen
+@c2l lyen t:0.1
+@char wifi pose:center
+@char wifi pose:center
+@c2r wifi t:0.1
+wifi: 怜。
+@char lyen
+lyen.fc: ....这次任务没你的事情吧。
+lyen.wuyu: 而且。
+lyen.wuyu: 我没认错的话，你就是商会的小少主吧
+lyen.wuyua: 别插手。
+lyen.wuyua: 你们要的东西自然有。
+@char xp 
+xp.angry1: ?
+xp.angeya: 你谁...我要啥东西...
+@char lyen
+lyen: ？
+lyen: 相昀。
+@char xp
+xp.angeya: ??
+@char lyen
+lyen.close: ....
+lyen.wuyu: 你认识白霜？
+@char xp
+xp.b: 我和她来吃饭的啊...
+@char lyen
+lyen.fc: 你们点了啥？
+@char xp
+xp.looklefto: 还没点。
+;翻菜单
+@hide xp
+@hideChars
+@char xwp
+xwp.comfye: 白霜你想吃什么~~
+@char wifi
+wifi: 糖雪球。
+@char lyen pose:center
+@shake lyen power:0.1
+lyen: ....
+@hide lyen
+@hide wifi
+@wait 0.5
+@printer Atest
+怜听到糖雪球后愣了一会。
+@char lyen pose:center
+@c2l lyen t:0.1
+@char wifi pose:center
+@c2r wifi t:0.1
+@playFX threshold:0.7 duration:0.1
+@char xp
+xp.s: 糖雪球吗...可惜我已经把你的糖雪球卖完了...
+xp.comfye: 我看看菜单上有没有啊....
+@char lyen
+lyen.fc: ....你们....
+lyen.wuyu: 别翻了，这里没有糖雪球卖。
+lyen.fc: ....但是.....
+@hide lyen
+@hide wifi
+@printer Atest
+怜在背包里翻了一会....
+@wait 0.5
+竟然翻出一袋包装完好的糖雪球。
+而且这个包装....
+@char xp
+xp.sup: ？等等抱歉.....你是哪位老板？
+xp.comfy: 我都没印象了？
+@char lyen pose:center
+@shake lyen
+lyen.sup: !!!
+lyen.sup: 这是你卖的...？
+@char xp
+xp.angeya: ？
+xp.angry1: 你不是在我这买的？
+@char lyen pose:center
+lyen.fc: ...仟虹给我的。
+@char xp
+xp: 仟虹.....？
+@printer Atest
+相昀想了一会...
+@wait 0.4
+这不是请帖上那个苏家大小姐的名字吗？？
+@char xp
+xp.looklefto: 那不是苏家....
+@printer Atest
+相昀突然想起来晚上要去苏公馆赴宴来着————
+xp.b: ....白霜....我突然想起来我们可以去苏公馆吃....
+@char wifi
+wifi: ........
+@char lyen.f
+lyen.fc: .....行了，你俩也别倒腾了。
+@char lyen.wuyu
+lyen.wuyua: 我喊个人送你们俩过去吧。
+@char xp
+xp.angeya: 谢谢你啊，但你到底是谁啊....
+@char lyen.fc
+lyen.fc: .....
+@hide lyen
+@char wifi pose:center
+wifi: 怜。苏二。
+wifi: 仟虹。苏大。
+@char xp
+xp.looklefto: 哦这样...原来是苏家人啊。
+@char xwp
+xwp.comfy: 我都不知道苏大也来买糖雪球了！
+@hide wifi
+@char lyen
+lyen.fca: ....你们俩。
+lyen.fc: 给我好好称呼....
+@printer Atest
+@goto Eth/x/x2
+@stop
+
+

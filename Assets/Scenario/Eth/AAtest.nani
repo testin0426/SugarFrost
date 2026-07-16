@@ -1,0 +1,145 @@
+@hideAll
+@despawnAll
+@setRenderer index:0
+@playFX threshold:0.0 duration:0.01 
+@playUIFX threshold:0.0 duration:0.01
+@spawn daycyan
+@back id:fen
+@back id:fen
+@camera offset:0,0,0 zoom:0 time:0
+@toast "123"
+
+@char cyan armature:0,0,20
+@char cyan armature:0,0,20
+cyan: this is default
+@camera offset:5,0,0 time:5 wait:true
+cyan: this is default2
+
+
+@char lyen armature:0,0,-50
+@char lyen armature:0,0,-50 position:-3.10,-5.40,49.80
+
+@rtfx obj:cyan prop:_Alpha to:0.3 duration:0.8
+;@rtfx obj:cyan prop:_TintColor color:#6688ff duration:1 wait:false
+
+; layer blur (focus pull: blur bg, keep char sharp)
+
+@rtfx obj:lyen prop:_BlurLod to:3 duration:1.2
+
+; feathered ellipse vignette on one layer, screen-space
+@rtfx obj:lyen prop:_MaskSpace to:1 duration:1
+@rtfx obj:fen prop:_MaskMode to:2 duration:1
+
+;@rtfx obj:global prop:_GMaskMode to:3 duration:0
+;@rtfx obj:lyen prop:_MaskFeather to:0.25 duration:0
+
+; the shared wipe crossing char + bg together (materials need "Receive Global Mask" on)
+;@rtfx obj:global prop:_GMaskWidth to:0.5 duration:0
+;@rtfx obj:global prop:_GMaskHeight to:0.5 duration:0
+;@rtfx obj:global prop:_GMaskFeather to:0.15 duration:0
+;@rtfx obj:global prop:_GMaskCenterX to:-0.3 duration:0
+;@rtfx obj:global prop:_GMaskCenterX  to:1.3 duration:2
+
+;上下蒙版，左右蒙版，跃出人
+
+@char cyan armature:0,0,20
+@char cyan armature:0,0,20
+cyan: this is default
+@camera offset:0,0,0 time:5 wait:true
+cyan: this is default2
+
+@spawn titlewindzone
+
+
+@char lyen armature:0,0,-50
+@char lyen armature:0,0,-50
+
+
+@printer Atest
+1231414
+@toast "123"
+@toast "123"
+123123123
+12312312312
+12312312
+12312312312
+12312312312312
+; Unlock individual tips by their record key (Tips/<key>).
+
+
+
+@char cyan.Body/pass,Cloth/passc
+@char cyan.Body/pass,Cloth/passc
+@char cyan.passc
+cyan: .....
+@char lumen.pass
+@char lumen.pass
+lumen.comfy: .....
+
+
+@printer Apop
+This first part is normal,12312312
+@printer xt
+xt: SLOW line.[< speed:0.3]
+xt: NORMAL line.[< speed:1.0]
+xt: FAST line.[< speed:2.0]
+@hideAll
+@back id:mansion
+@back id:mansion
+
+;@spawn fxtest1
+
+自己去查
+卖萌 ->叶 怜 影 均无 be1
+
+查货 ->叶+ 
+卖糖雪球 ->仟虹 怜--
+
+沾衣死 影+
+
+叶>怜
+@despawnAll
+怜自杀
+
+影>怜
+怜复仇
+
+
+我懵了，什么鬼。加油做测试？。
+@print adsfadsfasdf speed:0.2 wait:true
+xp: This first part is normal,12312312
+@printer Atest
+123: i want to highlight this "<color=red>word</color>" using different color
+
+"Slow text..asdadhksjgfjakshdfgajskhdfjk." 
+@print "Slow text..asdadhksjgfjakshdfgajskhdfjk." speed:0.02 wait! 
+@print "normallow text..asdadhksjgfjakshdfgajskhdfjk." speed:1.0 wait! 
+@print "quick text..asdadhksjgfjakshdfgajskhdfjk." speed:2.0 wait! 
+
+
+
+xp: This first part is normal,
+and this part is slow.
+
+@spawn lightest
+123: i want to this text display more slow(one word by one word to print)
+@print "Slow text..." author:xp speed:0.2
+
+where is lightest?
+@printer lt
+123: i want to highlight this "word" using different color
+@print "Slow text..." speed:0.2
+@printer lt transition:Blinds
+123: askjdhaskdjg
+@printer lt transition:CircleReveal
+123: askjdhaskdjg
+@printer lt transition:Pixelate
+123: askjdhaskdjgaskdaksjdh
+
+
+
+the transition doesnt have effect for unknown reason
+
+
+
+@stop

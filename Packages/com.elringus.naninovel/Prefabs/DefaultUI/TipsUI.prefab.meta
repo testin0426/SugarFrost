@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f5aae572225ee1b4c96d1a17fc5cb073
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Prefabs/DefaultUI/TipsUI.prefab
+  uploadId: 953760

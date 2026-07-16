@@ -1,0 +1,163 @@
+@back classroom id:2D
+@playFX threshold:-1.0 duration:0.1
+@char 前桌F
+前桌F: 哎AA C来找你
+@char A.idle pose:1
+A.surprise: !?
+@spawn ShakeCamera params:,5,,,,,true,false
+@shake A 
+@char C
+@char C.Body/idle,Face/ache pose:default
+C.ache: 江湖救急啊AAAAAA你有没有带英语书选修三的我们下节课要用~~~~~~~救命
+;滑动字效果
+@playFX threshold:0.5 duration:0.1
+A.idle: ....带了
+A.idle: 应该在这个作业袋子里，我翻翻....
+@playFX threshold:-1.0 duration:0.1
+@char C.deblinkCde pose:default
+C.smileCde: 哇AAA太好了我都问了一圈~~
+@playFX threshold:0.5 duration:0.1
+@hideAll
+按道理说C只要向2班借就行，因为1班和2班英语老师是一样的。
+应该是问了一圈都没有吧。
+@back classroom id:2D
+@playFX threshold:-1.0 duration:0.1
+@char C.deblinkCde pose:default
+C.smileCde: 谢谢！！！我下课来还你~~~~~~
+@animate C posX:100 time:2 wait!
+@hide C
+@char 前桌F
+前桌F: 你跟C是朋友啊？
+@char A.idle pose:1
+A.idle: 啊，嗯，是的。
+@hide A
+前桌F: 她貌似挺有名的。
+@char A.idle pose:1
+A.idle: 啊...
+@hideAll
+貌似不是貌似。
+@back classroom id:2D
+前桌F: 感觉看上去超级E人...
+@char A.idle pose:1
+A.idle: ....确实。
+@hideAll
+和我完全不一样。
+
+@back hallway
+@char A.idle pose:1
+A.idle: ....
+@hide A
+临近放学，下午放学后晚上有晚自习，所以一般家长会来学校门口送饭给同学吃，同学们拿到教室吃或者食堂吃。
+老李不让他们班人在班上吃，但是A无所谓。因为食堂肯定是坐不下的，而且很吵。
+@char A.idle pose:1
+A.idle: ....依然没还啊。
+@hide A
+晚上就是晚自习，
+哦不，
+说是晚自习，实际上是晚上加课罢了。
+然后上的是A最讨厌的英语
+虽说A并不在意有没有课本这件事，毕竟她英语课也从来不听。
+@char A.idle pose:1
+A.idle: ....
+A.idle: 还是上楼吧...我真服你了...
+@hide A
+
+@hideAll
+上楼。
+
+@playFX threshold:-1.0 duration:0.1
+@back classroom id:2D
+@char C.deblinkCde pose:default
+C.smileCde: 所以那件事是不是真的啊？？
+@playFX threshold:0.5 duration:0.1
+同学: 就是，哎，怎么和你说呢？
+@playFX threshold:-1.0 duration:0.1
+C.surprise: ???不是你怎么也不和我说，到底是什么情况呀????
+@playFX threshold:0.5 duration:0.1
+@char A.idle pose:1
+A.idle: ....
+A.idle: ....嘿。
+;@spawn ShakeCamera params:,5,,,,,true,false
+@shake C
+@playFX threshold:-1.0 duration:0.1
+C.ache: 哇！...
+C.angrysmile: AAAA！！！！！！
+@playFX threshold:0.5 duration:0.1
+@char A.idle pose:1
+A.idle: 书给我。
+@char C.deblinkCde pose:default
+@playFX threshold:-1.0 duration:0.1
+C.McsupCde: 哦哦对书！等等我马上给你！！！
+C.MoEdeLCde: 你也别跑啊我一定要问清楚。
+@hide C
+同学: .....
+A.idle: .....
+同学: .....
+A.idle: .....
+@hideAll
+没什么好说的。真的，没什么好说的。
+
+@back classroom id:2D
+@char C.deblinkCde pose:default
+C.smileCde: 我正想拿饭的时候顺便给你呢AAAAAA~~~~~
+@playFX threshold:0.5 duration:0.1
+@char A.idle pose:1
+A.idle: 呃, 刚刚你在讨论什么吗....？
+@playFX threshold:-1 duration:0.1
+C.deblinkCde: 嗯？
+C.deblinkCde: ...
+@char A.idle pose:1
+A.idle: ...
+@hideAll
+为什么不说话？
+
+@back classroom id:2D
+C.idle: 喂xxx你等等我呀！！！
+@animate C posX:22|102.88 time:2|1|0.5 wait!
+@hide C
+@char A.idle pose:1
+A.idle: ....
+@hideAll
+被忽视了。
+但是这就是C的性格，她一直都是这样。
+她的注意力一直很奇怪。
+沉浸到一件事情之后就会把周围完全忽视掉。
+@char A.deblinkAde pose:1
+A: ....
+A.lookleft: ..但是也不清楚是本身如此还是也是演的。
+;A站在楼上，静静地看C蹦蹦跳跳围着那个同学问事情。
+A.close: ....
+A.close: ....也要去拿饭了。
+A.close: .....等等
+@hide A
+A翻开课本，课本自动转到了先前被压着的那一页
+AAANB!@#!:@3$%#^*
+NBAAAA
+!ABNA!
+......
+铅笔画的。
+@char A.deblinkAde pose:1
+A.close: .......
+@hide A
+A走到1班把C的笔袋拿走了。
+然后去楼下拿饭的时候把折了点石楠花放到C的笔袋里。
+又放回去，装作无事发生。
+@playFX threshold:-0.7 duration:0.1
+@char A.idle pose:1
+A.smile: ....
+@char A.deblinkAde pose:1
+@playFX threshold:-0.6 duration:0.1
+@setRenderer index:2
+A.sad: ....
+@playFX threshold:-0.5 duration:0.1
+A.cry: .........
+@hideAll
+啊。
+
+
+
+
+
+@goto mainline/C/C3
+
+@stop

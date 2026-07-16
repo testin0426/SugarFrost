@@ -1,0 +1,44 @@
+@if num==0
+    @if d==0
+        @if port==1
+            @goto #0other
+            @stop
+        @if trace==1
+            @set loc1="D"
+            @set port=1
+            @goto Eth/situ/tea/runtime/port11
+            @stop
+        @if trace==2
+            @set loc2="D"
+            @set port=1
+            @goto Eth/situ/tea/runtime/teacop
+            @stop
+        @if trace==3
+            @set loc3="D"
+            @set port=1
+            @goto Eth/situ/tea/runtime/teaclose
+    @if d==1
+@if d==1
+    @if p=="lyen"
+        @goto Eth/situ/market/runtime/cyan
+        @stop
+    @if p=="cyan"
+        @goto Eth/situ/runtime/pwc
+        @stop
+
+# 0other
+@despawnAll
+@playUIFX threshold:0.0 duration:0.01
+@playFX threshold:0.0 duration:0.01
+@if trace<3
+    @spawn daysun
+@if trace>5
+    @spawn evensun
+@hide xwp
+@hideChars
+@char xp pose:h
+@char xp pose:h
+xp.leftlooko: 喂...已经去过渡口了。
+xp.b: 还有其他地方不知道是啥。
+xp.s: 根据白霜标的比例尺...如果再去渡口的话，今天可能就没时间去其他地方了哦。
+@goto Eth/situ/choice

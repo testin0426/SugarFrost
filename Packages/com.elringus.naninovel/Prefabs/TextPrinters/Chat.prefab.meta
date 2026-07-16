@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6f9836a3c4f777741b1962979d97e485
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Prefabs/TextPrinters/Chat.prefab
+  uploadId: 953760

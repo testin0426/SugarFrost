@@ -1,0 +1,119 @@
+# ============================================
+# Unity Project .gitignore — CODE ONLY
+# ============================================
+
+# --- Unity generated ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# --- IDE / OS ---
+.idea/
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Exclude Naninovel upgrade backup ---
+NaninovelUpgradeBackup-*/
+
+# --- Exclude all binary assets (models, textures, audio, video) ---
+*.png
+*.jpg
+*.jpeg
+*.psd
+*.tga
+*.tif
+*.tiff
+*.bmp
+*.exr
+*.hdr
+*.gif
+*.fbx
+*.obj
+*.blend
+*.3ds
+*.dae
+*.max
+*.ma
+*.mb
+*.c4d
+*.wav
+*.mp3
+*.ogg
+*.aiff
+*.aif
+*.flac
+*.mp4
+*.mov
+*.avi
+*.webm
+*.m4v
+*.unitypackage
+*.apk
+*.aab
+*.app
+*.zip
+*.rar
+*.7z
+*.mixer
+*.inputactions
+
+# --- Exclude asset pack folders ---
+Assets/NatureManufacture Assets/
+Assets/Victorian Interiors/
+Assets/Modern Resaturant*/
+Assets/AnimX Animals/
+Assets/Olympic_Stadium/
+Assets/BefourStudios/
+Assets/ARTnGAME/
+Sugar/
+
+# --- Exclude large fonts ---
+*.ttf
+*.otf
+Assets/MagicaCloth2/
+
+# --- Exclude all prefabs EXCEPT Naninovel UI/config ---
+# (generic character/background prefabs are binary)
+*.prefab
+!Assets/NaninovelData/**/*.prefab
+!Packages/com.elringus.naninovel/**/*.prefab
+
+# --- Exclude all materials ---
+*.mat
+
+# --- Exclude all .asset files EXCEPT Naninovel configuration ---
+*.asset
+!Assets/NaninovelData/**/*.asset
+!Packages/com.elringus.naninovel/**/*.asset
+
+# --- Exclude Fungus examples ---
+Assets/FungusExamples/
+
+# --- Exclude plugins DLLs ---
+*.dll
+
+# --- Never ignore meta files (Unity needs them) ---
+!*.meta
+
+# --- Build artifacts ---
+*.csproj.lscache
+# Assets/          (all scripts, scenarios, prefabs, configs)
+# Packages/        (Naninovel + dependencies)
+# ProjectSettings/ (URP, input, tags, layers)
+# .gitignore
+
+# --- Exclude package samples (binary bloat) ---
+Packages/*/Samples~/

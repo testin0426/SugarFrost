@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: 6dd8d32695114768b2eebdb5d6c89a0e
+timeCreated: 1761506044
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/Actor/Live2D/Live2DBackground.cs
+  uploadId: 953760

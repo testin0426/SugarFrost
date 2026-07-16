@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 927f6d32df5cf1d449c0c16a59b3cfd4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Prefabs/DefaultUI/SettingsSlider.prefab
+  uploadId: 953760

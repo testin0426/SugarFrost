@@ -1,0 +1,96 @@
+
+
+
+@showUI
+; @bgm meng
+# 0
+@despawnAll wait!
+@bt
+@printer Atest
+
+@char xpop
+@if X=1
+    你已经做出了选择，可能目前就无法回头了）
+    至于何时能回头...我也不知道。
+
+
+欢迎来到
+请谨慎选择你的视角！
+
+@addChoice 相昀 goto:#1
+@addChoice 白霜 goto:#2
+@addChoice 仟虹 goto:#3
+@addChoice 怜 goto:#4
+@stop
+
+
+# 1
+@printer xt
+@spawn SunShafts params:2
+相昀:看起来是个天真烂漫什么也不在意的小孩，
+（可能是最能打的）
+确定选择相昀视角展开叙事吗？
+@addChoice 当然了！ set:X=1 goto:#x1
+@addChoice 我再考虑一下 goto:#0
+@stop
+# x1
+@despawn SunShafts params:2 wait!
+@goto Eth/x/x1
+@stop
+
+
+
+
+# 2
+@printer wt
+白霜:这是个人机
+人机又有什么坏心眼呢(）
+确定选择白霜视角展开叙事吗？
+@addChoice 啊？ set:B=1 goto:#w1
+@addChoice 我再考虑一下。 goto:#0
+@stop
+# w1
+@goto Eth/b/b1
+@stop
+
+
+
+# 3
+@printer ct
+@spawn Snow position:0,-5,0
+仟虹
+....为何生于此世？
+.....
+此世之...
+也许有各种人的观念啊，想法啊，什么的....
+....跑题了
+确定选择仟虹视角展开叙事吗？
+@addChoice 这是什么....高低不得尝试一下.... set:Q=1 goto:#q1
+@addChoice ...我再考虑一下。 goto:#0
+@stop
+# q1
+@despawn Snow params:2 wait!
+@goto Eth/q/q1
+@stop
+
+
+# 4
+@spawn Flower
+@printer lt
+怜:只是仟虹的妹妹而已
+确定选择怜视角展开叙事吗？
+@addChoice 我还没做，点这个没用。 set:L=1 goto:#l1
+@addChoice 我再考虑一下。 goto:#0
+@stop
+# l1
+@despawn Flower params:2 wait!
+@goto Eth/l/l1
+@stop
+
+
+
+我恨死你了。
+但我更恨自己。
+
+两fish。
+@stop

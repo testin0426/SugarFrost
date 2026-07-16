@@ -1,0 +1,182 @@
+
+# d0choiceall
+@set trace=trace+1
+@playUIFX threshold:1.0 duration:0.1
+@playUIFX threshold:0.0 duration:1.0 !wait
+@if trace==1
+    @back mapbase id:map scale:0.72
+@if trace==2
+    @if loc1=="D"
+        @back id:map appearance:mapport1 scale:0.72
+    @if loc1=="C"
+
+    @if loc1=="B"
+        @back id:map appearance:mapmarket1 scale:0.72
+@if trace==3
+    @if loc1=="D"
+        @if loc2=="C"
+
+
+@if trace==4
+    @if market==1
+        @if port==0
+            @if mansion==0
+            ; 
+
+
+@addChoice 往雪花那边走走看 if:port==0 set:now=3 goto:Eth/tea/portallo
+
+@addChoice 去渡口 if:port>0 set:now=before, goto:Eth/tea/portallo
+
+@addChoice 下面那个糖雪球是？ if:market==0 set:now=1 goto:Eth/market/marketallo
+
+@addChoice 去集市 if:market>0 set:now=before goto:Eth/market/marketallo
+
+@addChoice "<b>看不懂一点咋办？</b>" if:count==0 goto:Eth/situ/justify
+
+@addChoice "<b>发呆...</b>" if:count>0 goto:Eth/situ/justify
+
+@addChoice 问问路人右上方是？ if:mansion==0 set:now=2 goto:Eth/mansion/mansionallo
+
+@addChoice 去公馆 if:mansion>0 set:now=before goto:Eth/mansion/mansionallo
+
+@addChoice 凭借记忆去商会分部 set:now=0 goto:Eth/situ/river
+
+@stop
+
+
+
+
+
+# distancecaculate
+@if before==0
+    @if now=1
+        @set trace=trace+1
+        @goto Eth/situ/market
+    @if now==2
+        @set trace=trace+2
+        @goto Eth/situ/port
+    @if now=3
+        @set trace=trace+4
+        @goto Eth/situ/mansion
+
+
+@if before==1
+    @if now==0
+        @set trace=trace+1
+        @goto Eth/situ/jiang
+    @if now==2
+        @set trace=trace+2
+        @goto Eth/situ/port
+    @if now==3
+        @set trace=trace+4
+        @goto Eth/situ/mansion
+
+
+@if before==2
+    @if now==0
+        @set trace=trace+2
+        @goto Eth/situ/jiang
+    @if now==1
+        @set trace=trace+2
+        @goto Eth/situ/market
+    @if now==3
+        @set trace=trace+2
+        @goto Eth/situ/mansion
+
+
+@if before==3
+    @if now==0
+        @set trace=trace+4
+        @goto Eth/situ/jiang
+    @if now==1
+        @set trace=trace+4
+        @goto Eth/situ/market
+    @if now=2
+        @set trace=trace+2
+        @goto Eth/situ/port
+
+
+
+
+; @goto .d0choiceall
+
+
+
+
+# d01
+....占位
+@stop
+
+# d02
+
+....占位
+@stop
+
+# d03
+....占位
+
+
+@stop
+
+
+
+
+@if trace>0
+    @addChoice 发呆，在原地听风看云... goto:Eth/situ/justify
+    @addChoice 去渡口 goto:Eth/situ/port
+    @addChoice 下面那个糖雪球是？
+    @addChoice 问问路人右上方是？ goto:Eth/situ/mansion
+    @addChoice 凭借记忆去商会分部 goto:Eth/situ/river
+
+@if trace
+    @addChoice 发呆，在原地听风看云... goto:Eth/situ/justify
+    @addChoice 往雪花那边走走看 goto:Eth/situ/port
+    @addChoice 去集市 goto:Eth/situ/market
+    @addChoice 问问路人右上方是？ goto:Eth/situ/mansion
+    @addChoice 凭借记忆去商会分部 goto:Eth/situ/river
+
+@if trace
+    @addChoice 发呆，在原地听风看云... goto:Eth/situ/justify
+    @addChoice 往雪花那边走走看 goto:Eth/situ/port
+    @addChoice 下面那个糖雪球是？
+    @addChoice 去公馆
+    @addChoice 凭借记忆去商会分部 goto:Eth/situ/river
+
+
+
+@stop
+
+@if d=1
+    @char xp
+    xp.b: 离饭点还有些时间....
+    @addChoice 发呆，在原地听风看云... goto:Eth/situ/justify
+    @addChoice 去渡口
+    @addChoice 去集市 lock! if:t=3,6
+    @addChoice 去苏公馆
+    @addChoice 去分部
+    
+    @stop
+
+
+@if d=2
+    @char xp
+    xp.leftlooko: 去哪吃中饭？
+    @addChoice 发呆，原地听风看云... goto:Eth/situ/justify
+    @addChoice 去渡口
+    @addChoice 去集市 lock! if:t=3,6
+    @addChoice 去苏公馆(路很远...？)
+    @addChoice 去“天堂” lock:{ye<2}
+    @addChoice 去云端药行 lock:{ye<1}
+    @addChoice 去分部 goto:Eth/situ/jiang
+    @stop
+
+@if d=3
+    @char xp
+    @addChoice 去渡口
+    @addChoice 去苏公馆
+
+
+
+
+@if d=1

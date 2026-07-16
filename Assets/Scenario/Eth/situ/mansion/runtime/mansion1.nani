@@ -1,0 +1,964 @@
+@if d==0
+    @if mansion==0
+        @set mansion=1
+        @goto #0
+        @stop
+
+
+# 0
+@playFX threshold:0.0 duration:0.01
+@playUIFX threshold:0.0 duration:0.01
+@despawnAll
+@despawnAll
+
+@spawn sun
+@back id:jin
+@char xp pose:h
+@char xp pose:h
+xp: 请问，您知道这边方向有什么...特殊楼房之类？
+@printer nos
+相昀随机抓了个路人问话，她背对江岸，手指着地图上那个大致方位。
+@hideChars
+路人被相昀的问法迷惑到
+@printer nos
+路人: ....？这位姑娘你的意思是...？
+@char xp pose:h
+@char xp pose:h
+xp.ba: 呃...朋友给我画了份地图，我不是很懂。
+xp.b: 只有个屋子和深蓝色的钟....
+@printer Atest
+路人: 我不是很明白。
+@printer nos
+相昀盯着地图....
+突然直觉上.....？
+@char xp
+xp.looklefto: 哦对了，您知道苏公馆怎么走吗？
+@printer nos
+路人表示并不知道苏公馆是什么。
+@printer Atest
+路人: 不过往那个方向走确实有一个公寓区，公馆....
+路人: ...抱歉啊，平时没怎么注意。
+@char xp
+xp.comfy: 没事啊，我也是刚来津都。
+@printer nos
+路人向相昀比划了一番，告知去公寓区需要乘哪些车，如何转站等。
+告别路人后，相昀陷入思考
+@wait 1
+@printer nos
+@char xp
+xp: 结合地图来看，这里离公馆相当远。如果从别的地方出发到公馆“可能”会更近。
+xp: 要现在就去公馆吗？
+@addChoice 去 goto:#01
+@addChoice 再考虑下 goto:Eth/situ/choice
+@stop
+
+# 01
+@hideAll
+
+@playFX threshold:0.0 duration:0.01
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:1.5
+@playUIFX threshold:0.0 duration:1 !wait
+@back id:mansion
+@printer nos
+....
+@char xp
+xp.comfy: ....
+@printer nos
+@char wifi
+@char wifi
+wifi: ....
+@char xp
+xp.b: .....
+@playFX threshold:0.0 duration:0.01
+@printer nos
+所以....
+@char xp
+xp.b: ....你到底是怎么过来的，[wait 0.5]<b><size=45>啊！！！</size></b>
+@printer nos
+此，是相昀见到白霜说的第一句话。
+@char wifi.idle1
+@char wifi.idle1
+wifi: .....
+@wait 0.3
+@char wifi.idle2
+@char wifi.Body/idle2,Face/cg1
+@char wifi.Body/idle2,Face/cg1
+wifi.cg1: ....耶。
+@hideChars
+@printer nos
+白霜依旧不说话，但是摆出了一个胜利的V手势。
+@char xp pose:h
+xp.b: .....
+xp.b: 我承认自己是第一次划长途...
+xp.b: 但是....
+@wait 0.3
+@char wifi.Body/idle2,Face/cg1
+@char wifi.idle1
+@spawn ShakeCamera
+xp.comfy: 如果你有更快的方法怎么不带上我啊！！！！
+@printer nos
+这就不得不重头说起了。
+@char wifi.idle1
+@char wifi.idle1
+xp.b: 我真的是服了...
+xp.angry1: 走前看还是大南风和碎云，
+xp.angeya: 划到一半发现起北风了。
+xp.s: 真的累死了...
+@hide wifi
+@printer nos
+相昀感觉自己这辈子都不想再划船了。
+@char xp
+xp.s: 静风的话简直闷死人....
+
+
+
+
+@printer nos
+相昀见到白霜后叽里咕噜吐槽了一堆，
+@char xp
+xp.angeya: 还有，你画的地图实在是太抽象.....
+
+@char wifi
+@char wifi
+wifi: 稍等。
+@hide wifi
+@printer nos
+白霜像变魔术一样变出了几个热乎的包子。
+相昀见状，立刻抓了一个。
+
+@char wifi
+@char wifi
+@char xwp
+xwp.comfy: 竟然是豆沙包！！
+xwp.comfy: 还是热的！
+xwp.comfye: （这辈子都不想再吃糖雪球了）
+@hideChars
+@printer nos
+豆沙包本身并没用特别浓郁的香味，
+秋日的天气阴晴不定，比如今天阳光非常非常刺眼，烤着草皮都有焦味。
+但是仍有清风，相昀站在白霜身边，感觉周围的时间和空间都被风冲淡了。
+思绪只剩下:现在很饿，豆沙包很好吃。
+先前有关合同、葬礼...都暂时忘却了一般。
+每次在白霜身边都会让人自然而然地忘记一些事情，为什么呢？
+....
+
+于是，她两三口就吃完了一个豆沙包，吃完又拿了一个，这样连续吃了三个。
+白霜就在一旁看着，等她吃完，又递给她一个水杯。
+@char wifi
+@char wifi
+@char xwp
+xwp.comfy: 没事！我没噎到....
+
+@wait 0.3
+@hide xwp
+@playFX threshold:0.0 duration:0.01
+@playFX threshold:0.7 duration:0.01
+@camera zoom:0.3 time:0.5
+@char xp
+xp.b: （等下，我是干嘛来着的。。。）
+@playFX threshold:0.7 duration:0.01
+@playFX threshold:0.0 duration:3 !wait
+
+@camera zoom:0.0 time:3
+
+xp.comfy: 哦对...我正在找苏公馆....
+@printer nos
+(走到一半看到熟悉的身影就立刻飞奔过来了。）
+@char xp
+xp.b: 我走哪来着。。
+
+
+@char wifi
+wifi: ....
+@animate wifi posX:110 time:3 !wait
+@printer nos
+白霜把相昀往外面拽，
+
+@char xp
+xp.b: (...我这是跑哪里来了...)
+
+@printer nos
+这才注意到周围，像是庭院，植被修剪地很好。
+
+当随着走出（相昀根本没有注意到的）围栏和大门后————
+石刻界碑上写有 <b>苏 公 馆</b> ....
+@hide wifi
+@char wifi pose:center
+@char wifi
+@char xp
+xp.comfy: .....
+
+# choice0
+@printer nos
+但是心底依然有一堆, 一堆， 一堆的， 疑问....
+@addChoice 你怎么在津都？而且就在苏公馆？？ set:u=1 goto:#an1
+@addChoice 你怎么来的？而且甚至比我先到？？ set:u=2 goto:#an2
+@addChoice 豆沙包哪里来的？ set:u=3 goto:#an3
+@addChoice 又有什么好问的呢？ set:u=0 goto:#01
+@stop
+
+
+
+
+
+# an1
+@if u!=-1
+    @hideChars
+    @printer nos
+    白霜盯着相昀的脸看了会
+    @char wifi
+    @char wifi
+    wifi: 不知道。
+    @char xp
+    xp: ？？？？？
+@wait 1
+wifi: 上学，工作。
+@printer nos
+啊？
+@char xp
+xp.b: 啊？
+@printer nos
+这，谁，知道？？
+@char xp
+xp.ba: (好吧...我好像也从来没问过白霜是干嘛的)
+@set u=-1
+@addChoice 你怎么来的？而且甚至比我先到？？ set:u=2 goto:#an2
+@addChoice 豆沙包哪里来的？ set:u=3 goto:#an3
+@addChoice 又有什么好问的呢？ set:u=0 goto:#01
+@stop
+
+
+# an2
+@if u!=-1
+    @hideChars
+    @printer nos
+    白霜盯着相昀的脸看了会
+    @char wifi
+    @char wifi
+    wifi: 不知道。
+    @char xp
+    xp: ？？？？？
+@wait 1
+wifi: 游来的。
+@wait 0.4
+@char xp
+xp.angeya: ？？？？？？？ [< speed:0.1][skip false]
+xp.b: ....真的....？
+@char wifi
+wifi: 嗯。
+@char xp
+xp.looklefto: （游过来...？）
+@printer nos
+如果真的按照白霜说的游过来...
+@playFX threshold:0.7 duration:5 !wait
+@camera zoom:0.3 time:5
+@char xp
+xp.angry1: （体力上...因人而异...）
+xp.angry1: <size=20>（时间上来看...纯划船中间确实有段强北风）</size>
+xp.looklefto: <size=15>（那也不对啊...难道有我不知道的水路？）</size>
+@wait 0.5
+@hide wifi
+@printer nos
+相昀按着白霜的思路思考下去.....
+@char wifi
+@char wifi
+wifi: .....
+@char xp
+xp: <size=10>（也许是中间....）</size>
+@char xp.sup
+@shake wifi !hor
+@shake xpt wait!
+@wait 0.4
+wifi: .....假的.....
+@set u=-1
+@addChoice 你怎么在津都？而且就在苏公馆？？ set:u=1 goto:#an1
+@addChoice 豆沙包哪里来的？ set:u=3 goto:#an3
+@addChoice 又有什么好问的呢？ set:u=0 goto:#01
+@stop
+
+# an3
+@if u!=-1
+    @hideChars
+    @printer nos
+    白霜盯着相昀的脸看了会
+    @char wifi
+    @char wifi
+    wifi: 不知道。
+    @char xp
+    xp: ？？？？？
+@wait 1
+wifi: 津都。
+@char xp
+xp.b: ......
+xp.comfy: ...范围小点？
+wifi: 糖雪球。
+@char xp
+xp: .....
+; @if market==0
+xp: ....好吧，我会去看看的....
+@printer nos
+大概是集市之类的意思了...
+; @if market==1
+@char xp
+xp.b: ....你不会....
+xp.b: 是在....
+xp.comfy: 那个短发眼镜摊主那里买的吧....？？？
+@char wifi
+wifi: ？
+@printer nos
+白霜点点头。
+@char xp
+xp: .....
+@hideChars
+@printer nos
+缘分与缘分与缘分....
+相昀快速讲了下上午的拼豆沙包事件。
+@char xp
+xp.s: 总之就是个莫名其妙的人，本来非要买然后又突然不买了。
+@printer nos
+白霜赞同地点点头。
+@char wifi
+@char wifi
+wifi: 正常。
+wifi: 左右脑互博。
+@char xp
+xp.blink: 很好的乐子，让我短暂忘记了饥饿....
+@hideChars
+@goto #ADC
+@set u=-1
+@addChoice 你怎么在津都？而且就在苏公馆？？ set:u=1 goto:#an1
+@addChoice 你怎么来的？而且甚至比我先到？？ set:u=2 goto:#an2
+@addChoice 又有什么好问的呢？ set:u=0 goto:#01
+@stop
+
+
+# 01
+
+@char xp
+xp: 哦对，那我就先去别的地方了？
+@printer nos
+相昀摇了摇手上的地图。
+但白霜把地图拿过来。
+@char xp
+xp: 啊....
+@printer nos
+....竟然把路线图都补全了.....
+@hideChars
+wifi: 渡口。上午，仟虹，回来。
+@printer nos
+白霜指了指“雪花”
+@char xp
+xp: ....那你为什么不画波浪线画雪花....
+@printer nos
+相昀拿回地图，填上标记。
+wifi: 因为，仟虹。
+@char xp
+xp.b: ？？
+wifi: 分形？
+@printer nos
+语气有点疑问句？
+说罢，白霜又指向糖雪球。
+@printer nos
+wifi: 集市。
+@char xp
+xp.b: ...呃...集市应该遍地都是吧...
+@printer nos
+白霜想了会。
+wifi: 近。糖雪球。
+@printer nos
+哦对...确实离江岸很近...
+@printer nos
+最后，白霜指着公馆。
+wifi: 公馆。
+@char xp
+xp: ....我怎么感觉...地点有些少？
+@hide wifi
+@printer nos
+白霜愣了一会
+wifi: 不需要。
+
+
+# ADC
+@char lyen
+@char lyen
+lyen.wuyu: ......
+lyen.wuyua: 骂爽了没？
+@char xp.angeya pose:h
+@char xp.angeya pose:h
+xp: ...？
+xp: 你怎么在这？
+@printer nos
+相昀扯着白霜衣角示意
+@char lyen.close
+@char xp
+xp.b: <size=25>那个白霜我说的就是这个人....</size>
+@hide lyen
+@hide lyen
+@char wifi pose:center
+@char wifi
+wifi: .....6。
+@hide wifi
+@printer nos
+白霜...白霜笑了。
+@wait 0.3
+@char lyen pose:center
+@char lyen
+@char wifi pose:center
+@char wifi
+@c2l lyen t:0.5
+@c2r wifi t:0.5
+@char lyen
+@char lyen.wuyua
+lyen: 所以，她是谁？和你很熟吗？你朋友？
+@printer nos
+显然是少女问白霜的。
+@char lyen.wuyu
+@char wifi
+wifi: ....
+@char xp
+xp.ba: 你是谁啊...
+@char lyen.close
+lyen.close: ....
+@printer nos
+空气中弥漫一片沉寂。
+@char lyen
+lyen.wuyu: ....
+@printer nos
+少女上上下下打量了一遍相昀。
+@char xp
+xp.b: ....啧。
+@hideChars
+@printer nos
+没有人喜欢被别人这种眼神看着。
+@char lyen pose:center
+@char lyen
+lyen.wuyu: 商会的？
+@char xp
+xp.angry1: ？
+lyen.sm: 早上眼神不好，别见怪啊。
+xp.angry1: ....所以你是....？
+@char lyen
+lyen.wuyu: ？
+@hideChars
+@printer nos
+又沉默了一会。
+@char lyen
+@char lyen
+lyen: 你.....[wait false][skip true]
+@c2l lyen t:0.5
+@char wifi pos:100,0,0
+@char wifi pos:100,0,0
+@r2c wifi t:0.5
+@char wifi
+wifi: 怜。苏二。
+@wait 0.5
+@char lyen
+lyen.fc: .....
+@char xp
+xp.looklefto: 哦，原来是怜二小姐？
+xp.ba: 好好说人话很难吗....<size=25>（问了两遍都不说话...）</size>
+@char lyen
+lyen.wuyu: ....
+@hideChars
+@printer nos
+突然，怜向前了几步。
+@shake xpt
+@char xp
+xp.sup: ！
+@printer nos
+相昀立刻躲过了怜的拳头————
+@char lyen pose:center
+@char lyen.close
+@char xp
+xp.angry1: ....你....
+lyen.fc: 如果你没事，就立刻滚。
+相昀想起请帖和货物的事情....
+@hide lyen
+@addChoice 问请帖相关 goto:#lan1
+@addChoice 问货物相关 goto:#lan2
+@addChoice 又有什么好问的？ goto:#02
+@stop
+
+# lan1
+@char xp
+xp.looklefto: 你之前不是发了个请帖....
+lyen.close: 啊是啊，但时间不是两天后吗？
+lyen.wuyu: 来这么早，暗杀踩点啊。
+lyen.wuyua: 我家还挺好藏人的，给你推荐几个点位？
+@char xp
+xp.angeya: ...暗杀？？
+@printer nos
+好像问不出什么了....
+@addChoice 问货物相关 set:ye++ goto:#lan2
+@addChoice 没用什么好问的了 goto:#02
+@stop
+
+# lan2
+ye
+@char xp
+xp.ba: 还有货的事情....
+lyen.wuyua: 终于想起来你是来干嘛的了？
+lyen.close: 总之，到时候我会给交代的。
+@printer nos
+枯燥的，刻板的，一成不变的语调。
+@spawn ShakeCamera
+@char xp
+xp.angeya: “到时候”又是什么时候啊？
+xp.angry1: “交代”是啥？直接断交是吧？
+@printer nos
+明明自己并没有这么容易上情绪，
+或许是怜的腔调过于古板和正式，自己仿佛从被从一种“环境”里抽离出来了一样。
+@char lyen
+lyen.wuyu: 我都还没找你们索赔，倒先要人情来了？
+lyen.wuyu: 而且要人情的态度就你这样？
+lyen.wuyua: 擅闯民宅？
+xp.angeya: 明明是她们都....！
+@hideChars
+@printer nos
+仿佛闸门被打开了一样，记忆与情绪如同洪水一般涌出。
+....但她们于相昀而言也仅仅是一面之缘的，但是对于叶兰和岁寒她们呢？
+为什么现在才想起来？
+@char xp
+xp.angry1: ...
+xp.angeya: 天灾匪患，各安天命，你一分也别想拿。
+@char lyen
+lyen.wuyu: ....
+lyen.wuyua: 终于，像个正常人了。
+@char xp
+xp.angry1: ...你说什....
+@char lyen
+lyen.fc: 我知道你们在怀疑我，但事不是我策划的，人不是我杀的。
+@char lyen
+lyen.wuyu: 我们也死了一个人，
+lyen.wuyua: 你要是不信我的话，可以问她。
+@printer nos
+怜示意白霜。
+@addChoice 向白霜求证。
+@addChoice 不问白霜，向怜求证。 goto:#lan2
+
+# lan2
+@char xp
+xp.angry1: 你先自证清白。
+@printer nos
+@char wifi
+wifi: !.....
+@char lyen
+lyen.sm: 哦呦。一上来就共享情报啊。
+lyen.wuyu: 规定时间没到，电报联络不上。
+lyen.wuyu: 不过后来其中一位倒是逃回来了，说是水匪的事情。
+lyen.wuyua: 我听完倒是挺好奇是哪路匪这么上进，商会和苏家旗的东西也敢动手。
+
+
+@stop
+
+
+
+
+
+@printer nos
+气氛不好。
+@wait 0.4
+@hide lyen
+@char wifi
+@char wifi
+wifi: ....
+@hide wifi
+@printer nos
+白霜咬了口豆沙包，
+豆沙的香味弥散开来。
+
+@shake lyen
+@char lyen
+lyen.wuyu: ？？
+lyen.wuyua: 江岸那边做得还挺香的。
+
+@char wifi
+wifi: 嗯。
+@hideChars
+@printer nos
+...她什么时候开始偷听的？
+@wait 0.5
+
+@char lyen
+@char lyen
+lyen.fc: 所以你也是故意？
+@c2l lyen
+@char wifi
+@char wifi
+wifi: 不是。
+
+@char xp
+xp.angeya: ？？偷听别人说话你很自豪吗？？
+
+@char lyen
+@char lyen
+lyen.sma: 没察觉到我很难过吧。
+
+@hideChars
+@printer nos
+说罢，怜反手打掉了白霜正在吃的豆沙包。
+@char wifi pose:center
+wifi: 啊....
+@printer nos
+豆沙包滚到了草地上。
+@char xp
+xp.angeya: 你在干嘛啊？！
+@hideChars
+@char wifi
+@char wifi
+wifi.ane: .....
+wifi.ane: .....怜。
+@hideChars
+@char lyen
+@char lyen
+lyen.c: ？
+@hideChars
+@char wifi
+@char wifi
+wifi.f: 昨天的，风向？
+@hideChars
+@char lyen
+@char lyen
+lyen.wuyua: 你又在问什么。
+lyen.wuyu: 我怎么可能知道昨天的风.....
+说到一半，怜突然愣住。
+lyen.fc: ....
+@char xp
+xp.b: 所以你没在偷听啊。
+@hideChars
+@printer nos
+之后，怜咬牙，撇过头。
+@char lyen
+@char lyen
+lyen.fc: ....给你一分钟时间主动离开公馆。
+@char xp
+xp.angry1: ....
+@addChoice 离开
+@addChoice 赖着不走。
+
+
+
+
+xp.ba: ...白霜这画的都啥啊...所以这蓝色的一坨就是苏公馆？
+xp.b: ...抽象领域大仙。
+xp.s: 标记一下吧。
+; update map
+; sign trace
+@set trace=2
+; @show map1
+
+
+@goto Eth/situ/choice
+@stop
+
+
+
+@if d=1
+    决定去苏公馆了...
+    渡口区和住宅区是分开，
+
+
+# ABCD
+xp.b: ....所以, 我在合同上看到你的名字了
+wifi: .....
+xp.close: ....那是你吗?还是只是...重名
+wifi: 是我。
+@shake xpt
+xp.angry1: !
+@printer nos
+白霜似乎没想要隐瞒。
+@char xp
+xp.angeya: 那....
+@printer nos
+千言万语....
+xp.s: ....唉。
+xp.s: 为什么会这么巧。
+@printer nos
+明明最不想让白霜掺和到这种事情里面去.
+@char wifi
+wifi: ....
+wifi: ....不知道。
+wifi: 游泳, 逃跑了。
+@char xp
+xp.angeya: ?
+wifi: 江匪, 人多。
+
+@char lyen
+lyen.wuyu: ....
+@printer nos
+所以...真的是单纯的匪患？
+@char xp
+xp.angry1: ....
+xp.s: ....
+@printer nos
+江城偷菜，一起发呆看云，游泳来津都，在苏家打工上学，负责护送，遇匪游泳逃跑，
+简直是飞跃银河系的非线性...
+@addChoice 不希望你有事情瞒着我。
+@addChoice 不想你骗我。
+@stop
+
+@char wifi
+wifi: ....
+@printer nos
+白霜的神情很复杂，
+wifi: .....
+wifi: .....不知道。
+wifi: 没有，必要...
+@printer nos
+为什么一定要把事情连起来呢？
+“为 什 么 ？”[< speed:0.1]
+@char xp
+xp.de: ...
+xp.s: ....
+xp.de: 这件事...对我们很重要。
+@char wifi
+wifi: 我们，是谁？
+@char xp
+xp: 叶兰，岁寒...商会的大家。
+xp: 失去朋友是一件痛苦的事情。
+@printer nos
+会带来痛苦。
+@char wifi
+wifi: ....
+@hideChars
+@printer nos
+无法在这里欢笑。
+@char wifi
+wifi: 无关。和我。
+@hideChars
+@printer nos
+是任何分析都无法得出结论的，天经地义的事情。
+@char wifi
+wifi: 对不起。
+@hideChars
+@printer nos
+评判并不来自自己
+@char xp
+xp: ....
+xp.s: ....
+@printer nos
+显然，白霜要么真的不知道，要么完全不想说。
+真不够朋友？你怎么不站在我这一边？
+这种话真的要对白霜说吗？又或者说是...
+本来就没有这种想法。
+在继续询问自己“为什么”前....
+
+@char xp
+xp.looklefto: 嗯...那我先去茶馆碰碰运气吧。
+@printer nos
+比起真的所谓“帮忙”什么...
+自己则更加自私地呵护自己的“朋友”
+虽然这份呵护是极其小心翼翼的，
+尤其当微小裂缝已然发生时，则更加警惕与警戒，害怕...失去？
+@char wifi
+wifi: 对不起....
+@printer nos
+生分、礼貌与谨慎，互相交织缠绕着....
+@char xp
+xp.comfy: 没...没事啦！我就...随口一提。
+xp.comfy: 我去别的地方问问看。
+xp.s: ....
+@printer nos
+真不想承担这一切啊。
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:0.01
+我的“想”与“不想”....
+真的由我的意志决定吗？
+@playUIFX threshold:0.0 duration:0.01
+@char wifi
+wifi: ...
+@printer nos
+正当相昀发呆时，白霜补上了地图上云端茶馆的位置。
+
+
+去药行？是否
+初见怜。
+
+
+
+@char lyen
+lyen.wuyu: ....
+lyen.fc: 你们这群人简直....
+lyen.fc: 算了, 走一步算一步吧.
+@char lyen
+lyen.fc: 我到时候放人在茶馆监听,有消息再通知你们吧.
+@printer nos
+感觉还隐瞒了什么....
+@char xp
+xp.angry1: 那其他两个人呢?
+@char wifi
+wifi: ....
+@char lyen
+lyen.fc: 死了。
+@char wifi
+wifi: ....
+@char lyen
+lyen.ana: 你...?!
+@char xp
+xp.b: 瞒着我对你有什么好处吗怜二小姐....
+@printer nos
+白霜....？
+@char wifi
+wifi: .....
+wifi: ...
+@hide lyen
+@printer nos
+怜张了张嘴，但放弃了。
+只有风声吹过。
+@char lyen
+lyen.fc: ....所以说交给我查就行了。
+@char xp
+xp.angry1: ？
+@char wifi
+wifi: ....没回...不知道，生死，
+@char lyen
+@char lyen
+lyen.fc: ....
+xp.angry1: 说谎现在只会破坏信任，怜二小姐。
+xp.b: 虽然好像我们之间本来就没啥信任。
+@char lyen
+lyen.wuyu: 
+
+xp.ba: 啊, 所以那位大小姐也有嫌疑了?
+@char lyen
+lyen.wuyua: 我不觉得是仟虹。
+@char xp
+xp.angry1: 你这么确定?
+@shake lyen
+@char lyen
+lyen.fc: ...
+@hide lyen
+@printer nos
+....
+轻风吹过，吹起怜的长发。
+@char lyen
+lyen.wuyu: ...
+lyen.close: ....因为她是个废物。
+@wait 0.5
+@char xp
+xp.angry1: ?啥?
+@printer nos
+什么意思...？
+lyen.fc: 都说了我来查，等结果就行。
+@printer nos
+说了半天又绕回原点。
+@char xp
+xp.ba: 你早把态度摆出来啊。
+@char lyen
+lyen.wuyu: 不是说了吗,前些天很忙.
+
+
+
+@char cyan
+cyan: 要不在我家住下吧！
+@char xp
+xp.angry1: ...啊？
+@printer nos
+啊？
+@char cyan
+cyan: 嗯...这里离商会分部很远吧？
+cyan.sadd: 而且天还这么晚了？
+@char xp
+xp.ba: ...啊....？
+@printer nos
+貌似也挺有意思的...？
+@char cyan
+cyan: ...分形与雪花之类的，无限蔓延着？
+cyan.saddr: 嗯...就像人生的各种选择
+@char xp
+xp.looklefto: 呃...这个比喻好像确实不错。
+@char cyan
+cyan.smile: 对哦，从一个分支走向另一个分支是必然的，没有任何概率的，当做出一个选择后，事件是就是固定的。
+
+    @char xp
+    xp: 等下，
+cyan.smile: 在面对未来时是树状的，但是回头看时确是收束一条线的。
+@printer nos
+相昀并不是很明白仟虹说这些话的意思...
+她甚至觉得很可笑，很无聊，想问“你学了那么多就是为了这样作诗句？”
+时间太宝贵了，没有给她胡思乱想的时间，没有给她问“为什么要问为什么”的时间。
+@char cyan
+cyan.smile: 还有我切开糖雪球后，确实像是宇宙星星一样的模型，星星点点的围绕中间的核，可能糖雪球里面也有微型世界吧。
+@printer nos
+一切只是语义游戏，你多想了。
+想这些有什么用呢？
+你想研究这方面的理论吗？这个理论能干什么呢？
+浪费时间，毫无作用，
+那我评价这些的原因又是什么呢？
+@char cyan
+cyan.smile: 球形与分形....我喜欢星球与雪花。
+cyan.smile: 你应该...一点也没听懂吧。
+@char xp
+xp: 我大概能听懂一点....
+@char cyan
+cyan.smile: 没事啦，每个人的语词场都是不一样的。相同语词不同内涵...没有必要、也不可能相互理解的。
+cyan.smile: 只是听听我这样胡言乱语我就已经很开心啦。
+cyan.smile: 谢谢你听我说这么多...
+
+cyan.saddr: 我知道自己在浪费你的时间...对不起啊。你的时间...在这线性空间里...很宝贵吧。
+cyan.sadd: 啊...我一直在给别人添麻烦。
+cyan.sadd: 我知道你和怜...以及长辈们都很努力。
+cyan.haoe: 抱歉啊，我就是这样一个...沉溺幻想的一无是处的只想着逃避的人。
+@printer nos
+镌刻在骨子里的自卑。
+@char xp
+xp: .....
+@char cyan
+cyan: 所以我也想做些什么。或者你会劝我找到自己热爱的事情...
+cyan.haoe: 太奢侈了。
+cyan.sadd: 在这如何幸福活下去的世界。
+cyan.sadr: 会去想要去教书...或者帮助别人找寻心灵的宁静...
+@char cyan
+cyan.saddo: 结果我什么也成为不了。
+cyan.haoe: 如果我没办法影响到很多人的话，哪怕让一个人感到幸福也好。
+cyan.saddo: 但是呢...我又什么也不想做。
+cyan.haoe: 无数次想就此湮灭，想从未存在过。
+cyan.sadr: 因为，我不知道我做这一切的意义是什么。
+cyan.haoe: 看...我又在问意义了。
+cyan.haoe: 又在"因为不知道因为"，哈哈....
+cyan.saddo: 明明下决心再也不想“为什么”...因为我也想做一个“有用”的人。
+cyan.sadd: .....
+; 哭
+cyan.sadr: ...我极其，非常，痛恨，这个正在说“因为所以”的自己。[< speed:0.1]
+cyan.saddo: 为什么我不能成为像怜一样做一个“有用”的人....
+@printer nos
+悲伤....
+相昀认识这种情绪:悲伤，她也百分百确定，这确实是是悲伤，脱离语词和逻辑而言的，纯粹的悲伤。
+
+@addChoice 拥抱仟虹
+@stop
+
+@char xp
+xp: .....
+xp: .....
+@printer nos
+"抱歉"
+只会用“抱歉”来回避一切，
+面对叶兰，面对岁寒，面对仟虹.....
+如果不能感受的话，
+那就<b>保持沉默</b>吧。
+
+
+xp.angry1: ....
+xp.s: ...我吗。
+@char xp
+xp.blink: 以前在江城，每天都自然醒，醒来后去找吃的，然后吃饱了继续睡。
+xp.blink: 叶兰有给我找过私塾，但是我也坚持不了两天。
+xp.comfy: 这也许是我人生中最上进的两天了。
+xp.blink: 所以，我倒一直觉得自己就是世界上最自私的人。
+xp.looklefto: 哦对
+@hide xp
+@char xwp
+xwp.comfy: 还有白霜呢。
+
+@char cyan
+cyan.saddo: ...白霜...
+@char cyan
+
+
+
+
+
+lyen.wuyu: 吃穿用度都是商会的，自身却毫不在意。
+lyen.wuyua: 你就是这样表达感恩的？

@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: f933b39f06a0450b9bf48f1cac6f80a8
+timeCreated: 1669056968
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/Commands/Visuals/SpawnRain.cs
+  uploadId: 953760

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 702c32b2de0c0784b9a66ec90601874f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Prefabs/DefaultUI/ClickThroughPanel.prefab
+  uploadId: 953760

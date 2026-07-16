@@ -1,0 +1,48 @@
+@bgm bir
+@char A.deblinkAde pose:1
+@printer A1
+A.deblinkAde: 啥....生日快乐你，
+A.deblinkAde: 19岁，
+@playFX threshold:0.3 duration:0.1
+A.deblinkAde: 啥生日礼物以这个形式呈现我也是没招了哥们....
+@playFX threshold:0.0 duration:0.1
+A.frownAde: ....乐，不尬聊了，一些电子小猫
+@hideChars
+@char cat1.Base pose:cat
+cat1.Base: hey man, i'm a cat.
+cat1.Bite_R: I'll show you some cats' tricks!!
+cat1.Digging: 好吧，实际我也摆烂了。
+cat1.Base: 来给你讲个乐的。
+cat1.Ears_Twitch_R: 3.29是小云生日，然后我也做了游戏送过去
+cat1.Crouch_R: 但是我没做完（。。。。
+cat1.Ears_Twitch_R: 然后内耗半天。
+cat1.Base: 但是最后还是送出去了。
+cat1.Drink_D: 这个故事告诉我们
+cat1.Base: 也许做的抽象一点也没关系
+cat1.Base: 比如这个礼物
+cat1.Digging: 所以总而言之祝19岁生快。
+cat1.Ears_Twitch_R: 欢迎把此当做电子榨菜礼物
+cat1.Drink_D: 开摆。
+cat1.Stretching: 哈哈。
+cat1.Stretching: 还有一点时间才到你生日，干什么好呢
+@char catte.Base position:80.73,0.00,0.00
+catte.Base: 哦对，再加一只小猫吧
+catte.Swim_idle: 现在我们有两只小猫了。
+@char cat1.Base pose:cat
+cat1: 虽然比较抱歉没有能做成和王子多宝很像的小猫）））个人能力问题））....
+@char catte.Base position:80.73,0.00,0.00
+catte: 但还是祝你生日快乐吧。
+@char cat1.Base pose:cat
+cat1.Stretching: 哦对，也不记得你有没有高考完了。
+@char catte.Swim_idle position:80.73,0.00,0.00
+catte.Crouch_R: 最近也没有很关注现实的事情...
+catte.Bite_R: 但还是祝你生日快乐吧。
+@playFX threshold:0.5 duration:0.2
+@char A.deblinkAde pose:1
+@printer A1
+A.lookleft: 所以大概就这样了....
+@playFX threshold:1.0 duration:0.2
+A.smile: 生日快乐
+
+
+@stop

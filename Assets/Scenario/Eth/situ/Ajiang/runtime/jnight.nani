@@ -1,0 +1,555 @@
+@hideAll
+@despawnAll
+@playFX threshold:0.0 duration:0.01
+@playUIFX threshold:0.0 duration:0.01
+@spawn night
+; @分部室内灯光...？
+@char xp
+@char Cleisure
+@char Cleisure
+Cleisure: 嗨！
+Cleisure.smileCde: 辛苦啦小相昀！
+@char Cleisure
+@char Cleisure
+@hideChars
+@printer nos
+当相昀拖着沉重的步伐滚进分部阁楼里时....感觉全身要散架了。
+@char xp
+xp.s: ....我真....我今天干什么了这么累？
+@char xp.s
+@hideChars
+@printer nos
+相昀仔细想了会...走了很远吗...？
+; 今天好像是从 </b><color>(A)<color></b> 记录。
+; if条件等。
+; 梳理gameplay
+正当她这样想时....
+@char Cleisure
+@char Cleisure
+Cleisure.deblinkCde: 哦对了
+@char Cleisure.deblinkCde
+Cleisure.smileCde: 小相昀...你的朋友来找你了？
+@char xp
+xp.sup: ？！
+@printer nos
+@if cop==1
+    喂不是说店里见面的吗？？
+@char xp
+xp.comfye: ....呃....那我去看看....
+@char Cleisure
+Cleisure.deblinkCde: 她下午就开始等你了，我让她进来坐会，也不来。
+Cleisure.bsmileCde: 也不太讲话...？问她名字也不理.....
+@char xp
+xp.angry1: 啊？...
+@hideChars
+@printer nos
+难道......？
+; @sfx 快速下楼音效
+; @转场效果？
+
+@wait 3
+@char wifi
+@char wifi
+wifi: ....
+@char xp
+xp.comfy: ....白....等！....
+@hideChars
+@printer nos
+相昀刚想喊她，突然想起“白霜”这个名字....
+@char wifi
+@char wifi
+@char xp
+xp.s: 等下...白天不是才见面吗？
+xp.blink: 有什么事吗？
+wifi: .....
+wifi: .....地图。
+@char xp
+xp.looklefto: ?
+@hideChars
+@printer nos
+相昀想起上午已经把地图补充地差不多了——
+@char wifi
+@char wifi
+@char xwp
+xwp.comfy: 将将！
+xwp.comfyo: 不用担心，我把地图差不多补完了！
+@hide xwp
+; map? 地图演出？
+@if path==1
+    @char xp
+    xp: 我最开始去集市那边碰到抽象拼粽子人，然后就去找你了。
+    xp: 之后我就去渡口，哦对，我们分部人告诉我去趟天堂茶馆，我就过去了。
+    xp.angry1: 然后好巧不巧，那边关门了。
+    xp.s: ...无语了，难道我应该早点去的吗....
+    wifi: ....？
+    @hideChars
+    @printer nos
+    白霜想了一会儿...
+    @char wifi
+    @char wifi
+    @shake wifi
+    wifi: ！！
+    @printer nos
+    白霜似乎想到了什么....？
+    @goto #m1
+    @stop
+@if path==2
+    @char xp
+    xp: 我最开始去集市那边碰到抽象拼粽子人，然后在去找你前，我实际先去了一趟渡口以及茶馆。
+    
+    在此问白霜等。
+    xp.looklefto: ...等等，话说回茶馆。
+    xp.angry1: 你猜我碰到了谁...
+    wifi: ....？
+    @hideChars
+    @printer nos
+    白霜想了一会儿...
+    @char wifi
+    @char wifi
+    @shake wifi
+    wifi: ！！
+    @printer nos
+    白霜似乎想到了什么....？
+    @char wifi
+    @char wifi
+    @char xp
+    xp.looklefto: 呃嗯...
+    xp.s: ...实际上就是怜。
+    wifi: ......
+    @hideChars
+    @printer nos
+    听到怜的名字，白霜....
+    ....
+    很难描述她现在的状态，相昀看不出来。
+    还是...死鱼眼......太过平静，毫无反应的反而...描述不出来。
+    @if cop==0
+        @goto #cop0
+    @if cop==1
+        @goto #cop1
+    @stop
+
+@if path==3
+    @char xp
+    xp: 上午找完你之后我就去渡口。
+    xp.comfy: 哦对，我们分部人告诉我"天堂"有线索，我就过去看了眼。
+    xp.looklefto: 最后我去了集市，
+    xp.comfy: 我有点想明天在那摆个摊子。
+    @hideChars
+    @printer nos
+    相昀开始盘算着卖什么...但是等下，现在好像不是想这个的时候
+    xp.looklefto: ...等等，话说回茶馆。
+    xp.angry1: 你猜我碰到了谁...
+    wifi: ....？
+    @hideChars
+    @printer nos
+    白霜想了一会儿...
+    @char wifi
+    @char wifi
+    @shake wifi
+    wifi: ！！
+    @printer nos
+    白霜似乎想到了什么....？
+    @char wifi
+    @char wifi
+    @char xp
+    xp.looklefto: 呃嗯...
+    xp.s: ...实际上就是怜。
+    wifi: ......
+    @hideChars
+    @printer nos
+    听到怜的名字，白霜....
+    ....
+    很难描述她现在的状态，相昀看不出来。
+    还是...死鱼眼......太过平静，毫无反应的反而...描述不出来。
+    @if cop==0
+        @goto #cop0
+    @if cop==1
+        @goto #cop1
+    @stop
+
+
+@if path==4
+    @char xp
+    xp.comfy: 上午我见完你后....
+    @wait 0.5
+    xp.b: 呃等下。
+    @printer nos
+    相昀刚想向白霜汇报她这一天的行程，
+    但是....
+    她突然想起来....
+    @char xtp
+    @char wifi
+    @char wifi
+    xtp.comfy: 呃那个！！
+    @printer nos
+    ...糖雪球的事情...
+    @char wifi
+    @char wifi
+    @char xtp
+    xtp.comfye: 你给我的糖雪球...
+    xtp.b: 太受欢迎了....就....
+    @hideChars
+    @char xp
+    xp.b: 就....
+    @char wifi
+    wifi: ？
+    xp.ba: ....被我.....卖掉了。
+    @hide wifi
+    @printer nos
+    在说这句话之前，相昀对于“卖掉了白霜的糖雪球”这件事其实毫无负罪感。
+    但当她理直气壮说出口时....
+    貌似.....哪里有些怪怪的。
+    @char wifi
+    @char wifi
+    wifi: 。。。
+    wifi: 乐。
+    @char xp
+    xp.comfy: ....
+    @hideChars
+    @printer nos
+    好像...并没有...太在意？
+    @char xp
+    xp.s: ....唉我就一时兴起。
+    xp.looklefto: 在见到你之后我就去集市摆摊。
+    xp.blink: 然后莫名真的能卖....
+    @char wifi
+    @char wifi
+    wifi: ....
+    wifi: ....摆摊....
+    @char xp
+    xp.comfy: .....
+    @hideChars
+    @printer nos
+    呃，看不太出白霜的情绪...
+    不知道是高兴还是生气....
+    @goto #m1
+    @stop
+
+
+@if path==5
+    @char xp
+    xp.comfy: 我上午先去渡口那边看了眼....
+    @char xp
+    xp.comfy: 然后....
+    @wait 0.5
+    xp.b: 等等。
+    @printer nos
+    相昀刚想向白霜汇报她这一天的行程，
+    但是，
+    她突然想起来....
+
+    @char xtp
+    @char wifi
+    @char wifi
+    xtp.comfy: 呃那个！！
+    @printer nos
+    ...糖雪球的事情...
+    @char wifi
+    @char wifi
+    @char xtp
+    xtp.comfye: 你给我的糖雪球...
+    xtp.b: 太受欢迎了....就....
+    @hideChars
+    @char xp
+    xp.b: 就....
+    @char wifi
+    wifi: ？
+    xp.ba: ....被我.....卖掉了。
+    @hide wifi
+    @printer nos
+    在说这句话之前，相昀对于“卖掉了白霜的糖雪球”这件事其实毫无负罪感。
+    但当她理直气壮说出口时....
+    貌似.....哪里有些怪怪的。
+    @char wifi
+    @char wifi
+    wifi: 。。。
+    wifi: 乐。
+    @char xp
+    xp.comfy: ....
+    @hideChars
+    @printer nos
+    好像...并没有...太在意？
+    @char xp
+    xp.s: ....唉我就一时兴起。
+    xp.looklefto: 在见到你之后我就去集市摆摊。
+    xp.blink: 然后莫名真的能卖....
+    @char wifi
+    @char wifi
+    wifi: ....
+    wifi: ....摆摊....
+    @char xp
+    xp.comfy: .....
+    @hideChars
+    @printer nos
+    呃，看不太出白霜的情绪...
+    不知道是高兴还是生气....
+    @char wifi
+    @char wifi
+
+    @char xp
+    xp: 然后还有...其中一位老板...我上午还在渡口碰到她了。
+    xp.s: 你说巧不巧吧。
+    @printer nos
+    说罢，“误认为对方要投海就上前搭话”的尴尬又无端浮现....
+    @char wifi
+    @char wifi
+
+    @char xp
+    xp.b: ....我简直是....
+    @goto #m1
+    @stop
+
+@if path==6
+    @hideChars
+    @char wifi
+    @char wifi
+    @char xp
+    xp.looklefto: 嗯...在找你前我先去了一趟渡口边。
+    @printer nos
+    说罢，“误认为对方要投海就上前搭话”的尴尬又无端浮现....
+    @char wifi
+    @char wifi
+
+    @char xp
+    xp.b: ....我简直是....
+    @goto #m1
+    @stop
+
+
+
+# cop0
+@char wifi
+; frown sad
+@char wifi
+@char xp
+xp: 没事，她找我合作，然后被我拒绝了。
+xp.b: 就那态度还想合作....
+@char wifi
+wifi: .....
+@hideChars
+@printer nos
+白霜叹了口气？
+是松了口气？还是....
+@goto #m1
+@stop
+
+
+# m1
+@char wifi
+@char wifi
+wifi: ....也好。
+@char xp
+xp.looklefto: ？
+@hideChars
+@printer nos
+也好？
+
+@char wifi
+@char wifi
+wifi: .....嗯。
+; wifi sm
+@printer nos
+白霜看起来似乎是有话要说的....
+
+@char xp
+xp.lookleft: ....呃....？
+xp.angry1: 嗯....
+xp.looklefto: 你是...有什么事...吗？
+
+@char wifi
+wifi: .....
+; wifi sad
+@char xp
+xp.b: ....怎么回事....
+xp.angry1: （感觉你要哭出来的感觉....）
+; 眨眼摇头是否可有？
+@char wifi
+wifi: .....
+@printer nos
+白霜眨巴眨巴眼睛，
+表情突然...坚定了起来？？
+@char wifi
+wifi.ane: ....
+wifi.ane: ....明天。
+wifi.de: 来公馆....
+@char xp
+xp.looklefto: ？
+@hideChars
+@printer nos
+这不，求之不得...
+早就想去公馆里面搜罗一番了。
+@char wifi
+@char wifi
+@char xwp
+xwp.comfyo: 好哦~
+@hide xwp
+@char xp
+xp.angry1: 不过...
+xp.looklefto: 是去公馆里面？
+xp.s: 我能进去吗....
+@char wifi
+wifi.de: ....大概....吧。
+@char xp
+xp.ba: 等等，怎么是...“大概”？
+@hideChars
+@printer nos
+本来相昀想的是如果白霜给她开后门的话可能会更容易些....
+但结果貌似并非如此....
+@char wifi
+@char wifi
+@char xp
+xp.s: 呃，不是...怎么个“大概”法.....这....
+wifi: ....
+wifi: ....支开怜。和仟虹？
+wifi: ....我试试看....
+wifi: ....
+wifi: 撬锁？
+xp.comfy: 行。
+@printer nos
+等下
+xp.sup: ？？？？撬锁？？
+wifi: 嗯。
+wifi: 我教你。
+@hideChars
+@printer nos
+等下，等下。
+@char wifi
+@char wifi
+@char xp
+xp.angeya: 不是....？？等下...
+@printer nos
+为什么你还会撬锁啊！
+xp.angry1: 呃...用得着撬锁吗？
+xp: 到时你帮我开个门....？
+
+@char wifi
+@char wifi
+wifi: ....
+wifi: 集市，走？
+@printer nos
+....啊？
+@char wifi
+@char wifi
+
+@char xwp
+xwp: 去集市逛吗！
+xwp.comfy: ~~应该会有很多好吃的！
+@printer nos
+开心，疲惫一扫而净。
+@stop
+
+
+
+
+
+# cop1
+@hideChars
+; memo fx postpospone set renderer
+@char lyen
+@char lyen
+lyen: 哦，记得保密。
+@wait 1
+
+@char wifi
+@char wifi
+@char xp
+xp.angry1: ...（我要把合作的事情和白霜说吗？）
+@addChoice 告诉白霜 goto:#tell1
+@addChoice 不告诉白霜 goto:#ntell
+@stop
+
+# tell
+@hideChars
+@printer nos
+有什么事不能和白霜说？
+而且白霜不也在怜那边干事情吗....
+于是相昀决定告诉白霜。
+@char wifi
+@char wifi
+@char xp
+xp: 她找我合作，然后我答应了。
+xp.ba: ...虽然跟她合作简直是一言难尽....
+xp.looklefto: 总之就是调查茶馆老板的载船相关事情。
+xp.blink: 还真有些发现。
+xp: 首先布料的事情——是商会的样布。
+xp.looklefto: 其次，我去看了那艘船...抽象工程架构。
+xp.b: 从外形构造到内部结构....很奇怪，不协调，但是确实能跑。
+xp.ba: 像哪个闭门造船自研的...
+xp.looklefto: 不会真是那家老板？深藏不露啊...
+
+wifi: ......
+@hideChars
+@printer nos
+在这个过程中，白霜只是静静地听着，一点反应也没有。
+@char wifi
+@char wifi
+@char xp
+xp.looklefto: 哦对了！
+@hideChars
+@printer nos
+要不把拍的照片拿给白霜看看？
+相昀翻出微型摄像机，
+
+@char wifi
+@char wifi
+wifi: ！....
+wifi: ....怜.....
+@hideChars
+@printer nos
+但她没注意到白霜看到摄像机时的神色变了。
+@char xp
+xp.blink: 就是这些。
+xp.lookleft: 嗯....
+xp.looklefto: 你有什么头绪吗....？
+@char wifi
+@char wifi
+wifi: .....
+@hideChars
+@printer nos
+白霜摇摇头。
+@char wifi
+@char wifi
+
+wifi: ...当时也...没见过。
+@char xp
+xp.s: ...这样啊....
+@hideChars
+@printer nos
+相昀有些遗憾地收起相机，看到上面的血迹和漏洞，还以为是交战过的船....
+@char wifi
+@char wifi
+
+xp.blink: 哦对。
+xp.looklefto: 我等会去集市和怜见面，要一起去吗？
+xp.comfy: 还可以一起逛逛夜市吃点东西！
+@hideChars
+@printer nos
+没错，晚上那边的夜市一定是非常非常热闹的。
+相昀迫不及待想去那边品尝一番....
+@char xwp
+xwp.comfy: 嘿嘿....
+
+
+; ....我他妈不会还要整古代轮船照片吧我靠了。。。？？
+
+
+# ntell
+@printer nos
+算了，还是不和白霜说了。
+
+对于怜...相昀想起随身武装和来历不明的摄像机....
+即使白霜确实也在苏家打工但....
+不告诉她的话应该能少些危险吧。
+....
+@char xp
+xp.s: （抱歉白霜...也许你不知情更好....）
+@printer nos
+.....
+xp.comfy
+
+
+
+
+
+
+@stop

@@ -1,0 +1,628 @@
+@set before=now
+@if d==0
+    @if port==0
+        @if market==1
+            @set u=4
+        @set port=1
+        @goto #0
+        @stop
+    @goto #0other
+    
+    @if trace=7
+        @goto #0even
+    @stop
+
+
+# 0
+@despawnAll
+@playUIFX threshold:0.0 duration:0.01
+@playFX threshold:0.0 duration:0.01
+@hidePrinter
+@spawn daysun
+@stopbgm
+@hideAll
+@set xq++
+@printer nos
+@bgm dia2
+
+相昀没有走多远，远远看见了一片大海
+原来是码头啊....那这里就应该是渡口了？
+
+; shader1
+@char xwp
+xwp.comfy: 大海！
+
+@hideChars
+@printer nos
+相昀飞奔过去....
+
+; hundreds leaf window trans
+@back id:port
+@back id:port
+
+扑面而来的，有风，有人声，也有鱼腥味。
+
+@char xp pose:h
+
+
+xp.blink: ....
+@hide xp
+@printer nos
+相昀闻着鱼腥味，
+大清早也没有胃口吃重荤...
+本来划船带来的疲劳反而被海风冲淡了？
+@char xp
+@char xp
+xp.s: 唉...可惜暂时没啥好玩的。
+
+@hideChars
+@printer nos
+
+; sfx wave/ port
+船只来来往往，码头边上也很热闹。
+
+但是相昀并没有注意，而是盯着远处海中央某个打转的船
+....
+
+@char xp
+xp: 看起来像海中孤舟一样....
+@wait 0.5
+@printer nos
+随着一阵笛声，又一艘船只在岸边停泊。
+一些乘客陆陆续续下船。
+步伐掀起的气流经过相昀身边....
+但她并没有注意到人流
+只是迎着海风，不知觉中，相昀看得有些入神
+; @sfx
+
+
+@stopBgm dia2 fade:2
+@char xp
+xp: ？
+@char xp
+xp: ？
+
+
+@printer nos
+背后好像有目光凝视....
+
+@hideChars
+@printer nos
+@hidePrinter
+@char cyan.cidleback position:4.15,-5.43,0.00
+@char cyan.cidleback
+@wait 3
+
+@char cyan.cidleback pose:h
+@printer nos
+相昀看到一位少女站在岸边...
+
+浅蓝的长发，和苍蓝天空一样
+.....
+
+少女凝视大海，相昀凝视少女。
+
+
+@wait 0.3
+
+@if num=1
+    @if xq=1
+        # q1
+        @bgm qwater
+        @bt
+        @wait 1
+
+
+        @printer Fullscreen
+        要走了。
+        再也见不到美丽的雪花了。
+        也许吧？
+        @showUI ScriptNavigatorUI
+        @printer Atest
+        仟虹愣愣地站在渡口。
+        @printer Fullscreen
+        总之，津都从来没下过雪。
+        刚去席院的时候，正是漫天飞雪的十二月。
+        她从来没见如此美丽轻盈的形状。
+        ....
+        为什么，自己不能成为呢？
+        @char cyan pose:h
+        cp.sadr: .....
+        @hideChars
+        @printer Fullscreen
+        但是只是水，
+        如果自己能随意重组成水也不错。
+        可是她并不觉得江海很美。
+        @char cyan pose:h
+        cp.sadr: .....啊。
+        @hideChars
+        看着茫茫的大海，汽笛，轮船，
+        嘈杂声，
+        甚至能看见自己的倒影。
+        @char cp
+        cp.sadd: ....
+        cp.saddo: 如果我现在跳下去的话。
+        cp.de: 也许一切就能结束了...?
+
+        实际上也不能结束吧，
+        因为自己依然受困于时间之内，
+        无法自然地化为波形或者粒子。
+        甚至自己也多次被教导不要把微观的抽象代入宏观事物中。
+        但是仟虹是喜欢胡乱想象的。
+        现实总有很多的事情，
+        非黑即白的。
+        如果发生一件事情的话，另一个结果不会塌缩，而是在一个平行宇宙里继续发生？
+        比如，
+        @hideUI ScriptNavigatorUI
+        镜头可以竖直运动
+        @shake cp ver! !hor time:2 wait!
+        镜头也可以水平运动
+        @shake cp hor! !ver time:2 wait!
+
+        仟虹面对大海,
+        那要不这样吧。
+        仟虹看着海水，海水看着仟虹。
+        如果竖直运动，就跳海，
+        如果水平运动的话，就不跳海。
+
+        下一秒镜头会如何运动呢？
+        @addChoice 竖直 goto:#01
+        @addChoice 水平 goto:#1
+        @stop
+
+
+        # 1
+        @shake Atest hor! !ver time:2 wait!
+        然后，世界会分裂成两个，仟虹已经跳海的世界，仟虹还活着的世界。
+        于是仟虹的意识在这一瞬间迁移到“还活着”的世界里了。
+        正当仟虹发呆时，有两位水手在旁边走过。
+        水手1: 你也在加班？
+        水手2: 我都连续干了几周了，简直连礼拜日也不放过。
+        水手1: 唉，也不知道哪里来这么多货。
+        在这里，你依然可以选择
+        @addChoice 竖直 goto:#01
+        @addChoice 水平 goto:#2
+        @stop
+
+
+        # 2
+        @shake Atest hor! !ver time:2 wait!
+        然后，世界会分裂成两个，仟虹已经跳海的世界，仟虹还活着的世界。
+        于是仟虹的意识在这一瞬间迁移到“还活着”的世界里了。
+        码头旁边总是人来人往的。
+
+        在这里，你依然可以选择
+        @addChoice 竖直 goto:#01
+        @addChoice 水平 goto:#3
+        @stop
+
+        # 3
+        @shake Atest hor! !ver time:2 wait!
+        然后，世界会分裂成两个，仟虹已经跳海的世界，仟虹还活着的世界。
+        于是仟虹的意识在这一瞬间迁移到“还活着”的世界里了。
+        在这里，你依然可以选择
+        @addChoice 竖直 goto:#01
+        @addChoice 水平 goto:#4
+        @stop
+
+        # 4
+        @shake Atest hor! !ver time:2 wait!
+        然后，世界会分裂成两个，仟虹已经跳海的世界，仟虹还活着的世界。
+        于是仟虹的意识在这一瞬间迁移到“还活着”的世界里了。
+        在这里，你依然可以选择
+        @addChoice 竖直 goto:#01
+        @addChoice 水平 goto:#5
+        @stop
+
+
+        # 5
+        @shake Atest hor! !ver time:2 wait!
+        @hideChars
+        确实，如果存在平行世界的话，
+        自己的意识也将永生。
+        将要等待死亡发生....
+        @char cp
+        cp.sadd: ....
+        cp.saddo: 所以如何才能彻底地消失呢？
+        @goto #01
+        @stop
+
+
+        ; D=2，T=7, qi=0
+        回来了。
+        ; qi=1
+        理论上是从小长大的地方，
+        ; qi=2
+        萦绕生锈记忆的....
+        ; qi=3
+        cp.sadd: ....
+        ; qi=4
+        自己的行踪估计也被跟踪了吧。
+        ; qi=5
+        只能用估计，因为确实不知道。
+        ; qi=6
+        如果被跟踪的话，是谁跟踪自己呢?
+
+
+
+
+# 01
+
+@char cyan.cidleback position:4.15,-5.43,0.00
+@char xp
+xp.b: ....？
+@playFX threshold:0.0 duration:0.01
+@playFX threshold:0.5 duration:0.01
+xp.ba: ....原来世界上爱发呆的不止我一个啊
+xp.angry: ...等等....
+@playFX threshold:0.5 duration:0.01
+@playFX threshold:0.7 duration:0.01
+@printer nos
+相昀感觉有点不对劲。
+少女往前了一步。
+@wait 0.4
+@playFX threshold:0.7 duration:0.01
+@playFX threshold:1 duration:0.01
+难道她要....？？！
+@wait 0.4
+@spawn ShakeCamera params:,,,,5,
+@char xp
+@playFX threshold:1 duration:0.01
+@playFX threshold:0.0 duration:0.01
+xp.sup: ！！
+@shake xpt
+xp.supa: 等下！！不可以！！
+@printer nosz
+直觉先于思考。
+@wait 0.5
+@printer ct
+@playFX threshold:0.0 duration:0.01
+@char cyan.idle
+@char cyan.idle
+@char cyan.supa
+@printer ct
+?: 啊？
+@wait 1.0
+@playFX threshold:0.0 duration:0.01
+@playFX threshold:1.0 duration:0.01
+@hideAll
+@wait 1.0
+
+@playFX threshold:0.0 duration:2 !wait
+
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:1.5 wait!
+@playUIFX threshold:0.0 duration:5 !wait
+@hideChars
+
+
+; @hideAll
+@hide daysun
+@despawn daysun
+@despawn daysun
+@char cyan.de
+@char cyan.de
+@spawn sun
+@spawn titlewindzone
+
+
+@camera offset:2.31,1.15,0.00 time:1
+@camera zoom:0.623 time:1
+@printer nos
+@char cyan position:4.15,-5.43,0.00
+@spawn daycyan wait!
+@wait 2
+
+
+@bgm cyan1
+@despawn daycyan
+@spawn portbloom
+眼前少女终于抬起头————相昀刚准备拉住她。
+
+@char xp
+xp.angry1: ...
+@hideChars
+@printer nos
+相昀盯了一会儿少女....
+@char cyan
+@char cyan
+@char xp
+xp.angry1: ...
+xp.s: ...抱歉...我刚刚以为你要...呃....
+@printer nos
+喂随便咒死别人有点太不礼貌了吧...
+....
+那我是咋知道她要跳海的？？？
+
+@char cyan
+@char cyan.haoe
+@printer ct
+??: 欸...
+@hideChars
+@printer nos
+眼前少女似乎仍然在发呆...
+相昀有些尴尬
+
+@char cyan.sadr
+@char cyan.sadr
+@char lumen.comfye pose:h
+xp: 呃嗯...你没事就好!
+xp.b: (太尴尬了我究竟在干什么啊....)
+@camera offset:0,0,0.00 time:1
+@camera zoom:0.0 time:2
+@hide xp
+@printer nos
+相昀慌慌张张的后退两步。
+@playFX threshold:0.0 duration:0.01
+@playFX threshold:0.7 duration:0.01
+
+突然极其后悔自己为什么要上前搭话...
+现在想跳海的轮到她了。
+@playFX threshold:0.7 duration:0.01
+@playFX threshold:0.0 duration:0.01
+
+
+@char cyan
+@wait 0.1
+@char cyan.sadd
+@wait 0.1
+cyan.saddo: ....没事...谢谢你。
+
+@char xp.looklefto pose:h
+xp: 谢....？
+@hideChars
+
+@printer nos
+少女依然眺望远处的蓝天发呆。
+很晴朗，一望无际的蓝天——
+以及白云。
+真希望后面几天也是晴天。
+@char cyan.sadd
+@char cyan.sadd
+@char xp
+
+xp: .....
+@printer nos
+没等相昀反应过来，少女低下头，提着箱子匆匆忙忙走了。
+
+@despawn portbloom
+@spawn daysun
+@back id:port
+
+@char xp pose:h
+xp.b: ....
+xp.s: 感觉今天好倒霉....
+
+@printer nos
+尴尬的心情久久不能平复...
+@char xp pose:h
+xp.angry1: ....
+xp.angeya: 好尬.....
+@printer nos
+
+于是相昀生气地将一个糖雪球丢到海里。
+@char xp pose:h
+xp.comfye: 希望能水逆....
+@wait 0.5
+@hide xp
+@hidePrinter
+@playUIFX threshold:1.0 duration:1 !wait
+@hideAll
+@playUIFX threshold:0.0 duration:1 !wait
+
+@printer ct
+@char cyan
+@char cyan
+
+??: .....
+@char cyan.sadd
+??: .....
+
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:3 wait!
+@hideAll
+
+
+@stopBgm cyan1
+@wait 3
+
+
+
+@bgm dia2
+@back id:port
+@back id:port
+@back mapbase id:map scale:0.72
+@playUIFX threshold:0.0 duration:3 !wait
+@char xp
+xp: 嗯...
+@wait 2
+xp: 那所以这个雪花指的就是渡口了....
+xp.xiea: 标记一下吧。
+
+@hide xp
+@hidePrinter
+@wait 0.5
+@back mapport1 id:map scale:0.72
+@wait 3
+@char xwp
+xwp.comfy: 看起来不错。
+
+@goto Eth/situ/choice
+
+    
+# ACD
+@char xp
+xp.comfy: 那去港口边上看看吧。
+
+@char lyen
+
+
+
+# ABD
+@char xp
+xp: 那下一个去雪花的地方看看吧....
+
+@goto #0
+
+
+
+# 0other
+@despawnAll
+@playUIFX threshold:0.0 duration:0.01
+@playFX threshold:0.0 duration:0.01
+@if trace<3
+    @spawn daysun
+@if trace>5
+    @spawn evensun
+@hide xwp
+@hideChars
+@char xp pose:h
+@char xp pose:h
+xp.leftlooko: 喂...已经去过渡口了。
+xp.b: 还有其他地方不知道是啥。
+xp.s: 根据白霜标的比例尺...如果再去渡口的话，今天可能就没时间去其他地方了哦。
+@goto Eth/situ/choice
+
+
+
+
+@stop
+
+
+# d1portnight
+@printer nos
+望着一览无余的海面...
+很宁静，海风吹得很舒服。
+@char lyen
+lyen.wuyu: 她晕船。
+@char xp
+xp: 谁？
+@char lyen
+lyen: 仟虹。
+@printer nos
+望着泛着银光的纯黑海洋，怜突然冒出这样一句回忆。
+@char lyen
+lyen.wuyu: 很小时候我们做船去岛上玩，坐中型船去的？
+lyen.close: 算了，我对船没你了解多。
+lyen.closea: 当时她在船上脸色就不对...
+lyen.wuyua: 折腾半天。
+lyen.wuyu: 但是快艇倒没事。
+@char xp
+xp: ....
+@char lyen
+lyen: 那边鱼汤挺好喝的...毕竟是海岛上吧。
+lyen.wuyu: 不过这样想起来倒一直没时间去学着做。
+@char xp
+xp.b: ....做饭是要花时间精力的。
+@char lyen
+lyen.close: 你说得对。
+@char xp
+xp.looklefto: 不过鱼汤确实很好喝。
+xp.blink: 你很喜欢？
+@char lyen
+lyen.wuyu: 我....嗯。
+@char xp
+xp.ba: 哦对忘了你是大忙人来着....
+
+lyen.close: ...
+lyen.closea: ...和今晚一样凉快
+@printer nos
+怜像是想到什么。这样喃喃自语着。
+@char xp
+xp.ba: ....？
+@printer nos
+....
+lyen.close: ....多久以前的事了。
+@printer nos
+一声不响地就开始追忆了...
+@char lyen
+
+lyen.wuyu: 然后，初见白霜时感觉她跟仟虹挺像的。
+lyen.wuyua: 一样傻。
+@char xp
+xp.b: ....
+xp.ba: ...你为什么要和我说这个。
+
+@char lyen
+lyen.wuyu: 嗯？
+lyen.wuyua: 没什么，只是想让你知道罢了。
+lyen.close: 以及，我不喜欢把我的东西让给别人。
+
+@char xp
+xp.b: 你在讲什么...
+xp.looklefto: 之前我还和白霜去钓鱼来着。
+xp.b: 但是她钓鱼技术好烂。
+xp.s: 上饵时还把自己手指勾到了。
+@char lyen
+lyen.fc: ...
+lyen.wuyu: 我倒是没听说过她会钓鱼。
+xp.s: 然后她当时怎么也取不下来...竟然哭了。
+@printer nos
+没错...白霜会哭，但这件事离现在也有些...过于久远。
+xp.angry1: 哭了也不知道找我帮忙....
+xp.looklefto: 就跟现在一样。
+xp.s: 有什么事情和我说不就好了...
+xp.b: 一直都一个人独来独往地处理。
+@shake lyen
+@char lyen
+lyen.fc: ....
+@hide lyen
+@printer nos
+相昀这样哗啦啦讲着，貌似能讲很多很多。
+如果白霜求助她的话事情就好办很多呀，这样，有什么事情不能坐下来好好商量呢？
+
+@char lyen
+@char lyen
+@char xp
+xp.b: 对于她来说，好像永远是有福同享，有难就自己当这样...？
+@char lyen
+lyen.wuyua: 确实。
+@char xwp
+xwp.comfy: 所以我很喜欢这样的白霜。
+@shake lyen
+lyen.sup: ？.....
+lyen.fc: .....
+@hide xwp
+@char xp
+xp.comfy: 如果她总是粘着我的话...
+xp.b: 呃...
+xp.looklefto: ...貌似并没有这种可能性？
+@hide lyen
+@printer nos
+相昀歪着头想了会，事件就是这样发生的，她确实想不到除了这样发生外，白霜成为“黏人版白霜”的这种可能。
+
+因为白霜就是白霜...这种“浪费时间”的废话。
+@char lyen
+@char lyen
+lyen.wuyu: ....是吗。
+lyen.wuyua: 如果是我的话...
+lyen.close: ....
+
+
+
+
+lyen.wuyua: 不过现在看还是仟虹更傻。
+lyen.close: 不啰嗦了，抓紧时间干活吧。
+@char xp
+xp.looklefto: 啰嗦一会也没事啊。
+xp: 我都没咋见过海，以前就是看看江什么。
+@char lyen
+lyen: 那现在你看到了，有何感想。
+@char xp
+xp: 其实海滩边倒是和江滩边很像...沙滩，水天相接，这样。
+xp.xiea: 啊我想起来了，之前我用石头在江滩上拼出来了我和白霜的名字来着！
+@char lyen
+lyen.fc: ....
+lyen.wuyua: 要我夸你很浪漫吗。
+@char xp
+xp.ba: ....
+@printer nos
+相昀抬腿想把怜一脚踹下海，怜躲开了。
+xp.comfy: ....
+
+接头的人...
+....那个人是....
+仟虹？
+
+@printer nos
+怜好像想到什么，往渡口四处看看。

@@ -1,0 +1,24 @@
+@hideAll
+@despawnAll
+@setRenderer index:0
+@playFX threshold:0.0 duration:0.01 
+@playUIFX threshold:0.0 duration:0.01
+@back id:fen
+@back id:fen
+@camera offset:0,0,0 zoom:0 time:0
+
+; ============================================
+; CRITICAL TEST: offset + zoom in SAME command
+; If zoom animates but offset snaps, something
+; external is overriding LookContainer.position
+; ============================================
+@toast "TEST A: offset+zoom together, wait:true (3s)"
+@camera offset:5,0,0 zoom:0.6 time:3 wait:true
+
+@toast "TEST B: offset back, wait:true (3s)"
+@camera offset:0,0,0 time:3 wait:true
+
+@toast "TEST C: zoom only, wait:true (3s) - control"
+@camera zoom:0 time:3 wait:true
+
+@toast "DONE - check Unity Console for errors"

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c5b86cf3cfbb1f44ae5641699077da4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Prefabs/FX/ShakeCamera.prefab
+  uploadId: 953760

@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: 0e6dbedd15d3403baaa1aabf5a8fee5e
+timeCreated: 1760455907
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/Camera/CameraEvents.cs
+  uploadId: 953760

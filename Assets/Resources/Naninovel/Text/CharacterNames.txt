@@ -1,0 +1,18 @@
+A: 
+B: 
+C: 
+Cleisure: 岁寒
+cp: 仟虹
+cyan: 仟虹
+lp: 怜
+lumen: {playername}
+lyen: 怜
+vyt: 沾衣
+wifi: 白霜
+wp: 白霜
+xbcg: 
+xp: {playername}
+xtp: {playername}
+xw: {playername}
+xwp: {playername}
+yel: 叶兰

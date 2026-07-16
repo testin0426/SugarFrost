@@ -1,0 +1,36 @@
+@despawnAll
+@hideAll
+@playUIFX threshold:0.0 duration:0.01
+@playFX threshold:0.0 duration:0.01
+@spawn evensun
+@printer nos
+到达渡口时已经比较晚了，
+大部分船和渔工都开始收工。
+不得不说，半夜的海风很凉爽，
+虽然还是有些鱼腥味。
+@char xp    
+xp: .....
+@printer nos
+相昀盯着远处牌匾上刻着“天堂”的茶馆....
+@char xp
+xp.b: .....
+xp.ba: （为什么茶馆会开在渡口旁边...？）
+@printer nos
+不知为什么脑海中浮现出这个问题....
+@char xp
+xp.looklefto: 既然如此她们家鱼类菜品相关肯定很好吃....
+@printer nos
+相昀这样想着，
+江鱼倒也很好吃，鲫鱼鳊鱼青混草混等...不论清蒸还是红烧还是鱼汤...
+她好像都吃过，
+不过是排列组合的问题。
+海鱼的话...
+@char xp
+xp.looklefto: ....
+xp.s: 但不论怎么说今晚来这肯定是不会有什么发现了...
+@printer nos
+稍稍有些遗憾，
+感觉有点浪费时间。
+
+
+@stop

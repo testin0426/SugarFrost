@@ -1,0 +1,121 @@
+
+@playUIFX threshold:0.0 duration:0.01
+@playFX threshold:0.0 duration:0.01
+@camera zoom:0.0 time:0.01
+@spawn daysun
+
+@char cyan
+@char cyan
+@camera zoom:0.66 time:0.01
+@printer Fullscreen
+“抱歉...好的...麻烦了...感谢。”
+“嗯...没错。”
+“....”
+“....不可思议...吗？”
+“也许吧...”
+
+.....
+
+@resetText Fullscreen
+
+
+@printer fullnos
+时间
+时间
+时间
+......
+
+@playUIFX threshold:0.0 duration:0.01 wait:false
+@playUIFX threshold:1.0 duration:1.0
+
+@playUIFX threshold:0.5 duration:1.0
+@playUIFX threshold:1.0 duration:1.0
+
+@playUIFX threshold:0.0 duration:1.0 wait:false
+时间是很宝贵的。
+.....
+
+@printer Fullscreen
+“...西楼的实验室...”
+“这样吗....！万分感谢....”
+“呃...应该是我感谢你们。”
+@resetText Fullscreen
+
+
+@playFX threshold:0.0 duration:0.01 wait:false
+
+@playFX threshold:1.0 duration:0.01 wait:false
+@printer fullnos
+@resetText fullnos
+
+在不知道是否下一秒就会死去的日子里。
+....
+@playFX threshold:1.0 duration:0.01 wait:false
+@playFX threshold:0.5 duration:0.01 wait:false
+
+@printer Fullscreen
+“...”
+“请问...”
+“我可以拒绝回答这个问题吗？”
+“......毕竟。”
+“结果都已经呈现了。”
+
+
+@resetText fullnos
+@playFX threshold:0.0 duration:0.01 wait:false
+
+@playFX threshold:1.0 duration:0.01 wait:false
+
+@printer fullnos
+
+这个可以称为“时间是宝贵的”之理由吗？
+
+理由、原因、本质、意义....
+...
+
+@resetText fullnos
+拒绝分析这些浪费时间、浪费资源的东西。
+这是现实————一种妥协的结果。
+...
+又或者说....
+是为了得到时间...
+为了...
+为了？
+@camera zoom:0.9 time:0.01
+@camera offset:-0.25,1.53,0.00 time:0.01
+@playFX threshold:1.0 duration:0.01 wait:false
+@playFX threshold:0.5 duration:1 wait:false
+@resetText fullnos
+@char cyan
+@char cyan
+“不为了”什么，
+事情已经发生，那就让它继续发生下去吧。
+@char cyan
+@char cyan
+@char cyan.sadr
+......
+抱歉...吗？
+每个人都尝试用自己的方式活下去....
+仅此而已。
+.....
+责任，这个词看起来和我毫无关联。
+和白霜一样。
+...
+但又为什么，她又那么努力地...
+承担着什么责任一样。
+可能我永远也无法理解吧。
+@printer Fullscreen
+@char cyan.sadd
+“....”
+“是很难听呢，哈哈...”
+@char cyan.saddo
+“在意的...人？”
+@char cyan.sadd
+“....”
+@char cyan.saddo
+“我很在意我自己。”
+
+@printer fullnos
+....我也永远无法找到答案。
+
+@stop

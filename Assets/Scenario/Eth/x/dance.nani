@@ -1,0 +1,138 @@
+
+;共通线
+
+;7.19
+;做一些收集东西的比较好
+;截止到仟虹晕倒，前面剧本不用变。
+
+;be2->进仟虹线(白化怜线。？。)，形而上电波看小说，大概，此自由发挥
+;....进仟虹线，仟虹幸福怜必须死（你在说什么）
+
+;
+
+;主要还是想写一种二分
+
+;糖雪球->;白霜线，地图探索，纯玩，小馄饨，模拟经营（？），恋爱？？？
+
+
+;自仟虹晕倒事件之后就在津都和白霜玩，白霜给相昀画津都地图，几个事件，行动点，收集物品，卖吃的，学校，半夜捞小馄饨，补充完整地图等
+
+;与嘿化线镜像对称设计
+
+
+;te3->进黑化怜线？。地图探索，真仟虹？线，加地图，真谍战，r18。？。？。？。？。？。？。
+
+
+
+
+
+@char xp
+xp.looklefto: 还有舞会？
+叶兰: 对啊，她们的喜好罢了。
+叶兰: 不过看这样子...
+@stopBgm
+@hideAll
+@printer Atest
+叶兰: 这舞，是跳不成了。
+
+
+@bgm round
+
+@back id:su
+舞会开始，怜邀请仟虹跳舞。
+@char lp pose:default
+lp.wuyua: 你也不会跳舞....?
+@char cyan pose:center
+@shake cyan
+cyan.saddo: ...
+cyan.haoe: 会...一点点...
+@c2l cyan t:0.1
+@char lyen pose:center
+@c2r lyen t:0.1
+lyen.fc: ....
+lyen.wuyu: 那就转一会圈吧。
+lyen.close: 但其实也挺简单的，你就跟着音乐....
+@hide cyan
+@hide lyen
+@printer Atest
+仟虹按照怜说的迈步，
+但是动作仍然严重错位
+怜貌似并没有很在意。
+@char cyan
+cyan.haoe: 感觉...我好像不太擅长舞蹈...？
+@char lp
+lp.sm: ....
+lp.sma: （像回到小时候一样。）
+@printer lpt
+@char lp
+lp.sm: 没事，本来就是你的生日，你想做什么都行。
+@char cyan
+@shake cyan
+cyan.sup: !这样。
+cyan.sadr: 原来今天是因为生日所以设宴的？
+cyan.saddo: 我都不记得了...
+@hide cyan
+
+@printer Atest
+
+仟虹歪头想了一会。
+
+@char cp
+cp: 感觉这个舞的运动轨迹有点像粒子运动...
+cp: 圆形，球形，都是很漂亮的形状呢。
+cp: 还有分形，啊，在语词组里分形也是“形”。
+@char lp
+lp.wuyu: .....
+lp.ll: 话说....
+@playFX threshold:1.0 duration:1.0
+@wait 1.0
+@printer xfull
+关于仟虹的一系列行为....
+怜也习惯了。
+可能未来的每一天就这样过去吧，
+又有什么关系呢。
+......
+恭喜达成be: 《无法到来的明天》
+;@sfx 晕倒音效？
+@wait 1.0
+@char lyen.sup
+lyen: ???!!!
+@printer Atest
+跳舞的时候，仟虹晕倒在怜怀里。
+
+
+@hideAll
+@playFX threshold:1 duration:0.1
+@back id:520cg
+@playFX threshold:0.3 duration:10
+@printer lt
+怜: 是睡着了吗？
+
+
+@stop
+@title
+
+
+叶兰: 她们
+@printer Atest
+相昀看了一圈舞池，
+在江城，她也很少接触舞蹈相关的事情，
+更不用说在津都了。
+@char lyen
+lyen.wuyu: ....
+lyen.sm: 我请你跳？相昀小姐？
+@char xp
+@shake xpt power:0.1
+xp.angeya: ... 
+
+@char cyan
+cyan: ....
+@char lyen
+lyen.wuyu: ...
+lyen.wuyua: 你怎么还愣在这...
+lyen.fc: ....
+@hide lyen
+@char lp
+lp.wuyua: 不会你也不会跳舞....？
+
+@stop

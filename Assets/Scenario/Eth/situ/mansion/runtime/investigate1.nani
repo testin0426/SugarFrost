@@ -1,0 +1,161 @@
+; 追逐战调查。
+; 小心绕道
+; 小心调查。
+; limit gameplay
+@set curlife=3
+
+@playUIFX threshold:0.0 duration:0.01
+@playFX threshold:0.0 duration:0.01
+@back id:su
+@char xp
+xp.lookleft: .....
+@printer nos
+相昀打量了一会儿公馆外面....
+有些人进进出出，
+...怎么进去呢？
+
+@addChoice 像昨天一样走正门。 set:alert=alert+1 goto:#01
+@addChoice 观察一下。 goto:#02
+@stop
+
+# 01
+@char xp
+xp.b: ....作死一下。
+@printer nos
+既然昨天自己能很快冲进去的话...
+今天...
+白霜也确实不在，石阶刻碑上的门牌也很清楚。
+
+
+@char xp
+xp.lookleft: .....
+@printer nos
+但相昀还是大摇大摆走进公馆花园，
+花园里有一些人忙着修建花朵等，并没有太注意相昀走进来...
+
+@char xp
+xp.lookleft: ....
+xp.b: （不认识的植物....）
+; @if
+    ; 白霜园丁的话....？
+    ; 但是不知道白霜去哪里了....
+
+@printer nos
+她逐渐靠近大门口....
+@spawn ShakeCamera
+@char xp
+xp.sup: ！
+@printer Atest
+人: 唉抱歉啊...走路没看路。
+@printer nos
+匆匆忙忙出去的人...
+@char xp
+xp.lookleft: 
+@addChoice 没事 set:alert=alert+1 goto:#011
+@addChoice .... goto:#010
+
+# 011
+@printer Atest
+人: ....
+@printer nos
+人看了一会相昀，冲她笑一笑后转身走了。
+@char xp
+xp.lookleft: ？....
+xp.looklefto: （感觉挺有礼貌的。）
+
+
+# 010
+到公馆里了....
+@char xp
+xp.b: ....
+xp.ba: ....好大。
+xp.s: 这也能算做是”家“...？
+@printer nos
+现在要往哪走....？
+眼前，首先是舞厅，
+巨大的舞厅。
+@char xp
+xp.lookleft: （....她们家人很喜欢跳舞吗？）
+
+
+
+
+; 
+# 02
+@goto #1
+@stop
+
+
+# 1
+@printer Atest
+人: 欸？你好你好？
+@printer nos
+突然有个人走上来....
+
+@char xp
+xp.lookleft: ？
+人: 这位姑娘...您看着有些面生。
+人: 是来苏公馆赴宴的吗？
+
+@addChoice 对。 goto:#11
+@addChoice 只是路过。 goto:#12
+@addChoice .... goto:#10
+@stop
+
+
+
+# 11
+@printer Atest
+人: 呃这...请问您有什么事情吗？
+人: 而且...宴席是明天吧。
+人: 抱歉可能是我刚刚措辞问题...如果可以的话，能出示一下请帖吗？
+@char xp
+xp.ba: ....请帖？我没带。
+人: ....
+
+
+
+# 12
+@printer Atest
+人: ....
+人: 姑娘，您看起来不像是周围的住户。
+人: 而且，您的口音甚至不是津都...
+人: 不论您抱有什么目的，在没有引起进一步事件前，请回吧。
+@char xp
+xp.comfy: （....？这是...？）
+@set curlife=curlife-1
+@goto #back
+
+
+# 10
+@char xp
+xp.b: ....
+@printer nos
+相昀摆出一副迷惑的表情
+@printer Atest
+人: 哦抱歉抱歉，我刚刚自说自话了。
+人: 明天是这家房子主人办宴的日子...所以这附近来来往往的，人很多。
+人: 如果姑娘只是路过的话，抱歉打扰了哈。
+@printer nos
+人说完走开了。
+
+
+大门...
+
+
+一楼，
+
+二楼
+
+仟虹房间
+
+怜房间
+
+长辈房间
+
+....
+照片...上面有很多怜和其他人的合影，
+@char xp
+xp.lookleft: （不认识的人...）
+
+但，没有任何一张”有仟虹的照片“，不论是单人照还是合影。

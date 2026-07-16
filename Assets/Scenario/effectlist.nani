@@ -1,0 +1,71 @@
+;character
+;if dT>=0
+;If cT>T, then replace
+;else find other more big T
+;then find ni >= cni
+;everyline need to have a bool marked(whether be read or not?)
+;num:whether has been read the whole story line
+
+
+list something
+static psycho || if just one person :ni=-1
+;can't switch fov unless these ni=- paragraph  has been read
+dynamic psycho:ni=0 then dynamic
+communicating:ni=0 then dynamic
+
+
+@char cyan
+cyan: one person
+cyan: center
+lumen: left
+lumen: right
+
+
+;scene(plane fx post process)
+@char lumen
+;scene trans
+lumen: black trans
+
+@hideAll
+@playFX threshold:1.0 duration:1
+@playFX threshold:-0.32 duration:1
+;summerize @bt
+
+
+;old filme + white trans
+
+
+;character plane
+@char lumen
+lumen: 
+based on that : 
+uv twist(the kelp twisted in a wavy pattern)
+
+tint color 
+
+flip button
+
+in/out:
+position
+1.down to up
+2.right to left
+alpha
+;@animate obj posX/Y: time: 1
+;-> @c2r (id)
+;   @l2c (id) 
+;(center to left/right(poX:0->30/-30) and instead)
+
+
+scale up animate(some hotkeys, i dont want to )
+
+;camera
+;camera1: gradual then mirror based on current character position(dismiss the absolute position and use the delta X etc)
+
+
+
+;camera2:
+shake 
+1. right/light/ shake slightly
+
+
+@stop

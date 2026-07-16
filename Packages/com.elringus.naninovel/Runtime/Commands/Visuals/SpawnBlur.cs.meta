@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: c38211d71d1148859c353ce5ae8aeeb9
+timeCreated: 1669058296
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/Commands/Visuals/SpawnBlur.cs
+  uploadId: 953760

@@ -1,0 +1,705 @@
+@hideAll
+@despawnAll
+@playFX threshold:0.0 duration:0.01
+@playUIFX threshold:0.0 duration:0.01
+@spawn night
+
+; cg对峙坐...？
+@char lyen
+@char lyen.close
+@char xp
+xp.b: ....
+@wait 0.5
+xp.b: 喂。
+@char lyen.close
+@char lyen.close
+@hideChars
+@printer nos
+相昀来到店里后等了会，
+怜恰好是卡着点出现的。
+
+@char xp
+xp.lookleft: ....
+xp.looklefto: （....晚上的集市很热闹呢。）
+@printer nos
+空气中弥漫着不同香味，
+相昀有点饿...
+但是现在不是悠闲的时候！
+相昀摇摇头，强制自己打起精神。
+
+@char lyen
+@char lyen
+xp.angry1: 在这么噪杂的地方见面真的好吗？
+@printer nos
+怜拉开相昀对面的座位，
+@char lyen
+@char lyen
+lyen.wuyua: ？
+lyen.wuyu: 不然呢。
+lyen.wuyua: 开间房？
+@char xp
+xp.angry1: ...你在说啥。
+
+
+@printer nos
+相昀也懒得管了，直接拿出摄像机和相片。
+@char xp
+xp.looklefto: 我去看了那艘船...抽象工程架构。
+xp.b: 从外形构造到内部结构....很奇怪，不协调，但是确实能跑。
+xp.ba: 像哪个闭门造船自研的...
+xp.looklefto: 不会真是那家老板？深藏不露啊...
+@char lyen
+@char lyen
+lyen.wuyu: ....
+@printer nos
+怜看了看照片，一言不发。
+lyen.wuyu: 几个问题。
+lyen.wuyua: 一，你是怎么确定就是这艘船？
+@addChoice 无可奉告。
+@addChoice 根据商会分部消息排查的。
+@stop
+
+
+
+@wait 0.3
+@char lyen
+lyen.wuyu: ....
+@hideChars
+@printer nos
+
+@char lyen
+lyen.wuyua: 出乎意料。
+@char lyen.wuyu
+@char lyen.wuyu
+@char xp
+xp.b: ？
+
+lyen.wuyua: 你竟然真的没有带尾巴过来。
+lyen.closea:
+@char xp
+xp.angry1: ....
+@addChoice 你这么不相信我？ goto:#1an1
+@addChoice 麻烦你了。 goto:1an2
+@stop
+
+# 1an1
+lyen.wuyua: 彼此彼此。
+@stop
+# 1an2
+lyen.wuyua: 哇。
+lyen.wuyu: 太阳东边落了，这么客气。
+lyen.wuyua: 而且。
+lyen.closea: 顺着尾巴找更快吧。
+
+@stop
+
+# m1
+
+
+
+@hideChars
+@char lyen
+@char lyen
+lyen.wuyu: 你干的好我等会请你吃夜宵啊。
+@char xp
+xp.b: 谁要你请。
+@printer nos
+相昀只想早点结束这神人谈话自己吃小摊去...
+虽然走之前确实没带多少钱...
+但吃点夜宵应该够。
+
+lyen.close: ....
+@printer nos
+怜一直沉默着。
+@char xp
+xp.looklefto: ？
+@char lyen
+@char lyen
+lyen.f: ....
+@wait 0.4
+lyen.sup: ！....
+; lyen sad?
+@wait 0.4
+@hideChars
+@printer nos
+怜似乎想到什么，突然捂住嘴。
+@char xp
+xp.sup: 欸你怎么？！....
+@char lyen
+@char lyen
+lyen.f: ....
+lyen.sup: ....怎么会....
+lyen.f: ....
+@char xp
+xp.angeya: 啊？
+
+@printer nos
+怜这脸色...
+
+xp.angry1: 等等....
+@wait 0.5
+xp.lookleft: 你有什么病吗。
+xp.comfy: 我的意思是...发病的那种。
+@char lyen
+lyen.fc: ....
+lyen.wuyu: ...
+@printer nos
+怜摇摇手，示意她不用管。
+lyen.f: ....闭嘴让我静一下。
+@char xp
+xp.looklefto: ？....
+xp.b: （...这人刚刚不还神气的很吗...）
+@addChoice （静静等待）
+@addChoice （买吃的去） goto:#xl
+@stop
+
+
+# xl
+@char xp
+xp.angry1: 喂。
+xp.b: 你有事能不能快说，我要去买宵夜。
+@char lyen
+@char lyen
+lyen.close: ....
+@hideChars
+@printer nos
+怜没理她，
+于是相昀离开座位，去柜台前看了一圈
+@char xp
+xp: ....
+@printer nos
+浏览了一圈....看到了某个熟悉的东西
+xp.ba: 欸？怎么这里也....
+xp.angry1: 等下...
+@printer nos
+相昀想到了某个点子....
+xp.xiea: 有了...
+@printer nos
+相昀向老板招手。
+xp.comfy: 老板来两杯这个！
+
+@printer nos
+经过怜旁边时，她手扶着头...头疼吗？
+相昀摇摇头，
+@char xp
+xp.comfy: （头痛的话喝这个就对了！）
+@wait 0.4
+@char lyen
+@char lyen.close
+@hide xp
+@char xwp
+xwp.comfy: 喂我给你带了杯茶。
+@wait 0.4
+@printer nos
+相昀把纸杯推出去。
+lyen.wuyu: .....
+@hideChars
+@printer nos
+怜盯着面前的”不明深色液体“....
+@char lyen
+@char lyen
+@char xwp
+xwp.comfy: 凉了就不好喝了。
+lyen.wuyua: .....
+@printer nos
+怜只是盯着。
+xp.xiea: 怎么，怕我下毒啊？
+lyen.wuyua: ....那倒不是。
+@hideChars
+@printer nos
+她端起来，闻了闻。
+@char lyen
+@char lyen
+@char xwp
+xwp.comfy: 这就普通凉茶而....
+lyen.close: ....
+lyen.wuyua: 那
+lyen.sma: 你自己怎么不喝，这么好心。
+@hide xwp
+@char xp
+xp.comfy: ！....
+lyen.close: 行了行了，这是二十四味吧。
+xp.sup: ！....
+xp.angry1: ....啊。
+xp.s: 失策了...原来你知道。
+@printer nos
+怎么说呢...”二十四味“确实是味道比较”独特“的凉茶。
+之所以想起来这个...是因为相昀以前被白霜坑过。
+....
+想起来...
+@char xp
+xp.comfy: （当时气死我了....）
+@printer nos
+当初和白霜逛江城夜市，走半天渴死，白霜指了个”免费供应凉茶“，然后....
+....
+@char xp
+xp.ba: （所谓毕生难忘...）
+lyen.j: 哈哈。
+@printer nos
+怜突然笑了？
+@char xp
+xp.angry1: ....你给我等着。
+lyen.sma: 不是不是，我没笑你。
+lyen.sm: 实际我认识这个茶也是出于意外。
+lyen.closea: 以前被人坑过....长记性了而已。
+@char xp
+xp.sup: 啊？
+xp.looklefto: 这样啊。
+@printer nos
+什么？这不和我一模一样吗？
+lyen.sm: 嗯....
+lyen.sma: 然后我也学用这招去坑别人，逛街半路递一杯凉茶。
+xp.b: ....
+lyen.sm: 但其中还真有个能面不改色喝完二十四味的人....
+xp.lookleft: ？
+lyen.sm: 她....
+@wait 0.3
+lyen.close: ....
+@wait 0.3
+lyen.wuyua: .....
+lyen.wuyu: 她...没事。
+@printer nos
+怜的表情重新变得阴郁。
+@char lyen
+lyen.saddo: <size=25>为什么会变成这样呢....</size>
+@char xp
+xp.b: .....
+xp.angry1: ....她？
+@char lyen
+lyen.wuyua: 哦，没事。
+@printer nos
+怜举起眼前的杯子，喝了一小口。
+@char xp
+xp.b: 哇你....
+@char lyen
+lyen.close: .....
+lyen.closea: 唉。
+@printer nos
+.....
+@printer nos
+@char lyen
+lyen.wuyu: 说回正题吧。
+lyen.wuyua: 我应该能确定这件事是谁主使的了。
+@char xp
+xp.angry1: ？
+lyen.closea: 不过....
+lyen.saddo: 还是再最后确定下吧。
+lyen.wuyua: 我想到个办法，但需要你帮忙。
+@char xp
+xp.lookleft: ......说？
+@char lyen
+lyen.wuyu: 明天下午你来公馆，带上这个。
+
+@printer nos
+怜将一块金属印章推到相昀面前。
+@char xp
+xp.angry1: 这是....
+@printer nos
+直觉告诉相昀...这相当贵重啊...
+@char lyen
+lyen.wuyua: 苏家家徽。
+@char xp
+xp.angeya: ？？？
+lyen.wuyu: 明天我会约仟虹出门。
+lyen.close: 然后你去她房间找一些东西，她房间在....
+@printer nos
+什么....
+没等怜说完，相昀打断她的话。
+xp.angry1: 你脑子坏了吗？
+xp.angry1: 我和你才认识一天不到吧？
+lyen.wuyua: 不用你为我着想.....
+xp.angeya: 你自恋啥谁为你着想啊？
+@printer nos
+相昀打断怜的话，把家徽推回去。
+xp.angeya: 万一出事...我命搭进去也赔不起。
+@char lyen
+lyen.wuyua: 不用你拿东西负担，这不是贷款....
+@char xp
+xp.angry1: 不，你这东西我借也借不起。
+xp.angry1: 而且....
+@printer nos
+仟虹？这名字....
+@char xp
+xp.lookleft: 仟虹...仟虹不就是你姐吗？
+xp.angeya: 翻你姐的东西....你自己去翻不就行了吗？
+xp.ba: 上午在茶馆你说搜就搜，眼睛都不带眨一下，
+xp.angry1: 怎么自己家反而就搜不了了？
+
+lyen.saddo: .....
+@printer nos
+怜貌似被呛住了
+lyen.wuyu: 需要你问这么多吗？
+@char xp
+xp.angry1: 是你这行为就很离谱好吧？
+xp.looklefto: 你家有规定？还是什么...
+xp.ba: 但撑死怎么规定...她房间不就在你触手可及的地方吗....
+
+lyen.fc: .....
+lyen.wuyu: 不想干就算了。
+lyen.closea: 我撤回刚刚的言行，当什么都没发生过，谢谢。
+
+@printer nos
+怜收回家徽。
+@char xp
+xp.angry1: 什么啊...你好好说清楚不行吗？
+lyen.wuyua: 凭什么，我俩才认识一天不到吧。
+xp.angeya: 哎你这人....？？
+@printer nos
+岁寒说的太对了...这哪里是不会做生意，连说人话都不会。
+
+@char xp
+xp.angry1: ....
+xp.s: 唉。
+@printer nos
+但这件事确实事关白霜等...
+@char xp
+xp.lookleft: 我会去的。
+@char lyen
+lyen.wuyua: ？
+xp.ba: 我会去你家查的。
+xp.s: 虽然我完全搞不懂你的行为....
+@printer nos
+事已至此，相昀也懒得问怜这些莫名奇妙的行为，
+只要别干扰到最终目的就行....
+xp.s: 唉。
+xp.angry1: 所以呢，我拿了家徽有什么用吗？
+@char lyen
+lyen: ....
+lyen.wuyu: 公馆里的情况有点复杂，它不止是个住处...
+xp.ba: 讲重点。
+lyen.fc: .....
+lyen.wuyu: 为了准备生日宴，最近上下也相当麻烦。
+xp.lookleft: ？
+xp.looklefto: 过个生日而已，需要这么复杂？
+xp.close: 算了，
+@printer nos
+相昀也懒得拐弯抹角。
+xp.angry1: 这次办宴的目的又是？
+lyen.fc: .....
+lyen.wuyua: .....
+lyen.wuyu: .....
+@printer nos
+怜的神情又阴沉起来——
+@char lyen
+@char lyen
+xp.angeya: 好行，打住，我知道你不会说，我就问一句。
+
+@addChoice 会影响到商会吗？ goto:#in1
+@addChoice 会影响到白霜吗？ goto:#in2
+@addChoice 会影响到仟虹吗？ goto:#in3
+@stop
+
+# in1
+@char lyen
+lyen.closea: ....
+lyen.wuyua: 商会？
+lyen.close: ...短期倒不会，长期也不一定。
+lyen.wuyua: 看你们怎么走呗，
+lyen.close: 不过感觉目的还是很好猜的。
+lyen.wuyua: 仟虹去那边上学，现在回来.....
+lyen.fc: 按她们的话说是...”总要发挥点用场“吧。
+@char xp
+xp.angry1: ....
+@goto #m3
+@stop
+
+# in2
+@char lyen
+lyen.wuyua: ...跟她有半点关系？
+lyen.close: 只要她不作死。
+@goto #m3
+@stop
+
+# in3
+@char lyen
+lyen.fc: .....
+lyen.wuyua: 仟虹去那边学了堆古怪的东西，现在回来.....
+lyen.fc: 按她们的话说是...”总要发挥点用场“吧。
+@char xp
+xp.looklefto: （用场....？）
+xp.angry1: 她是...学了什么危险的东西吗？
+xp.angry1: 我还以为你们这种留学都是过去度假的。
+@char lyen
+lyen.closea: 是啊。
+lyen.wuyu: 如果是我的话。
+lyen.fc: 办舞会开沙龙...哪一项不好...
+lyen.saddo: 但为什么当时让仟虹过去....
+@char xp
+xp.angry1: .....
+lyen.closea: 没事。
+lyen.wuyu: 她学了什么只是一方面吧。
+@printer nos
+怜思考了会。
+@wait 0.4
+lyen.wuyua: 对于我们家人以及别人而言...主要是她的身份很好用。
+@goto #m3
+@stop
+
+
+# m3
+lyen.close: 不过感觉目的还是很好猜的。
+lyen.wuyua: 仟虹去那边上学，现在回来.....
+lyen.fc: 按她们的话说是...”总要发挥点用场“吧。
+lyen.wuyu: ....
+lyen.saddo: 但...她是这样的人吗？
+@printer nos
+@char xp
+xp.lookleft: ？
+xp.angry1: 所以你觉得是仟虹....？
+lyen.fc: ....早就有这种预感...
+lyen.saddo: 但是只是隐隐约约的，不确定....
+@char xp
+xp.lookleft: （.....不确定？）
+xp.s: （要进一步问吗...？
+@addChoice 不能确定？ goto:#ng
+@addChoice 不敢确定？ goto:#gj
+@stop
+
+# ng
+@char xp
+xp.looklefto: ...我都没见过仟虹。
+@printer nos
+相昀想象了一下
+xp.looklefto: （...怜的姐姐？）
+xp.angry1: .....
+@printer nos
+相昀想象了一下仟虹可能的样子，
+怜的加强版本...？
+@char xp
+xp.ba: （...如果真是这样...那做出什么事好像都不奇怪啊）
+@printer nos
+相昀摆出一副厌恶的神色。
+@char lyen
+lyen.wuyu: ....？
+lyen.fc: 等等...你别把她想成跟我一样...
+@char xp
+xp.sup: 啊？
+xp.s: 不然呢？她不是你姐姐吗。
+@char lyen
+lyen.fc: ....你...算了。
+lyen.wuyu: 哦对，你想吃什么，我请你吧。
+@char xp
+xp.sup: 哇！
+@hide xp
+@char xwp
+xwp.comfy: 原来你也是通人性的嘛~
+@char lyen
+lyen.fc: ....
+@hideChars
+@wait 1
+; trans background -> outsidetan@back
+
+@printer nos
+外面小摊
+灯火看起来很暖和，弥漫着食物的香味。
+@char xwp
+xwp.comfy: ！！好多吃的！
+@char lyen
+lyen.wuyu: ....
+@printer nos
+怜跟在相昀后面，时不时四下张望着。
+@printer nos
+相昀的重点几乎是各种各样的糖果子铺....
+xwp.comfy: 哎哎老板！这个糖葫芦怎么卖~
+@printer nos
+怜看着相昀。
+lyen.wuyua: 你还真喜欢吃甜食啊。
+@hide lyen
+@char xp
+xp.looklefto: 对啊？
+@if path==2
+    @char xp
+    xp.looklefto: 你不也是吗？早上看你去买豆沙包。
+    lyen.saddo: .....
+lyen.saddo: ....
+lyen.wuyu: ....话说
+lyen.wuyua: 你印象中的仟虹是什么样？
+xp.ba: 你刚刚不是...就觉得和你差不多啊？
+lyen.sm: 我有些好奇，就算你往我方面联想...描述一下？
+xp.angry1: 你这是什么莫名提问...
+lyen.j: 来说说看嘛。
+lyen.sma: 你随便说，讲她坏话也没事。
+; cg相关?
+xp.ba: ....你俩关系到底是....？
+xp.s: 我想想看....
+@set u=0
+@addChoice 是人。 goto:#im2
+@addChoice 跟你差不多业务能力吧。 goto:#im2
+@stop
+
+# im2
+@addChoice 同为甜食依赖者？ goto:#im3
+@addChoice 但是各种行为又很抽象 goto:#im3
+@addChoice 心口不一的 goto:#im3
+@stop
+
+# im3
+@addChoice 一样的效率至上 goto:#im4
+@addChoice 说不定有点像传统印象中的姐姐，更温柔一些。 goto:#im4
+@stop
+
+
+# im4
+@printer nos
+相昀咬了一个山楂下来。
+@char lyen.close
+@char lyen.close
+@char xp
+xp.lookleft: （....还有哪些印象呢？）
+xp.s: ....好像有点想不出来了。
+@printer nos
+相昀又咬了一个山楂。
+
+xp.lookleft: 你能描述一下她吗？
+xp.angry1: 如果你怀疑她....我也很好奇她是什么样的人。
+@char lyen
+lyen.wuyu: ....
+lyen.close: 是个废物。
+xp.lookleft: 嗯。
+@wait 0.3
+@printer nos
+相昀又吞了一个山楂。
+xp.angry1: 嗯？然后呢
+@char lyen
+lyen.wuyu: ？
+lyen.wuyua: 我说完了啊。
+xp.ba: ....”废物“又是什么描述？
+lyen.fc: 大概就是这样吧。
+xp.angry1: ...你倒是找点论据支持一下你这些无厘头的怀疑啊。
+xp.ba: 你真的会合作吗？
+xp.s: 合作第一条，彼此坦诚一点....
+xp.angry1: 我明天还要去翻她房间。
+xp.looklefto: 如果她是个戒备心很强的人？
+xp.b: 我只是问：你对仟虹的印象是，这问题是什么顶级机密吗？
+xp.lookleft: （这人到底....）
+lyen.fca: 知道了知道了。我想一下。
+
+@char lyen.close
+@printer nos
+
+怜说"让她想一下"，
+结果她自己跑去买了杯...酒酿圆子？
+@char xp
+xp.ba: .....
+xp.b: 我也要。
+lyen.close: ....
+@printer nos
+怜没理她。
+@char lyen
+lyen.closea: 准确来说，我也不知道。
+lyen.wuyua: 毕竟好几年没见了，她今天才回来。
+@if path==3
+    lyen.fc: ...我今天整天都在外面，没见过她。
+@char xp
+xp.angry1: 今天回来？你没去接她？
+lyen.fc: 你以为我不想去吗。
+lyen.wuyua: 上午突然出了点岔子...
+lyen.fca: 真烦。
+@char xp
+xp.looklefto: 那她现在在公馆？
+@char lyen
+lyen.wuyua: 应该吧。
+lyen.fc: ....如果她不乱跑的话。
+@char xp
+xp.ba: ...那你上次和她见面是几年前？
+@char lyen
+lyen.wuyu: 好几年前。
+@char xp
+xp.ba: ....
+xp.comfy: ...你再这样回答...
+lyen.close: 大概....
+lyen.saddo: ...但我确实记不清了。
+lyen.wuyua: 我印象中她不是那种很细致的人。
+lyen.close: 这几年...
+lyen.closea: 有一些书信，然后。
+lyen.wuyu: 基本上是一些客套的报平安。
+@char xp
+xp.lookleft: 如果我理解没错的话....
+xp.ba: 生活在同一屋檐下的陌生人？
+lyen.fc: ....我跟她也没生活在一起吧。
+lyen.wuyua: 她以前...
+lyen.fc: 但那也是以前，没什么参考意义，忽略。
+xp.b: .....
+xp.s: 别每次说话说一半啊....
+@printer nos
+但怜好像真的不打算继续说下去了。
+相昀也不感兴趣，不想再问了。
+
+@if path==3
+    @char xp
+    xp.lookleft: 我姑且问下。
+    xp.s: 在你们家打工的...有一位叫白霜吗？
+@char lyen
+lyen.wuyu: .....
+lyen.wuyua: 算了，要不这样。
+lyen.wuyu: 我也挺好奇你和白霜是认识多久了。
+lyen.sm: 既然彼此坦诚，你先说说你那边？
+lyen.wuyua: 毕竟她现在几乎是直接嫌疑....
+
+@char xp
+xp.angry1: ....对哦。
+xp.close: 我和白霜早就认识了。
+xp.lookleft: 最开始认识是...嗯....
+xp.ba: 摘小番茄时碰到她了。
+; ?回忆滤镜? fx 剧情？
+
+@hideChars
+@char wifi
+@char wifi
+@char xp
+xp.looklefto: 我想到个办法，我把叶兰引开，然后你去摘。之后我们河边集合。
+@hide xp
+@char xwp
+xwp.comfy: 她绝对猜不到是我偷的~~~
+wifi: ....行
+
+@hideChars
+
+@char lyen
+@char lyen
+@printer nos
+想到这里，相昀的语气轻快起来。
+@char xwp
+xwp.comfy: 然后如果有这种计划就会一起~~
+@hide xwp
+@char xp
+xp.lookleft: 哦对，她还会撬锁。
+xp.comfy: 然后教我也会了！
+lyen.wuyu: ....
+lyen.wuyua: ....
+@char xp
+xp.lookleft: 她怎么在你那打工？
+@char lyen
+lyen.close: .....
+lyen.wuyua: ...我和她和仟虹....是小学同学。
+lyen.close: 然后就顺便兼职园丁。
+lyen.fc: ....
+
+
+@printer nos
+
+@char lyen
+lyen.wuyu: 明天很忙，不论哪个方面的审戒会极其严格。
+lyen.wuyua: 就算我亲自下场打招呼...也很难保证你不会被拦下来。
+lyen.fc: 你的身份也太显眼了...应该有别人认识你。
+lyen.wuyu: 所以拿上这个就是最稳妥的。
+@printer nos
+怜把家徽递给相昀。
+lyen.wuyua: 即使长辈们见到这个也会有些分寸。
+
+
+
+
+
+但是怎么也梳理不起来。
+
+
+@printer nos
+
+
+
+
+
+
+
+@stop

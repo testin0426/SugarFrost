@@ -1,0 +1,445 @@
+@purgeRollback
+
+
+be1: has released
+
+
+@hideAll
+@playUIFX threshold:0.0 duration:0.1
+@stopBgm
+@resetText xfullnos
+@printer xfullnos
+两天后，{playername}被叶兰拽走去津都。
+实际被拽时{playername}还在睡觉。
+早起一直是一件痛苦的事情....
+@char xp
+xp.ba: 我想睡觉。
+@printer nos
+{playername}拉着一副黑脸————
+但是又能怎么办呢，自己选择跟叶兰来津都。
+.......
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:1
+@hide nos
+@wait 1
+@playUIFX threshold:1.0 duration:0.01
+
+@back id:jin appearance:day
+@playUIFX threshold:0.0 duration:1
+@playFX threshold:-0.32 duration:0.01
+@back id:jin appearance:day
+
+@back id:jin appearance:night time:10 wait:true
+@bgm round loop:true
+@wait 5
+@printer nos
+到津都时已经是晚上了。
+@hide nos
+@sfx girlfootstep fade:5
+@camera offset:20 time:5
+@playUIFX threshold:1.0 duration:5
+@camera offset:0 time:0.1
+@hideAll
+@back id:nightjin
+@back id:nightjin
+@playUIFX threshold:0.0 duration:5
+@playUIFX threshold:0.0 duration:0.1
+@playFX threshold:-0.32 duration:0.01
+
+@char xp
+xp.angry1: 这不才早秋，天黑得这么早？
+@printer nos
+{playername}对晚出早归的津都太阳表示不满。
+@printer lt
+@char lyen
+@char lyen.sm
+?: 欢迎。等你们好久了。
+@char lyen
+@char lyen.sm
+@wait 1
+@char xp
+xp.b: (....这谁。)
+@hideChars
+@printer nos
+来者仔细打量叶兰一行人。
+{playername}不喜欢被别人这样盯着。
+@hide lyen
+@wait 0.3
+@playFX threshold:-0.32 duration:0.1
+@playFX threshold:0.7 duration:0.1
+@char yel.he
+@char yel.he
+@animate yel posZ:50 time:0.01
+yel.he: 怜二小姐竟然还有空给鄙人接风呢。
+@char yel.ane pose:center
+@char yel.ane
+@c2l yel t:0.1
+@animate yel posZ:100 time:0.01
+@char yel pose:right
+@char lyen
+@c2r lyen t:0.1
+@char lyen.sm
+@animate yel posZ:50 time:0.01
+@playFX threshold:-0.32 duration:0.1
+@shake lyen power:0.1
+lyen.ja: 叶老板大驾光临，晚辈再忙也定会赶来。
+@hideChars
+@printer nos
+@playFX threshold:0.7 duration:0.1
+说罢，怜瞟了一眼相昀
+@playFX threshold:-0.32 duration:0.1
+@char xp
+xp.angeya: ?
+@char lyen pose:center
+lyen.sm: 这位是....小少主吧。
+@char xp
+xp.angeya: 小少主？
+xp.angeya: ？这又是什么莫名其妙的称呼?
+@hideChars
+@printer nos
+怜二小姐....
+谁啊....
+@char lyen
+@char lyen
+@shake lyen power:0.1
+lyen.ja: 哈哈，看起来挺有精神的。
+lyen.sm: 唉。
+@wait 0.2
+lyen.sm: 年轻真好。
+@char xp
+@char xp.angeya
+@printer xpt
+@print ？？？ author:xp speed:0.01 wait:true
+@hideChars
+@printer nos
+眼前少女莫名来了这么一句————
+@wait 0.2
+@char yel pose:center
+@char yel.he
+@shake yel power:0.1
+@printer Atest
+@shake Atest power:0.1
+yel.he: 哈哈哈，怜二小姐这话说的。
+yel.de: 鄙人没记错的话，二小姐才比相昀大几个月啊。
+@char yel
+yel.sma: 不过我们家相昀也是。
+yel.sada: 要是能有半分二小姐那样的处事能力就好喽。
+@playFX threshold:-0.32 duration:0.01
+@playFX threshold:0.7 duration:0.01
+@animate yel posZ:100 time:0.01
+@char xp
+xp.angeya: ？？？她？？？
+@hideChars
+@playFX threshold:0.7 duration:0.01
+@playFX threshold:-0.32 duration:0.01
+@animate lyen posZ:50 time:0.01
+@char lyen
+lyen.sm: .....
+@hideAll
+@printer xfullnos
+....
+@back id:nightjin
+@char lyen
+lyen.j: 开玩笑罢了，我听说叶老板年轻时也是一鸣惊人啊.....
+@c2r lyen t:0.1
+@char yel pose:right
+@char yel pose:right
+yel.sma: 这话说的，
+yel.ane: “此江”后浪推前浪，人不服老不行啊。
+yel.sma: 等再过个几十年鄙人干不动了，在江边撑个收尸船倒也不错。
+yel.bmlm: 说不准哪天捞到某位富商亲信的遗体。再发一笔横财。
+yel.he: 你说是吧，怜二小姐。
+
+@char lyen
+lyen.wuyu: .....
+@wait 0.3
+lyen.wuyua: 叶老板这话说的可真不留情啊....
+@char xp
+xp.b: ....
+;@printer nos
+;以及莫名感觉自己被当成笑柄了....
+
+
+@hideChars
+@char xp
+xp.s: (我想回江城晒太阳.....）
+@animate lyen posZ:100 time:0.01
+@animate yel posZ:100 time:0.01
+@playFX threshold:0.0 duration:0.01 wait:false
+
+@playFX threshold:1.0 duration:0.2  wait:false
+@wait 0.2
+@char lyen
+lyen.wuyu: 晚辈近日确实被一些琐事缠身...
+@playFX threshold:0.2 duration:0.2
+@wait 0.2
+@char yel
+yel.sm: 哎呀，那怜二小姐确实得[< speed:1.0][wait 0.2]多注意身体。[< speed:0.2]
+@playFX threshold:1.0 duration:0.2
+@wait 0.2
+@char lyen
+lyen.fc: ...
+lyen.wuyu: 叶老板还挺会关心人。
+@playFX threshold:0.2 duration:0.2
+@wait 0.4
+@char lyen
+lyen.wuyu: 实际上.....
+@playFX threshold:0.0 duration:0.01
+;blink??
+@playFX threshold:-0.32 duration:0.01
+@hide yel
+@hide lyen
+@hide xp
+@hidePrinter
+@stopBgm
+
+@char wifi pose:default
+@char wifi
+@r2c wifi wait:true
+
+wifi: ....
+@wait 1.0
+@char xp
+@shake xpt power:0.1 time:0.2
+xp.sup: ?!
+xp.sup: 白霜！？！
+@hide xp
+@hidePrinter
+@hide wifi
+@char lyen
+@shake lyen power:0.1
+lyen.wuyu: ?
+@hide lyen
+
+@printer nos
+
+白霜突然闯进众人视野。
+@hideChars
+@char yel.supe
+@char yel.supe
+@c2l yel
+@char wifi pose:default
+@char wifi
+@playFX threshold:-0.32 duration:0.04
+叶兰: ...你认识这位....？
+@char xp
+xp.supa: 啊？
+@char yel.ane
+xp.looklefto: 呃...是在商会旁边认识....
+xp.b: (偷菜时认识的)。
+@wait 0.2
+@hide wifi
+@hide yel
+@hidePrinter
+@l2c lyen t:0.1
+@char lyen
+@playFX threshold:0.7 duration:0.01
+@playFX threshold:-0.32 duration:0.4
+lyen.an: ....
+lyen.wuyu: 小少主怕不是哪里弄错了？
+lyen.wuyua: 她是我副官。
+@char xp
+xp.looklefto: 我以为她也是江城人...
+@wait 1
+@char xp
+xp: 等下....
+@shake xp
+xp.angeya: 副官是啥？
+@hide lyen
+xp.angry1: (而且白霜是怎么来津都的...?)
+@hideChars
+@if u=1
+    @char wifi
+    wifi: 游来的。
+@set u=0 
+@char lyen
+@char lyen
+lyen.fc: ....
+@c2r lyen t:0.2
+@char wifi pose:right
+@char wifi pose:right
+lyen.wuyua: 你，去江城了？
+wifi: ....
+@char wifi pose:right
+@char wifi pose:right
+@char lyen
+@char lyen
+
+@hide lyen
+@hide wifi
+@hideChars
+@printer nos
+白霜一言不发。
+@char wifi
+@char wifi
+@char lyen
+@char lyen
+lyen.wuyu: ...又在这装哑巴是吗。
+@wait 1
+@char lyen
+@char lyen
+@bgm mo
+@sfx waveweapon 
+@r2c lyen t:0.1
+@shake wifi power:0.5
+@wait 0.05
+@char xp
+@char xp.supa
+@shake xpt power:0.3
+xp.supa: 白霜注————
+@spawn ShakeCamera params:,4,,,,,true,true
+@stopBgm
+@sfx fall
+@sfx glassbroken
+@hideAll
+@playFX threshold:1.0 color:white duration:0.01 
+@printer ct
+@shake ct power:2
+
+??: 啊！——————————
+@wait 3
+@hide cpt
+@back id:nightjin
+@char lyen pose:center
+@char lyen.close pose:center
+@char wifi pose:right
+@char wifi pose:right
+@playFX threshold:1.0 color:black duration:0.01
+@playFX threshold:-0.32 duration:0.01
+@char lyen pose:center
+@char lyen.close pose:center
+@char wifi pose:right
+@char wifi pose:right
+@char xp.sup
+@shake xpt
+xp.sup: ?
+@shake xpt
+@char xp.sup
+@wait 0.5
+@hideAll
+@printer nos
+一声呼喊穿过公馆————
+@wait 1
+@playFX threshold:1.0 duration:0.01
+@back id:nightjin
+@back id:nightjin
+@bgm round
+@char lyen.close
+@char lyen.close
+@char wifi
+@char wifi
+@char xp.sup
+@shake xpt power:0.2
+xp.sup: ？！！
+@playFX threshold:-0.32 duration:0.01
+@playUIFX threshold:1.0 duration:0.01
+@playUIFX threshold:0.0 duration:5
+@char lyen.close
+@char lyen.close
+@char wifi
+@char wifi
+@printer Atrem
+@shake Atrem
+人1: 大小姐.... 大小姐她晕倒了！！快来人啊！！快来人！
+@hideChars
+@playFX threshold:-0.32 duration:0.01
+@playFX threshold:0.7 duration:0.01
+@char yel.supe pose:center
+@char yel.supe
+@printer Atest
+@shake Atest power:0.2
+叶兰: ？！
+@hideChars
+
+# 1
+@playFX threshold:-0.32 duration:0.01
+@sfx morefootstep volume:0.5 fade:0.2
+@camera offset:20 time:0.5
+众人迅速赶回公馆内。
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:0.01
+@playUIFX threshold:0.0 duration:10 wait:false
+@playFX threshold:1.0 duration:0.5
+@hideAll
+
+
+......
+........
+@camera offset:0 time:0.1
+.....
+......
+@wait 1.0
+@playFX threshold:1 duration:0.01
+
+@playFX threshold:1 duration:0.5 wait:false
+
+@back id:cdeathmove
+@playFX threshold:0.5 duration:0.5 wait:false
+@playFX threshold:1 duration:0.4 wait:false
+
+@playFX threshold:-0.32 duration:10 wait:false
+
+@wait 10
+@char xp
+xp.absupe: ？！
+@printer nos
+一位未知姓名、素未谋面的少女晕倒了.....[< speed:0.5]
+@playUIFX threshold:1 duration:7
+@wait 2
+@hideAll
+@playUIFX threshold:0.0 duration:0.01
+@printer ct
+
+恭喜达成be1:《我糖雪球呢。》
+...........
+@wait 2
+
+@spawn ShakeCamera
+@back id:su
+@bgm round
+@playFX threshold:-0.32 duration:0.01
+@char lp
+@shake lpt power:0.5
+lp.ana: 仟虹遇害，从现在开始封锁公馆，所有出入人员都必须接受调查！！
+@char lp.ana
+@hide lpt
+@printer nos
+说罢, 怜上前查看仟虹。
+@playUIFX threshold:0.0 duration:0.01
+@hideAll
+@playFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:0.01
+@playUIFX threshold:0.0 duration:5 wait:false
+@back id:cg1cyendeath
+
+
+@char lp
+lp.close: .....
+@wait 0.45
+lp.close: ...如愿以偿了吧。
+@hideAll
+@printer lpt
+@char lp
+@char lp.sm
+lp.sm: ....姐[< speed:0.1]姐[< speed:0.1]。
+@playFX threshold:-0.32 duration:0.01
+@stopBgm round fade:10
+@playUIFX threshold:1 duration:10
+
+
+
+
+实际上相昀也不知道眼前的少女为什么会晕倒。
+
+@title
+@stop
+
+;相: 只是字面意思。
+;苏: 相兄见笑了。如果是因为交易的事情，我敢保证，这只是个小意外。
+;相: 不是下不为例的事情，而是时序轮转嘛...
+;怜的笑容不见眼底。
+;怜: 我想，您又发现哪里的美景了？
+;叶兰: 哪里哪里，但是也不得不感慨世界真大，无奇不有？
+;叶兰: 但是呢，怜二小姐年纪轻轻就有如此地位...
+;叶兰: 那么家丑不可外扬这个道理，想必也自然是懂的。
+;....

@@ -1,0 +1,91 @@
+;X=0
+;L=0
+;Q=0
+;W=1
+
+
+@showUI SwitchUI
+;D=0,T=3,wi=-1
+;回江北。
+
+;T=14.0,wi=0
+;上午。相昀家。竹林。睡觉。
+;wi=1(which command)
+;相昀。来了。
+;wi=2
+;没看见。我。
+;wi=3
+;于是过去。
+;wi=-1
+
+;T=14.1,wi=0
+@playFX threshold:1.0 duration:0.5
+@playFX threshold:-0.32 duration:0.5
+@char wifi
+wifi: 啊。
+;wi=1
+找到了。
+;wi=-1
+
+;T=14.2,wi=-0
+@char lumen pose:right
+lumen.comfy: 是白霜！！！
+;wi=1
+@char wifi pose:default
+wifi: ....
+
+;T=14.4,wi=0
+@char wifi pose:center
+wifi: 酥糖。
+@animate wifi posX:30 time:0.4
+;wi=1
+@char lumen pose:default
+lumen.comfy: 别想着酥糖啦！哦对，我过两天就要去津城了！
+;wi=2
+lumen.looklefto: 到时候回来给你带好吃的，津城有啥好吃的呢...
+;wi=3
+@char wifi pose:default
+wifi: 酥糖。
+;wi=4
+@char lumen pose:default
+lumen.xiea: 原来那边也有酥糖吗？
+;wi=5
+wifi: 嗯。
+
+......
+
+;T=14.7, xi=0
+@char lumen pose:right
+lumen.looklefto: 哦对，我到时候要偷偷溜到船上混过去。
+;wi=1
+@char wifi pose:default
+wifi: 游过去。
+;wi=2
+lumen.comfy: 听起来...貌似可行？
+;wi=3
+lumen.de: 但是这样就赶不上了，那些人销赃完早就跑了。
+;wi=4
+lumen.lookleft: 等等...
+
+;T=14.9
+@char lumen pose:default
+lumen: ....
+
+;15.0,x=-1
+相昀。**在犹豫**。
+@showUI SwitchUI
+;highlight persona profile button to tip “that person has a choice”
+;stop until that choice has been made
+
+
+;if dismiss
+
+
+
+;T=15.1,xi=0
+@hideChars
+
+
+@title
+
+@stop

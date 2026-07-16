@@ -1,0 +1,47 @@
+某半夜
+
+@printer Chat
+Bline: 救。
+Aline: ??
+Bline: .......。
+Bline: ....
+Bline: 没事。
+
+@printer Atest
+......
+A.idle: .....?
+@hideChars
+
+@printer Chat
+Aline: 没事？帮我写作业？
+Bline: 你不已经上快对了吗？
+
+Bline: 唉。
+@printer Atest
+......
+A.idle: 有病吗....?
+@hideChars
+
+@printer Chat
+Bline: 唉。就。
+Bline: 我感觉
+Bline: 自己擅长的可能就是
+Bline: 远离吧。
+
+Aline: ....嗯。
+Aline: 其实，我挺喜欢你的。
+Bline: 。。啊？
+Bline: 我嘞个，
+Bline: 原来是双向暗恋吗
+Bline: 我原来是这么幸福的人吗？？！！
+
+@printer Atest
+A.idle: ......。
+A.idle: 。。。
+A.idle: 老天。我到底在说什么。
+
+@printer Chat
+Aline: ....并非。
+
+
+@stop

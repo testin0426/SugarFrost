@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: 5ec933f1531e49e4b0fbaea9afe62871
+timeCreated: 1762951570
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Resources/Naninovel/Shaders/DepthMaskBiRP.shader
+  uploadId: 953760

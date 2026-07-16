@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 49d990cd2f9a94647948fafc16012582
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Prefabs/ChoiceHandlers/SceneListButton.prefab
+  uploadId: 953760

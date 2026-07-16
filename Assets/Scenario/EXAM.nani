@@ -1,0 +1,33 @@
+# Start
+正在进行阶段性结算……
+
+; 运行我们自定义的 C# 结算命令
+@calculateExam mSum:{TotalM} count:{StageChoiceCount}
+
+本次月考考试结束。
+本次阶段平均面具强度：{TotalM/StageChoiceCount}
+仟虹的排名是：第 {LastG} 名。
+
+@if LastG>300
+    由于排名跌出前 300，你感到精神极度疲惫。
+    社交面具的稳定性遭到了不可逆的损伤，当前选择上限：{MaxM}。
+@else
+    你的表现维持在精英水准。现实的反馈给了你继续维持面具的动力。
+@endif
+
+@set Rank1=LastG if:ExamIndex==0
+@set Rank2=LastG if:ExamIndex==1
+@set Rank3=LastG if:ExamIndex==2
+@set Rank4=LastG if:ExamIndex==3
+@set Rank5=LastG if:ExamIndex==4
+当前你的月考排名:
+第一次月考:{Rank1}
+第二次月考{Rank2}
+期中考:{Rank3}
+第三次月考:{Rank4}
+期末考:{Rank5}
+@set ExamIndex=ExamIndex+1
+@set StageChoiceCount=0;TotalM=0
+
+@goto TEST
+@stop

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4fa6d62f894ae6e4698bfa8af59e7942
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Prefabs/ChoiceHandlers/ButtonArea.prefab
+  uploadId: 953760

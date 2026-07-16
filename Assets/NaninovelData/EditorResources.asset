@@ -1,0 +1,947 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06386b10f29c770408fc88b031c4d7fd, type: 3}
+  m_Name: EditorResources
+  m_EditorClassIdentifier: 
+  resourceCategories:
+  - Id: TextPrinters/00e28df0-adae-4994-adca-c43e35f4c4c0
+    Resources:
+    - name: Dialogue
+      prefix: TextPrinters
+      guid: 1bc08ccd31adff6439e97161aa6e1d8b
+  - Id: TextPrinters/9913353e-9c78-4262-a34a-3c5e03554d5c
+    Resources:
+    - name: Fullscreen
+      prefix: TextPrinters
+      guid: 06e4eef9b641147419efcf045b99b319
+  - Id: TextPrinters/61d5982f-f547-4fff-976e-9411b2aa2041
+    Resources:
+    - name: Wide
+      prefix: TextPrinters
+      guid: 781828b806deb1e4cbf50ef9de41da10
+  - Id: TextPrinters/e6454308-1273-4367-86d6-6120b5bae24b
+    Resources:
+    - name: Chat
+      prefix: TextPrinters
+      guid: 6f9836a3c4f777741b1962979d97e485
+  - Id: TextPrinters/6c9dcada-5ef4-43ab-ac22-f7874869b2d3
+    Resources:
+    - name: Bubble
+      prefix: TextPrinters
+      guid: b47d9659b2be5ee4e95a776f213c9d4b
+  - Id: ChoiceHandlers/a81af063-2ae9-45f0-ae88-7b473d863714
+    Resources:
+    - name: ButtonList
+      prefix: ChoiceHandlers
+      guid: 1f6aa29000e839c409e6a9c0704adc96
+  - Id: ChoiceHandlers/d0eca523-bb03-45d6-928e-b4ff8aaa0909
+    Resources:
+    - name: ButtonArea
+      prefix: ChoiceHandlers
+      guid: 4fa6d62f894ae6e4698bfa8af59e7942
+  - Id: ChoiceHandlers/ff1a19ee-a8d9-4fee-94dc-678ab350564a
+    Resources:
+    - name: ChatReply
+      prefix: ChoiceHandlers
+      guid: 0e61df696cabbea448510879ee732b00
+  - Id: Spawn
+    Resources:
+    - name: Animate
+      prefix: Spawn
+      guid: 7bf06fa813bb9c34daf521998fa72ab1
+    - name: DepthOfField
+      prefix: Spawn
+      guid: ea76638b26a915946b62907dd1e776fd
+    - name: DigitalGlitch
+      prefix: Spawn
+      guid: be75a73ecccb90b4caa5c14edb9ac467
+    - name: Rain
+      prefix: Spawn
+      guid: a9117e2fa90704d45b3e1461596c11ee
+    - name: ShakeBackground
+      prefix: Spawn
+      guid: 9f56c556ba32fd54fae62347c25a8145
+    - name: ShakeCamera
+      prefix: Spawn
+      guid: 1c5b86cf3cfbb1f44ae5641699077da4
+    - name: ShakeCharacter
+      prefix: Spawn
+      guid: 1224d69e1592d624cbde93d0f7383d91
+    - name: ShakePrinter
+      prefix: Spawn
+      guid: 2795040988e866646801c80024c50be1
+    - name: Snow
+      prefix: Spawn
+      guid: 9f4e71cb27fffa04486737d2cf8d622d
+    - name: SunShafts
+      prefix: Spawn
+      guid: c4bf810b9b6cc9f44a58fd670678ded4
+    - name: Blur
+      prefix: Spawn
+      guid: e466d9326b30a4b49a3dad428b4d9968
+    - name: Flower
+      prefix: Spawn
+      guid: 3a736cee2443f8b4dacf8284708742f3
+    - name: Frost
+      prefix: Spawn
+      guid: 5215e68fd03dc2f4b8208c003cc3dc3b
+    - name: DayClouds
+      prefix: Spawn
+      guid: bcda2176439dafb408b205dacc262e10
+    - name: sugarFonts
+      prefix: Spawn
+      guid: 4c2b455661d6647428b8d61e9c0fa634
+    - name: fxtest1
+      prefix: Spawn
+      guid: 9322e1ec2ebc3b5459c9541db1644012
+    - name: titlewindzone
+      prefix: Spawn
+      guid: 79f3935c874d86940bbf7682d82a0d61
+    - name: daycyan
+      prefix: Spawn
+      guid: d9d38311ef819a84c858a08bde1a972f
+    - name: daysun
+      prefix: Spawn
+      guid: cda52eeb57d921f4fa5ec45721d08211
+    - name: sun
+      prefix: Spawn
+      guid: 38714817ef1fdd64fb97c1122d4e3f7b
+    - name: portbloom
+      prefix: Spawn
+      guid: f61223d5dafb71145a0b7ba8b5b814fb
+    - name: evensun
+      prefix: Spawn
+      guid: aba1d19ba5908b143834ebce9f5df11e
+    - name: night
+      prefix: Spawn
+      guid: 2b5b0c70a56329748a8902bef31fa310
+    - name: firelight
+      prefix: Spawn
+      guid: d614cfd2438fbd44a8fe034bb6a12f68
+  - Id: UI
+    Resources:
+    - name: ClickThroughPanel
+      prefix: UI
+      guid: 702c32b2de0c0784b9a66ec90601874f
+    - name: BacklogUI
+      prefix: UI
+      guid: 7fba909c66b25324cb77db18679c2c96
+    - name: CGGalleryUI
+      prefix: UI
+      guid: 71da50c8dae82bd42ba67528804e820c
+    - name: ConfirmationUI
+      prefix: UI
+      guid: 88d03f19bcbff914ba33a7c9895e2d7c
+    - name: ContinueInputUI
+      prefix: UI
+      guid: 1add671f8348e8443bcc56290e82fc5e
+    - name: ExternalScriptsUI
+      prefix: UI
+      guid: 11baa8eaafc631b42aa53d97f7dc6337
+    - name: LoadingUI
+      prefix: UI
+      guid: 53aad00e5cf184e458adb001c550518a
+    - name: MovieUI
+      prefix: UI
+      guid: f9a211517d1cb1a44964dc2254463049
+    - name: RollbackUI
+      prefix: UI
+      guid: a32c73a3aff4b274c85b3ff16c854b07
+    - name: SaveLoadUI
+      prefix: UI
+      guid: 8d53726b3d08433479398f02b4780e7f
+    - name: SceneTransitionUI
+      prefix: UI
+      guid: e3b234b4273b7f64ab3f1d9fe425ed23
+    - name: SettingsUI
+      prefix: UI
+      guid: 65c37f59e9b266f468dd5381fdc03fc3
+    - name: rTitleUI
+      prefix: UI
+      guid: 39105e81ee1c4ec43ad597824c990786
+    - name: TipsUI
+      prefix: UI
+      guid: f5aae572225ee1b4c96d1a17fc5cb073
+    - name: VariableInputUI
+      prefix: UI
+      guid: bb95f484e341dcd4391a572f22b7d067
+    - name: PauseUI
+      prefix: UI
+      guid: 480f5db62ea305c46b89a86496d2a0c9
+    - name: ToastUI
+      prefix: UI
+      guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: ScriptNavigatorUI
+      prefix: UI
+      guid: 735d6aa767879aa469134858c5b2f0a7
+    - name: SwitchUI
+      prefix: UI
+      guid: b8d8d6fe4e0dd92458a4a1b643401f14
+    - name: letter
+      prefix: UI
+      guid: e82356a798f7b764c91f69779b5ea62e
+  - Id: Scripts
+    Resources:
+    - name: Eth/x/x1
+      prefix: Scripts
+      guid: 4ede6d79decd673448cf47ede723ec04
+    - name: Eth/title
+      prefix: Scripts
+      guid: a0d1fc49730456a409b722da48a3d851
+    - name: Eth/be/be1
+      prefix: Scripts
+      guid: f3cd2e7ed65811e4999ff154dd1ec9f7
+    - name: Eth/invitation
+      prefix: Scripts
+      guid: 40256d090faf83b469be0ee0da723be4
+    - name: Eth/x/op
+      prefix: Scripts
+      guid: ba96e6a2d273e364e888a4fafa3ddb28
+    - name: Eth/test1
+      prefix: Scripts
+      guid: 1d84179a670f4c34fa2ae1bb69d4632f
+    - name: Eth/q/q1
+      prefix: Scripts
+      guid: 2982ea264c45e514ab734fee4ebf7b16
+    - name: Eth/x/x3
+      prefix: Scripts
+      guid: 15f49b22d673eb947a4c16c43d15b7a0
+    - name: Eth/test
+      prefix: Scripts
+      guid: 31d7776f951e7174eba6310ce712b452
+    - name: Eth/x/linear
+      prefix: Scripts
+      guid: 5055deae3c1eac1449260f479b163652
+    - name: Eth/x/heheaven
+      prefix: Scripts
+      guid: 8da09cdcecadbd74a926a1b2bbf419bb
+    - name: Eth/x/dance
+      prefix: Scripts
+      guid: c1eac30314898784bb754a0989ff62e9
+    - name: Eth/x/tbe
+      prefix: Scripts
+      guid: 69cb166d18c9b2249a1f66fbb5fe6fcb
+    - name: Eth/x/utils
+      prefix: Scripts
+      guid: bfc0a3fb74e421c479bda7167f361cc2
+    - name: Eth/x/x2
+      prefix: Scripts
+      guid: c6ef8c187a7df864fbeeb90e01e6e07d
+    - name: Eth/outline
+      prefix: Scripts
+      guid: 7345de0b29246b14dbcd110b6dba0b1c
+    - name: Eth/l/xl1
+      prefix: Scripts
+      guid: 2ed9083881bcac3409fdbc1f2deb3628
+    - name: Eth/situ/choice
+      prefix: Scripts
+      guid: b7f97f6bc0a988140ac23c4710c2556d
+    - name: Eth/situ/justify
+      prefix: Scripts
+      guid: 1ab1e8daadaae114db8d9f79dc1998b3
+    - name: Eth/ABCD
+      prefix: Scripts
+      guid: 6a035276d26534a498e5847f92e5213c
+    - name: Eth/situ/cyan
+      prefix: Scripts
+      guid: 1be734c896b2fa4428729d86ad77032f
+    - name: Eth/situ/cafe
+      prefix: Scripts
+      guid: 4bd6b4f5c53f0874e91c34eab5ddf4fa
+    - name: Eth/all1
+      prefix: Scripts
+      guid: 727d7adc097fc2e48950317f6d12d447
+    - name: Eth/situ/maket
+      prefix: Scripts
+      guid: 
+    - name: Eth/fin/fin
+      prefix: Scripts
+      guid: 02f97a6bc4c14fe478d259c08e47078a
+    - name: others/mainline/B/B1
+      prefix: Scripts
+      guid: 0c3b9d10b346be54eb9686d0855d63bb
+    - name: others/mask/mask0_6
+      prefix: Scripts
+      guid: b1ae9640002a8cd4b92b4dfb1f67141a
+    - name: others/mainline/C/C6
+      prefix: Scripts
+      guid: 0616fc607153a3e49bc41680da2b77d0
+    - name: others/mainline/B/B7
+      prefix: Scripts
+      guid: 5db77c91d1b014b4992fdba65034b18a
+    - name: others/mask/mask0_1
+      prefix: Scripts
+      guid: 5c5af3e1f8dffaa42bee865b764bb793
+    - name: others/mask/mask1_0
+      prefix: Scripts
+      guid: 2a7dd5f1a9678b34c9fa17586566e491
+    - name: others/mainline/B/B2
+      prefix: Scripts
+      guid: 743bc842a365c1042940cbe8c6ce5c26
+    - name: others/mainline/C/C4
+      prefix: Scripts
+      guid: 44f6a65201b294b4198a21a92abb1018
+    - name: others/mask/mask0_8
+      prefix: Scripts
+      guid: 9d8141e20f8a40241a06c8e82e853a9b
+    - name: others/mainline/C/C1
+      prefix: Scripts
+      guid: a13a770342790534a94b6e596789deb4
+    - name: others/mainline/B/1B
+      prefix: Scripts
+      guid: 4ab436944ecb8884f97042a2be6a1f6b
+    - name: others/mask/mask0_5
+      prefix: Scripts
+      guid: 6ec9f3e4753160241b4e5be9bf76e8e1
+    - name: others/mask/mask0_3
+      prefix: Scripts
+      guid: d6dc1ad5044729b4daa8f2c976dfcdeb
+    - name: others/mainline/C/C11
+      prefix: Scripts
+      guid: 152f0ef5991f86848832ed03dc44a7aa
+    - name: others/mainline/A/A1
+      prefix: Scripts
+      guid: 9b6543b6c5a0fbd44989a76d1d88c608
+    - name: others/mainline/C/C5
+      prefix: Scripts
+      guid: 6d3dd138490f5f447b39f3b2ed69c1f0
+    - name: others/mainline/01
+      prefix: Scripts
+      guid: 787697f8ed540b9429efb185e7ac3285
+    - name: others/mainline/initial
+      prefix: Scripts
+      guid: 22c58139329260241b2343ac4104d619
+    - name: others/mainline/C/C8
+      prefix: Scripts
+      guid: e8ab58397d7830349959045749d4e327
+    - name: others/mainline/C/C
+      prefix: Scripts
+      guid: 628d3669f818dd34ead9326b0456abb8
+    - name: others/mask/mask0_2
+      prefix: Scripts
+      guid: 1796a6d925a876a458f5e5ebdcde0f7b
+    - name: others/mainline/B/B6
+      prefix: Scripts
+      guid: d3b9612a7980dfd4eb88dae137a3f9b0
+    - name: others/mainline/C/C2
+      prefix: Scripts
+      guid: 4dac442a91b6dfe498797099c89bd5d2
+    - name: others/mask/mask0_4
+      prefix: Scripts
+      guid: 3fa6a72a3447f8f49b03123663330ae5
+    - name: others/mainline/B/B4
+      prefix: Scripts
+      guid: 62db819af9dbc95499554d6eb81d246f
+    - name: others/mainline/A/A2
+      prefix: Scripts
+      guid: dc62e03b19e725b41bb2d42d5b8fa049
+    - name: others/mainline/B/B5
+      prefix: Scripts
+      guid: a820840c60e69314c9541e079cd956a9
+    - name: others/mainline/02
+      prefix: Scripts
+      guid: 71fc93acbf75ae04ca17ccf4bff506f5
+    - name: others/mainline/C/C7
+      prefix: Scripts
+      guid: 90b72f6d890749047911db6a82cfe292
+    - name: others/mask/mask0_7
+      prefix: Scripts
+      guid: 0dfe44dd0e96fb7479b3f476e728efc8
+    - name: others/mainline/B/B3
+      prefix: Scripts
+      guid: fd4364dde13106e4aa8197050f422ba2
+    - name: others/mainline/1
+      prefix: Scripts
+      guid: 8668884ef1931d446911ec0cb6fae396
+    - name: others/mainline/C/C3
+      prefix: Scripts
+      guid: 716e5b5e882987348ba87a889fa372c3
+    - name: others/mask/mask0_9
+      prefix: Scripts
+      guid: a5b4d3ae65fe0fb43b62a75bcb391d36
+    - name: others/mainline/A/A3
+      prefix: Scripts
+      guid: 3fe7d9deed0646549b2b4d622d58da0a
+    - name: others/mainline/test12
+      prefix: Scripts
+      guid: 62030d5f48fce7d4d85c92d49836014f
+    - name: Eth/b/1b
+      prefix: Scripts
+      guid: 72e74e1cccb23294e80376435d72f016
+    - name: Eth/l/1l
+      prefix: Scripts
+      guid: 438cb61b89176404f8320dbea63aeb7f
+    - name: Eth/q/1q
+      prefix: Scripts
+      guid: bd5a2659e84b08546921ca6258457652
+    - name: Eth/situ/tea/cafe
+      prefix: Scripts
+      guid: 2da20731d883b514c9a880f17f7c46a3
+    - name: Eth/d0
+      prefix: Scripts
+      guid: 7d4a76debc845fe47ad231b75993e98b
+    - name: Eth/situ/tea/portallo
+      prefix: Scripts
+      guid: 13403c7fd593c7c4b9df1b3f52d44fa7
+    - name: Eth/situ/tea/runtime/port11
+      prefix: Scripts
+      guid: 46e9b6dc03f736141833a5b7b8946124
+    - name: Eth/situ/tea/runtime/cafeall
+      prefix: Scripts
+      guid: ca3df4dde623cb440bb70e8997d37e6d
+    - name: Eth/situ/tea/runtime/1d2
+      prefix: Scripts
+      guid: ba2c9edd6bfddcb4e8e9f4a1272fcc5c
+    - name: Eth/situ/tea/runtime/teacop
+      prefix: Scripts
+      guid: 0257807eac11e1e4ea50fc676ec74b62
+    - name: Eth/situ/tea/runtime/portclose
+      prefix: Scripts
+      guid: 79f0d62fd608195499838f5d54d03778
+    - name: Eth/situ/market/marketallo
+      prefix: Scripts
+      guid: ba0b0b08d93da7748b5100f1b25c1104
+    - name: Eth/situ/mansion/mansionallo
+      prefix: Scripts
+      guid: 18443b2840e274c47931d07cca6dd9b8
+    - name: Eth/situ/Ajiang/path
+      prefix: Scripts
+      guid: 6479e5efdac692a4f82896fcda68685d
+    - name: Eth/situ/Ajiang/runtime/jnight
+      prefix: Scripts
+      guid: 85d97167832f2d44f8d33f037a641d12
+    - name: Eth/situ/mansion/runtime/mansion1
+      prefix: Scripts
+      guid: 51b22d3adfc0de148b2730ad949446ea
+    - name: Eth/situ/market/runtime/cyan
+      prefix: Scripts
+      guid: bf5f6f12eca084d4f954a4ae5dc93192
+    - name: Eth/situ/market/runtime/market1n
+      prefix: Scripts
+      guid: dd146335994c6b24fa84e176084f56d0
+    - name: Eth/situ/mansion/runtime/investigate1
+      prefix: Scripts
+      guid: d53449472e153aa408f3987038d37ba8
+    - name: Eth/situ/Ajiang/runtime/jiang
+      prefix: Scripts
+      guid: 4dea3997c444ab04b804e9cb89274e2e
+    - name: Eth/situ/mansion/runtime/ABC
+      prefix: Scripts
+      guid: 9e8de6191b691134c830deadd948a3fa
+    - name: Eth/situ/market/runtime/maket
+      prefix: Scripts
+      guid: 768d54dbf58d92d43a84a2556ec6d2ec
+    - name: Eth/situ/mansion/runtime/investigate2
+      prefix: Scripts
+      guid: b392e6accffb4b446948b5ba81571c67
+    - name: Eth/situ/Ajiang/runtime/Anmar
+      prefix: Scripts
+      guid: a0e1ec09331baf14fb441a4b3503e531
+    - name: Eth/b/blud
+      prefix: Scripts
+      guid: 5e3016f321b4f0344901dc3623a0d0c4
+    - name: Eth/situ/market/runtime/1B
+      prefix: Scripts
+      guid: 5b4e05d794f12ea45b18ae32b658d4c7
+    - name: Eth/situ/Ajiang/runtime/1A
+      prefix: Scripts
+      guid: 19f6fa64f7ff9e1468e7915c6f2daa51
+    - name: Eth/situ/mansion/runtime/1C
+      prefix: Scripts
+      guid: c8c6c510a71acf14db96eab73264d184
+    - name: Eth/situ/tea/runtime/1Dn
+      prefix: Scripts
+      guid: 777803914c6d44446920f5d8c6ac7942
+    - name: Prologue
+      prefix: Scripts
+      guid: ffcdcf8ee6e6d0449b073848361139f9
+    - name: Eth/b/b1
+      prefix: Scripts
+      guid: da1e9c49b779e4b438939176b87456d7
+    - name: Eth/x/vjy
+      prefix: Scripts
+      guid: f9165ce8329e80b498d15ae2a12949a8
+    - name: effectlist
+      prefix: Scripts
+      guid: 59f352468b50dcf438a4b11b52f8dc28
+    - name: Eth/x/lm
+      prefix: Scripts
+      guid: fefed1b799ccda347abded7a21e1fd10
+    - name: Eth/End
+      prefix: Scripts
+      guid: af9ed1a110200d54da00932e85e50a0c
+    - name: Eth/l/l1
+      prefix: Scripts
+      guid: 66226d30752e6474382bb2950d303cba
+    - name: birthday
+      prefix: Scripts
+      guid: c26091d828d1f9742beef4de0d451c59
+    - name: Eth/q/q2
+      prefix: Scripts
+      guid: a4ee79d245749554a9cc83d5a6b459ba
+    - name: Eth/x/xnum1
+      prefix: Scripts
+      guid: fdcd214a705a5474480f68b3dd7937ef
+    - name: Eth/AAtest
+      prefix: Scripts
+      guid: 61554ec9908527844a7a95de780be0ae
+    - name: Eth/fightest
+      prefix: Scripts
+      guid: 895b0c512d06b184282a6f5314b6b873
+    - name: AE/two/2-1
+      prefix: Scripts
+      guid: 72f8e1a057951f34fba486d6f4c79f31
+    - name: AE/two/n21
+      prefix: Scripts
+      guid: 9a02441bd067fa64184f1223f2fe17d6
+    - name: chara
+      prefix: Scripts
+      guid: aefaffb7315f5cd4fb86267d36776a2d
+    - name: Endings
+      prefix: Scripts
+      guid: 3d5f0b05a00ea894ba67bc94ce08571c
+    - name: EXAM
+      prefix: Scripts
+      guid: f44c039f74ff798489685be3a6de91f4
+    - name: Eth/fight/fightest
+      prefix: Scripts
+      guid: 597f363e9a0ddef439c56d27a67bd679
+    - name: TEST
+      prefix: Scripts
+      guid: 45e0d303c736d2a4eb5c96088a3efdc0
+    - name: Eth/x/xbe
+      prefix: Scripts
+      guid: 599571a4495bb5241972b63f3ead751c
+  - Id: Backgrounds/d62ee727-3188-42a6-a924-73779abc6b20
+    Resources:
+    - name: MainBackground
+      prefix: Backgrounds
+      guid: d6cff56e7c34c524781b36e9b442a59b
+  - Id: CharacterAvatars
+    Resources: []
+  - Id: Movies
+    Resources: []
+  - Id: Characters/43260248-a5f3-4953-9ea9-a25d3fcdd6ad
+    Resources:
+    - name: A
+      prefix: Characters
+      guid: 28383bf70d0ec90458a417406c6261cb
+  - Id: Characters/a5c57785-ef1f-4e58-8dd4-6c731324b479
+    Resources:
+    - name: B
+      prefix: Characters
+      guid: bdfeeff7f55ccc840816d3de5bdacf05
+  - Id: Characters/19d8b704-517d-4d0c-a66c-e8cc0020723d
+    Resources:
+    - name: C
+      prefix: Characters
+      guid: 48afe2241b82998469c14cdd7922724a
+  - Id: TextPrinters/98edfc37-67f4-4816-9f0f-db52c795ba39
+    Resources:
+    - name: Atest
+      prefix: TextPrinters
+      guid: 607d32ab5dce77a4f9a9ecde0a7c7208
+  - Id: Characters/d6456010-0cc0-46f6-ab73-bf2202e967c5
+    Resources:
+    - name: Cleisure
+      prefix: Characters
+      guid: c5ef4746b0782ca4391125eb28552626
+  - Id: Audio
+    Resources:
+    - name: test
+      prefix: Audio
+      guid: c18ae2c530c264a6880266d5e0a71337
+    - name: 1
+      prefix: Audio
+      guid: e00b5d90a327cd64ca85696a0895a6db
+    - name: intro1
+      prefix: Audio
+      guid: 37e1a9430a90d9340bf77d106288ffb0
+    - name: re1
+      prefix: Audio
+      guid: 0d3ec4b4d83899f44b2522614bc23a35
+    - name: 1pass
+      prefix: Audio
+      guid: 26a2c032106bde640908ecd12ea69270
+    - name: 12pass
+      prefix: Audio
+      guid: 9222722f4497f6f429aea401daae8216
+    - name: bir
+      prefix: Audio
+      guid: 3a6624d1d1e91e64b98a08e3f1ac8d37
+    - name: mo
+      prefix: Audio
+      guid: c3a815283667e7c469b662a22bf3c30e
+    - name: qwater
+      prefix: Audio
+      guid: 72a2fbc59d9c1fe4ca1af80b79b0098f
+    - name: round
+      prefix: Audio
+      guid: 6bba27aee18429e4eac6e84c22e80c70
+    - name: seamirror
+      prefix: Audio
+      guid: 8572e68fe0d35254f9a000cd82034c08
+    - name: yan
+      prefix: Audio
+      guid: d6f5d192a829b664b90884aea9e18229
+    - name: yil
+      prefix: Audio
+      guid: acb5abb479892df4181e48a259ef7710
+    - name: dia
+      prefix: Audio
+      guid: 6ff2541d6efac734faddf17908f72a7d
+    - name: cminor
+      prefix: Audio
+      guid: a5af7ad5d45a44c46ac5a1e071a8127c
+    - name: ye
+      prefix: Audio
+      guid: 1246d1ea9ac1d9b4f8b3e8e9820e31a4
+    - name: wenxn
+      prefix: Audio
+      guid: 717efcc756c9b354c8e2a2d44649a56b
+    - name: ed
+      prefix: Audio
+      guid: 641db541254302744b1982a302f322ae
+    - name: op
+      prefix: Audio
+      guid: 402df4784450c01489e9906542b36269
+    - name: cloth
+      prefix: Audio
+      guid: ac787f0625412324fab6d2faa02c5c45
+    - name: fight
+      prefix: Audio
+      guid: e5a87ee1b2a47f642b8a88f3e546b7e2
+    - name: fistfight
+      prefix: Audio
+      guid: 4975c292cb47a15449446eec6dfac5d0
+    - name: gunshot
+      prefix: Audio
+      guid: 8e4a9e8d126993c4aa2dad73d58cdf98
+    - name: meng
+      prefix: Audio
+      guid: fb8f47727d5abe44e98bc58b18a2ada0
+    - name: cup
+      prefix: Audio
+      guid: 8999e13e75aeeb644aca7956e3dcf3b1
+    - name: waveweapon
+      prefix: Audio
+      guid: d808e3ffb8599054bb9607e79f451cb2
+    - name: fall
+      prefix: Audio
+      guid: 0c3bd003bd7445e4797da3712e3f9628
+    - name: glassbroken
+      prefix: Audio
+      guid: 0abf9cfc660287543b23e3a03a3d0406
+    - name: morefootstep
+      prefix: Audio
+      guid: a12f3d82295a1aa428a6a2b5e12449a8
+    - name: girlfootstep
+      prefix: Audio
+      guid: b9376036eed36494b9f924c5e77fc3d5
+    - name: tested
+      prefix: Audio
+      guid: 3a12450867c0c0943b634b6333b2ae5f
+    - name: tested2
+      prefix: Audio
+      guid: bbc82db4bae29a84d999e45596bebb7c
+    - name: dia2
+      prefix: Audio
+      guid: 8067c1c8be206914e9378b3cca101532
+    - name: cyan1
+      prefix: Audio
+      guid: 02a8b030876f5ba41886afcd0f6928b7
+    - name: de
+      prefix: Audio
+      guid: 353dc1a41b961ad4cb6a363b23afb5b8
+  - Id: TextPrinters/2444840a-99f1-4dd7-baec-557881bc72a4
+    Resources:
+    - name: A1
+      prefix: TextPrinters
+      guid: 19e4dc239986864489f3ce85c121b6bf
+  - Id: Characters/8fde84e9-da45-496a-b105-65baeb264ab1
+    Resources:
+    - name: lumen
+      prefix: Characters
+      guid: 856364f8aabe6034e99260d7056536e6
+  - Id: Characters/4300232e-b5c2-4521-af30-56ba20c52f89
+    Resources:
+    - name: cyan
+      prefix: Characters
+      guid: c855f90c33d55aa41befc3167165b418
+  - Id: Characters/c18cfb7c-c2bf-4404-a5a8-4c2e1198de82
+    Resources:
+    - name: wifi
+      prefix: Characters
+      guid: f0fe8b5d52310a74986d994f22384eb3
+  - Id: Characters/80f4f3be-3c18-4179-a141-7c5f9d0b6630
+    Resources:
+    - name: lyen
+      prefix: Characters
+      guid: 2bf07d6901794f243b5128b15a3ceee0
+  - Id: Backgrounds/da663147-5e4d-453c-a8ac-b94eab44baea
+    Resources:
+    - name: jin
+      prefix: Backgrounds
+      guid: e45b9327b1c381a40b7a7d00f6523e78
+  - Id: TextPrinters/ff72c5db-43ef-4c90-9736-6bef4de91d68
+    Resources:
+    - name: D
+      prefix: TextPrinters
+      guid: 1e4e77d006c7e124e90d189385a74180
+  - Id: Unlockables
+    Resources: []
+  - Id: TextPrinters/99ee89a2-4277-45c3-93a7-9bb0ab8884db
+    Resources:
+    - name: xpt
+      prefix: TextPrinters
+      guid: a1cc7bda0d41a674aa01adf1dff84ca7
+  - Id: TextPrinters/d635940f-d391-45af-878d-6700ecabade4
+    Resources:
+    - name: xwt
+      prefix: TextPrinters
+      guid: 9bcd5e33ad7e9ec47b8493d0ef9b918a
+  - Id: Characters/578ddc0f-40a7-44c5-812e-c19519269d53
+    Resources:
+    - name: xw
+      prefix: Characters
+      guid: 0ddeebb70dfa48744becba6e5485c6f0
+  - Id: Characters/2eb9e3bc-8d67-4d82-8daf-738c19eeca18
+    Resources:
+    - name: xp
+      prefix: Characters
+      guid: 949b6aacfc8b43443800af0ae9b2c438
+  - Id: Characters/bb389893-ef01-47a2-b364-72a9b6bd7d48
+    Resources:
+    - name: wp
+      prefix: Characters
+      guid: 86f6e32765be2cf4bb9b2d844cf78a60
+  - Id: TextPrinters/ac4b5b63-ca9e-43b3-a145-fa8d34d7508d
+    Resources:
+    - name: wt
+      prefix: TextPrinters
+      guid: c39c194ca6cf6504eb44d692754fc77c
+  - Id: TextPrinters/2aa0c83f-413b-4fc5-a360-e06aa720c008
+    Resources:
+    - name: ct
+      prefix: TextPrinters
+      guid: 9fb389fb92ae1a645b4a548b7cd2f43a
+  - Id: TextPrinters/903b1cbc-ef3a-4fc7-86d2-c715be26bb9f
+    Resources:
+    - name: lt
+      prefix: TextPrinters
+      guid: f4cfe5cf9783afc42b50e1b90063805a
+  - Id: Characters/b7689353-f724-4e09-8333-9179a0513dce
+    Resources:
+    - name: cp
+      prefix: Characters
+      guid: e50747b455812184f849704871f49760
+  - Id: Characters/e5357865-5efb-4812-937e-61f4102e6a5c
+    Resources:
+    - name: lp
+      prefix: Characters
+      guid: 355d82acf79645c49bfc9da86063a1cd
+  - Id: Backgrounds/9c39ff20-ff9e-4ffa-9cf8-c1f87874e236
+    Resources:
+    - name: su
+      prefix: Backgrounds/su
+      guid: 78f32724f2ea81145b28da46216b5498
+  - Id: Characters/21931725-a07f-4aef-a327-ad7181e8c1bb
+    Resources:
+    - name: xwp
+      prefix: Characters
+      guid: 125c50091bd933242b0769c67103ce7b
+  - Id: TextPrinters/4c70fa89-7b29-4d0c-a90c-89d9f13b920b
+    Resources:
+    - name: xpwt
+      prefix: TextPrinters
+      guid: 3897b6b57a60199419126842b7706d88
+  - Id: TextPrinters/5e41416a-2dbb-4dc0-b5d4-b90f97b09e2d
+    Resources:
+    - name: lpt
+      prefix: TextPrinters
+      guid: 444cc47f837c86642aae264b14a668a5
+  - Id: TextPrinters/3a42f6fd-5d5e-4ea4-8193-ff61cc076dfb
+    Resources:
+    - name: xt
+      prefix: TextPrinters
+      guid: bb7c7ce7a3ba9304796697e81bccdf19
+  - Id: TextPrinters/7afb161a-725d-4a3e-b9e4-d31fccc08819
+    Resources:
+    - name: cpt
+      prefix: TextPrinters
+      guid: f7399fdc3ef47944a969b67652a3b23f
+  - Id: TextPrinters/654267b2-c05c-43eb-92b4-fe79bea74ecf
+    Resources:
+    - name: wp
+      prefix: TextPrinters
+      guid: c39c194ca6cf6504eb44d692754fc77c
+  - Id: TextPrinters/cc0baf6a-b3eb-411b-9fbb-e27ed7cb725e
+    Resources:
+    - name: xfull
+      prefix: TextPrinters
+      guid: 1bbd6f85d339f8a4d9293ab650aa3eae
+  - Id: TextPrinters/b04e875b-fd57-4a25-8e89-2cbb1dd53a30
+    Resources:
+    - name: Atrem
+      prefix: TextPrinters
+      guid: 97d3e3e7f9373ca4089c27fb0a7efdef
+  - Id: Characters/b64b7de2-6660-472c-ab64-503fcad387e3
+    Resources:
+    - name: vyt
+      prefix: Characters/vyt
+      guid: 78f32724f2ea81145b28da46216b5498
+  - Id: Backgrounds/c297301b-399e-4085-b782-a802d1b9d8fa
+    Resources:
+    - name: cg1cyendeath
+      prefix: Backgrounds
+      guid: 75a20d2cdb4b33e45934deefe97c10d0
+  - Id: Backgrounds/06e074ba-9246-4170-967a-e0187f5ec8a5
+    Resources:
+    - name: xpop
+      prefix: Backgrounds
+      guid: 908302408e02d3a4ab9df620773ac061
+  - Id: TextPrinters/ef3cf816-03aa-4222-b917-97976f202299
+    Resources:
+    - name: Apop
+      prefix: TextPrinters
+      guid: 1d728678a516f3948bb4c458a65c7200
+  - Id: Characters/9062a46c-ec87-43df-998c-f1be7656c458
+    Resources:
+    - name: xtp
+      prefix: Characters
+      guid: 125c50091bd933242b0769c67103ce7b
+  - Id: TextPrinters/b7a87010-7961-483c-81f8-556c338c5cb1
+    Resources:
+    - name: xptt
+      prefix: TextPrinters
+      guid: 4335f1fb14025384b8b3b29a32b62350
+  - Id: Backgrounds/7e8d1b03-bde1-4d9f-b030-4a3f96363115
+    Resources:
+    - name: 520cg
+      prefix: Backgrounds
+      guid: 1cb26367320287c4d8851cd145e84e3e
+  - Id: Backgrounds/6261ca05-934c-493e-adc6-490a6a0cb344
+    Resources:
+    - name: cafe
+      prefix: Backgrounds/cafe
+      guid: 78f32724f2ea81145b28da46216b5498
+  - Id: TextPrinters/8e4db781-ac42-45f9-a720-97684b073bda
+    Resources:
+    - name: letter
+      prefix: TextPrinters
+      guid: e82356a798f7b764c91f69779b5ea62e
+  - Id: TextPrinters/672ebdce-9ec9-4114-981e-15df4e3bd60a
+    Resources:
+    - name: nos
+      prefix: TextPrinters
+      guid: f4beac88913b42142a90b5eea7265523
+  - Id: TextPrinters/2d3cc04f-f355-41e0-813c-a86748250ff7
+    Resources:
+    - name: xfullnos
+      prefix: TextPrinters
+      guid: c00e2fb86b3868147b2a98e48babbe8e
+  - Id: Backgrounds/6aab818e-c7d6-48c4-a5d7-bf9aedb1b2f9
+    Resources:
+    - name: clouds
+      prefix: Backgrounds
+      guid: 8e72efabc2cbcab4daf95fb1ab20be0b
+  - Id: TextPrinters/7109e583-51e7-4ab6-8a94-c7b822b446ba
+    Resources:
+    - name: fullnos
+      prefix: TextPrinters
+      guid: 4fba23ff556ab3943af46401782e5fea
+  - Id: Backgrounds/ce095d11-fe10-49b6-b3c2-f6f8ad63a045
+    Resources:
+    - name: nightjin
+      prefix: Backgrounds
+      guid: 75ed548e59d3d984a98d638ab0f9fe92
+  - Id: Characters/0b49b517-a90f-45dc-9a8e-854fd1efc6b7
+    Resources:
+    - name: xbcg
+      prefix: Characters
+      guid: c6ec93054e5f63442a2d13bd32f609c9
+  - Id: Characters/ec3ff966-b75b-4e4a-92a2-ef88eb515965
+    Resources:
+    - name: ye3d
+      prefix: Characters
+      guid: d8b39f8ad94e30945b243a995d1d09a5
+  - Id: Backgrounds/9b4a7496-3008-4613-b974-f6a9cccd39bf
+    Resources:
+    - name: cdeathmove
+      prefix: Backgrounds/cdeathmove
+      guid: 3175c306c60bb934da0fbe77145c96c0
+  - Id: Backgrounds/0816115e-8b31-44bc-bf26-69eee859821d
+    Resources:
+    - name: port
+      prefix: Backgrounds
+      guid: d362503a92505794da5d757409c30a52
+  - Id: Backgrounds/078e06b9-c908-4429-852c-b4013f8e49ed
+    Resources:
+    - name: north
+      prefix: Backgrounds
+      guid: 6a7c84ce076875b4d89b38e779f1273c
+  - Id: Backgrounds/6f8a38a7-1388-40ee-baba-0915d45e8e86
+    Resources:
+    - name: sorth
+      prefix: Backgrounds
+      guid: 70591792593e7ff49bb379431c4ceb3d
+  - Id: Backgrounds/d42489fc-1d21-45a2-ab7a-f31b95341570
+    Resources:
+    - name: still
+      prefix: Backgrounds
+      guid: 6dbd9904063c13b45a6174bdeddf0e11
+  - Id: Backgrounds/3024e53e-af21-45a9-8bd5-7a7d4bf81c9e
+    Resources:
+    - name: mapbase
+      prefix: Backgrounds/map
+      guid: 17a17e995233534478cfed9e96f1861e
+    - name: mapport1
+      prefix: Backgrounds/map
+      guid: 14a5fd30bf2492840a815becd3acdcc0
+  - Id: Backgrounds/d57c41fe-8b87-44f1-9313-eaeaa04fdcbc
+    Resources:
+    - name: market
+      prefix: Backgrounds
+      guid: 2268f9faf0631d649b663c311c458189
+  - Id: Backgrounds/35e78a28-4ce0-4e27-9468-18b52e4c8c28
+    Resources:
+    - name: jiang
+      prefix: Backgrounds
+      guid: 8595779b809783245b639040a2902bc1
+  - Id: Backgrounds/497c1315-472c-4ad1-9c95-1cdf9d1f0092
+    Resources:
+    - name: mansion
+      prefix: Backgrounds
+      guid: 919dd16c94934824081ed68850dacec6
+  - Id: Backgrounds/25fb0806-56bd-4eb5-a8cd-c56a56d40344
+    Resources:
+    - name: fen
+      prefix: Backgrounds
+      guid: 93f33ae3aae16e4429bb95c8e660b87a
+  - Id: Backgrounds/8d0470f8-04bc-454e-b234-3b8a5f158dd5
+    Resources:
+    - name: starnight
+      prefix: Backgrounds
+      guid: 86a6c74e9dddcd649b98fbbdf2f81757
+  - Id: Backgrounds/fe57b916-375d-4c5b-8ee8-a1688ac467bd
+    Resources:
+    - name: TV
+      prefix: Backgrounds
+      guid: 7d3bb82d0d0a16b4ea8fbb182aad2c47
+  - Id: Characters/7a453fb6-6a44-4f1f-8da1-c4f893b94c2a
+    Resources: []
+  - Id: Backgrounds/61fa3203-7920-4a7f-96a6-808528970796
+    Resources:
+    - name: moonm
+      prefix: Backgrounds
+      guid: a83d7ba8d93b1754a90b02d576886041
+  migrated: 1

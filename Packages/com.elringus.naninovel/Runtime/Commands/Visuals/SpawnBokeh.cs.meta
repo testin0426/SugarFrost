@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: a86a6fe587164c6aa23679d39a488429
+timeCreated: 1669057781
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/Commands/Visuals/SpawnBokeh.cs
+  uploadId: 953760

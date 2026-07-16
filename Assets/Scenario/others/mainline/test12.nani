@@ -1,0 +1,96 @@
+@char C.Xiesmileleftou pose:default
+C.deblinkCde: 呃AA我也知道你...你不会....
+@hideChars
+C试探性地观察A的表情，但是A确实始终面无表情。
+@char A.idle pose:1
+A.lookleft: .....你这想象力真丰富.....
+@hideChars
+@playFX threshold:-1.0 duration:0.1
+@char C.smileCde pose:default
+C.smileCde: 哎呀百年铁树终于开花啦，这事情实际很正常。
+C.laughterCA: 我跟你说我们班也有....
+@hideChars
+@playFX threshold:0.5 duration:0.1
+A其实极度讨厌听八卦，
+而且C确实是误解了，
+她跟B完全没有"传统意义上"谈恋爱，
+起码在A的价值观里。
+但是C一定也无法理解恋人以上友人未满的的事情，
+实际A也无法理解。
+
+@char A.idle pose:1
+A.idle: ....打断一下。
+A.lookleft: ....实际上，我奶奶大年初三去世了。
+@playFX threshold:-1.0 duration:0.1
+@char C.Body/idle,Face/deblinkCde pose:default
+C.surprise: .......啊？？？？？？？？？？？？？
+C.deblinkCde: ....
+@hideChars
+说出口A有点后悔，
+因为真的不想让C承担哪怕一点点的负面情绪。
+@playFX threshold:-1.0 duration:0.1
+@char C.bsmileCde pose:default
+C.bsmileCde: emmmmm对不起对不起我刚刚真的误解了！！.........
+@playFX threshold:0.5 duration:0.1
+@char A.idle pose:1
+A.idle: ....实际就是....
+A.sadcloeyeU: 哎，我还是自己待一会吧。
+@playFX threshold:-1 duration:0.1
+@char C.MaofrownLCde pose:default
+C.MaofrownLCde: 不儿，
+@char C.deblinkCde pose:default
+C.deblinkCde: 你有什么事情你一定要说啊。
+C.idle: 我们肯定会帮你的，你和我说更不要紧的！
+C.MoEdeLCde: 怎么说呢生老病死也是正常的事情.....
+C.MaofrownL2Cde: .....
+@hideChars
+@char A pose:default
+A.Body/idle: 1
+A.Body/sit: 2
+A.Body/idle,Face/deblinkAde: 交作业。
+A.Body/cg1,Face/supAde: 交作业12345。
+A.Body/stand,Face/frownAde: ....
+@char A.Body/sit,Face/supAde
+@char A.idle
+A: test and test.
+@char A.idle
+A.idle: 1111
+A.sit: test
+@char A.sit
+A.sit: ....why didnt work again....
+@char A.stand
+A.stand: maybe I should go to sleep(it must be a very right choice.(yes.(.
+@addChoice 会 goto:#choice_a
+@addChoice 不会 goto:#choice_b
+@wait 5
+@goto #1de
+
+# choice_a
+@char A
+A: 123
+qwert
+@goto #continue
+
+# choice_b
+@char C
+A: 124
+qasdfa
+@goto #continue
+
+# 1de
+; @sfx dissolove the choice
+@clearChoice
+
+# continue
+实际上你并没有什么选择，因为事情总是在你想的时候自然发生着
+发生着
+asdka
+adslkfgasdlf
+gfkdjfghskgdf
+skdhfgsjk
+
+
+@play3D sceneName:CG1
+
+
+@stop

@@ -1,0 +1,222 @@
+也许怜知道些什么...？
+@char lyen
+@char lyen
+lyen.wuyua: 我？
+lyen.wuyu: ....
+lyen.close: 算了。
+@printer nos
+她耸耸肩，好像放弃了什么似的。
+@char lyen
+lyen.wuyu: 如果你是抱着查货的心态来的，
+lyen.closea: 那大可不费心了。
+lyen.wuyua: 我已经查完了。
+@char xp
+xp.comfy: ....
+xp.b: 啊？
+@hideChars
+@printer nos
+等下....？？
+我还....什么都没做...？？
+@char lyen
+lyen.sm: 别啊，怎么感觉你一副要哭出来的样子。
+lyen.sma: 真惨。
+@char xp
+xp.b: 那是你的错觉。
+@char lyen
+lyen.j: 好奇吗？
+lyen.sm: 也许你下辈子就知道了。
+@char xp
+xp.angeya: ....
+@char lyen
+lyen.wuyu: 不过看你这两天倒也挺辛苦的。
+lyen.wuyua: 我等会去你们商会分部做报告。
+lyen.close: 我不想任何人在今晚扫兴。
+lyen.wuyu: 一起？
+
+@char xp
+xp.b: ....
+@hideChars
+@printer nos
+一副顺水推舟的感觉....很讨厌。
+感觉自己什么也没做到。
+....为什么会成现在这个样子....
+;back trans
+@char lyen
+@char lyen
+lyen.wuyu: .....
+@char xp
+xp: .....
+@hideChars
+@printer nos
+路上，一言不发。
+虽然一直想尝试和怜拉近关系，但...貌似一直都很难。
+@char lyen
+@char lyen
+@char xp
+xp.s: .....算了。
+xp.angry1: 所以，等会你打算怎么说？
+xp.angry1: 知晓不是那么好说话的人...尤其是对于你们苏家...
+lyen.wuyu: 谢谢你为我担心啊。
+lyen.wuyua: 虽然我倒不认识你说的知晓是...
+lyen.wuyu: 但是你不知道叶兰已经到津都了吗？
+@char xp
+xp.supa: 啊？？
+@char lyen
+lyen.sm: ....乐。
+lyen.sma: 哦对，忘了你是偷偷跑出来的。
+lyen.wuyu: 不过，你上下线呢？
+@char xp
+xp.b: .....
+xp.comfy: .....
+@hideChars
+@printer nos
+瞥了眼相昀的反应后，怜摇摇头。
+@char lyen
+lyen.wuyu: ....
+lyen.sm: ....我觉得你开个糖雪球铺挺好的。
+
+
+@printer nos
+到达分部后...
+相昀立刻飞奔过去
+@char xwp
+xwp.comfy: 我回来啦！！
+@char Cleisure
+@char Cleisure
+Cleisure.surprise: 相昀！
+Cleisure.Xiesmile: 等等....
+@hideChars
+@printer nos
+看到相昀身后的人时，知晓目光冷了下来。
+@char lyen
+lyen.wuyu: ....
+@hideChars
+@printer nos
+;@sfx holdgun 拿枪音效
+怜刚想往前走一步，知晓举起手枪。
+
+lyen.wuyua: ....看来我相当不受待见。
+@char Cleisure
+@char Cleisure
+@char xp
+xp.sup: ！！！
+Cleisure.Xiesmileleftou: 不许动！
+Cleisure.Xiesmile: 相昀你过来。
+@char xp
+xp.comfy: ...等...等下。
+@hideChars
+@printer nos
+相昀下意识往怜旁边挡了挡。
+但怜先举起双手。
+@char lyen
+@char lyen
+lyen.close: 什么也没带，只有我一个人。
+lyen.closea: 也就是说
+lyen.wuyua: 我站在这里，是以我个人身份。
+lyen.wuyu: 至少现在是。
+@hideChars
+@printer nos
+说得很清楚了。
+@char Cleisure
+@char Cleisure
+Cleisure.Xiesmile: ....
+Cleisure.angrysmile: .....
+@printer nos
+知晓向旁边人悄悄吩咐了什么，不一会儿，有人来汇报。
+...气氛很紧张。
+@char xp    
+xp.comfy: ....那个，真的，没事....
+xp.angry1: 怜小姐...说她查清楚了然后...来汇报。
+@char Cleisure
+@char Cleisure
+Cleisure.MaofrownL2Cde: 查清楚了？
+Cleisure.Xiesmileleftou: 就在这里说。谁干的。
+@char lyen
+@char lyen
+lyen.wuyu: .....
+@hideChars
+@printer nos
+怜看起来一点也不紧张。
+@char lyen
+@char lyen
+lyen.wuyua: .....汇报可以，但是。
+lyen.wuyu: 我要回避下她。
+@printer nos
+怜指了指相昀。
+@char xp
+xp.sup: 什么....？？！
+xp.angeya: 凭什么不让我听....你————！
+@hideChars
+@printer Atest
+叶兰: 可以。
+@printer nos
+没等相昀抗议完，叶兰的声音在身后远远响起。
+不高不低，但听得也很清楚。
+@char lyen
+@char lyen
+@char xp
+xp.angeya: 我不接受！凭什么你不告诉我！
+lyen.wuyu: ....
+lyen.wuyua: 我查出来的，凭什么告诉你。
+xp.angeya: 你简直是！——
+@hideChars
+@printer nos
+但相昀的抗议显然没什么作用。
+因为叶兰此时也异常“支持”怜的提案。
+@char Cleisure
+@char Cleisure
+Cleisure.bsmileCde: ....呃...那...
+Cleisure.laughterCA: 我带小相昀去买吃的吧~~
+@printer nos
+知晓的语气突然重新变得轻快了起来。
+@char Cleisure
+@char Cleisure.smileCde
+@char xp
+xp.angeya: ....???
+xp.angeya: （你表演变脸呢？？）
+@hideChars
+@printer nos
+但相昀的抗议显然是无效的。
+@char lyen
+@char lyen
+lyen: 你倒不用急。
+lyen: 把你支开只为了更好和你家老板说话而已。
+@char xp
+xp.angeya: ...不是...我竟然会被叶兰怀疑吗？？
+@char lyen
+lyen.wuyua: 谁知道。
+lyen.sma: 你对我再热情一点的话说不定就？
+@char xp
+xp.abde: .....
+@printer nos
+相昀此刻不想理睬怜的话。
+@hideChars
+@printer nos
+....很混乱，是相昀不想去考虑的方向。
+最终...
+@char xp
+xp.s: .....
+@printer nos
+相昀拖着沉重的步伐走出分部门。
+知晓跟在她身后。
+;back转。
+@char Cleisure
+@char Cleisure
+Cleisure: 辛苦你啦小相昀~
+Cleisure.smileCde: 我也没想到你竟然能直接搞定怜二小姐....
+@char xp
+xp.b: ....我搞定啥了我？
+xp.angry1: 我相信你们。
+xp.angeya: 但是现在呢？
+@printer nos
+相昀有些愤怒。
+她盯着前方，太阳炙烤着地表，
+又是大热天，真烦。 
+@char Cleisure
+@char Cleisure
+Cleisure.MaofrownL2Cde: ....
+
+
+@stop
+
+

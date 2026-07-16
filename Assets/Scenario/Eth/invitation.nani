@@ -1,0 +1,63 @@
+@stopBgm
+@despawnAll
+    
+@playFX threshold:-0.32 duration:0.1
+@playUIFX threshold:0.0 duration:0.1
+@hideAll
+@playUIFX threshold:0.0 duration:0.1
+
+@wait 3
+@set playername="相昀"
+@input playername summary:"请问，该如何称呼小少主？" value:相昀
+@stop
+
+@wait 3
+@purgeRollback
+@printer Atest
+致[< speed:0.05][i]{playername}[< speed:0.05]
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:2
+
+
+@wait 1
+@hide Atest
+@hidePrinter
+@printer letter
+@playUIFX threshold:0.0 duration:5 !wait
+
+长女<color=#00C8FF>仟虹</color>留学<color=#00C8FF>席国</color>，[< speed:0.2][i][wait 0.1]日[< speed:0.2][wait 0.01]前[< speed:0.2][wait 0.01]载[< speed:0.2][wait 0.01]誉[< speed:0.2][wait 0.01]归[< speed:0.2][wait 0.01]来。[< speed:0.2][< join!]
+适[< speed:0.2][wait 0.01]逢[< speed:0.2][wait 0.01]其[< speed:0.2][wait 0.01]诞[< speed:0.2][wait 0.01]辰[< speed:0.2]，阖[< speed:0.2][wait 0.01]家[< speed:0.2][wait 0.01]欢[< speed:0.2][wait 0.01]欣。 [< speed:0.2][i]
+谨[< speed:0.2][wait 0.01]定[< speed:0.2][wait 0.01]于[< speed:0.2][wait 0.01]在[< speed:0.2][wait 0.01]公[< speed:0.2][wait 0.01]馆[< speed:0.2][wait 0.01]设[< speed:0.2][wait 0.01]薄[< speed:0.2][wait 0.01]酌[< speed:0.2][i]，届时恭迎<color=red>商会</color>携眷惠临[< speed:0.2][i]，藉叙契阔。[< speed:0.05]
+
+; 长女仟虹留学席国，日前载誉归来。适逢其诞辰，阖家欢欣。谨定于公馆设薄酌，届时恭迎商会携眷惠临，藉叙契阔。 [< skip:false]
+
+; @wait 10
+
+
+
+@playUIFX threshold:0.0 duration:0.1
+@playUIFX threshold:1.0 duration:3
+@hide letter
+@wait 2
+@hidePrinter
+@printer Atest
+@back id:xpop
+@playUIFX threshold:1.0 duration:0.1
+@playUIFX threshold:0.0 duration:5
+@wait 5
+
+
+@printer Atest
+是否前往赴宴？
+@addChoice 去！ goto:#1
+@stop
+# 1
+@hide Atest
+@hidePrinter
+@playUIFX threshold:0.0 duration:0.1
+@playUIFX threshold:1.0 duration:3
+@hideAll
+
+@hide letter
+@goto Eth/x/x1
+@stop

@@ -1,0 +1,14 @@
+@back outroom
+外面
+@char blud
+
+blud:.....
+blud:是这样吗。
+
+尝试把相昀断断续续的话记录下来
+...哦。
+
+@hideAll
+@goto TEST
+
+@stop

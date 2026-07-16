@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bc37016d77bb1b449b520345539af3fa
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Prefabs/TextPrinters/SceneBubble.prefab
+  uploadId: 953760

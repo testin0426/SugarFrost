@@ -1,0 +1,154 @@
+; @char A pose:default
+; A.angryCO: ......
+; A.angryCO: ....你们好。
+; lyen.an: 你也滚。
+; A.angryCO: ????????????
+; @hide lyen
+; xp.comfy: 是AAAAAAAAAAA哒！！！
+; A.lookright: 那个我只是想来看下
+; A.frownAde: 因为我好像不知道该怎么写了
+; A.frownAde: 剧情是一点不会写的，流水账是写的极其流畅的。
+; @char lyen
+; lyen.an: 你直接把咱俩事放上去不就有的写了。
+; A.angryCO: 你希望我死快点直接说就好...
+; @char cyan pose:right
+; cyan.haoe: 为什么设定上我是不认识白霜的....
+; lyen.fc: 为什么设定上这死人机和我绑定了。
+; lyen.wuyu: 还有你能不能别听你那b华尔兹了。
+; @hide lyen
+; @hide cyan
+; @char wifi pose:center
+; wifi: b
+; A.angryCO: 好了我知道你要说什么你可以闭嘴了。
+; xp.looklefto: 我觉得挺有意思的啊
+; xp.comfye: 我已经迫不及待看到怜破产的样子了
+; @hide wifi
+; @char lyen
+; lyen.wuyua: ?什tm破产?我不会真有这个戏份吧？
+; lyen.sm: 我也迫不及待看到相父换成相曦之后你急眼的样子。
+; xp.angry1: 但关键还没换啊好吧！
+; lyen.ll: 那你看我现在破产了吗？也没有吧？
+
+be3
+
+@bt
+@back id:jin appearance:night
+@printer Atest
+虽说来做客，但是被苏家长辈喊去后一些客套话说一说就完了，
+说完相昀便觉得有些无聊了。
+接下来找谁呢？
+@addChoice 找白霜 goto:#b1 set:b++
+@addChoice 找仟虹 goto:#q1 set:q++
+@addChoice 找怜 goto:#l1 set:l++
+@stop
+
+# b1
+尝试去找找白霜在哪？
+但是等下....
+刚刚白霜不还在身边吗？怎么一眨眼就不见了？？
+xp.angry1: 话说回来....
+xp.lookleft: 白霜真的是游过来的吗？
+在之前和白霜相处过程中，
+白霜确实不怎么说话，问她也问不出什么。
+但是相昀发现，如果用心体会反而能明白她的意思。
+xp.looklefto: 游过来的....
+游过来...
+xp.angry1: ....呃....想不明白....
+@hideChars
+果然还是用脚体会比较好！
+于是相昀开始在苏家大院窜来窜去，为了找白霜，
+@char xp
+xp.b: ....哇....不是，哪里来这么多人。
+xp.ba: 怎么越来越感觉跟菜市场一样...
+相昀觉得越来越无聊，
+依然找不到白霜。
+实际上，如果要找白霜，不应该是“去找”
+而是得慢慢等，等自己“被白霜找到”
+@char xp
+lp: ......
+lp: 好。
+@hideChars
+相昀像是悟了什么。
+于是她随便顺了一个小马扎，
+在苏家四合院的中间坐着。
+开始冥想。
+
+; vagnite fx
+; 闭眼转场..
+@hideAll
+世界，一片漆黑了，
+看不见了。
+于是“想要被白霜找到”这个目标成为了当下的唯一，
+像是一瞬间永恒了一般....
+
+....
+
+
+# q1
+尝试去找找仟虹？
+相昀想了下，
+然后晚上就来参加她的生日宴会了。
+缘分，很神奇吧。
+@char xp
+xp.looklefto: 刚刚看她好像在二楼。
+; @sfx
+@bt
+@char xwp
+xwp.comfy: 仟~~~~虹！
+@hide xwp
+@char lumen
+lumen.looklefto: 欸不在？
+@printer Atest
+相昀四处张望....
+@spawn ShakeCamera
+@char lp pose:right
+@l2c lp t:0.5
+lp.ana: 你在这里干什么！！
+@char lumen.sup
+@shake lumen wait!
+xp.ba: ....为什么又碰到你了。
+xp.angeya: 明明我想找的是仟虹....
+@char lyen
+lyen.fc: ...
+lyen.an: 你找她有什么事情吗。
+xp.looklefto: 没事啊。
+lyen.wuyu: ....
+lyen.wuyua: ....你。
+....
+@char cyan
+cyan: 哦！
+
+
+; 宴会其实很隆重。
+; 相昀看到怜邀请仟虹跳华尔兹
+但，
+; 美中不足的是，
+; 然后仟虹跳着跳着就倒下了。
+; 仟虹死了，尸检报告出来说仟虹是吃了下毒的糖雪球后身亡。
+; 查出来糖雪球是相昀卖的，
+; 所以相昀被冠上谋杀仟虹的罪名，
+; 苏家和席会以此为理由联合讨伐商会。
+; 仟虹的分形理论竟然与糖雪球上面糖霜的分布高度重合。
+; 所以不免让人怀疑她是自导自演的谋杀，旨在挑起纷争，苏家统一天下！
+...
+; 相昀参战。
+; 战争很残酷。
+; 相昀战死在战场。
+; @char xp
+; xp.angeya: ???????????????????????????????????????????????
+; @char lyen
+; lyen.fc: ...我真求你了你就继续写吧。
+; xp.angeya: 写鬼啊离谱他妈给离谱开门到太阳系之外了！
+
+@char xp
+达成结局:啥子结局？
+....
+xp.b: ....我怎么死了。
+xp.ba: 。我感觉自己啥也没干啊。
+xp.s: 唉。
+xp.angeya: 虽然但是席会又是什么东西啊！
+xp.angry1: 那糖雪球不是白霜给我的吗...明明我吃了都好的很啊！
+xp.looklefto: 你要不重开回去看眼，争取下次活长一些？
+@addChoice ...好 set:num++ goto:Eth/x/x1
+@addChoice 回啥，摆烂。
+@stop

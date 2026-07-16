@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: 8c5d380e71ab48a3812e2de09a78ebb1
+timeCreated: 1654812140
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/Commands/Visuals/DestroyAllSpawned.cs
+  uploadId: 953760

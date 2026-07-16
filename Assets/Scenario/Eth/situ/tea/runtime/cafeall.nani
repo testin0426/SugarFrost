@@ -1,0 +1,1343 @@
+@printer xfull
+天渐渐黑了。
+晚上，津都的各种灯光显得迷离，
+感觉眼前剩下的就是些散光的彩色斑点。
+但相昀还是觉得眼前空无一物，空荡荡的。
+@back id:jin appearance:day
+@back id:jin appearance:day
+@back id:jin appearance:night
+@playFX threshold:1.0 duration:1
+@playFX threshold:-0.32 duration:1
+
+@if he=1
+    @hideAll
+    @printer Atest
+    由于相昀沉迷卖糖雪球，查货的事情...忘得一干二净。
+    但是糖雪球竟然都卖完了...
+    也不想去分部，会被叶兰的人抓到....
+    @char xp
+    xp.b: 好饿....
+    @printer Atest
+    于是晚上她就打算找了个餐厅吃饭。
+    @wait 1
+    ; @bgm?
+    漫步在迷离津都灯火中...
+    
+    ; @goto Eth/x/heheaven
+    @stop
+
+
+@char xp pose:default
+xp.angry1: .....还没出现啊....
+@hideChars
+@printer Atest
+再等下去如果还没等到人，
+叶兰就要来抓自己了...
+@if ye=1
+    虽然提前和知晓打过招呼别告诉叶兰...
+@char xp pose:default
+xp.looklefto: 不应该啊，
+xp.angry1: 明明推算出来的时间也只能是这个时候。
+xp.s: 不然它们还能把货怎么样呢...好抽象。
+@hideChars
+@printer Atest
+不，仔细看的话，不止一个人。
+星星点点地分布在周围。
+@char xp pose:default
+xp.angry1: ....这些人....
+@hideChars
+@printer Atest
+是一伙的吗？
+又是哪一伙的？
+正当她开始收东西的时候，她注意到其中有个人来找她搭话。
+人: 喂老板娘。
+@char xp pose:default
+xp.looklefto: (...好老气的称呼。)
+xp.xie: 怎么了？
+@playFX threshold:0.7 duration:0.1
+@printer Atest
+@camera zoom:0.3 time:1 !wait
+人: 你的东西我全买下了。对应地，你有注意到一个高个子，走路有点跛的家伙吗？
+@playFX threshold:-0.32 duration:0.1
+@camera zoom:0.0 time:0.1 wait!
+哎？这不就是自己要找的人吗？
+@if ye=0
+    @hideChars
+    线人说货物落到她手里了，晚上会来天堂交易转卖。
+    但是还有谁在查呢?
+    @char xp
+    xp.lookleft: (...不像商会的...)
+    xp.looklefto: (可能是消息被放出去了？别人也来抢了？)
+    xp.b: （但如果消息都散播地这么广了感觉非常不可靠啊...）
+    xp.s: (果然下次还得更早点来吗...)
+@if ye=1
+    @hideChars
+    云端药行的行主就是那个跛子
+    今晚会来“天堂”谈生意。
+@hideChars
+@printer Atest
+相昀想了下该如何回答
+@addChoice 说谎 set:xl=1 goto:#l1
+@addChoice 实话实说 set:xq=2 goto:#l12
+@stop
+
+
+# l12
+@char xp
+xp.close: 没见过。
+人: 这样啊....
+@goto #fight
+@stop
+
+# l1
+@char xp
+xp.looklefto: 我想想....
+xp: 最近来的人不多...我好像有点印象。
+@hideChars
+@printer Atest
+人: 麻烦了。
+@char xp pose:center
+xp.looklefto: 哦哦我想起来了！
+xp.xie: 大概中午吧....
+xp.angeya: 确实有个跛子走路不看路还撞了下我的摊子。
+xp.angry1: 那个人脸上还有一道疤呢。我看了眼绝对忘不了！
+@hideChars
+@stopBgm
+@printer Atest
+人听到相昀的话后脸色立刻变了。
+
+
+# fight
+人: ...好的，我知道了。
+人低头，在兜里翻找着什么。
+但是....
+直觉上好像有点不对！
+@bgm mo
+@spawn ShakeCamera params:,5,,,,,true,false
+@shake xp
+@char xp pose:center
+xp.sup: ！！！！
+; music
+@hideChars
+@printer Atest
+拳头擦过头发而过
+背后有人偷袭，然后眼前的人也扑过来。
+但是相昀立刻闪到一边。
+@char xp pose:default
+xp.angry1: ....
+xp.b: ...大意了，没看出来。
+@hideChars
+@printer Atest
+人1: 一个卖糖葫芦的怎么会有这身手。
+人2: 果然小姐判断是正确的。
+人3: 啧...准备真充分。
+@char xp
+xp.angry1: ...我卖的是糖雪球不是糖葫芦！
+@hideChars
+@printer Atest
+是跛腿女人的保镖吗....
+被发现了？
+相昀快速打量周围，
+@char xp
+xp.angry1: ....不止这点人。
+@printer Atest
+对方的？己方的？
+@shake xpt
+xp.angeya: 啧。不浪瞎猜了。
+@hideChars
+@printer Atest
+于是她干脆混进人群冲进天堂——————
+人1: 她过去了！！
+人2: 快找人和小姐传话！！
+小姐？
+@hideAll
+@char xp
+xp.ba: ...又是哪个小姐哇....
+@stopBgm
+@wait 0.5
+@bt
+@hideAll
+@bgm ye
+@back id:cafe
+@printer Atest
+好在引起的规模不大，
+所以并没有什么人注意到相昀，
+成功混进来了。
+@char xp pose:default
+xp.b: ....找个二楼盯着算了。
+xp.lookleft: 反正来的路上也有那群人。
+@hideChars
+@printer Atest
+相昀打量了下天堂，
+实际她并没有去过这种餐厅，
+可能又和叶兰说的一样，很小时候去过。
+反正没有相关记忆。
+@char xp pose:default
+xp.s: ....感觉这样下去越来越没戏了。
+@hideChars
+@printer Atest
+势力对比有些悬殊了。
+打草惊蛇的话也早就发生了吧。
+那当下的事情好像就是等叶兰来了。
+@char xp pose:center
+xp.angry1: 有点不甘心。
+xp.close: .....
+xp.angry1: 哪里出问题了...？
+@hideChars
+@printer Atest
+各种推导开始在脑子里面打架了，
+既然如此.......
+; ...perfor?
+@wait 1
+先在餐厅里玩一会吧。
+@char xp pose:center
+xp.lookleft: 怎么说呢...虽然曲子也挺好听...
+@hideChars
+@printer Atest
+可能没听习惯吧。
+但是相昀对那些吹来吹去的乐曲很感兴趣。
+自己会吹一点笛子，
+正当她在瞎想的时候....
+@wait 1
+@stopBgm
+@spawn ShakeCamera
+那个跛腿女人真的大摇大摆地从大门来了？！
+@char xp pose:center
+xp.supa: 啊！
+xp.angry1: 不是。门口那一票人不是在盯着吗？
+@hideChars
+@printer Atest
+相昀草草地瞟了一眼，原来那些人依然在原地，但是没有立刻行动。
+此时注意力也该转移了。
+她深吸了一口气，连忙蹿到楼下去。
+@char xp pose:center
+xp.angeya: 果然都是保镖吗...
+@hideChars
+@printer Atest
+好像...不对！不瞎想了！
+....
+@hideChars
+@char xp pose:center
+xp.angry1: 同时顾虑两个方向有些累人...
+xp.close: 也许事情确实有很多可能。
+@wait 1
+@printer Atest
+......
+
+@spawn ShakeCamera params:,5,,,,,true,false
+@char xp
+xp.angeya: 想不懂啦！
+@hideChars
+@printer Atest
+于是相昀刚准备离开座位....
+@char xp.sup
+@shake xp
+xp.sup: ?
+@hideChars
+@printer Atest
+有人坐到她对面。
+@char xp.sup
+@bgm yil
+@wait 1
+@printer lt
+@char lyen
+@char lyen
+?: ....喂。
+@char lyen.an
+?: 小少主。别插手。
+@char lyen.sm
+?: 你要的东西自然有。
+; cg演出？
+@char xp.angry1
+xp.angeya: ?
+@printer lt
+@char lyen.anE
+?: 如果你乖点的话。
+@hideChars
+@char xp pose:center
+xp.b: ....
+xp.angeya: 啧。
+@hideChars
+@printer Atest
+....甚至不知道对方的名字。
+但是....
+@char lumen pose:center
+lumen.angeya: ....是被认出来了...？
+lumen.b: 想溜。
+@c2r xp t:0.4
+@spawn ShakeCamera params:,5,,,,,true,false
+@hideChars
+@printer Atest
+但她刚想离开坐在，有人把她肩膀按住————
+不知道什么时候出现的侍者。
+@printer lt
+@char lyen
+@char lyen.j
+?: 都说了别乱动。
+@char lyen.wuyu
+?: 啊。
+@char lyen.wuyua
+?: 忘了你在这人生地不熟的。
+@char lyen.close
+?: 餐厅里动手会很麻烦。
+@char lyen.wuyu
+?: 而且我要确认她要跟谁见面。
+@char lyen.wuyua
+?: 反正你早晚能拿到东西。
+@hideChars
+@printer Atest
+@char xp
+xp.angeya: 为什么餐厅里不能动手？
+@printer lt
+@char lyen
+@char lyen.wuyu
+?: ....
+@wait 1
+@char lyen.sm
+?: 因为你不配。
+@char xp
+@shake xpt power:0.2
+xp.angeya: !
+@addChoice 不是，这能忍？？？？？ lock:{lm=1} goto:#dong1
+@addChoice ....冷静。 goto:#calm
+@stop
+
+
+; lxxlcg
+
+# dong1
+@hideAll
+@printer xfull
+旁边侍者还没反应过来，相昀————————
+@wait 1
+@back id:jin
+@back id:jin appearance:night
+@printer Atest
+...拿了个糖雪球砸过去。
+@printer lt
+@char lyen.wuyu pose:center
+?: ....
+@c2l lyen t:0.2 wait!
+@wait 0.1
+@char lyen.sup
+@shake lyen
+?: !!
+@char xp
+xp.looklefto: 啊，手滑了，不好意思。
+@hide lyen
+@printer Atest
+糖雪球精准砸到怜（打算避开的）头上，
+弹到地上去了。
+@char xp
+xp.comfye: 你知道吗，刚刚你闪避接招的样子值得拍照纪念....
+@printer lt
+@char lyen.fc pose:center
+?: ....你。
+@printer Atest
+其实是相昀正好猜到了少女闪避方向，
+@printer Atest
+少女瞟了一眼滚地上的糖雪球。
+; sugarfrost特写
+@printer lt
+@char lyen.wuyu
+?: ...随便问下。
+@char lyen.wuyua
+?: 你这两天糖雪球销量如何。
+
+
+@hide lyen
+@char xp
+xp.angeya: ?
+@stopBgm
+; @bgm wfxn
+@printer Atest
+虽然很不想承认....
+除了夸糖雪球好看那个....
+其他糖雪球再卖出去前就已经被自己吃完了。
+@char xp
+xp.angeya: ...当然有卖出去...！！
+
+@printer Atest
+@if xq=1
+    @printer Atest
+
+    @printer lt
+    @char lyen.wuyua
+    ?: ....
+    ?: 那其中来买的顾客中....
+    @printer Atest
+    少女说话突然断断续续地
+    @printer lt
+    @char lyen.wuyu
+    ?: 有带帽子的人吗？
+    @playFX threshold:0.7 duration:0.1
+    xp: ....你在说什么啊....
+    xp: 戴帽子的人那么多，你不说具体点我怎么知道。
+    xp.b: 但我确实有卖给一个带红色丝带帽子的女生就是了...
+    @playFX threshold:-0.32 duration:0.1
+    @printer lt
+    @char lyen.sup
+    @shake lyen wait!
+    @char lyen.wuyua
+    ?: .....
+    ?: 那....
+    ?: ....算了。
+    @hideChars
+    @printer Atest
+    眼前少女低下头，攥紧玻璃杯。
+    ....
+    @playFX threshold:1 duration:1
+    沉默了很久很久
+    @playFX threshold:-0.32 duration:1
+    @char xp
+    xp.looklefto: ....
+    xp.de: ....你还好吧？
+    @printer Atest
+    虽然看不清少女的表情，
+    @printer lt
+    @char lyen.sm
+    ?: ....
+    ?: 那....她好看吗?
+    @addChoice ? goto:#123
+    @addChoice 好看。 goto:#124
+    @wait 10
+
+    # 124
+    @printer lt
+    @char lyen.sm
+    ?: ...嗯。
+    @hideAll
+    @printer lt
+    ?: 也许未来的每一天都会这样过去吧。
+    @wait 1
+    @goto #m3
+    @stop
+@printer lt
+@char lyen.sm
+lyen.sm: 承认倒挺快的，我只是问了下销量。
+lyen.sm: 那看来是生意兴旺啊。
+lyen.sma: 看来商会后继有人，此江后浪推前浪。
+
+
+@goto #m3
+
+
+
+
+# calm
+@printer Atest
+相昀看着笑容满面的少女，强忍自己立刻动手的冲动。
+@printer lt
+@char lyen.j
+?: 在此前我们不妨聊聊天？
+@char xp.angry1 pose:default
+@set u=0
+@addChoice 你是知道我是谁？ goto:#l21 set:u=1
+@addChoice 你是谁？ goto:#l22 set:u=2
+@stop
+
+# l21
+@char xp.angry1
+xp.angry1: ...你是知道我是谁？
+@printer lt
+@char lyen.sm
+@char lyen.sm
+?: 你的气质都顺着此江飘过来了，我能不认识吗？
+@char lyen.sma
+?: 相昀。
+@char lyen.wuyu
+?: 然后还就这么大摇大摆地在街上卖东西？
+@char lyen.wuyua
+?: 你能像个小丑一样来这就感谢我吧。
+@char lyen.wuyua
+?: 否则早被拦下来了。
+@char xp
+xp.angeya: 你说谁是小丑....
+@if u==1
+    @addChoice 你是谁？ set:u=0 goto:#l22
+@else if:u==0
+    @goto #m3
+@stop
+
+# l22
+@hideChars
+@printer Atest
+相昀其实对对方是谁并不感兴趣。
+@char xp.angry1
+@char lyen
+xp.angry1: ...你是谁？
+lyen.an: 认不出来我吗。
+xp.angeya: ...你哪位啊....
+lyen.ane: 我为什么要告诉你？
+xp.b: ....
+lyen.j: 如果你一定要知道的话，求我也不是不可以。
+@hideChars
+对方一副沾沾自喜的样子。
+那就不知道吧，因为相昀也不想求她。
+
+@if u==2
+    @addChoice 你是知道我是谁？ set:u=0 goto:#l21
+@else if:u==0
+    @goto #m3
+@stop
+
+
+# m3
+@hide lyen
+@printer Atest
+于是两人就不再说话了。
+然后互相盯着对方。
+@char xp
+xp.de: ........
+@printer lt
+@char lyen
+@char lyen
+?: ........
+xp.looklefto: 啊，好像有人来了。
+@printer lt
+@char lyen
+@char lyen.wuyua pose:right
+?: 你还真是不关心我是谁啊....
+@hideChars
+@printer Atest
+少女叹了口气，
+之后，有人来到她身边
+@char lyen
+@char lyen
+@char xp pose:center
+xp.angeya: ！....
+@hideChars
+是刚刚来砸摊子的人之一...
+原来是她的人吗？
+@printer Atest
+人1: 小姐，确实是沾衣。
+@printer lt
+@char lyen.wuyu pose:center
+@char lyen.wuyu
+?: ....
+@hide lyen
+@char lyen.fc
+@char lyen.fc pose:h
+@printer lpt
+?: ....天堂有路她不走地狱无门非要闯。
+
+@printer Atest
+少女暗暗说着什么。
+@char lyen.wuyu pose:center
+@char lyen.wuyu
+@printer lt
+lyen.wuyu: 知道了。
+@hideChars
+@printer Atest
+突然，又有人赶来。
+但一副煞有急事的样子。
+@stopBgm
+旁边的侍者警惕起来，少女示意她不用在意。
+人2: 小姐...她回来了...
+@printer lt
+@char lyen pose:center
+@char lyen.sup
+?: .......
+@char xp pose:center
+xp.angeya: ....？你又怎么了？
+@printer lt
+@char lyen.an
+?: ...没事。继续盯着。
+@hideChars
+@hideAll
+@printer Atest
+...好奇怪的人*2。
+@wait 0.4
+@back id:cafe
+等那边谈的差不多后，先前的那位先离座。
+貌似是叫什么...沾衣？
+@printer lt
+@char lyen pose:center
+@char lyen pose:center
+?: 你去跟着....
+@char lyen.sup
+?: 等？
+@hideChars
+@printer Atest
+少女还没反应过来，
+相昀面向窗户，悄无声息地翻出去，
+然后一溜烟地跟上沾衣。
+@printer lt
+@char lyen pose:center
+@char lyen.wuyua
+?: ....一点也不沟通的吗。
+@char lyen.wuyu
+?: 简直就是原始人...
+@char lyen.wuyua
+?: ...要不...
+@hideChars
+@printer Atest
+怜想了想，慢悠悠站起身，走到女人那边。
+
+
+
+# m31
+@stopBgm
+@bgm mo
+@bt
+@back id:jin appearance:night
+@back id:jin appearance:night
+@printer Fullscreen
+夜晚，沾衣感觉背后有人在跟踪她。
+她七拐八拐，拐到之前和“朋友们”商议好的巷子里。
+相昀见沾衣拐到巷子里面去了。
+@char xp pose:center
+xp.angry1: ...有接应吗...
+xp.comfy: 那正好多打几个。
+@hideChars
+@printer Atest
+于是相昀追上那个“沾衣”，二话不说把她放倒
+@shake Atest
+沾衣: 喂！
+@char xp
+xp.xie: 东西在哪。
+@printer Atrem
+沾衣: 什么东西在哪...我不晓得啦！
+@char xp
+xp.angry1: 晚上七点，天堂，面粉。
+@hideChars
+@printer Atest
+沾衣的神色越来越难看
+@char xp pose:center
+xp.angry1: 不想多事的话就....
+@sfx fistfight
+@hideChars
+@printer Atest
+相昀话说一半，周围突然又有人窜出来袭击
+@spawn ShakeCamera
+@char xp pose:center
+xp.sup: ！
+; ....莫名可做一些ai3d打斗什么鬼啊....？？
+xp.angeya: 果然有同伙吗....
+@hideChars
+@printer Atest
+人渐渐多起来的话会很不好办，
+但是不妨也是一种挑战的机会，
+如果是在打不过的话....
+@char xp pose:center
+xp.b: ....在想什么....
+@stopBgm
+@hideAll
+@printer xfull
+.....
+@wait 1
+谁允许你跑了？
+@wait 1
+@back id:jin appearance:night
+@back id:jin appearance:night
+@bgm mo
+@char xp
+xp.sup: !!!
+@shake xp
+@hideChars
+@printer Atest
+相昀放倒了几个人，
+正当她想继续问沾衣货物在哪时，沾衣突然大喊
+
+@camera zoom:0.3 time:0.4
+
+@playFX threshold:0.7 duration:0.1
+@shake Atest power:0.4
+沾衣: 等等！怜二小姐！救救我们！
+@shake xt power:0.1
+@char xp
+xp.angeya: ...啥怜二....
+@camera zoom:0.0 time:0.2
+@playFX threshold:-0.32 duration:0.1
+@hideChars
+@printer Atest
+相昀回头一看，之前的少女也赶来了。
+@char lyen
+lyen.wuyua: ...哇。
+lyen.wuyu: 你还真能打啊。
+@char xp
+xp.angry1: 原来你就是苏家二小姐...
+
+xp.angeya: ...
+
+@printer Atest
+相昀突然意识到什么
+
+xp.angry1: 果然是你们家里的事情吗...
+
+@printer Atest
+虽然相昀此刻还不能确定。
+
+@char lyen
+lyen.wuyu: .....
+@wait 0.5
+lyen.wuyu: 想知道吗？
+lyen.sm: 求我就告诉你。
+@hideChars
+@printer Atest
+当然。少女带来的人更多，
+....有点麻烦...到底是什么情况
+相昀拿出枪。
+
+@char xp
+@shake xpt
+xp.angeya: 都不许动！
+; @animate xp posX:451.04 time:0.4
+
+@char lyen
+lyen.wuyu: 冷静点。
+@goto #main9
+
+@hideChars
+@if lm=1
+    @char lyen
+    lyen.wufua: 你找的，九号街福安阁楼。
+    lyen.wuyu: 啊。
+    lyen.wuyu: 但是我就算这样说你也不会相信我吧。
+    lyen.sm: 毕竟你现在分身乏术，不是吗。
+    @hide lyen
+    @char xp
+    xp.lookleft: ......
+    @stopBgm
+    @hideAll
+    @resetText xfull
+    @printer xfull
+    ....
+    其实少女说的很有道理，
+    而且，
+    这种话相昀也不是第一次听过，
+    虽然她也想不起来在哪听过了，
+    ; performance? + sfx
+    但是..
+    但是...
+    但是.....
+    ; font performance?
+    ; chromatic performance
+    @back id:jin appearance:night
+    @bgm yan
+    @char xp
+    xp.looklefto: 哦，谢谢。
+
+    @if lm=1
+    @hide xp
+    @printer Atest
+    相昀听完，放下枪。
+    @char lyen pose:center
+    lyen.sup: ...?
+    lyen.sma: 这就放弃了？
+    @hideChars
+    @char xp
+    xp.lookleft: 忘了说了。
+    xp.close: 实际上....
+    @wait 0.5
+    xp.looklefto: 我只是想确认下自己有没有找错。
+    @wait 0.5
+    @printer Atest
+    沾衣: ?!
+    @char lyen
+    lyen.sup: !
+    @shake lyen
+    @wait 0.5
+    xp.comfy: 阁楼四楼左手间是吧。那我确实没弄错。
+    @hideAll
+    @printer xfull
+    确实是这样，
+    这两天用“自己的方式”调查指的就是直接找东西了....
+    因为几个木箱和大批棉布，不好藏，搬来搬去东西也会很明显。
+    ....
+
+
+    @stopBgm
+    @back id:jin appearance:night
+    @char lyen
+    lyen.wuyu: ...你...
+    lyen.wuyua: ....算了。我还要谢谢你帮我节省精力了。
+
+# main9
+@char lyen
+lyen.wuyu: .....
+lyen.wuyu: 叶老板应该也快到了吧。
+lyen.wuyua: 等会顺路一起回公馆吧。
+@char xp pose:default
+xp.looklefto: ?公馆?
+@playFX threshold:0.7 duration:0.1
+人1: 相昀小姐，这位就是苏家二小姐, 怜大人。
+@playFX threshold:-0.32 duration:0.1
+@char xp pose:default
+xp.de: 这样啊。
+@if ye=1
+    @char xp
+    xp.angry1: (果然是苏家人内讧吗...）
+@hideChars
+@char lyen
+lyen.wuyu: 还以为你能认出来我。
+lyen.wuyua: 看来你比我想得还要弱智很多。
+@char xp
+xp.angeya: 我又没见过你？
+@hideChars
+@printer Atest
+相昀隐约记得苏家就是这批货物的买房，
+那看来追查也情有可原....
+...
+好巧？
+
+
+@char lyen
+lyen.wuyu: 等下。
+@hideChars
+@printer Atest
+怜向沾衣走去
+沾衣: 小姐....
+
+@if lm=0
+    @goto #he7
+    @stop
+@if lm=1
+    @goto #main6
+
+# he7
+vyt: 等等等！！我什么都会说的！！求二小姐开恩....
+vyt: 是先生...！都是疏影先生指使我们的！！
+@char xp
+xp: 疏影先生又是谁...
+@char lyen
+lyen.wuyu: 仟虹在席会那边的导师。
+lyen.fc: 也是我姑母罢了。
+@char xp
+xp.b: ...我看不懂你们家的关系....
+@char lyen
+lyen.sm: 我也看不懂你们家的关系。
+lyen.wuyu: 哦，你的货物就是她带人抢的。
+lyen.wuyua: 有什么事情找她就行。
+@char xp
+xp.angry1: 你说的倒是轻松...
+@printer Atest
+相昀想了一会，
+等晚上见到叶兰再说吧。
+@hide lyen
+@printer Atest
+怜没管相昀，问沾衣
+@char lyen
+lyen.wuyu: 那姑母她人呢。
+@hide lyen
+@printer Atest
+沾衣: 这个...
+沾衣的神色异常慌张。
+沾衣: 先生她....说要找大小姐谈事....
+@char lyen
+@shake lyen
+lyen.fc: !!!
+lyen.wuyu: ....
+@char lyen
+lyen.wuyua: 算了。
+lyen.wuyu: 我看商会小少主都悠哉游哉地很。
+lyen.wuyu: 今天又是个重要日子。
+lyen.wuyua: 回去之后再聊聊天吧。
+@printer Atest
+沾衣: !!!!
+vyt: 感....感谢.....
+@goto #main5
+@stop
+
+lyen.close: 但是下面的问题也请你认真思考后回答。
+@printer Atrem
+@shake Atrem power:0.1
+vyt: 二...二小姐！！哪里...哪里弄错了....
+@char lyen
+lyen.wuyu: 你知道今晚有人暗杀仟虹吧。
+@char vyt
+vyt: !!
+vyt: ....我，我....
+@char lyen
+lyen.sm: 知道什么说什么就行了。
+lyen.wuyua: 毕竟我...
+lyen.close: ...
+@printer Atest
+vyt: ....我...我知道地也不多...
+vyt: 先生说...仟虹大小姐晚上可能有危险...罢了。
+@char lyen
+lyen.wuyu: ...
+lyen.wuyua: 我还以为你们晚上要动手呢。
+@printer Atest
+听到这句话后，沾衣的情绪突然很激动
+沾衣: ....
+沾衣: 怜。
+沾衣: 我们绝对不可能向大小姐动手。
+沾衣: 大小姐是先生最疼爱的学生...你难道不知道吗。
+@char lyen
+lyen.wuyu: 那你们抢货干嘛
+lyen.wuyua: 我也是很久没见过送死送得这么勤快的人
+
+@spawn ShakeCamera
+; @bgm Cminor
+@char xp
+xp: !!!等下!!!
+@printer Atest
+冷光一闪，
+相昀猛地把沾衣往旁边一推，
+怜抬手，举起了枪，
+但是还没按下扳机。
+; cg?
+lyen.wuyu: 让开。
+沾衣惊恐。
+@printer Atrem
+@shake Atrem
+vyt: 二...二小姐！！哪里...哪里弄错了....
+@shake xpt
+xp.angeya: ...!!
+@printer Atest
+怜的手下也出手，把沾衣那边的人控制起来。
+本来被相昀打过，人数也不占优，
+过程非常迅速。
+lyen.fc: 我们家里的事，外人别管。
+lyen.wuyu: 有人想搞分裂，抱歉给你们商会添麻烦了。
+@printer Atest
+好冰冷的一句道歉。
+xp.b: .....
+......
+.........
+@char xp
+xp.lookleft: 你们家对待叛徒是直接斩杀？
+@char lyen
+lyen.wuyu: 你要这么理解也行吧。
+@bt
+要....做些什么吗？
+@addChoice 和我有啥关系啊... goto:#main4
+; set:xb++,bline++
+; xb=2
+@addChoice 干涉 goto:#main6
+; set:xl++,aline++ goto:.xl1
+; xl=2
+@stop
+
+# main6
+@hideAll
+相昀上前了一步。
+@back id:jin appearance:night
+@back id:jin appearance:night
+@char lyen
+lyen.wuyu: .....又和你有关系了？
+lyen.wuyua: 你好麻烦。
+@hideChars
+
+vyt: 等等等！！我什么都会说的！！求二小姐开恩....
+vyt: 是先生...！都是疏影先生指使我们的！！
+@char lyen
+lyen.wuyu: 那姑母她人呢。
+@hide lyen
+@printer Atest
+沾衣: 这个...
+沾衣的神色异常慌张。
+沾衣: 先生她....说要找大小姐谈事....
+@char lyen
+@shake lyen
+lyen.fc: ！！！
+lyen.wuyu: ....
+; @char xp
+; xp.looklefto: ....
+; lmcg?
+lyen.wuyua: 你在撒谎。
+vyt: 千真万确！！先生会出席今晚宴会！！
+vyt: 她真的是这么说的！！她说...说仟虹大小姐背后有人！
+lyen.close: 没有这种东西。
+@hide lyen
+@printer Atest
+怜上前了一步。
+@char lyen
+lyen.closea: 你也是知道“原则”的。
+vyt: ！！
+@hideChars
+@char xp
+xp.ba: ....
+xp.lookleft: 手很稳...
+@char lyen
+lyen.sm: 行了。你还有什么想说的吗？
+@printer Atrem
+vyt: ！！！！！
+vyt: 我.....我........
+; performance？
+@bt time:0.1
+@back id:jin appearance:night
+vyt: .........
+@camera zoom:0.3 time:4 wait!
+@spawn ShakeCamera
+; @white?
+; sfx枪声?
+; @wt
+....
+@printer xfull
+枪打在地上。
+....
+但并不是沾衣。
+@char lyen
+lyen.close: ....
+lyen.closea: ....真烦。
+@hideChars
+@printer Atest
+怜瞟了一眼相昀。
+@char lyen
+lyen.wuyua: 我出三倍。
+lyen.sma: 你就这样回去，和姑母汇报。
+@printer Atest
+沾衣: !!!!
+vyt: 感....感谢.....
+
+@hideChars
+@spawn ShakeCamera params:,5,,,,,true,false
+但是突然，怜又突然一掌把沾衣摔到地上。
+沾衣: ！！！！
+@char lyen
+lyen.sm: 谁让你走了。
+lyen.an: 给我打。
+@camera zoom:0.0 time:0.1
+vyt: 饶命啊怜大人！！！
+@char xp
+@hideChars
+xp.angeya: ....
+; @sfx ??
+
+....但是，
+@printer Atrem
+要，干涉，吗？
+@addChoice 干涉 set:vy=0 goto:#xq2
+@addChoice 和我无关。 set:vy=1 goto:#m4
+@stop
+
+# xq2
+@char xp
+xp.angeya: 等下，你当我是不存在吗？
+@printer Atest
+相昀挡在沾衣面前。
+@char lyen
+lyen.fca: 你是脑子进水了还是。
+lyen.fc: 我已经说过，让开。
+xp.angry1: ......
+lyen.close: 弱智。
+lyen.an: 你眼前的人, 偷你家东西。准备杀你家人。
+lyen.wuyua: 这不懂吗？
+@char xp
+xp.looklefto: 你在偷换啥概念啊，最后一件事从哪来的。
+xp.ba: 如果我没猜错的话。
+xp.looklefto: ...先生...是疏影先生吧。
+xp.angry1: 她不是席会第一学府的物理教授吗？
+xp.angeya: 又是你二姑？在你们家搞分裂？
+xp.angry1: 你们家大小姐不是去席院留学了吗，今天才回来。
+@shake lyen
+lyen.fc: ！....
+lyen.wuyu: ....
+lyen.wuyua: 继续说。
+xp.s: 我只感觉到你们联合对商会的概率更大罢了。
+lyen.wuyu: ...无中生有得好笑。
+@hide lyen
+说到这里，怜望向别处。
+@char lyen pose:h
+
+@printer lpt
+lyen.close: ....
+lyen.close: 也许
+lyen.close: 这辈子我是无法理解她了。
+@hideAll
+@printer Atest
+怜将枪指向相昀。
+lyen.wuyu: 所以我说最后一次。让开。
+xp.ba: 你解释清楚我就让开。
+lyen.close: ....
+真麻烦。
+lyen.wuyua: 我以仟虹的名义发誓————
+@shake xpt
+
+xp.ba: ？
+xp: ？等下！！！！！！
+@shake xpt
+xp.angry1: ...
+@printer Atest
+看到相昀的反应后，怜笑了。
+lyen.f: 继续回江城做白日梦吧小公主。
+lyen.sm: 在梦境里就可以逃避现实。
+@bt
+@printer xfull
+....
+你将如何评价自己的选择？
+....
+@back id:jin
+xp.close: .....
+xp.angry1: 也许你说的没错。
+xp.angeya: 但是这是我的选择。
+@char lyen
+@char lyen
+@shake lyen power:0.1
+lyen.wuyu: 完全凭借直觉吗...
+xp.ba: 我只是不喜欢假装什么都懂的人。
+
+@wait 1
+@char lyen
+lyen.fc: ....
+lyen.wuyu: 来人。
+@printer Atest
+一些人渐渐围了上来。
+@char xp
+xp.angry1: !!
+xp.angeya: (....救不了太多人...)
+@printer Atest
+相昀想了一会...
+@addChoice 用怜威胁众人 goto:#con12387
+@addChoice 只带沾衣逃跑(此线还在建设中...暂不开放...抱歉) lock!
+@stop
+
+# con12387
+@spawn ShakeCamera
+人: 保护小姐!!
+@char xp
+xp.angeya: 放她们走! 不然我就杀了二小姐!
+@printer Atest
+没等众人反应过来, 相昀靠近怜, 拿枪指着她
+其他人愣住
+@printer Atest
+@char lyen
+lyen.close: 不用管我
+lyen.wuyu: 直接动手。
+@printer Atest
+听到怜的指令后, 众人真的忽略了相昀, 拿枪指向沾衣的人.
+@char xp
+xp.supa: 喂....!!
+@addChoice 开枪 goto:Eth/x/lm
+@addChoice ... set:tbe=1 goto:#1234
+@stop
+
+# 1234
+; cg
+@hideAll
+@sfx gunshot
+@wait 5
+@printer Atest
+......
+相昀只是愣了一秒, 枪声四起, 怜反手控制了相昀
+沾衣等人倒在血泊中
+@char lyen
+lyen.wuyua: 你行动力倒是挺强，
+lyen.wuyu: 就是不够果断。
+lyen.sm: 多锻炼锻炼吧,小少主。
+@printer Atest
+怜拍了拍相昀的肩膀
+@char lyen
+lyen.sm: 不过现在倒是好办了很多。
+lyen.wuyu: 小少主你对席会那边有什么想法吗？
+@char xp
+xp.b: 什么...席会。
+@printer Atest
+相昀感觉大脑空白————
+@char lyen
+lyen.wuyu: 那先不说那么远了。
+lyen.sm: 生意总是可以慢慢谈的。
+lyen.j: 好啦，杀人越货的仇也报了，可以回去摆庆功宴了~
+@hide lt
+@playFX threshold:1 duration:5
+@hideAll
+; @goto .be
+
+
+
+
+# m4
+@printer xfull
+....
+嗯，和我又有什么关系呢
+......
+# be
+
+@back id:jin appearance:night
+@char lyen
+@char lyen
+@shake lyen power:0.1
+@sfx gunshot
+沾衣还没说什么，冷光一闪，怜抬起枪，毫不犹豫地杀死了她。
+; white all
+@char xp pose:center
+xp.sup: ！....
+@wait 1
+@hideAll
+@playFX threshold:1 duration:0.1
+@resetText Fullscreen
+@printer Fullscreen
+......不想看见。
+@hide Fullscreen
+@playFX threshold:1 duration:0.1
+@back id:jin appearance:night
+@back id:jin appearance:night
+@playFX threshold:-0.32 duration:3
+@wait 3
+@hideChars
+@char lyen pose:center
+lyen.closea: 真烦。
+@wait 2
+@char xp
+xp.supa: ！！！
+@printer Atest
+....好安静。
+.....
+@playFX threshold:1 duration:2
+@wait 2
+@goto #deathx
+@stop
+
+
+# main5
+; 但是....
+等等....
+@char xp pose:center
+xp.sup: 白霜？？？！
+@playFX threshold:-0.32 duration:0.1
+@back id:jin appearance:night
+@c2r lyen
+@char wifi
+@char wifi pose:center
+wifi: 啊。
+@char xp.angry1
+@char lyen
+lyen.wuyua: ?
+lyen.wuyu: 你俩认识？
+xp.supa: 不是白霜你怎么在这里？？
+@char xp.angry1
+lyen.wuyua: 她是我助手啊。
+lyen.an: 但是等下...
+lyen: 你们俩为什么会认识。
+xp.looklefto: 白霜你竟然是这人助手啊??
+xp.sup: 我一直以为....
+@shake wifi count:4
+@shake xp count:4
+lyen.ana: 我在问，你们俩，为什么会，认识！
+xp.looklefto: 我和白霜本来就认识啊。
+lyen.wuyua: 你们俩不可能认识。
+@shake xp
+xp.ba: 我还想说白霜不可能在津都呢！
+wifi: 游来的。
+@hideChars
+@char xp
+xp.supa: 白霜你真的是游来的啊！
+xp.comfy: 我等会也游回家！这样叶兰就抓不到我啦~~~
+@hideChars
+@printer Atest
+突然，相昀感觉有气流流过。
+是怜的拳头砸了过来，但是相昀躲开了。
+@char xp.de pose:default
+xp.ba: ...急啥啊你。
+@hideChars
+@char lyen
+lyen.wuyua: 回答问题。
+@addChoice 不要 goto:#m13
+@addChoice 不要 goto:#m13
+@addChoice 不要 goto:#m13
+@stop
+
+
+# m13
+@char xp
+xp.b: 不要。
+lyen.f: ...
+lyen.wuyu: ...
+; lyen.wuyua: 突然有点想过下招。
+; lyen.sm: 相昀...是吧。
+
+
+@bt
+@back id:jin appearance:night
+; ....突然想开打。
+@char lyen
+@char lyen
+lyen.fca: 白霜，我命令你断绝和这个人的所有来往。
+@r2c lyen t:0.5
+@char wifi pose:default
+@char wifi pose:default
+wifi: 不。
+@char lyen
+lyen.supa: 你...
+@hideChars
+@char xp.de
+xp.ba: 你有事没事在这下啥抽象命令。
+xp.lookleft: 话说，怎么感觉事情一直是你跑来跑去的。
+xp.looklefto: 大小姐呢？
+@hideChars
+@printer Atest
+@shake lyen
+@char lyen pose:center
+lyen.fc: !!
+lyen.an: 回去了。
+lyen.ana: 你爱来不来，不来就滚。
+
+
+@set u=0
+@addChoice ?我就要来 goto:Eth/x/x2
+@addChoice 和白霜出去玩 set:u=1 goto:#b2
+@stop
+
+# b2
+@hideChars
+@char xp pose:center
+xp.ba: 谁想去。
+xp.comfy: 白霜我们去玩吧！！
+@char wifi pose:center
+wifi: 嗯。
+@hideChars
+@char lyen
+lyen.ll: ...倒也不错。
+lyen.ane: 那先把她借给你了。你俩随便找个地方死一死先。
+@char xp
+xp.b: ...你这人说话真的莫名其妙的。
+lyen.fc: 但话说，叶老板是你监护人吧
+lyen.wuyua: 她今晚不也来吗。
+xp.comfy: 嗯。
+@wait 1.5
+xp.sup: 等下？？？
+; @bgm dia
+@printer xfull
+哦对，今天确实是“计划中”叶兰出发的日子，
+@char lyen
+lyen.fc: ....
+lyen.wuyu: 真求你了，别告诉我你不知道今天仟虹生日。
+xp.angry1: 仟虹是谁来着？？
+lyen.fc: 。。。。。
+lyen.fca: 告辞。
+xp.angeya: 所以仟虹是谁啊！！！
+
+
+# deathx
+@hideAll
+@printer xfull
+怜说完带着一队人走了，
+走前将尸体处理干净。
+相昀仔细看了眼那位“沾衣”。
+沾衣依然睁大眼睛。
+@playFX threshold:1.0 duration:3
+......
+原来这就是死亡吗？
+当死亡以不同形式呈现在相昀眼前时，
+她好像...
+
+@printer Apop
+@print 什么也, speed:0.2 wait!
+@printer Apop
+@print 感觉不到。 speed:0.2 wait!
+@if tbe=1
+    @goto Eth/x/tbe
+
+@playFX threshold:-0.32 duration:3
+@back id:jin appearance:night
+@char xp
+xp.looklefto: 但是去哪玩好呢?
+xp.comfy: 白霜你来定吧！
+@char wifi
+wifi: .....
+wifi: 去。苏公馆玩？
+@hideChars
+@char xp
+xp.comfy: 好哦~~
+@wait 1
+xp.sup: 哎等下？？不是不去吗？？？
+
+
+@stopBgm
+
+@playFX threshold:1.0 duration:1
+@playFX threshold:-0.32 duration:1
+@hideAll
+@stop

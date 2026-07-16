@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c4bf810b9b6cc9f44a58fd670678ded4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Prefabs/FX/SunShafts.prefab
+  uploadId: 953760

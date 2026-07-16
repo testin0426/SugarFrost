@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: bbcff9afe0334b43bdcd350fc86469b9
+timeCreated: 1757339811
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/Commands/Playback/DisableAwaitInput.cs
+  uploadId: 953760

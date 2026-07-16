@@ -1,0 +1,710 @@
+
+# ABCD
+
+@back
+@printer nos
+和白霜见面后，心情很糟糕。
+即使沐浴海风...思绪也在风中凌乱地飘着，不规则的...窗户上的霜霾。
+云端茶馆靠近渡口，所以甚至有户外的座位
+赶到时接近傍晚，这时的天气是极凉爽的，但无法驱赶赶路的燥热和人群的拥挤。
+@char xp
+xp.ba: (人真的很多)
+@printer nos
+评弹，喝茶，赌钱。
+
+xp.s: (...纯粹是自暴自弃和浪费时间吧。)
+@printer nos
+事情是复杂的，周围的人是怀疑自己的，自己相信的人也是需要怀疑的，心情是复杂的。
+埋在深水中喘不过气...
+@char xp
+xp.angry1: 但是不做些什么的话，事情永远无法解决。
+@printer nos
+只要查清楚事情就好了...一清二百了，没有人需要再躲在雾里....
+没有人会被背叛，没有人会再失去，没有....
+懦弱的、侥幸的、烦躁的....
+@char xp
+xp.comfy: （...！！！我都在想些什么啊）
+@printer nos
+雾里看花，不知身是客....一晌贪欢....
+@char xp
+xp.angry1: .....
+@printer nos
+冷静一会。
+@char xp
+xp.angry1: ....不对。
+@printer nos
+客人确实很多，但是...
+有一些人....
+@char xp
+xp.angry1: （东张西望的...？）
+xp.angry1: （冲我来的？）
+@printer nos
+这时，警惕反而像一只巨手，掐着自己脖子把混沌的思绪复杂的情感从深海里捞了起来。
+相昀起身，移步换到赌桌旁边，
+发现那群人的视线并没有跟随自己，而是时不时，瞟着柜台或大门方向。
+....？
+@char xp
+xp: （也不像商会的人...）
+....
+@char xp
+xp.looklefto: 预感不好啊...
+@printer nos
+先下手为强吗...
+翻翻账本和库房...说不定能找到有用的线索。
+现在人声嘈杂，相昀瞥了眼柜台，
+专心，专注...
+果然，压力可以迫使注意力聚焦当下...
+@char xp
+xp: 来杯茶。
+@printer Atest
+人: 姑娘稍等。
+@char xp
+xp: 您是这茶馆老板...？
+人: 嗯？姑娘这是何意？
+@char xp
+xp.comfy: 啊...我老家在江城，这里...让我有点想家。
+人: 江城...啊。
+@printer nos
+似乎很谨慎，但是也确实没套出什么。
+但看起来并不像江城人...那探亲一类的说辞？
+
+但正当相昀思考怎么开口时...
+
+@char lyen
+@char lyen
+lyen.wuyu: ....
+一位不速之客赶来，
+店员看到对方后脸色瞬间变了。
+
+lyen.wuyua: 给我搜。
+@printer nos
+突然，那些原来看哨的人站起，往柜台和后场走去。
+店员立刻上前拦住
+@printer Atest
+人: 你们是谁？
+人: 哎！这边不能进！
+@printer nos
+但对方当店员不存在似的。
+@char lyen
+lyen.wuyu: ...应该是这...
+lyen.wuyua: 话说啊。
+@printer nos
+...这不是上午那位....？
+@char lyen
+lyen.wuyu: 这位老板，你干了什么自己心里应该有数。
+lyen.sma: 主动一点，对我们双方都有好处...
+
+@printer Atest
+人: 我不知道你在说什！...
+@char xp
+xp.angeya: ！
+@printer nos
+眼前少女拿出枪。
+@char lyen
+lyen.f: 前些日子，从此江来的船只有你一支。说运的是什么，老家的布料？
+lyen.fc: 但最近正好有件走私案，请配合调查...
+@printer nos
+这日期和事件...
+@char xp
+xp.angry1: 等等！
+xp.angeya: 你是巡捕？
+@char lyen
+@char lyen
+@shake lyen
+lyen.sup: ？
+@printer nos
+少女才注意到眼前的来者。
+lyen.wuyu: ....你是？
+@char xp
+xp.b: （...上午明明才见过面的...）
+xp.angry1: 即使巡捕，调查前也该出示证件吧。
+xp.angeya: 你这不是抢劫吗？
+@printer nos
+少女沉默片刻，
+@char lyen
+@char lyen
+lyen.wuyua: 多管闲事...
+@printer nos
+没等少女反应过来...
+lyen.sup: ！！
+@printer nos
+相昀夺下她手中的枪，
+对着外面开了一枪。
+@char lyen
+lyen.an: ！
+lyen.ana: 你！
+@printer nos
+xp.angry1: 我有权力报官吧。
+
+@printer nos
+很快，巡捕就冲了进来。
+@char mo
+mo: 谁开的枪？
+@printer Atest
+人: 警官！是她们！她们一言不合冲进来抢劫....
+@char mo
+mo: 哎哟，班长。
+mo: 最近真是上进啊。
+@char lyen
+lyen.wuyu: ...莫沦
+lyen.wuyua: 原来你是渡口这边的啊。
+@char mo
+mo: 在学校咱们还算同学，出了学校...
+mo: 苏家在渡口动手，这是要打仗啊。
+@char xp
+xp.looklefto: ？
+xp.b: 枪是我开的。
+@printer Atest
+人: 是这位姑娘为了报官开的枪...
+@char mo
+mo: 谢了朋友。
+
+闹了一阵子后，茶馆渐渐平定下来。
+@char xp
+xp.ba: 呃...老板...你这边是隔三岔五都会发生这种事吗？
+@printer Atest
+人: 并不是。只是最近时局紧张...
+人: 苏家就是个为军方卖命的。
+@char xp
+xp.looklefto: 苏家？
+@printer Atest
+人: 姑娘还真是初来乍到啊...
+人: 刚刚那位是苏家二小姐。
+@char xp
+xp.angry1: (...那她刚刚提到的是...)
+xp.angry1: (她也找货来着？)
+@printer Atest
+人: 姑娘刚刚出手相救...在下不知如何报答。
+人: 哦！先前姑娘说自己是江城人，我先前确实从江城运了些好布料...
+
+@char xp
+@shake xpt
+xp.angry1: ！
+@printer Atest
+人: 我不是江城人，也看不出个好坏...
+人: 如果姑娘之后光临，茶水费都免啦。
+@char xp
+xp.angeya: (这布....！)
+@printer nos
+上面甚至还印有商会的印纹...
+这种印纹一般用作标识，只有商会内部的的人才认得出来。
+@printer Atest
+人: 姑娘...脸色有点难看？
+@char xp
+xp.comfy: 没什么！只是刚刚开枪，心中余悸罢了。
+xp.angry1: （果然吗...）
+@printer nos
+那刚刚反而不应该报官...？算了，歪打正着吧。
+和那位怜小姐也不熟，也不能确定她也是来查的...
+@char xp
+xp.comfy: 谢谢啊，这确实是块好布料。
+@printer nos
+相昀想了想，打算先离开茶馆
+@printer Atest
+人: 欢迎下次光临啊！
+
+@printer nos
+刚走出茶馆，
+@char lyen
+lyen.wuyu: 也不知道这里的茶可对你胃口。
+lyen.sma: 相昀。
+@char xp
+xp.angry1: ！
+xp.ba: 你认识我...？什么时候...？
+@char lyen
+lyen.wuyu: 忘了。
+@printer nos
+怜挥挥手。
+@char lyen
+lyen.sm: 问出来了什么吗？
+@char xp
+xp.angeya: 不是...？
+@printer nos
+简直是单刀直入...
+直白地让人措手不及。
+@char lyen
+lyen.fc: 枪是我给你的吧。
+lyen.wuyu: 不然你唱白脸的机会都没有。
+@shake xpt
+@char xp
+xp.angry1: 那个时候明明是...!
+@char lyen
+lyen.fc: 干嘛...
+lyen.wuyu: 你真以为我打不过你？
+@printer nos
+
+lyen.wuyu: 不啰嗦了，我承认上次货物的事情确实挺复杂。
+lyen.wuyu: 今天要没看到你计划上是打算动手的。
+
+@char xp
+xp.angry1: ...你...？
+xp.angeya: 你早不和我说？
+@char lyen
+lyen.sm: 想看看你会怎么演我。
+@char xp
+xp.angeya: ？？？
+@char lyen
+lyen.wuyua: 还行吧，动作不烂。
+
+@printer nos
+所以对方是苏家那边帮忙找东西的？
+xp.angeya: 那你家早怎么不和商会联系？
+xp.b: 我家老板现在都恨不得把你们手撕了...
+
+@char lyen
+lyen.wuyua: ？撕我们干嘛？
+lyen.wuyu: 不应该去撕匪吗？
+
+@char xp
+xp.b: 我们打捞时候问过了，不是匪，没有任何匪。
+@char lyen
+lyen.close: 果然...
+@hideChars
+@printer nos
+怜小声地说了声。
+@char lyen
+@char lyen
+lyen.wuyua: 因为对于“苏家”来说，这件事已经定为纯粹匪患了。
+
+lyen.wuyu: 多点药少点药对她们而言都是无所谓的事情。
+lyen.wuyu: 她们知道商会会沿江打捞，顺便会把匪灭了
+lyen.sm: 就不出手了。
+
+@char xp
+@char xp
+xp.angeya: 哈？
+xp.angeya: 就是把我们当工具人用啊？
+
+@char lyen
+lyen.wuyu: 什么工具人..这不合作吗？
+@char lyen
+lyen.an: 她们那边最近...忙。抽不出人。
+@char xp
+xp.angry1: 那你们起码也表个态啊？
+
+@char lyen
+lyen.wuyu: 那对比之下我算很讲道理了吧。
+@char xp
+xp.angry1: 那你现在是....
+@printer nos
+相昀突然意识到什么
+xp.angry1: ？
+xp.ba: 所以...你觉得不是匪患？
+
+@char lyen
+lyen.close: 嗯哼。
+lyen.closea: 体谅下我这个白天还要去上学的学生吧？
+
+@printer nos
+有很多问题....
+@addChoice 为什么你会怀疑不是匪患？ goto:#an1
+@addChoice 上学？？？ goto:#an3
+@stop
+
+
+# an1
+@char lyen
+lyen.wuyua: 别急啊小少主。
+lyen.close: 首先，其中一个负责护送的是我的人，她命大回来了，我听完感觉很奇怪。
+lyen.wuyu: 那群匪一开始就知道运的是药，布只是个幌子。
+lyen.wuyua: 你那边的人死活不肯给，然后就交手了。
+lyen.an: 所以那到底是那边走漏了消息呢？好难猜啊。
+@printer nos
+等下。
+@char xp
+xp.angeya: 你的人....？
+xp.angry1: 她名字不会是...
+xp.ba: 白霜...吧。
+@shake lyen
+@char lyen
+lyen.sup: ？！
+lyen.wuyu: 你从合同上看到的？
+@char xp
+xp.angry1: 不啊，我一直都认识她。
+@char lyen
+lyen.wuyua: ？
+@printer nos
+; if ABCD
+但是...
+这个消息...
+白霜并没有和自己说？
+; 回忆滤镜（ABCD）
+不知道。
+
+@char xp
+xp: 等会跟你算这个...她...你没告诉你家里人吗？
+@printer nos
+欲言又止的。
+
+# an2
+@char lyen
+lyen.wuyua: 说过了，不然这群人我从哪弄的。
+@printer nos
+怜示意自己带来的手下。
+lyen.fc: 但是只给两天时间，如果查不出什么就当匪患处理了。
+lyen.wuyu: 不如说是...
+lyen.wuyua: 默认当作是你们走漏...
+@shake xpt
+@char xp
+xp.angeya: 你在胡扯什么？你那边起码还有人活下来了，我这边是全...
+lyen.wuyu: 谁知道，不好说呢。
+lyen.wuyua: 为自己辩解的可能性无穷无尽。
+lyen.close: 所以嘛，时间很宝贵啊，小少主。
+@char lyen
+lyen.wuyu: 知道我在扯那你也就别扯了。
+lyen.fc: 懂我心情了没。
+@printer nos
+
+@stop
+
+
+# an3
+@char xp
+xp.angeya: 上学？？？你不逃课吗？
+@printer nos
+叶兰让自己去的私塾全逃掉了，久而久之也就不管了。
+@char lyen
+lyen.wuyu: 啊。
+lyen.fc: 什么时候跑路我心里有数。
+@char xp
+xp: 那个巡捕就是你同学？
+@char lyen
+lyen.wuyua: 对，挺喜欢多管闲事。
+lyen.wuyu: 隔壁班的。
+lyen.close: ...之前和她打过架，关系不好。
+@stop
+
+
+
+lyen.close: 你那边倒也稀奇，也不来联系我们...
+@char xp
+xp.angry1: 
+
+lyen.wuyu: 不说过很忙吗。
+lyen.fc: 接她回来，筹备宴席
+lyen.wuyua: 尚且我们内部还有风声说是你们撕单...
+
+
+
+@char xp
+xp.angry1: 呜...
+@printer nos
+被鱼刺卡到了...
+
+; 限时选择。
+@addChoice 接受和怜合作 goto:#cop1
+@addChoice 拒绝和怜合作 goto:#cop2
+@addChoice 弃选
+
+
+
+# cop2
+@char xp
+xp.angry1: 不。我拒绝合作。
+@printer nos
+....
+@char lyen
+lyen.wuyu: ...
+lyen.wuyua: 行吧。
+@printer nos
+....
+@stop
+
+
+
+# cop1
+xp: 有印花布，绝对是有关联的。
+@char lyen
+lyen.wuyu: ...
+xp.looklefto: 找找她的船？也许会留下什么痕迹。
+lyen.wuyu: 直接一审结果不都出来了。
+@printer nos
+相昀干巴巴地冲怜笑了下。
+@char xp
+xp.comfy: ...你这么喜欢刑讯逼供...
+lyen.fc: 效率问题啊。
+xp.ba: 你能保证她一定会说吗？真抽象。
+@printer nos
+相昀走到码头张望着。
+@char lyen
+lyen.wuyu: 大部分人会说就行。
+@char xp
+xp.looklefto: 你保证她是“大部分人”？
+xp.b: 搞什么赌博，你运气很好吗？
+xp.ba: 老实推理和调查更通用吧。
+@char lyen
+lyen.fc: 你真的知道什么是风险比吗。
+lyen.wuyu: 事情复杂，在第一步就开始造轮子很浪费时间。
+lyen.wuyua: 难道你家糖雪球是自己种的山楂...
+@printer nos
+没等怜说完，相昀快速一跃，跳上码头停靠的一艘船，回头看她。
+@char xp
+xp.ba: 抱歉，我家确实是自己种。
+
+@shake lyen
+@char lyen
+lyen.sup: ....
+lyen.fc: 啧...跟你吵这个简直是....
+xp.ba: 彼此彼此。
+@char lyen
+lyen.fc: ....。
+@hideChars
+@printer nos
+相昀转身，刚想走人,,,
+lyen.wuyua: 哦对，站住。
+@char xp
+xp.comfy: ...你又....
+@hideChars
+@printer nos
+正当相昀回头的一瞬间——
+; @fx 拍照拍照拍照！
+; @vfx 咔擦拍照。
+; cg???? 黄昏，dawn
+; lyen? xp?
+@printer nos
+“咔擦”
+@wait 0.5
+@char xp
+xp.comfy: .....
+xp.comfy: ....你。
+xp.comfy: 又在干嘛。[< speed:0.1]
+@printer nos
+怜摇了摇手上的“微型摄像机”。
+@char lyen
+@char lyen
+lyen.wuyua: 会用吗？
+lyen.wuyu: 推拉一下这个，可以拍照。
+lyen.wuyua: 上来，我教你。
+@char xp
+xp.b: 我上去？
+xp.ba: 你不能下来？
+lyen.fc: ....
+lyen.wuyua: 但是这照片里的你挺好看的。
+@char xp
+xp.comfy: 就算你夸我好看....
+lyen.wuyu: 再洗出来送给叶老板一份？
+xp.angry1: ？
+lyen.wuyua: 附件一封说相昀叛变等...
+xp.angeya: 不是你....
+xp.b: 叶兰怎么可能相信这个？你搞笑什么...
+lyen.closea: 是嘛...
+lyen.wuyu: 那就要看这是用什么拍出来的了。
+@printer nos
+怜摇了摇手上的摄像机。
+@char xp
+xp.angry1: ....
+@printer nos
+相昀隐约知道这是军方的东西...虽然具体也不清楚。
+但是她厌恶自己未知的东西。
+xp.ba: 不就，走几步，的事情，吗？[< speed:0.3]
+lyen.wuyua: 对啊，不就，走几步，的事情，吗？
+@printer nos
+即使这样....
+@char xp
+xp.b: 我拒绝，你爱用照片干嘛就干嘛。
+
+@printer nos
+即使这样....
+遂转身继续找船。
+@char lyen
+@char lyen
+lyen: ....
+lyen.wuyua: 真服了你。
+@printer nos
+怜下船，跟上相昀。
+
+@char xp
+xp.looklefto: 还以为你膝盖不行呢，动作不挺快的吗。
+lyen.fc: 闭嘴。
+@hideChars
+@printer nos
+怜向相昀演示了一番
+
+@char xp
+xp.comfy: ...
+@char lyen
+@char lyen
+lyen.wuyu: 行了，看懂了没。
+@printer nos
+问题不是这个....
+@char xp
+xp.b: ...大概...我摸索一下。
+@hideChars
+@printer nos
+相昀接过相机后，拍了一张怜。
+@char lyen
+lyen.wuyu: 嗯，不错。
+lyen.wuyua: 以及，胶卷有限。
+@printer nos
+怜向相昀交代了最多能拍多少张以及换胶卷的办法。
+lyen.anE: 我强调下，这是我借你的。
+lyen.close: 别弄坏了。
+@char xp
+xp.ba: ...这到底是哪来的。
+@printer nos
+过年跟叶兰她们拍照时摄像机都很大。
+这么小的还是第一次见....
+@char lyen
+lyen.wuyua: 需要你问吗。
+@char xp
+xp.b: （...看来不是她们家里的...）
+lyen.wuyu: 我再提醒一遍，<b>别乱用<b>。
+
+@char xp
+xp.b: ....
+xp.angry1: 然后呢，什么时候还你？
+@char lyen
+lyen.wuyu: 还倒不急。
+lyen.wuyua: 但今晚见面，你要向我汇报。
+@addChoice 我找你？ goto:#m5
+@addChoice 你找我？ goto:#m5
+@stop
+
+
+# m5
+@printer nos
+怜想了下。
+@char lyen
+lyen: ....对了。
+lyen: 分部旁边是不是有个集市来着。
+lyen: 晚上就在那碰头...那里有家店。
+
+@stop
+
+
+xp.b: ...
+xp.ba: 你行吗...
+lyen.j: 和她说的一样，出了学校，伤了惨了都没事。
+lyen.wuyua: 你现在可是茶馆尊客的身份啊，珍惜点用。
+
+
+
+
+# inves
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:1
+@printer nos
+码头的船很多....
+相昀想起岁寒给她的单子。
+一只一只慢慢找吧。
+相昀轻盈地从一艘船跳上另一艘，夕阳在水面上波光粼粼。
+阳光在水面上波光粼粼，
+当周围世界再次沉寂下来时...思绪依旧沉浸。
+话语、印象、身影...泡沫一样翻滚来翻滚去。
+.....
+; tip 道具，用品
+
+@addChoice 小型
+@addChoice 中型
+@addChoice 大型
+@stop
+
+@char xp
+xp.lookleft: ....是这艘？
+拍一张船的总体照？
+; fx shoot？拍照fx和...gameplay？
+
+
+
+@hideChars
+@printer nos
+@char xp
+xp.de: （盯）
+@printer nos
+那么又有心情可以继续看这些泡沫翻滚。
+也只是看着罢了。
+但是和刚到茶馆不同，也许是“一桩差事”结束了。
+虽然不可否认一堆事情还未明了，
+但是这些终将结束，
+能拥有当下一瞬间的平静也好。
+@char xwp
+xwp.comfy:  嗯哼哼~（哼歌）
+; 回忆？
+@printer nos
+瞬间，像是回到了最初的原点，
+天地间只有自己存在一样.....
+....
+.....
+只不过先前在江城的时候，自己可以和白霜共享此时此刻的安静。
+@char xp
+xp.de: 现在...只有我自己呢。
+
+@addChoice 等等...时间很紧张
+@addChoice 嗯哼哼~（继续哼歌）
+@stop
+
+; 回忆fxmemo？
+@printer nos
+“时间很宝贵...”
+脑海中突然浮现出怜的叮嘱。
+
+@char xp
+xp.close: ....
+xp.blink: 算了，无所谓了。
+@printer nos
+好在找到目标的船只并不费劲。
+令相昀奇怪的是竟然这艘船就好好停在这里...还没被开走？
+一般来说不都会被销毁....
+@char xp
+xp: ....
+xp.comfy: ....打扰了....
+@printer nos
+相昀率先一步登上船。
+
+.....
+
+@addChoice 调查甲板
+@addChoice 观察船身
+@addChoice 进舱检查
+@stop
+
+
+@printer nos
+配备，有些零散的印迹。
+@char xp
+xp.b: ....
+xp.s: ....好奇怪。
+@printer nos
+对，问题有很多。
+比如这艘船内部装修和配备和江城造的船完全不像，
+...模模糊糊印象中和津都的风格也不像。
+但相昀也说不上这像哪，总之绝对不是本地产，像是个人造的，因为它也确实“花了很多功夫”在保留自身各种功能情况下，伪装自己和周围的船在外形风格上看起来差不多。
+@char xp
+xp.comfy: ....那老板看起来也不像做工程的啊。
+xp.looklefto: 不过这里有很多地方处理得...像是专门划长途。
+@printer nos
+相昀往下看了看这动力装置。
+@char xp
+xp.ba: ...这张...拍下来吧。
+; @sfx sound
+@printer nos
+相昀往船身等周围方向走了走。
+@char xp
+xp: 船身有破损的痕迹...以及...干掉的血迹吗？
+xp: ....还有...行李？
+@printer nos
+相昀勉强能认得出来是一些衣服，只不过大都很厚重，不像这个天气穿的...
+船本身不大，相昀觉得应该没有什么其他东西了。
+@char xp
+xp: ...嗯，大概就这样吧。
+
+
+
+
+
+xp.ba: 话说...你没有考虑之后转行当巡捕？
+lyen.wuyu: 算了吧。
+lyen.wuyua: 还不如让我去从商算了。
+
+
+
+
+xp.looklefto: 是船上的，这点没错。
+@printer nos
+...
+@char lyen
+lyen.wuyua: 药呢？
+@char xp
+xp: ...不确定。
+@char lyen
+lyen.fc: 服了，还是我来审吧。

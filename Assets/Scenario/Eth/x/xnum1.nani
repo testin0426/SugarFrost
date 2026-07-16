@@ -1,0 +1,58 @@
+# num1
+....
+@bgm yan
+@spawn ShakeCamera params:,5,,,,,true,false
+@printer Atest
+叶兰: 你不准去！！
+xp.b: ....熟悉的天花板。
+
+xp.angeya: ....叶兰。
+xp.ba: (等下, 我应该从哪讲起。？。)
+
+
+@addChoice 从糖雪球讲起 goto:#m1
+@addChoice 说啥。直接冲刺苏家。 goto:#m2
+
+# m1
+xp.angeya: 叶兰。
+xp.looklefto: 我上次去津都卖糖雪球，结果唯一的客户是仟虹，她吃完后中毒死在怜怀里。
+xp.s: 然后苏家和席会就用我谋杀仟虹来打我们了。
+xp.angry1: 结果就是我竟然是死得最快的，多抽象。
+xp.lookleft: 虽然我都不知道席会是什么。
+
+.....
+@stopBgm
+; slow text printer
+叶兰: ?????????
+叶兰: 你在说什么梦话。
+
+xp.looklefto: 我没说梦话啊。
+xp.angeya: 确实是这样。
+xp.lookleft: 但是我这次会小心了！
+xp.comfy: 上次结局实在太烂了，我要happy end。
+
+叶兰失语。
+叶兰: ....我应该去拜访下莫家.....
+xp.angeya: 我请问了莫家又是哪一家....
+叶兰: 总而言之，你先呆在此处。
+叶兰: 我出去买点东西。
+
+
+可能实际就是如果想很好活下去就不能太摆烂了吧。
+
+# m2
+@printer Atest
+相昀没有管叶兰，直接冲出去—————
+理论上应该先去找白霜
+但是如何才能找到白霜？
+@addChoice 用糖雪球钓白霜 goto:Eth/x/x1
+@addChoice 等白霜找自己 goto:#m3
+@stop
+
+# m3
+很好，并没有忘记如何“真的”找到白霜。
+
+
+
+
+@stop

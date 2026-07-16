@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: 3c900d921bc24efaadd96ca77f97b5fc
+timeCreated: 1723985855
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/ManagedText/ManagedTextFieldAssigner.cs
+  uploadId: 953760

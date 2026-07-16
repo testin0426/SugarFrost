@@ -1,0 +1,777 @@
+@bgm de
+@setRenderer index:0
+@despawnAll
+@despawn daysun
+@playFX threshold:0.0 duration:0.01
+@playUIFX threshold:0.0 duration:0.01
+@printer fullnos
+
+.....
+空气。
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:0.5
+@char lyen
+@char lyen.Face/sadd
+@char lyen.Body/hface
+@resetText
+; vignite？
+
+@playUIFX threshold:0.0 duration:1 !wait
+@char lyen position:0.17,-4.63,50.00
+@rtfx obj:lyen prop:_MaskMode to:1 duration:0.0
+
+@rtfx obj:lyen prop:_MaskSpace to:1 duration:0.0
+@rtfx obj:lyen prop:_MaskCenterX to:0.5 duration:0
+
+@rtfx obj:lyen prop:_MaskCenterY to:0.23 duration:0.3 !wait
+
+@rtfx obj:lyen prop:_MaskWidth to:0.89 duration:0
+
+@rtfx obj:lyen prop:_MaskHeight to:-0.1 duration:0
+
+@rtfx obj:lyen prop:_MaskFeather to:0.43 duration:0
+
+@camera offset:0.82,1.97,0.00 zoom:0.933 time:0
+@camera offset:-0.38,1.97,0.00 zoom:0.933 time:10 wait:true
+
+@hidePrinter
+@resetText fullnos
+
+@printer fullnos
+
+....
+"不..."
+"不可能...."
+
+
+@hidePrinter
+@resetText
+
+@printer fullnos
+
+"怎么可能允许...."
+"怎么会....."
+
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:0.5
+@char lyen position:0.17,-4.99,50.00
+
+@char lyen.Face/sadd
+@char lyen.sadd
+
+@hidePrinter
+@hide fullnos
+; hide
+@playUIFX threshold:0.0 duration:1 !wait
+@rtfx obj:lyen prop:_TintColor color:#828282 duration:0.01 !wait
+@rtfx obj:lyen prop:_MaskMode to:1 duration:0.0
+
+@rtfx obj:lyen prop:_MaskSpace to:1 duration:0.0
+@rtfx obj:lyen prop:_MaskCenterX to:0.5 duration:0
+
+@rtfx obj:lyen prop:_MaskCenterY to:0.49 duration:0
+
+@rtfx obj:lyen prop:_MaskWidth to:0.89 duration:0
+
+@rtfx obj:lyen prop:_MaskHeight to:-0.1 duration:0
+
+@rtfx obj:lyen prop:_MaskFeather to:0.43 duration:0
+@camera offset:-0.53,1.98,0.00 zoom:0.933 time:0.1
+@camera offset:0.87,1.98,0.00 time:10
+
+@resetText fullnos
+@printer fullnos
+曾经，
+曾经，
+曾经，
+曾经，
+.....
+@setRenderer index:0
+
+
+@printer fullnos
+
+我的灶台，我的锅，我的....
+.....
+@wait 2
+
+@setRenderer index:0
+
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:0.3 duration:0.1 wait!
+@wait 0.3
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:0.3 duration:1 !wait
+
+
+@rtfx obj:lyen prop:_MaskFeather to:0.21 duration:1 !wait
+
+@resetText fullnos
+@printer fullnos
+
+全都....
+
+@char lyen.Face/anE
+@char lyen.Face/anE position:0.52,-4.99,50.00
+@rtfx obj:lyen prop:_BlurLod to:5.2 duration:0.01
+@rtfx obj:lyen prop:_BlurLod to:0 duration:3 !wait
+@setRenderer index:4
+@wait 1
+@rtfx obj:lyen prop:_TintColor color:#FFFFFF duration:1 !wait
+@rtfx obj:lyen prop:_MaskFeather to:1.00 duration:1 !wait
+
+
+@playUIFX threshold:0.0 duration:0.01 color:black
+@playUIFX threshold:0.8 duration:1 color:white
+@playUIFX threshold:0.8 duration:0.01 color:white
+@playUIFX threshold:0.0 duration:1 !wait color:white
+
+@wait 0.3
+
+; 
+@spawn daycyan
+全都被没收了！！！！！！
+@wait 0.5
+
+@camera zoom:0.282 duration:1
+@rtfx obj:lyen prop:_MaskHeight to:0.96 duration:2 !wait
+@back id:moonm
+@back id:moonm
+; bg
+
+
+@wait 10
+
+@stop
+
+@setRenderer index:0
+
+
+; "她....你！"
+
+; lyen eye
+; postprocess effect
+
+@wait 0.3
+
+@hidePrinter
+
+@hideChars
+
+@rtfx obj:lumen prop:_MaskMode to:0 duration:0.01
+
+@camera offset:-2.81,0.76,0.00 zoom:0.363 time:0.1
+
+@char lumen
+
+@char lumen armature:0,0,10
+
+@rtfx obj:lumen prop:_BlurLod to:5.2 duration:0.01
+@rtfx obj:lumen prop:_BlurLod to:0 duration:3 !wait
+
+@wait 3
+@rtfx obj:lumen prop:_Alpha to:1.0 duration:0.01
+@rtfx obj:lumen prop:_Alpha to:0.0 duration:1
+@char lumen.sup armature:0,0,30
+@rtfx obj:lumen prop:_Alpha to:0.0 duration:0.01
+@rtfx obj:lumen prop:_Alpha to:1.0 duration:1 !wait
+
+@stop
+@resetText fullnos
+@printer fullnos
+“....！”
+; 眼睛，
+; 近到远镜头，光阵
+
+@shake lumen !ver hor!
+@rtfx obj:lumen prop:_MaskMode to:1 duration:1 !wait
+@rtfx obj:lumen prop:_MaskSpace to:1 duration:1.0 !wait
+
+@rtfx obj:lumen prop:_MaskCenterX to:0.5 duration:0.0 !wait
+@rtfx obj:lumen prop:_MaskCenterY to:0.33 duration:0.0 !wait
+@rtfx obj:lumen prop:_MaskWidth to:0.85 duration:0.0 !wait
+@rtfx obj:lumen prop:_MaskHeight to:1.18 duration:0.0 !wait
+
+@rtfx obj:lumen prop:_MaskFeather to:0.1 duration:0.0 !wait
+@rtfx obj:lumen prop:_MaskAngle to:-14.5 duration:1.0 wait!
+
+
+@rtfx obj:lumen prop:_MaskMode to:1 duration:1 !wait
+@rtfx obj:lumen prop:_MaskSpace to:1 duration:1.0 !wait
+
+@rtfx obj:lumen prop:_MaskCenterX to:0.53 duration:1.0 !wait
+@rtfx obj:lumen prop:_MaskCenterY to:0.33 duration:1.0 !wait
+@rtfx obj:lumen prop:_MaskWidth to:0.4 duration:1.0 !wait
+@rtfx obj:lumen prop:_MaskHeight to:1.18 duration:1.0 !wait
+
+@rtfx obj:lumen prop:_MaskFeather to:0.1 duration:1.0 !wait
+@rtfx obj:lumen prop:_MaskAngle to:-14.5 duration:1.0 wait!
+
+@wait 2
+@resetText fullnos
+
+@printer fullnos
+
+话音未落，
+从怜手中凝结出的...“精神具象化”
+......
+——
+; 白光转场，发射
+
+@stop
+xp.sup: ————
+xp.angry1: .....
+xp: ....哇高能粒子倒还挺好用....
+
+@printer nos
+眼前人几乎完全失控。
+....
+如此愤怒....？
+
+@char lyen
+lyen: 明明....
+lyen: ....认识也好....约定也好....
+lyen: 都是....我....
+; 
+; 
+; 我只能打注释了。
+; .....乐。
+
+xp.angry1: ！....
+xp.angeya: .....
+
+lyen: 逃走什么的...承担责任什么的...
+lyen: 明明我都忍下来了！
+lyen: 为什么...那为什么你就不能....！
+@printer nos
+....周围的光。
+近乎是跪倒的，祈祷的，渴求一般的...姿态。
+
+@char xp
+xp.sup: 这是什....
+@char xp.angeya
+@printer nos
+怜周围出现的.....
+枪火....？如军队一般的....？
+
+@char cyan
+@char cyan
+cyan: .....！
+cyan: 昀！
+@char xp
+xp: ！
+
+@printer nos
+世界记忆...与个人意识....
+混乱...混沌...
+沉溺于一片混乱中...人的....
+人的混沌意识中。
+
+....
+镜花水月，
+映射出，
+人囚生之本能....
+
+@char xp
+xp.sup: ！
+@printer nos
+基本所有枪炮的目标都是相昀——
+xp.angeya: ！！啧！！
+@printer nos
+眼疾手快，
+毫秒间，相昀用先前剩下的高能粒子流抵冲了这些幻想能——
+; explosion
+
+但是
+xp: 好烫！——
+@printer nos
+虽然用高能粒子流保护了自己，
+但仍旧不可避免被周围实例化的枪火擦伤。
+
+@char cyan
+cyan: 昀！！——
+
+@printer nos
+仟虹赶忙跑过来，
+
+; 相昀受伤。
+@char xp
+xp: .....啧....
+xp: .....
+@printer nos
+手臂和腿部都有被流片擦伤，
+一些金属渣貌似沁到血肉里....
+已成为那”所谓当下与现实的“弹壳缓缓落下。
+
+@char cyan
+cyan: 那个！你...你看起来....
+; 眨眼模糊
+@printer nos
+不用看自己的伤势，
+只看仟虹的脸色，也能想象出自己的伤势。
+但是....
+还能站起来。
+; 镜头，看怜
+
+@char lyen
+@char lyen
+lyen.wuyu: .....
+
+@printer nos
+四目相对。
+lyen: ....凭什么....
+; 眼睛？
+
+@char xp
+xp.sup: !
+xp.sup: 你退后！——
+@printer nos
+相昀冲到仟虹面前，想再度展开高能粒子流——
+
+; 枪炮声？
+@char xp
+xp.angeya: ......！
+@printer nos
+无差别攻击吗，这家伙.....！
+正当相昀想反作用能量推回去时——
+
+@char lyen
+lyen: .....
+@printer nos
+烟雾中，”那位“不知何时悄然移动到她的身后——
+; 枪举起声，保险声...
+冰凉的，来自钢铁的触感，抵在相昀温热由脆弱的皮肤上。
+@char xp
+xp.abde: 什——
+@printer nos
+不被”时间“所约束，
+定义”时间“的，
+”沉重“本身。
+
+@char lyen
+lyen: 你
+lyen: 不应该
+lyen: 也不会再存在——
+
+@char cyan
+cyan: 怜！！——
+; 构图？
+@printer nos
+.....
+声音，减缓了动作
+看来，
+自己还是被最平凡的时间所眷顾——
+@char xp
+xp.angeya: 嘿
+@printer nos
+相昀抬起手肘，打掉了怜手上的枪——
+
+lyen.wuyu: .....
+lyen.wuyu: ！
+@printer nos
+但怜只是换了一支——
+xp.angeya: 还有...？！！
+@printer nos
+时间.......命运......
+; 心跳，反相。
+不甘，难道.....
+
+@printer nos
+"砰——"
+; 
+三声枪响，错开着美丽的...火花。
+
+正中肩膀....
+@char xp
+xp: 唔！——
+@printer nos
+好疼，很疼。
+刺骨的，红晕，灾厄，与苍白，在眼前弥散开来。
+以及那只代表”仇恨“的近乎黑色的深紫——
+@char xp
+xp: ....啧......
+@printer nos
+为了保留最后的理智——不被疼痛侵蚀，
+不要像个弱者一样，
+不要投降一般嘶哑喉咙。
+不要像个输了的人跪倒，站稳，站起来...
+不要倒下，
+不要认输——
+
+"要坚强——"
+@char xp
+xp: ......
+咬住舌头，再增加一些疼...
+没错，早就预料到了，这点疼痛
+——都算轻的。
+弹壳，只落了两个
+显然，剩下一个留在了自己的身体里。
+....
+...虽然还没具象化完全....
+但这种程度的弹药肉体的直接撞击.....
+@char xp
+xp: .....
+xp: .........
+
+; 脚步
+@char lyen
+lyen: ....
+lyen: 等我表扬你吗？
+@printer nos
+又抬起枪。
+@char xp
+xp: .....
+@printer nos
+粒子，波，事件，时间....想想还能调用什么....
+不能死！绝对不能——
+但是....死亡何尝又不是
+一种.....
+摆脱“所有选择的方法——”
+
+; 怜举枪动作——
+@printer nos
+代表终焉的——
+炽热的火光先于冰冷的枪声.....
+火光.....
+那团火焰.....
+@char cyan
+cyan: ....不可以！——
+@printer nos
+清脆又沉重的撞击
+@char xp
+xp: ....？
+; 斜，相昀视线，仟虹挡身前，镰刀，怜枪
+@char lyen
+lyen: .....
+lyen: ....你还是这样。
+@printer nos
+————
+怎么可能，
+@char cyan
+cyan: .....
+@printer nos
+怎么可能，
+近乎是一种祈求着死亡的姿态，
+对死神展现自己最薄弱的状态....
+却得到了蔑视。
+@char cyan
+cyan: .....
+@printer nos
+红色缎带的帽子不止被冲击力吹到何处.....
+
+逼仟虹做出这样的事.....
+@char lyen
+lyen.fc: .....
+lyen: ....怎么。
+lyen: 像你这种人。
+lyen: 还会重视生命？
+lyen: 明明你自己——
+@char cyan
+cyan: 闭嘴！——
+@char xp
+xp.sup: ！——
+@printer nos
+看不见仟虹的表情——
+但从未听过仟虹现在的声音。
+
+@char lyen
+lyen: .....
+@printer nos
+怜垂下头。
+lyen: ...这样啊。
+lyen: ....这样。
+@printer nos
+她好像喃喃自语着什么。
+@printer nos
+....
+不详的，光点。
+xp.angry1: ....
+xp.angeya: 仟虹....刚刚那是....
+@char cyan
+cyan.se: 对，怜使用了....世界粒子。
+cyan.sadd: ....
+@printer nos
+仟虹低下头。
+....
+似乎在想着什么。
+cyan.se: ....
+cyan.saddo: ...不如说是...视界...点？
+@char xp
+xp.sup: ....？？
+xp.angry1: 为什么视界线会在....
+@printer nos
+连时间也无法逃逸的，虚无一片的，
+“无”。
+@char cyan
+cyan: .....
+cyan.sadd: .....
+@char xp
+xp: 仟虹？
+cyan: 抱歉。
+cyan: 我也...一直骗了你。
+@char xp
+xp.angeya: 现在你还说这些干嘛——嘶！
+@printer nos
+伤口似乎隐隐裂开。
+
+@char cyan
+cyan: 谢谢...刚开始时，我以为自己永远不会被任何人原谅。
+cyan.sadd: 我也...从不报有任何希望。
+cyan.de: 和怜说的一样，我就是...渴求“结束”与“终结”的。
+@printer nos
+仟虹举起镰刀。
+@char cyan
+cyan: 和你在一起的两天很开心。
+cyan.sadd: ....
+cyan.saddo: 最初，我以为你只是我走向终焉路上的一束烟花。
+cyan.smile: 但烟花...很美呀。
+xp: .....！仟虹——
+@printer nos
+不要，
+不要这么轻而易举就说出“死亡”的语词，
+明明你一直，
+一直.....
+同我诉说那，死亡的静美。
+.....
+cyan: 但是我依然。
+cyan: 和你一样
+@printer nos
+“以考虑自己优先”
+......
+......
+; 
+星空，
+重新回到了这片无垠的宇宙之下——
+xp: ....！
+生命，
+能感觉到自己生命的流逝，
+子弹还残留在身体里，伤口仍然裂开，血液仍旧涌动....
+.....
+@char lyen
+lyen: ....
+@printer nos
+怜手中的手枪变换为剑。
+lyen: .....
+lyen: 好久没和你交手了。
+cyan: 是啊。
+lyen.sm: .....
+@printer nos
+怜....没看错的话...
+她....笑了？
+lyen: 时间过得真快。
+cyan: 是吗。
+@printer nos
+而仟虹的语气非常冰冷，
+举起镰刀。
+@char lyen
+lyen: ....稍稍冷静一点了
+lyen: 你，对于将死的我。
+lyen: 有什么，最后的...告别吗？
+cyan: ....
+@printer nos
+仟虹的声音卡住——
+最后的告别，
+即是
+....
+@char lyen
+lyen.closea: ....
+lyen.close: 不告而别吗。
+lyen.sm: 一如以往，你。
+@printer nos
+！
+仟虹抡起镰刀——
+lyen: .....
+@printer nos
+怜没有硬接，而是——
+迎上去？
+@char cyan
+cyan: ！——
+@printer nos
+...
+连错误都是孪生——
+@char lyen
+lyen: ....
+绕过镰刀刀刃后，
+剑切向——
+@char xp
+xp: ！仟——
+@printer nos
+晚——
+@wait 0.3
+早了？
+——
+时间
+——
+镰刀正中——
+怜的
+.......
+
+@char xp
+xp.abde: .....
+
+@printer nos
+血。
+生命与时间，
+争相前进，由争相返回。
+....
+永无止境的折返。
+
+在别人眼中，
+也许只是，迟早将要发生的。
+“手足相残”
+——
+@char lyen
+lyen: ....
+@printer nos
+结束了。
+....来自终焉的宣告。
+
+....？
+”！“
+....并没有结束的。
+
+”休息一会吧。“
+耳畔边的轻语。
+; 耳边吹气？镜头？
+”怎么....！——“
+
+”！——“
+
+‘钟’
+那永远不会鸣响的丧钟。
+.....
+
+凝结着。
+冰晶与雪花。
+”.....“
+
+; 怜转头，相昀
+事件，不存在。
+肩部活动自如。
+
+xp: ”......“
+@printer nos
+显然，保护那位死之代表，甚至优先于放弃原有的优势。
+
+”倒是，感谢。“
+
+上前了一步，
+再次反相，意味着在这个”坐标系“下空想与现实已经交换。
+
+那颗空想子弹，子弹带来的伤口并不存在。
+死之镰也亦不存在的——
+......
+高温与、战火、能量、”热“与倒置的，
+冰晶、雪花与碎片。
+
+”你会开心的....“
+
+; 抱？吗？
+睁眼的时候，仟虹将会迎来....最喜欢的，分形与雪花。
+; 小字相关
+在此前....
+眼直向相昀——
+xp: ！.....
+
+”为什么？“
+
+怜紧紧抱着昏迷的仟虹，
+像是.....
+; 心跳反相。
+难道她要....
+但是绝对不可以！——
+那是仟虹——
+
+但为什么？为什么，为什么自己要感谢眼前这个极端自私的人？
+
+
+@addChoice ”1.她救了仟虹。“
+@addChoice ”2.因为救了我。“
+@wait 2
+
+”......“
+
+; 怜表情换。
+
+”...你应该闭嘴。“
+
+在这个回答”我“与”她“都对自身事件毫无作用的面前——
+
+”.....“
+
+在这寒冷的月相下。
+
+如同梦境一般的....
+
+....梦境？
+
+
+怜扔出剑——
+
+
+”！....“
+
+反应....？
+
+情感，涌动的温热的情感，在血液中流淌。
+
+对啊，这种梦境...终将是要醒来的。
+
+但它是”我“的梦，即使结束，也必须由”我“亲手结束的——
+
+”离她....远点！“
+
+; 高能粒子光束相关。
+剑在能流中消逝。
+
+月，她应该前往那片空灵，
+即使这注定让自己倾尽所有，自己的责任，自己的生命，自己的存在，以及....
+
+如梦境般，如分形般，最为纯洁无暇美丽的那至臻的.....
+不会被”世界“记录的，
+被”世界“隔离开的，
+没有任何杂质的，
+没有被任何污染过的，
+独属于相昀与仟虹的回忆。
+————
+; 闪回？
+”！——“
+
+; 刀光与能量与节奏怎么过渡....完全不懂....？
+........
+不对....
+
+
+; 花瓣，落水，江南与星河粒子，
+
+
+美丽与梦幻的”神秘“本身，令人向往的——
+
+原来是那吞噬光的一片虚无。
+
+”.....“
+
+感觉不到自身的重量，
+太轻了，羽毛——
+不，世俗之物都无法形容的生命本身之”轻“，
+跃迁着，刀光中跃迁着，前往下一个，回旋着，旋转靠近着，
+断续着，被牵引到她的面前，
+正如第一天的相会一般。
+......
+
+”你.....？！——“
+
+
+”仟虹....“
+
+”我会送你走...去想要的，那个‘彼岸’。“
+
+
+
+
+
+@char cyan
+cyan.b: ....我怎么知....
+cyan.sup: ————！
+@printer nos
+没等仟虹说完，怜举起枪。

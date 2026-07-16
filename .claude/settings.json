@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep -ril \"skip\")",
+      "Bash(awk '{ sz=$1/1048576; printf \"%.1f MB  %s\\\\n\", sz, substr\\($0, index\\($0,$2\\)\\) }')",
+      "Bash(sed 's/.*\\\\.//')",
+      "Bash(awk '{ n=split\\($2,a,\".\"\\); ext=tolower\\(a[n]\\); sum[ext]+=$1 } END { for \\(e in sum\\) printf \"%.1f MB  .%s\\\\n\", sum[e]/1048576, e }')",
+      "Bash(awk '{ printf \"%.1f MB  %s\\\\n\", $1/1048576, $2 }')",
+      "Bash([ -f \"$LOG\" ])",
+      "Bash(LOG=\"/c/Users/tinf/AppData/Local/Unity/Editor/Editor.log\" *)",
+      "Read(//c/Users/tinf/AppData/Local/Unity/Editor/**)"
+    ]
+  }
+}

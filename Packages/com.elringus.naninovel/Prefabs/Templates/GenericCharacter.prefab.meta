@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 37271467043489b4dabcdb0f1f7fad27
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Prefabs/Templates/GenericCharacter.prefab
+  uploadId: 953760

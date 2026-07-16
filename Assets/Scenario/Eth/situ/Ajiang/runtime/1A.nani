@@ -1,0 +1,819 @@
+; 开场，第一幕，简单字幕动画
+
+; 仟虹镰刀开场吗你这...
+; 月亮，斜
+
+@printer fullnos
+.....
+
+“世界记忆”
+
+秋，
+如“死亡“般美丽的季节。
+船，仟虹，站，镜头。
+
+xp: ....？！
+
+@printer fullnos
+她....？
+
+; @if ye=0
+@setRenderer index:0
+@despawnAll
+@despawn daysun
+@playFX threshold:0.0 duration:0.01
+@playUIFX threshold:0.0 duration:0.01
+
+
+@hideChars
+......
+@printer nos
+@back id:fen
+@back id:fen
+
+当相昀过去时，支部驿站的人倒也忙着查这件事。
+前些天葬礼的气氛仍然弥漫着。
+@char Cleisure
+@char Cleisure
+Cleisure.surprise: 欸？小相昀？
+Cleisure.smileCde: ...没想到这么快又见面了。
+@char xp pose:h
+xp.close: ....
+@printer nos
+@playFX threshold:0.0 duration:0.01
+@playFX threshold:1 duration:1
+@char Cleisure.deblinkCde
+不论什么时候，死亡一直都是很沉重的话题。
+; @playFX threshold:0.5 duration:0.01
+; @playFX threshold:0.0 duration:0.01
+上次和岁寒见面还是前些天出席某位护船人葬礼的时候。
+....
+她叫.... [< speed:0.8]
+什么名字[i] 来着？ [< speed:0.8]
+
+.....
+@despawnAll
+@hideChars
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:0.5
+@spawn titlewindzone
+
+演出相关
+; @camera ortho:false offset:-2.60,4.90,63.56 rotation:6.40,45.85,0.00 zoom:0.824 time:0.01
+@hide xp
+@char lumen
+@char lumen
+
+@spawn firelight
+@char ye3d
+@char ye3d position:2.63,-4.25,49.60
+
+
+
+
+@setRenderer index:0
+
+@playFX threshold:1.0 duration:0.01
+@playFX threshold:0.0 duration:0.1 !wait
+@wait 0.3
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:0.3 duration:0.3 !wait
+@setRenderer index:4
+@wait 1.1
+@setRenderer index:0
+
+@char xp
+xp.sup: ！
+xp.s: 抱歉....
+@printer nos
+虽然也不知为何而道歉。
+@char Cleisure
+Cleisure.bsmileCde: ...！！不用道歉！
+@char Cleisure
+Cleisure.MaofrownLCde: .....
+@hideChars
+就算岁寒这样说....
+xp.looklefto: ....
+@printer nos
+准确来说是，相昀只知道此时对方心境和她现在 “不一样”。
+直觉来，直觉去，对于无法全等的心情，也只能搭上一句廉价的道歉吧。
+要么就永远地保持沉默。
+@char Cleisure
+@char Cleisure.MaofrownLCde
+Cleisure: ....
+Cleisure: 抱歉...我好像有点走神。
+@printer nos
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:1.5
+@playUIFX threshold:0.0 duration:1.5 !wait
+; bgm?
+@printer nos
+或者，谈一些实际的事情。
+@wait 0.4
+@char Cleisure.deblinkCde
+@char Cleisure.deblinkCde
+Cleisure: 你自己一个人来的吗？
+@char xp
+xp: 是的。
+@char Cleisure.deblinkCde
+Cleisure: 还以为你会和叶一起来。
+@char xp
+xp.b: ...呃这个...
+@char Cleisure
+@char Cleisure
+Cleisure..smileCde: 哈哈，没事没事。
+@char xp
+xp.ba: 实际上我想提前来查有关货物的事情...
+@char Cleisure
+@char Cleisure
+Cleisure.surprise: 哇...我一直以为你对这种事情毫无兴趣。
+Cleisure.deblinkCde: 为什么会想？
+@addChoice ...废话，我也是商会的啊。 set:ye++ goto:#dan1
+@addChoice 这种问题毫无意义，我只是想去做。 goto:#dan1
+@addChoice 只是随口问问。 goto:#dan1
+@stop
+
+# dan1
+@char Cleisure
+@char Cleisure
+Cleisure.smileCde: 啊，那当我什么都没问吧。
+@char xp
+xp.b: ....
+@char Cleisure.deblinkCde
+@char Cleisure.deblinkCde
+@printer nos
+并不是很喜欢有关“意义类”问题...
+@char xp
+xp.lookleft: ....
+@char Cleisure
+Cleisure: 那小相昀想从哪个方面问起呢？
+
+@set u=0
+@addChoice 关于交易合同 set:u=1 goto:#an1
+@addChoice 关于事件发生 set:u=1 goto:#an2
+
+@stop
+
+
+# an1
+
+@char Cleisure
+@char Cleisure.deblinkCde
+Cleisure: 纸面合同的话，就是这一份了。
+@unlock Tips/contract
+
+; ....我要做合同？？？？？
+; @stopbgm
+合同上说明双方各出三人运送货物...
+看到对方出人的人名时。
+“白霜”。
+@char xp
+xp.abde: ....
+@printer nos
+是重名吗？还是....
+@char Cleisure
+Cleisure.deblinkCde: 呃..小相昀...？
+@hideChars
+@printer nos
+....
+@char xp
+xp.lookleft: 对面这几个人...你们查过有什么发现吗？
+xp: 苏家那边有伤亡吗？
+@char Cleisure
+Cleisure.helpless: 那边藏着捂着不说啊。
+Cleisure.Xiesmile: 信号相关暂且不提。
+Cleisure.helpless: 她们应该是先知道出事的，但第一时间就没和我们沟通。
+Cleisure.deblinkCde: 之后的所有烂摊子都甩给我们，玩人间蒸发呢这是。
+Cleisure: 突然翻脸不认人。还以为被抄家了。
+Cleisure: 我接到信息后第一时间去苏家拜访了，活蹦乱跳的。
+Cleisure: 但是没办法靠的很近，早知道放两个内应在里面了。
+Cleisure: 不过我们井水不犯河水...这笔单子本来就莫名其妙的。
+@char xp
+xp.angry1: 你自己去苏家...不危险吗？
+@char Cleisure
+Cleisure: 唔...还行吧...
+Cleisure.Xiesmile: 但最近她们那确实规模弄得很大。
+@char xp
+xp: 规模....？
+Cleisure.Xiesmile: 没怎么靠近就有好些个巡逻的查身份。
+Cleisure.deblinkCde: 亮身份后会好说话一些。
+Cleisure.deblinkCde: 但也就是走个形式，巴不得立刻把你轰出来的态度。
+
+@char xp
+xp.b: .....
+xp.s: ...好吧。
+
+@if u==0
+    @goto #c1
+@addChoice 关于事件发生？ set:u=0 goto:#an2
+
+@stop
+
+
+# an2
+
+Cleisure: 嗯...那就直接开门见山地说了。
+Cleisure.Xiesmile: "船"已经杳无音讯了。
+Cleisure.deblinkCde: 叶兰最近应该也规划船去沿路找了吧。
+Cleisure.MaofrownLCde: 到现在也没什么消息。
+Cleisure.MaofrownL2Cde: 水路...这种事情也不止发生过这一次。
+Cleisure.MaofrownLCde: 但这件单子...它。
+@char Cleisure.deblinkCde
+@printer nos
+....
+岁寒说到一半戛然而止，
+相昀知道，若非商单的特殊性质，叶兰也不可能派自己的心腹亲自去。
+....
+
+@char xp
+xp.angry1: 杳无音讯...？
+@printer nos
+被拆了？被驶出外海了？
+案发第一现场就这么没了？？？
+....
+Cleisure: 那天好风，走到一半没用了。
+Cleisure: 总的来看不好判断。
+xp.comfy: ...简直跟我一摸一样啊...
+Cleisure.MoEdeLCde: 欸？什么？
+@char xp
+@char Cleisure.deblinkCde
+xp.ba: 呃那个，我也是昨天临时划船过来的。
+xp.s: 走前好天气，然后半路静风了....然后睡了会。
+Cleisure: 静风走起来好累的。
+
+Cleisure: 然后，从打捞情况来看...
+Cleisure: 周围有打捞到有一些落水样布、木屑....
+Cleisure.Xiesmile: ....
+@addChoice 样布？ goto:#bu
+@stop
+
+# bu
+@char xp
+xp.looklefto: 样布是...？
+Cleisure.surprise: 欸？小相昀不记得了吗？
+Cleisure: 这次的货物不能见光，是专门遮光的布。
+xp.lookleft: ....哦。
+
+
+
+@if u==0
+    @goto #c1
+@addChoice 关于交易合同？ set:u=0 goto:#an1
+
+@stop
+
+
+# c1
+
+@char xp
+xp.s: ....
+@hideChars
+@printer nos
+名单....
+相昀放下合同。
+她知道其中一个名字原先是“岁寒的好友”。
+但岁寒不知道“白霜”这个名字是“相昀的好友”，
+相昀知道那个名字所代表的人此刻已经不存在，
+....
+....但岁寒不知道“白霜”此时活着。
+@char xp
+xp.angry1: （....不对不对，万一...）
+@printer nos
+“白霜”这个名字也很常见。
+@char xp
+xp.angry1: （....怎么可能那么巧。）
+
+@char Cleisure
+Cleisure.deblinkCde: 小相昀？
+Cleisure.Xiesmile: 怎么感觉...你脸色不太好？
+
+@char xp
+xp.comfye: 有吗....？
+xp.s: 可能是划船累了而已...
+
+@char Cleisure
+Cleisure.MoEdeLCde: 对哦！
+Cleisure.smileCde: 划长途很累吧，我去给你拿点吃的？
+@char xp
+xp.comfy: 不用，我有....
+@printer nos
+相昀下意识碰到白霜给的糖雪球。
+@char xp
+xp.s: .....
+xp.s: （希望只是巧合。毕竟我只在江城白霜见过白霜...）
+@printer nos
+毕竟相昀几乎也只呆在江城。
+@char Cleisure
+Cleisure.deblinkCde: 很多消息被销毁了，你应该去问老叶的。
+Cleisure.deblinkCde: 哦对，这里有电话。
+@printer nos
+岁寒指了指柜墙边的电话机。
+.....
+; back phome 电话
+; ...
+; back 香料 橘子茶相关？
+
+@char xp
+xp: ......
+xp.b: （我现在打电话...真的不会被叶兰抓回去吗...）
+xp.s: 之后再说吧。
+
+@char xp
+xp.comfy: 她不会和我说这些的。
+@char Cleisure
+Cleisure.deblinkCde: 嗯...？
+@printer nos
+也许是叶兰不想让相昀涉足，又也许自己也确实并不值得她信任吧。
+
+@char xp
+xp.lookleft: （但是这样想下来...自己好像并不认识多少）
+xp.b: （但感觉商会和苏家对于查货的态度...比起一致外对...好像更像在互相排挤...）
+@set u=0
+@addChoice 所以，我们只要等叶兰找到那艘逃逸的船就行了？ goto:#an21
+
+@stop
+
+
+# an21
+
+Cleisure.deblinkCde: 对。
+@char xp
+xp.angry1: ....？
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:0.5
+@despawnAll
+@playUIFX threshold:1.0 duration:0.01
+@playUIFX threshold:0.0 duration:0.5 !wait
+
+@setRenderer index:0
+@setRenderer index:2
+@spawn daysun
+@hideChars
+@char wifi
+@char wifi
+wifi: .....
+@char wifi
+@char wifi
+
+@wait 1
+@despawnAll
+@hideChars
+@setRenderer index:2
+@setRenderer index:0
+
+; fx 白霜闪过
+@printer nos
+白霜....
+@wait 0.3
+....
+@char xp
+xp.angry1: .....
+@addChoice 不对。 goto:#budv
+@addChoice ...... goto:#ifmo
+@stop
+
+
+# ifmo
+; @purgeRollback
+@hideChars
+@char xp
+xp.lookleft: ....
+@printer nos
+相昀保持沉默。
+xp.lookleft: （要么“白霜”只是个重名。）
+xp.s: 如果不是...
+
+@printer nos
+.....一切假设都得推翻重来了。
+
+@char Cleisure
+@char Cleisure
+Cleisure.bsmileCde: 话说，今天外面的天气真的很好。
+Cleisure.smileCde: 正好我在外面晒了香叶。
+Cleisure.deblinkCde: 你中午在这吃吗？
+Cleisure.smileCde: 我去做一些拿手好菜。
+@char xp
+xp.supa: 啊
+xp.comfy: 不了...我打算去津都随便逛一逛....
+@printer nos
+如果真的是白霜的话....
+....
+@char xp
+xp.s: ....
+@printer nos
+相昀想起白霜给她的地图。
+
+@stop
+
+
+# budv
+@printer nos
+相昀这样小声地说了一句
+; @sfx wind 风声
+@printer nos
+岁寒眺望了下窗外，
+....好像开始起风了？
+@char Cleisure
+Cleisure.McsupCde: ！
+
+Cleisure.bsmileCde: 等下小相昀...
+Cleisure.deblinkCde: 外面好像开始刮风了，我先去把外面晒的香叶拿回来....
+Cleisure.MoEdeLCde: 有什么话你等会再说...我没太听清。
+@char xp
+xp.sup: 啊...
+xp.comfy: 抱歉抱歉，我去拿吧。
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1 duration:1
+@hideAll
+@playUIFX threshold:0.0 duration:1 !wait
+@despawnAll
+@spawn daysun
+@back id:jin
+@playUIFX threshold:0.0 duration:0.01
+; 起南风 wind 风声音效
+@wait 1
+@back id:jin
+@printer nos
+@char xp
+xp.lookleft: 起风了....
+@wait 0.2
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1 duration:3 !wait
+
+@printer nos
+相昀端起簸箕后，抬头——
+@wait 3
+@playUIFX threshold:1.0 duration:0.01
+@hideAll
+@playUIFX threshold:0 duration:1 !wait
+@back id:sorth
+@char xp
+xp.lookleft: ....
+xp.looklefto: 现在是<color=red><b>南风</b></color>啊。
+@printer nos
+如果昨天一直是大南风就好了，自己也不会划那么累。
+如果是南风的话...
+....
+
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1 duration:1
+@hideAll
+@playUIFX threshold:0.0 duration:1 !wait
+@back id:jin
+@playUIFX threshold:0.0 duration:0.01
+@char xp
+xp.looklefto: 南风...
+xp.close: ....
+xp.lookleft: 要么“白霜”只是个重名。
+xp.s: 如果不是...
+
+@playFX threshold:0.0 duration:0.01
+@playFX threshold:1 duration:0.01
+@printer nos
+.....一切假设都要推翻重来了。
+@hideAll
+@hide jin
+@hide jin
+@despawnAll
+@playFX threshold:0.0 duration:1 !wait
+@back id:fen
+@back id:fen
+@playFX threshold:0.0 duration:0.01
+
+@char Cleisure
+Cleisure.smileCde: 谢谢啦小相昀！
+
+
+@char xp
+xp.angry1: 所以...现在线索指向的基本上是...
+xp.b: 其他势力...？
+Cleisure.MoEdeLCde: 其他势力吗？
+Cleisure: 我认识的人不多...税警？水匪？同行？
+Cleisure: 看来之后比较忙了....
+@char xp
+xp.b: （真的能调查到这么多地方吗...）
+xp.s: 其实根据我的经验来看...
+xp.looklefto: 如果事情往更混沌的方向发展...大概率并不是。
+@printer nos
+心中
+Cleisure: 哦对，老叶最近咋样？
+@char xp
+xp: 我看她挺悠闲的...
+Cleisure.bsmileCde: 确实...她是这样的。
+Cleisure.helpless: 比如瞬间出现和消失的商单....
+@char xp
+xp.ba: ....
+@wait 0.4
+@addChoice 内鬼？ set:u=0 goto:#an22
+@stop
+
+
+# an22
+@char xp
+xp.angry1: ....
+xp.angry1: 有没有一种可能是....
+xp.angry1: 内鬼...？
+@printer Atest
+Cleisure.surprise: 欸？
+@wait 0.5
+@if u==0
+    @goto #m3
+@addChoice 我指的是商会内鬼？ set:u=1 goto:#an221
+@addChoice 我指的是苏家内鬼？ set:u=1 goto:#an222
+@stop
+
+
+# an221
+Cleisure.surprise: 欸？
+@printer nos
+突然，岁寒皱眉。
+; @stopbgm
+Cleisure.Xiesmile: 你怀疑我们？
+@char xp
+xp.angry1: 只是一种可能啊。
+@char Cleisure
+Cleisure.deblinkCde: 确实，确实是一种可能。
+@char Cleisure
+Cleisure.Xiesmile: 但是我并不会考虑的可能。
+@printer nos
+....理由也显而易见。
+Cleisure.deblinkCde: 我想不到...
+Cleisure.MaofrownLCde: 她们有什么值得牺牲性命也要背叛我们的理由。
+Cleisure.deblinkCde: 嗯...那要不我来查苏家内鬼，你来查商会内鬼？
+@if u==0
+    @goto #m3
+@addChoice 我指的是苏家内鬼？ set:u=0 goto:#an222
+
+@stop
+
+
+
+# an222
+@char xp
+xp.looklefto: 负责运送的不也有苏家人吗，
+Cleisure: ....
+Cleisure: ...我也这样想过。
+Cleisure: 然后之前我上门拜访。
+Cleisure.helpness: 她们的态度就...没做过生意吗，话都不会好好说。
+@printer nos
+岁寒叹气，厌恶的神色一闪而过，
+Cleisure.deblinkCde: 可能习惯武力解决问题了吧。
+@char xp
+xp.angry1: （虽然一切都还只是推测....）
+@if u==0
+    @goto #m3
+@addChoice 我指的是商会内鬼？ set:u=0 goto:#an221
+@stop
+
+# m3
+@char Cleisure
+Cleisure: 为什么你会有这个思路...？
+@char xp
+xp.angry1: 我觉得...船应该不太会开走。或者说...
+xp.lookleft: 船被开走...可能只是一个幌子？
+@char Cleisure
+Cleisure.Xiesmile: 为什么你会这样觉得？
+@char xp
+xp.s: ....
+xp.angry1: ...我也只是...这样猜测。
+xp.s: 但是我必须得去确认一下...确认完之后我大概就能确定。
+
+@printer nos
+相昀的态度....
+@char Cleisure
+Cleisure.Xiesmile: ....
+Cleisure: 哦对了，这一带的船关实际我们也有查。
+@char xp
+xp.b: 等等...你直接去翻她们的登记簿了？
+Cleisure.deblinkCde: 不是我...叶老板摇人去的。
+Cleisure.smileCde: 部分被拷贝了下来，我们最近也有在筛选信息。
+Cleisure: 有几支载有江城材质布料的船。
+Cleisure: 但是进关后去向不同，一艘一艘排查起来...
+Cleisure.surprise: 啊。
+Cleisure.smileCde: 正好来了，你顺路就去查查这条线吧。
+Cleisure.deblinkCde: 也许你会感兴趣？
+Cleisure.MaofrownLCde: <size=25>虽然我们都觉得没什么用就是了...</size>
+@char xp
+xp.sup: ！
+xp.comfy: 谢谢！
+@hideChars
+@printer nos
+岁寒翻出一张单子，上面写有船的基本信息以及载物。
+@char Cleisure
+@char Cleisure
+Cleisure: 船主是个开茶馆的
+Cleisure: 但不确定那些布是否是“样布”。
+
+@set u=0
+@addChoice 茶馆？ set:u=1 goto:#an32
+@addChoice 船？ set:u=1 goto:#an31
+@stop
+
+
+# an31
+@char Cleisure
+Cleisure.surprise: 船的信息也在单子上？
+Cleisure.deblinkCde: 一个中等船的样子...具体我记不清。
+@if u==0
+    @goto #m4
+@addChoice 茶馆？ set:u=0 goto:an32
+
+@stop
+
+
+# an32
+@char xp
+xp.looklefto: 是哪家茶馆？
+Cleisure.surprise: 啊。
+Cleisure.smileCde: 正好来了你顺路就去查查这条线吧。
+Cleisure: 虽然感觉概率不大，别的线我们想办法。
+Cleisure: 没什么视野...
+@hideChars
+@printer nos
+岁寒把名字写下来，
+“天堂”。
+@char Cleisure
+Cleisure: 这茶馆开的离渡口很近，船也上行转到渡口那边。
+Cleisure.smileCde: 有点远，可能要麻烦你跑一趟了。
+@printer nos
+渡口....
+@char xp
+xp.looklefto: （渡口...混淆起来貌似很方便）
+xp.s: 真巧....
+
+@printer nos
+相昀拿起单子看了看。
+
+@if u==0
+    @goto #m4
+@addChoice 船？ set:u=1 goto:#an31
+@stop
+
+# m4
+@char Cleisure
+
+@char Cleisure
+Cleisure: 哦对，你需要一份津都地图吗？
+; @if
+@addChoice 暂时相信白霜的地图 goto:##m5
+@addChoice 需要一份地图 lock!
+@stop
+
+# m5
+@printer nos
+@char xp
+xp.comfy: 嗯...暂时不用！
+虽然白霜画的很抽象...
+但是不知怎么...就是相信她吧？
+打算用白霜的地图走走看先。
+@char Cleisure
+@char Cleisure
+Cleisure.bsmileCde: ....你...对这很熟？
+@char xwp
+xwp.comfy: 我朋友给我画了地图~~
+Cleisure.surprise: 小相昀...竟然在津都有认识的人？？
+Cleisure.smileCde: ...有些惊讶，感觉你貌似很少来津都。
+@hide xwp
+@char xp
+xp.b: ...呃...怎么说呢。
+@char Cleisure
+Cleisure.deblinkCde: 难道是笔友之类的...？或者什么同好？
+@printer nos
+岁寒开始打探相昀的人际关系了...
+@char xp
+xp.comfye: 不，是，啦！
+xp.s: （非说什么同好的话...糖雪球同好？）
+@char Cleisure
+Cleisure.smileCde: 开玩笑啦。
+@hideChars
+@printer nos
+...白霜....
+但是暂时还且相信她吧....
+@char Cleisure
+Cleisure: 哦对，如果晚上没地方住就回来睡啊。
+Cleisure.smileCde: 我去帮你整理个空房间出来！
+
+
+@hideChars
+
+@goto Eth/situ/choice
+
+
+
+@stop
+
+
+
+
+
+
+知晓: 那点战火也没那样值吧...
+@printer Atest
+知晓听了相昀的话后，微微愣住。
+知晓: ....
+知晓: 其实....
+知晓: 我...也这样想过。
+知晓: 你知道苏家那边人的态度吗...简直是傲慢，说什么拒绝合作，交给她们去查。
+知晓: 结果遗体还是由我们去打捞的....
+知晓叹气。
+知晓: ...最开始就没打算接下这单。
+@char xp
+xp.xie: ....
+@printer Atest
+相昀不知道说什么，只能抱抱知晓。
+知晓: ...谢谢小相昀。
+@wait 0.5
+知晓: 哦对。
+知晓: 她们家两天后还要搞什么生日宴。
+知晓: 谁知道在打什么算盘....
+知晓: 还假好心地给老板发请帖，我看实际就是鸿门宴。
+知晓不满地撇了撇嘴。
+@char xp
+xp: .....
+@hide xp
+@char xwp
+xwp.comfy: 没事啦晓晓~~你看我不就来了嘛~~
+@printer Atest
+知晓: 哦对，总之我目前发现的是，云端药行接手交易了...
+@char xp
+xp.looklefto: 云端药行？
+@hide xp
+
+@printer nos
+
+........
+
+...
+问完后相昀就离开了....
+时间在悄然流逝。
+
+
+; @if d=3
+分部晚上是没有人值班的啦！
+@char xp pose:h
+@char xp pose:h
+xp.ba: 早睡早起是好习惯...
+再好好想想该去哪里吧？
+    
+    
+
+@stop
+
+
+@printer nos
+白霜...
+@char xp
+xp.s: ...真的不想管这种事情....
+@printer nos
+很难想象先前还一直发呆的朋友也和利益相关联
+
+
+为什么一定要"交易"呢?
+....
+不能再问下去了.
+@char xp
+xp.ba: ....果然....
+@printer nos
+立刻就会回到 "为什么要有为什么"
+@char xp
+xp.ba: 所以...只能想办法找到白霜问清楚了
+@printer nos
+境随心转...
+主动切断对外知觉的话....世界又是简单美好的,那个世界.
+
+
+
+@printer nos
+@char xp
+xp.lookleft: 可能得再多问一句...
+xp.angry1: 什么...不能见光？
+@char Cleisure
+Cleisure.deblinkCde: ....
+Cleisure.bsmileCde: 两种意思都有吧。
+xp.angry1: ....？
+@printer nos
+相昀对货物一无所知，她原先以为只是普通的货物，普通地出了事故。
+
+Cleisure.deblinkCde: 某种零件...运输手册上说不可见光。
+Cleisure.smileCde: 只知道是
+Cleisure.bsmileCde: 具体我也不清楚。
+Cleisure.deblinkCde: 为了选择合适的遮光材质做成布也花了很大功夫的说...
+xp.lookleft: 那外形相关...？
+@printer nos
+岁寒给相昀几张照片和一副图纸。
+@char xp
+xp.sup: 哇！
+xp.comfy: 好...详尽？
+@printer nos
+但这不是工业制图图纸吗...？
+@char Cleisure
+Cleisure.deblinkCde: 
+
+
+
+# settlement
+
+# ly
+
+2
+2->3

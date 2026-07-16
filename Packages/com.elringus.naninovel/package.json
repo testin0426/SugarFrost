@@ -1,0 +1,50 @@
+{
+    "name": "com.elringus.naninovel",
+    "version": "1.21.260715",
+    "displayName": "Naninovel",
+    "description": "Create visual novels, branching dialogues, and interactive cutscenes with an all-in-one suite of writer-friendly storytelling tools.",
+    "unity": "6000.0",
+    "author": { "name": "Elringus", "url": "https://naninovel.com" },
+    "licensesUrl": "https://naninovel.com/eula",
+    "documentationUrl": "https://naninovel.com/guide",
+    "changelogUrl": "https://naninovel.com/releases/1.21",
+    "keywords": [
+        "visual novel engine",
+        "VN engine",
+        "dialogue system",
+        "cutscene system",
+        "interactive fiction",
+        "branching narrative",
+        "conversation",
+        "speech bubble",
+        "dating sim",
+        "text adventure",
+        "RPG dialogue",
+        "story game",
+        "choice",
+        "cinematic",
+        "anime"
+    ],
+    "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.video": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0",
+        "com.unity.ugui": "2.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.2"
+    },
+    "samples": [
+        {
+            "displayName": "Visual Novel",
+            "description": "A visual novel scenario template with multiple routes",
+            "path": "Samples~/VisualNovel"
+        },
+        {
+            "displayName": "Dialogue System",
+            "description": "An example on using Naninovel as a drop-in dialogue (cutscene) system",
+            "path": "Samples~/DialogueSystem"
+        }
+    ]
+}

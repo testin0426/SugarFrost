@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5a5da223be1edb84887b02e14312351e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Fonts/Inter-Regular SDF.asset
+  uploadId: 953760

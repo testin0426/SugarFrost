@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: dbdc218e337e4d0abd15e76566670675
+timeCreated: 1721564864
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Runtime/Attributes/LayerMaskAttribute.cs
+  uploadId: 953760

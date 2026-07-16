@@ -1,0 +1,570 @@
+; @goto Eth/situ/choice
+
+
+# 0
+
+@stopBgm
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:1.0 !wait
+@playUIFX threshold:0.0 duration:1.0 !wait
+@playUIFX threshold:0.0 duration:0.01 !wait
+@playFX threshold:0.0 duration:0.01
+@spawn daysun
+@back id:jin
+@bgm dia2
+
+; 摊位cg
+@printer nos
+
+于是转身向“糖雪球方向”走去————
+远远地就听到一些嘈杂的声音
+@char xp pose:h
+xp.blink: 原来是步行街啊。
+@char xp.comfy
+@printer xpwt
+相昀: 看来这里很适合摆小摊...
+
+@printer nos
+相昀打量周围，
+白天摆的小摊实在是有限，
+@char xp pose:h
+xp.angry1: ....
+xp.ba: 但是我现在好饿。
+
+@printer nos
+平时在商会，自己会随便做一些。
+; 实际上，连”饿“的感觉都很少。
+...
+
+@char xp
+xp.lookleft: 要不买点菜回分部去炒...？
+@printer nos
+但相昀又立刻想到自己是出来查货的。
+xp.ba: 等等...我在想什么啊...
+xp.s: 早知道就吃完再走了啊....
+@printer nos
+说实话又不好意思直接跟岁寒说“我饿了”，
+毕竟不是饭点...
+虽说煎个鸡蛋下一碗面也是比较容易的事情...
+@char xp
+xp.s: （麻烦别人不好吧。）
+xp.angry1: （又不是没带钱...）
+@wait 1
+xp.ba: ...简直是生存危机。
+@hide xp
+@printer nos
+打起精神看看周围有没有什么可以吃的小摊。
+
+@char xp
+xp.lookleft: （肉夹馍饼...）
+xp.b: （怎么感觉吃了很容易拉肚子呢...）
+@printer nos
+即使很饿也不想吃油荤类
+@char xp
+xp.s: ...现在的情况难道不是吃啥都行....
+@printer nos
+为什么在饿的状态下反会对食物更挑剔。。
+....
+相昀漫无目的地走着...
+
+@char xp
+xp.lookleft: 欸竟然有开着的早点铺
+; back早点铺？
+@printer nos
+相昀看了一下菜单
+
+@char xp
+xp.sup: 哇！
+@char xp.comfy
+@printer xwt
+相昀: 竟然有粽子....！
+相昀: 老板麻烦拿一个蜜枣馅的！
+@printer nos
+相昀向店铺老板招招手，打算买个粽子。
+@hideChars
+@char lyen pos:-11.11,0.00,49.80
+@char lyen
+@char xp.comfy
+@char xp.comfy
+@printer xwt
+相昀: 有蜜枣粽子....
+@animate lyen posX:50 time:0.5
+@printer lt
+?: 拿个蜜枣粽子。
+@hide xwp
+@char xp
+xp.b: ....
+@printer nos
+不知从哪冒出来的人要和自己拼单粽子...
+@hide lyen
+@hide xp
+@printer Atest
+摊主: 蜜枣粽子？
+@printer nos
+摊主翻找了一会
+
+@char lyen
+@char lyen
+
+@playFX threshold:0 duration:0.01
+@playFX threshold:0.5 duration:0.01
+@char xp
+xp.angry1: ....(...这个点...连粽子都能拼...)
+@printer nos
+相昀打量了一下来者。
+...不知道怎么描述，总之就是很反感，
+一直是一种昏昏欲睡的感觉，看起来很累，
+但完全没有让相昀生起哪怕一点点“关心”之情。
+可能自己也太饿了，没功夫关心别人。
+@char xp
+xp.angry1: （就算她也像我刚划长途...）
+@playFX threshold:0.5 duration:0.01
+@hide lyen
+@hide xp
+@playFX threshold:0 duration:0.5 !wait
+
+@printer Atest
+摊主: 两位先别着急！还有其他口味的...
+摊主: 蜜枣馅的只剩一个了....
+
+@printer lt
+@char lyen
+@char lyen
+?: 不，就拿这个就行。
+@printer nos
+没等老板说完，少女打断她的话，直接把钱拍在桌子上。
+@playFX threshold:0 duration:0.01
+@playFX threshold:0.5 duration:0.01
+@char xp
+xp.b: ....
+xp.angry1: （故意当我不存在是吧？）
+xp.s: (很饿...)
+
+@set u=0
+@addChoice 吃点糖雪球垫一下吧。 goto:#bao0
+@addChoice 一定要吃蜜枣粽子！ set:u=1 goto:#bao
+@stop
+
+
+# bao0
+@hideChars
+...既然对方想买的话就让给她好了。
+....
+不是，但凭什么让给一个后来的不认识的人啊？
+@char xp
+@char xp
+xp.s: ...
+@printer nos
+相昀也知道糖雪球不管饱。
+而且划船的时候自己几乎只靠吃糖雪球过来，
+（以及一些粗粮
+
+@char xp
+xp.looklefto: (要不买别的垫一垫？)
+@printer nos
+相昀开始环顾周围，尝试找家面馆
+于是就走开了
+....
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:2
+@playUIFX threshold:0.0 duration:1 !wait
+@printer nos
+阴差阳错又绕回原点....
+一开始就没走多远
+@printer nos
+摊主: 欸姑娘姑娘！！
+摊主: 请问你还要蜜枣粽子吗？
+@char xp
+xp: ？
+@printer nos
+摊主: 噢，刚刚那位本来说要买，但是又突然说不买了...
+xp.b: ？？
+
+@printer nos
+算了，也许世界上什么怪人都有吧。
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:1
+@goto Eth/situ/choice
+
+
+
+
+
+# bao
+xp.s: (沟通一下吧...)
+@hideChars
+
+@playFX threshold:0 duration:0.01
+@printer nos
+@printer lt
+@char lyen
+@char lyen.wuyua
+？: 打包带走。
+@char lyen.wuyua
+@shake xpt
+@char xp
+xp.angry1: 喂....明明是我先来的好吧？
+@char lyen.wuyu
+@printer lt
+?: ....
+?: 你不是津都人啊。
+xp.b: ....？
+@printer lt
+?: 听着口音不像。
+@char xp
+xp.b: 所以呢？
+@printer nos
+少女打了个哈欠。
+@printer lt
+@char lyen.wuyua
+?: 也许吧。
+@char lyen.wuyu
+？: 但是先付钱的是我。
+?: 而且。
+@printer nos
+少女突然亮出一张单子。
+
+@printer lt
+@char lyen
+?: 我有预定。
+@shake xpt
+@char xp
+xp.angeya: ？
+
+@char lyen.sma
+@wait 0.4
+@hideChars
+@printer nos
+少女把单子交给摊主。
+相昀粗略瞟了下桌上的货币（粽子价格）
+@char lyen
+@char lyen
+@playFX threshold:0 duration:0.01
+@playFX threshold:0.5 duration:0.01
+@char xp
+xp.angry1: （...是常客吗....）
+@playFX threshold:0.5 duration:0.01
+@playFX threshold:0 duration:0.01
+@hideChars
+@printer nos
+正相昀发呆时，
+摊主看了看单子，显得有些为难。
+@printer Atest
+摊主: ....这位顾客...您确实是昨晚预定的。
+摊主: 但是...呃...
+摊主: 最后单独订的那一个...被
+摊主: 被一起放到前面团订的一批去了...
+@printer lt
+@char lyen
+@char lyen
+?: ？
+?: 但我说过了分两单吧。
+@char lyen.fc
+?: 并且说最后一个我来取...
+@printer nos
+摊主看起来有些为难...
+摊主: 实在是抱歉...是我自作主张了...
+摊主: ...所以已经全部都被取过了。
+@printer lt
+@char lyen.fc
+@char lyen.fc
+?: ....
+@char xp
+xp.b: .....
+xp.ba: （这是什么抽象的预定机制....）
+xp.looklefto: 预定一般不都是十几个起步吗？
+@printer Atest
+摊主: 是的....
+@char xp
+xp.ba: 所以你是刚订了十几个后来又单独订了一个？
+@printer nos
+相昀理了一下这个逻辑，但她搞不懂为什么少女要这样预定粽子。
+难道专门订一个早餐？
+@char xp
+xp.b: （....挪用公款？）
+@printer lt
+@char lyen
+@char lyen.wuyu
+?: 那作为处理错误的赔偿，
+@char lyen.wuyua
+?: 我再买你一次，这个就给我。
+@printer nos
+摊主看上去有些不情愿，
+@char lyen.wuyu
+@printer Atest
+摊主: ...姑娘...您的声音不像昨晚预定的...
+摊主: 半夜打电话接单...人难免会有处理失误吧。
+摊主: 所以如果您现在是以个人身份来买的话，
+摊主: 确实是那位短头发姑娘先来的。
+@printer lt
+@char lyen.fc
+@char lyen.fc
+?: .....
+?: ...啧...
+@hide xp
+@char xwp
+xwp.comfy: （还挺讲道理的嘛）
+@printer nos
+相昀默默在心里夸了夸摊主。
+虽然，如果自己是摊主的话会让两位猜拳决定，
+毕竟这是件巧事，交给命运来决定不妨是一件不错的选择
+@char xp
+xp.lookleft: （只是这样想想...）
+@wait 0.3
+@playFX threshold:0.0 duration:0.01
+@playFX threshold:0.7 duration:0.01
+相昀瞟了眼少女，
+但少女依然是一副没睡醒的样子，
+不过微微有些皱眉。
+但没发怒惹事倒也挺好....
+预定...拿错了...？相昀摇了摇头打消了这些猜测，毕竟她不清楚这边“预定”的流程。
+正当她想乘胜追击时....
+有人赶过来
+; @sfx 脚步foot？？
+@printer Atest
+人: .....有消息了...
+@hideChars
+@playFX threshold:0.7 duration:0.01
+@playFX threshold:0.0 duration:0.01
+@printer nos
+来者神情严肃，
+俯身，小声在少女身侧说着什么。
+但相昀没有太听清具体说的内容，
+@char xp
+xp.lookleft: ？
+@printer lt
+@char lyen
+@char lyen.wuyu
+?: ....哦。
+?: ？
+@printer nos
+听完后，少女愣了会。
+@printer lt
+@char lyen
+?: ....
+@char lyen.fc
+?: 又要我过去吗？
+@char xp
+@char xp
+xp.ba: （这人在说啥啊...）
+xp.b: 喂。
+@printer nos
+相昀打断少女和对方的谈话。
+@char lyen.close
+?: .......
+@char xp
+xp.ba: 我拿走了？
+@printer nos
+相昀提着粽子线，放在少女眼前晃了晃。
+; cg???
+@char xp
+xp.looklefto: 喂————
+@char lyen.close pose:h
+@printer lpt
+?: .....
+@char lyen.closea pose:h
+?: ...算了。
+xp.angry1: ？
+
+@hideChars
+@printer nos
+丢下了这句不明不白的话...
+最后...
+@wait 0.3
+她转身就走了？？？
+@char lyen
+@char lyen
+
+@printer Atest
+@shake Atest
+@playFX threshold:0.0 duration:0.01
+@playFX threshold:0.7 duration:0.01
+摊主: 哎姑娘！！你的钱没拿！！
+@char xp
+xp.angry1: 这人？？
+@playFX threshold:0.7 duration:0.01
+@printer nos
+@playFX threshold:0.0 duration:0.01
+即使摊主在后面提醒，但少女跟没听见似的。
+...绝对是故意没听见的。
+
+要追上去把钱还给她吗？
+@addChoice 追 goto:#vv1
+@addChoice 不追 goto:#bao1
+@stop
+
+# vv1
+@printer nos
+相昀抓起桌上的钱，
+三两步跟上少女后，挡在她身前。
+但当她上前时，少女旁边的人进一步上前拦住她
+
+@char xp
+xp.lookleft: ？
+xp.b: 你家小姐钱没拿...
+@printer nos
+虽然也不知道少女和来者的关系...
+只是直觉吧。
+
+@printer lt
+@char lyen.de pose:center
+？: ?
+?: 你认得我？
+@char xp
+xp.ba: 谁认识你啊...
+xp.lookleft: ....
+@printer nos
+相昀感觉自己正在被少女打量。
+@char xp
+xp.angry1: ....
+@printer nos
+被这样盯着...很难受。
+充满敌意的眼神。
+xp.s: 别盯了，我们俩没见过面。
+xp.angry1: 钱，接着。
+@printer lt
+@char lyen.wuyua
+？: 当我请你了呗。
+@char xp
+xp.ba: 不需要你请。
+@if u==1
+    @printer lt
+    @char lyen.wuyu
+    ?: 那就是专门看你的观赏费。
+    @char xp
+    xp.angeya: 你...！
+@wait 0.3
+@animate lyen posX:63 time:0.3
+@shake lyen count:2
+@wait 0.5
+@hideChars
+@printer nos
+相昀将钱递出去，但对方反而退了一步。
+@if u==0
+    ....似乎没想接？
+身旁的人却站上前。
+@char lyen
+@char lyen.close
+@playFX threshold:0.0 duration:0.01
+@playFX threshold:0.5 duration:0.01
+@printer Atest
+人: 交给我就行了，谢谢这位姑娘。
+@if u==1
+    @char xp
+    xp.angeya: 你这人会不会好好说话？
+    @printer lt
+    @char lyen
+    @char lyen.wuyu
+    ?: 会啊，我会和人好好说话。
+    @char xp
+    xp.angry1: ！
+    xp.ba: 看来你很擅长用语词生事吵架....
+    @printer lt
+    @char lyen
+    @char lyen.fc
+    ?: 谢谢夸奖。
+@char lyen.fc
+?: 如果你能稍微让一下的话...好狗不挡道。
+@printer nos
+....小学生吗？这么会吵架。
+少女皱起眉，看上去像是生气了，
+虽然相昀不知道哪里让她生气了。
+但同样的话放到相昀身上也适用。
+...只不过相昀现在很饿。
+@char xp
+xp.angry1: .....
+@addChoice 谢谢你的粽子（不让开）。 goto:zs1
+@addChoice 好狗不乱叫（让开）。 goto:gb1
+@stop
+
+
+# zs1
+@char xp
+xp.comfy: 那谢谢你的粽子！
+@printer nos
+相昀难得挤出了一个“美丽的”笑容。
+@printer nos
+但并没有让道的打算，
+@hideChars
+@printer lt
+@char lyen
+@char lyen.fc
+?: .....
+@char lyen.wuyu
+?: 希望之后别见面了。
+@hideChars
+@printer nos
+少女丢下这句话后，向前走去——
+@shake xpt
+@char xp
+xp.comfye: ！
+@wait 0.3
+@printer nos
+被撞了下，但相昀站稳了。
+
+xp.angry1: ....
+xp.s: 不就一个粽子吗...跟什么血海深仇一样。
+@printer nos
+也许本来就很自己没啥关系，
+奇怪的预定，奇怪的支付，奇怪的说话语气...
+....
+那就随便她去吧。
+相昀端起粽子，边走边拆线。
+@hide xp
+@char xwp
+xwp.comfy: 还是热的...
+@hideChars
+@printer nos
+算了，也许世界上什么怪人都有吧。
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:1
+
+@goto Eth/situ/choice
+
+@stop
+
+# gb1
+@char xp
+xp.angry1: 好狗不乱叫...
+@printer nos
+各退一步海阔天空...
+什么三尺之类的，
+....
+@char xp
+@char lyen.fc
+?: .....
+@char lyen.wuyu
+?: 希望之后别见面了。
+@hideChars
+@printer nos
+少女丢下这句话后，向前走去。
+xp.angry1: ....
+xp.s: 不就一个粽子吗...跟什么血海深仇一样。
+@printer nos
+也许本来就很自己没啥关系，
+奇怪的预定，奇怪的支付，奇怪的说话语气...
+....
+那就随便她去吧。
+相昀端起粽子，边走边拆线。
+@hide xp
+@char xwp
+xwp.comfy: 还是热的...
+@hideChars
+@printer nos
+算了，也许世界上什么怪人都有吧。
+@playUIFX threshold:0.0 duration:0.01
+@playUIFX threshold:1.0 duration:1
+
+@goto Eth/situ/choice
+
+@stop
+
+
+
+@playFX threshold:0.5 duration:0.01
+@playFX threshold:0.0 duration:0.01
+@char xp.b
+xp.b: 哦....
+
+
+@char xp

@@ -1,0 +1,99 @@
+#pragma kernel CSMain
+
+// R 通道 = 基础低频云形噪声
+// G 通道 = 高频细节噪声
+// B 通道 = 可扩展（当前留空）
+// A 通道 = 1.0
+RWTexture3D<float4> Result;
+
+uint  resolution;
+float time;          
+
+// ---- 基础哈希 ----
+float3 hash33(float3 p)
+{
+    p = float3(dot(p, float3(127.1,  311.7,  74.7)),
+               dot(p, float3(269.5,  183.3, 246.1)),
+               dot(p, float3(113.5,  271.9, 124.6)));
+    return -1.0 + 2.0 * frac(sin(p) * 43758.5453123);
+}
+
+// ---- Perlin Noise 3D ----
+float perlin(float3 p)
+{
+    float3 i = floor(p);
+    float3 f = frac(p);
+    // Quintic 插值（比 smoothstep 更平滑）
+    float3 u = f * f * f * (f * (f * 6.0 - 15.0) + 10.0);
+
+    return lerp(
+        lerp(lerp(dot(hash33(i + float3(0,0,0)), f - float3(0,0,0)),
+                  dot(hash33(i + float3(1,0,0)), f - float3(1,0,0)), u.x),
+             lerp(dot(hash33(i + float3(0,1,0)), f - float3(0,1,0)),
+                  dot(hash33(i + float3(1,1,0)), f - float3(1,1,0)), u.x), u.y),
+        lerp(lerp(dot(hash33(i + float3(0,0,1)), f - float3(0,0,1)),
+                  dot(hash33(i + float3(1,0,1)), f - float3(1,0,1)), u.x),
+             lerp(dot(hash33(i + float3(0,1,1)), f - float3(0,1,1)),
+                  dot(hash33(i + float3(1,1,1)), f - float3(1,1,1)), u.x), u.y),
+        u.z);
+}
+
+// ---- FBM 3D（可控 octave 数）----
+float fbm3D(float3 p, int octaves)
+{
+    float  val       = 0.0;
+    float  amplitude = 0.5;
+    float  freq      = 1.0;
+    for (int i = 0; i < octaves; i++)
+    {
+        val       += amplitude * perlin(p * freq);
+        freq      *= 2.0;
+        amplitude *= 0.5;
+    }
+    return val; // 范围约 [-1, 1]
+}
+
+// ---- Billowy 噪声（abs(perlin)）----
+float billowyFBM(float3 p, int octaves)
+{
+    float  val       = 0.0;
+    float  amplitude = 0.5;
+    float  freq      = 1.0;
+    for (int i = 0; i < octaves; i++)
+    {
+        // 1 - |perlin| 产生圆润的"穹形"而非平滑斜坡
+        val       += amplitude * (1.0 - abs(perlin(p * freq)));
+        freq      *= 2.0;
+        amplitude *= 0.5;
+    }
+    return val; // 范围约 [0, 1]
+}
+
+// ---- 密度重映射：把噪声拉伸成硬边云朵 ----
+//  低于 threshold 的部分归零，其余拉伸到 [0,1]
+float remapDensity(float raw, float threshold, float power)
+{
+    float v = saturate((raw - threshold) / max(1.0 - threshold, 0.0001));
+    return pow(v, power);
+}
+
+[numthreads(8, 8, 8)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    float3 uvw = float3(id) / float(resolution);
+
+    // ---- R 通道：基础低频 billowy 云形 ----
+    //  frequency 低 → 大块，billowy 让形状圆润
+    float3 basePos  = uvw * 3.5;
+    float  baseNoise = billowyFBM(basePos, 4);        // [0, 1] 大致
+    // 密度重映射：threshold=0.45 控制云的稀疏程度，power=1.5 拉硬边
+    float  baseDens  = remapDensity(baseNoise, 0.45, 1.5);
+
+    // ---- G 通道：高频细节噪声（用于 shader 里侵蚀边缘）----
+    float3 detailPos  = uvw * 8.0;
+    float  detailNoise = fbm3D(detailPos, 3) * 0.5 + 0.5; // 映射到 [0,1]
+    // 细节只保留高频碎片，归一化对比度
+    detailNoise = remapDensity(detailNoise, 0.3, 1.0);
+
+    Result[id] = float4(baseDens, detailNoise, 0.0, 1.0);
+}

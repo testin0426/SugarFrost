@@ -1,0 +1,11 @@
+﻿fileFormatVersion: 2
+guid: ed8de225ea7c458eab8085e39ae392e2
+timeCreated: 1757505933
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135453
+  packageName: 'Naninovel: Visual Novel, Dialogue & Cutscene Storytelling Engine
+    for Unity'
+  packageVersion: 1.21
+  assetPath: Packages/com.elringus.naninovel/Editor/Project/MenuPath.cs
+  uploadId: 953760

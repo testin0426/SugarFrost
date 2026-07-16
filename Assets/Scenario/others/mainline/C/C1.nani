@@ -1,0 +1,223 @@
+@bgm 1pass
+@back classroom id:2D
+@playFX threshold:-1.0 duration:0.1
+@char C.Body/idle,Face/McsupCde pose:default
+C: ....???
+@hideChars
+@char B.Body/idle,Face/deblinkBde pose:default
+B: ......
+B.smileBde: 看来食堂小卖部依然挺受欢迎。
+@hideChars
+@char C.Body/idle,Face/McsupCde pose:default
+C.smileCde: 确实是的。
+C.bsmileCde: 呃大神那我和A就先走了....之后再见。
+@playFX threshold:0.5 duration:0.5
+@char A.frownAde pose:1
+@printer A1
+A.frownAde: 一路走好。
+
+@hideAll
+@playFX threshold:1.0 duration:0.5
+@playFX threshold:0.5 duration:0.1
+@playFX threshold:1.0 duration:0.2
+@playFX threshold:-1 duration:0.2
+@char C.clear
+
+@back outroom id:2D
+@char C.surprise pose:default
+C.surprise: 哇AAAAAAA你和她认识了...十年？？？？？
+@char A.idle pose:1
+@playFX threshold:0.5 duration:0.1
+@char C.deblinkCde pose:default
+A.idle: 对啊。
+@playFX threshold:-1 duration:0.1
+@char C.surprise pose:default
+@char C.deblinkCde pose:default
+C.deblinkCde: 那你和B认识的时间比和我认识都久？？？我竟然不知道？？！
+@playFX threshold:0.5 duration:0.1
+@char A.idle pose:1
+A.idle: ....
+A.idle: 我记得之前和你讲过来着....
+A.idle: 大概有个干姐....
+@hideChars
+@playFX threshold:-1 duration:0.1
+@char C.clear pose:default
+C.smileCde: 哦哦你说你干姐我就想起来了！！
+C.smileCde: ...我giao我没想到就是B大神。
+@playFX threshold:0.5 duration:0.1
+@char A.idle pose:1
+A.idle: ....
+A.idle: ....(算了C这记性和反应就这样。)
+@hideChars
+C买了烤肠，但是A什么也没买，A不喜欢这些油炸食品，哪怕气味。
+
+所以不想呆在班上是因为大课间就会有人买这些吃的带到班上，味道总是散不掉。
+@playFX threshold:-1.0 duration:0.1
+
+@char C.MoEdeLCde
+C.MoEdeLCde: 但是真的大神，之前来交流会时老傅讲过B....
+
+@playFX threshold:0.5 duration:0.1
+关于成绩这些事情就像流水一样在A脑子和耳朵之间流过了
+@playFX threshold:-1.0 duration:0.1
+@char C.MaofrownLCde pose:default
+C.MaofrownLCde: 话说啊，就是。
+@char C.MaofrownL2Cde pose:default
+C.MaofrownL2Cde: 那啥....
+C.acheCde: 哎我就直话直说了。
+C.deblinkCde: AAA我知道你是从来不吃烤肠的
+@char C.MaofrownLCde pose:default
+C: 所以....
+@playFX threshold:0.5 duration:0.1
+@char A.idle pose:1
+A.frownAde: 你大可以一句话讲完。
+@playFX threshold:-1.0 duration:0.1
+@char C.MaofrownLCde pose:default
+C.MaofrownLCde: ...
+C.MaofrownL2Cde: ......嗯
+C.Xiesmile: ...就是...你是在躲着B大神吗？你们....
+@playFX threshold:0.5 duration:0.1
+@char A.idle pose:1
+A.idle: ........
+@playFX threshold:-1.0 duration:0.1
+@char C.Xiesmileleftou pose:default
+C.Xiesmileleftou: 呃AA我也知道你...你不会....
+@char C.deblinkCde pose:default
+@hideChars
+C试探性地观察A的表情，但是A确实始终面无表情。
+@char A.idle pose:1
+A.lookleft: .....你这想象力真丰富.....
+
+@char C.deblinkCde pose:default
+@char C.deblinkCde pose:default
+
+@playFX threshold:-1.0 duration:0.1
+C.smileCde: 哎呀百年铁树终于开花啦，这事情实际很正常。
+C.laughterCA: 我跟你说我们班也有....
+@hideChars
+@playFX threshold:0.5 duration:0.1
+A其实极度讨厌听八卦，
+而且C确实是误解了，
+她跟B完全没有"传统意义上"谈恋爱，
+起码在A的价值观里。
+但是C一定也无法理解恋人以上友人未满的的事情，
+实际A也无法理解。
+
+@char A.idle pose:1
+A.idle: ....打断一下。
+A.lookleft: ....实际上，我奶奶大年初三去世了。
+@playFX threshold:-1.0 duration:0.1
+@char C.Body/idle,Face/deblinkCde pose:default
+C.surprise: .......啊？？？？？？？？？？？？？
+@hideChars
+说出口A有点后悔，
+因为真的不想让C承担哪怕一点点的负面情绪。
+@playFX threshold:-1.0 duration:0.1
+@char C.bsmileCde pose:default
+C.bsmileCde: emmmmm对不起对不起我刚刚真的误解了！！.........
+@playFX threshold:0.5 duration:0.1
+@char A.idle pose:1
+A.idle: ....实际就是....
+A.sadcloeyeU: 哎，我还是自己待一会吧。
+@playFX threshold:-1 duration:0.1
+@char C.MaofrownLCde pose:default
+C.MaofrownLCde: 不儿，
+@char C.deblinkCde pose:default
+C.deblinkCde: 你有什么事情你一定要说啊。
+C.idle: 我们肯定会帮你的，你和我说更不要紧的！
+C.MoEdeLCde: 怎么说呢生老病死也是正常的事情.....
+C.MaofrownL2Cde: .....
+@playFX threshold:0.5 duration:0.1
+@char A pose:1
+A.deblinkAde: .....是啊。
+A.sadeCE: 没办法的事情。
+@playFX threshold:-1.0 duration:0.1
+@char C.deblinkCde pose:default
+C.deblinkCde: .....
+C.deblinkCde: ....我还没碰到这种情况呢......
+@char C.clear pose:default
+@playFX threshold:0.5 duration:0.1
+A.deblinkAde: 没事，回头你回归阴间就会碰到
+@playFX threshold:-1.0 duration:0.1
+@char C.angrysmile pose:default
+C.angrysmile: !？？不是你什么意思，我回归阴间，我祭奠我自己呢？
+@playFX threshold:0.5 duration:0.1
+@char A pose:1
+A.deblinkAde: 你祭奠不了我来帮你啊，免费骨灰盒棺材一条龙服务。
+@playFX threshold:-1.0 duration:0.1
+@char C.smileCde pose:default
+C.smileCde: 你滚一边回你阴间老家去。
+C.angrysmile: 我不介意送你一程的！
+@char C.deblinkCde pose:default
+C.deblinkCde: 哦对，你急着回去的话我下午就给你做个墓碑。
+@hideChars
+其实不用。
+C初中做的墓碑A还留着
+说是墓碑实际上就是个立着的纸片
+上面画点符文。
+甚至人工塑封过。
+
+@playFX threshold:0.5 duration:0.1
+@char A pose:1
+A.smile: ....
+A.smile: ...你初中小孩呢你。
+@playFX threshold:-1.0 duration:0.1
+@char C.smileCde pose:default
+C.smileCde: 我初中小孩，也不知道是谁先开始的好吧？？
+@playFX threshold:0.5 duration:0.1
+@char A pose:1
+A.smile: 不是你吗？
+@playFX threshold:-1.0 duration:0.1
+@char C.smileCde pose:default
+C.smileCde: ....要点脸不？
+@hideAll
+面对C就这样就可以了，真的。
+千万不能流露任何负面情绪，
+知道了吗？AA。
+
+@char C.smileCde pose:default
+@playFX threshold:-1.0 duration:0.1
+C.smileCde: 你在此地不要走动，我去给你买几包你最爱的番茄薯片！
+@playFX threshold:0.5 duration:0.1
+@char A pose:1
+A.idle: 一边去好吗
+@hideChars
+@playFX threshold:-1 duration:0.1
+@char C.deblinkCde pose:default
+C.deblinkCde: 反正体育课也没事干，就当带大好儿出来散散心了！！
+C.deblinkCde: 你也别卷了你个卷王，
+C.MoEdeLCde: 每次上学碰到你都在背政治。
+C.deblinkCde: 卷疯了都
+
+@hideChars
+其实很讨厌卷这个字。
+@playFX threshold:0.5 duration:0.1
+@char A pose:1
+A.idle: ....
+A.lookleft: 哦对了，学校里面有个秋千来着你知道吗？
+@hideChars
+@playFX threshold:-1.0 duration:0.1
+@char C.MaofrownLCde pose:default
+C.MaofrownLCde: 喂AAA...这事你高一就和我说过了。
+@playFX threshold:0.5 duration:0.1
+@char A pose:1
+A.idle: 啊....
+@hideChars
+记性真的不好了...
+但是C竟然记得？
+@char A pose:1
+A.frownAde: 只是上次去的时候...碰到我们英语老师了。
+A.frownAde: 然后她阴阳怪气说这么偏的地方都被你找到啦，这样。
+@hideChars
+@playFX threshold:-1 duration:0.1
+@char C.idle pose:default
+C.idle: 没办法，谁让AAA如此聪明伶俐机智果敢....
+@playFX threshold:0.5 duration:0.1
+@char A pose:1
+A.frownAde: 这东西你都快讲了六年了有意思吗！！！！
+@playFX threshold:-1 duration:0.1
+@char C.smileCde pose:default
+C: 哎呀天生丽质难自弃啊
+
+@hideChars
+@stop

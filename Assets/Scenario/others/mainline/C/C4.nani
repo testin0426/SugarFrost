@@ -1,0 +1,119 @@
+@back outside scale:0.5
+高二寒假 
+大年初x？
+A也不记得是大年初几了，她记得去年大年初一和C玩了一天很开心。
+
+C妈妈: 我们就在这放吧
+C.surprise: 啊？？在路边放烟花是什么鬼啊？我们不是去江边吗？
+@hideChars
+C妈妈: 这边就有人在放啊。
+A.idle: ....
+@hideChars 
+C.helpless: 好吧好吧...AA你想在哪里放嘛。
+@hideChars
+A.idle: ...我都可以
+@hideChars
+C.helpless: ...我就知道你会这么说
+@hideChars
+C妈妈: 看人家AA多懂事，就你在这闹腾来闹腾去的。
+C.surprise: ??不是，我哪里闹腾了嘛！！！！！！
+@hideChars
+C妈妈: 那我们就在这下。
+C.star: 我先行一步了~~！
+@hideChars
+A.surprise: !哎C那边车多不要从那边下车！！！
+..............
+@hideAll
+@printer Fullscreen
+放烟花的人确实很多。
+毕竟过年。
+但是小镇城里是禁止燃放烟花爆竹的，
+所以只能来江边放，
+虽说又是翠湖湿地公园..........
+但是小镇固定刷怪地点也就这几个了。
+公园，万达广场，图书馆，等。
+@back outside scale:0.5
+@spawn ShakeCamera params:,5,,,,,true,false
+C.ache: A,A,AAA,AAAAA!no 发呆！no 发呆！放烟花 come on！！
+@hideChars
+A.embarrassed: 没有，发呆！！
+@hideChars
+放烟花，
+A拿了一些仙女棒
+;不知道立绘，不知道cg，已经什么都不知道了。
+A.idle: ....
+@hideChars
+或许注意力都被烟花转移走了。
+C.idle: ....
+C.idle: 看那边好大的烟花！
+@hideChars
+然后就在盯着看大烟花。
+A看着C，C看着烟花
+;这个绝对要做cg
+@hideChars
+A: .....
+@hideChars
+@printer Fullscreen
+或许这是我们最后在一起玩了吧。
+A知道自己已经和C隔了很远很远的距离。
+由C妈妈喊A，
+也是只是最后的告别。
+最后的告别还是不要让孩子说出口。
+做父母的一定会这么想。
+A.idle: ......
+A.sad: 很美。
+@hideChars
+C.idle: 嗯？？AAA你刚刚说啥，我没听见！
+;不知道要不要加烟花爆竹音效
+@hideChars
+A.sad: .......
+@hideAll
+@printer Fullscreen
+语词实在是太无力了。
+你已经不是小孩子了，你要尊重他人的命运，彼此的命运。
+C有自己生活，你也有自己的生活。
+你不能永远活在她的阴影之下
+对吧？
+@resetText Fullscreen
+A.sad: .....
+@hideChars
+A.sad: ....没错....
+@hideChars
+与你与我，
+最珍视的人。
+.....
+A.idle: .....
+@hideChars
+如果你开心的话
+我也会很幸福，很幸福。如果你开心的话。
+很幸福
+....
+也许将来你会....
+将如何....
+A.idle: ....
+@hideChars
+也许我永远忘不了。
+也许我确实什么都
+一直是个一无是处的人。
+也许....
+@back outside scale:0.5
+C.idle: 你老愣着不动在想啥啊AAAAA
+C.idle: 快点过来放烟花啦先。
+C.idle: 吃我火焰攻击....
+@hideChars
+C妈妈: C!!不要对着人放！....
+@hideChars
+也许硝化流焰什么。
+也许
+....又是人造词。
+.......
+但是与你的记忆也将一天天忘却与被忘却。
+我又怎样才能将这些已经死去的片段
+生咽抑或是埋葬呢。
+A.idle: .....
+什么也不懂的你与我与她。
+什么也不明白的，永远也无法相互理解的。
+早已被剥夺了幻想的权力的我们。又将....?
+
+
+

@@ -1,0 +1,460 @@
+; @spawn Flower
+@bgm yil
+@playFX threshold:-0.32 duration:0.1
+@back id:su
+@printer Atest
+远远地都能听到人来人往的嘈杂声。
+xp.lookleft: 虽然但是。
+xp.angry1: 这里平时都这么嘈杂吗....
+xp.b: 为什么这里比菜市场还吵...
+@if u==1
+    wifi: 吵。
+    xp.s: 原来白霜也觉得吵吗...
+    @hideChars
+    @printer Atest
+    但就算混乱，接近苏家家门前依然小厮认出相昀后接应。
+    @char lyen
+    @char lyen
+    lyen.sup: ??
+    lyen.an: 你们不是已经滚了吗？
+    xp.angry1: 要不是白霜说这里有好玩的我才不会来....！
+    @hideChars
+    @printer Atest
+    怜恨恨地瞟了眼白霜，后者接上她的目光——————
+    @wait 1
+    然后扔掉了。
+    
+    lyen.wuyua: 这里确实没有好玩的烦请你们现在就滚可以吗。
+    xp.xiea: 哎不。
+@if u==0
+    @char lyen
+    lyen.j: 你家是没人教你好好说话吗？
+    @char xp
+    xp.b: 彼此彼此。
+    @shake lt power:0.3
+    lyen.an: ....你！
+
+@char lyen
+@printer Atest
+怜刚想接着相昀的话怼下去，
+lyen.an: 我觉得你....
+....
+@shake lyen
+@shake lt power:0.3
+lyen.sup: ...??
+@wait 0.2
+xp.ba: 你什么你啊...
+@hideChars
+@printer Atest
+怜说到一半仿佛哽到了。
+于是相昀顺着怜的目光看去————
+@wait 0.5
+@char cyan
+cyan.supa: ！
+@hideChars
+@printer Atest
+@char xp
+xp.ba: (欸... 这不是夸糖雪球好看那个人吗....)
+xp.looklefto: 啊，是你!
+@printer Atest
+相昀向对方招招手。
+但是怜突然瞪着她。
+@if he=1
+    @char lyen
+    lyen.an: 她就是仟虹。
+    @goto #reco
+    @stop
+
+@stopBgm
+@char lyen
+lyen.fc: .....
+@wait 1
+lyen.fc: 你,
+@wait 0.1
+lyen.fc: 为什么，
+@wait 0.3
+@shake lyen power:0.3
+lyen.ana: 又认识仟虹！
+@wait 0.3
+@bgm yil
+xp.ba: 吼那么大声干嘛。
+@char lyen.fc
+xp.angry1: 所以原来她就是仟虹啊。
+@char lyen.wuyu
+xp.angeya: 因为卖糖雪球碰到她了而已啊。
+lyen.wuyu: 你几点钟碰到她的。
+xp.ba: 你不相信的话去问....
+@spawn ShakeCamera params:,4,,,,,true,true
+lyen.fca: 回答我的问题！
+xp.sup: !!!
+@c2r lyen t:0.1
+@char lyen.fc
+@char cyan pose:center
+@c2l cyan t:0.2
+cyan.haoe: 呃那个两位不用吵了....
+cyan.sadd: 那个...就是刚到渡口的时候...碰到了。
+cyan.sadd: 然后实际上..之前给怜怜你的糖雪球就是从这位买的....
+lyen.wuyu: ...?
+@hideChars
+怜盯了一会儿仟虹。
+仟虹撇过头去。
+@char cyan pose:center
+cyan.sadr: ....
+@hideChars
+@char lyen pose:center
+lyen.fc: ....
+lyen.fca: 啧。
+@char xp
+xp.angeya: ？
+@hideChars
+上述过程中，
+相昀一直被莫名其妙的信息冲击。
+@char xp
+xp.b: (为什么....气氛从未正常过)
+xp.looklefto: 原来你们俩很熟吗？
+
+@char lyen
+@spawn ShakeCamera params:,4,,,,,true,true
+lyen.ana: 熟你*。
+@shake xp
+xp: !!!!
+xp.ba: ?
+@char lyen.fc
+xp.ba: 不是，我不就问了句？怎么你又这么激动？
+xp.looklefto: 如果你不能很好管理情绪的话，
+xp.comfy: 我倒是推荐你去发会呆....
+lyen.wuyu: ....
+lyen.wuyu: ....你故意这样讲的？
+lyen.wuyua: 我告诉你，
+lyen.wuyua: 你完了。
+xp.angeya: ?
+xp.angry1: 你这个人怎么?
+
+lyen.fc: ....。
+
+@hideChars
+@char cyan
+cyan.haoe: 呃那个...
+cyan.haoe: 我可能要再说一遍....不要吵了？
+cyan.de: 实际上
+cyan.saddo: 我就是她的姐姐....
+
+# reco
+@char xp
+xp.b: 哦....
+@stopBgm yil
+@wait 2
+xp.supa: ...欸？？？？！————
+@hideChars
+@bgm yil
+不是，这就是仟虹？？而且还是长女？？
+各种意义上的相似程度都为0啊....
+
+@printer Atest
+相昀盯了会仟虹，又看了眼怜
+@char lyen
+lyen.closea: 知道了就别盯着看了，各干各事去。
+xp.ba: ....有点离谱了....
+@shake lyen
+lyen.ana: 你又在说什.....
+
+xp.angry1: 感觉就是完全不像了啊！
+@hideChars
+@char wifi pose:centers
+wifi: 不像。
+@c2r wifi t:0.2
+@c2l lyen t:0.2
+lyen.wuyu:  死人机，你今天哪来冒出来那么多话.
+lyen.fca: 给我滚。
+wifi: 给我滚。
+lyen.sup: ????????你?
+lyen.supa: ?反了你了?
+@hideChars
+@char cyan pose:center
+cyan.haoa: 那个！...真的...不用吵了。
+cyan.haoe: .....
+@char xp
+xp.ba: 乐。
+cyan.saddo: 确实嘛就是...
+cyan.sadr: 可能确实是....
+cyan.sadd: ...我的问题吧....
+@c2r cyan t:0.1
+@char wifi pose:center
+@c2l wifi t:0.1
+wifi: 你的问题。
+cyan.b: ......
+cyan.haoe: 欸请问你是...？
+@char xp
+xp.b: .......
+xp.looklefto: 白霜, 我的嘴替....
+@spawn ShakeCamera params:,4,,,,,true,true
+xp.supa: !!!欸白霜小心!!!
+@hideChars
+@char wifi pose:center
+@c2r wifi t:0.3
+@char lyen.fc pose:right
+@l2c lyen
+相昀话音未落, 怜的飞踢正好擦过白霜的衣角而过。
+lyen.an: ....你也给我等着。
+wifi: 等着。
+@char xp
+xp.supa: 哇。
+@hideChars
+@printer Atest
+相昀不知道白霜反应竟然这么快？
+但怜好像并不惊讶。
+@char lyen
+lyen.wuyu: 之前在路边捡的一条，除了懒没有别的毛病。
+lyen.fc: 你在学院当然不认识。
+@c2l lyen
+@char cyan
+cyan.haoe: ...这样啊...
+cyan.saddo: 就是感觉....你们之间都很熟悉....
+@char lyen
+lyen.fc: 胡扯，我不认识弱智。
+@char xp
+xp.angeya: ?谁允许你给我起外号的?
+
+@if he=1
+    @goto #2
+    @stop
+
+
+# 2
+@stopBgm
+@printer Atest
+.....
+@playFX threshold:1 duration:1
+@hideChars
+
+@char xp
+@wait 1
+xp: ?
+@wait 1
+xp.angeya: ?你们怎么都不说话了?
+@wait 1
+@spawn ShakeCamera
+相昀感觉背后一阵阴风吹过....
+@printer Apop
+@print 相。 author:叶兰 wait!
+@wait 0.5
+@print 昀。 author:叶兰 wait!
+@wait 0.5
+@hideChars
+@char xtp
+xtp.comfy: ....
+xtp.comfy: ....叶...叶老板.....
+@printer Atest
+叶兰: ....
+xtp.s: ...那个....我....
+@playFX threshold:-0.32 duration:0.1
+@back id:su
+@char lyen pose:center
+@char lyen
+@bgm yil
+lyen.sm: 欢迎叶老板啊，抱歉，没注意到您来了...
+lyen.wuyu: 我先去接客了，你们随意。
+@printer Atest
+说罢怜瞪了相昀。
+@hide lyen
+@printer Atest
+叶兰: 哦！没事没事。
+叶兰: 话说仟虹先生也在这里啊。
+@char cyan pose:center
+@shake cyan power:0.1
+
+cyan.smile: ...您好？
+@printer Atest
+叶兰回应性地笑笑，然后把相昀拎到一边。
+@playFX threshold:0.7 duration:0.1
+叶兰: 你什么时候和她俩这么熟了。
+@char xp
+xp.angeya: 就莫名其妙认识了！
+xp.looklefto: 最开始我就是卖了份糖雪球给仟虹....
+@printer Atest
+叶兰: .....
+叶兰: 算了，你玩你的吧，看见长辈要礼貌一点。
+说罢，正好有人找叶兰....
+叶兰: ...啊，是的，嗯。
+@shake Atest
+叶兰: 哎哟，好久不见啊!....
+@playFX threshold:-0.32 duration:0.1
+于是叶兰也忙着应酬去了
+@char xp
+xp.b: .....
+@goto #trueHappyEnd
+@stop
+
+@if ye=1
+    @goto Eth/x/dance
+
+
+# trueHappyEnd
+@hide xp
+@char xwp
+xwp.comfy: 开溜~~~
+@hide xwp
+@wait 0.5
+@char cyan.sadd
+@playFX threshold:0.7 duration:0.1
+@printer Atest
+正当相昀想溜走时，仟虹拉住相昀。
+@char xp
+xp.lookleft: ?
+@playFX threshold:-0.32 duration:0.1
+cyan.saddo: 那个....
+cyan.sadr: 我可能....
+cyan: ....想问下....
+cyan.haoe: .....你的名字？
+@char xp
+xp.comfy: 啊我叫相昀
+@wait 1
+xp: 等下。
+xp.angeya: 你竟然也不知道我的名字....？？
+@char cyan.supe
+@shake cyan power:0.1
+cyan.haoa: ...抱...抱歉!
+cyan.saddr: ....我....
+@playFX threshold:0.7 duration:0.1
+@char xp
+xp.comfy: 没事啦，我本来也啥也不知道。
+xp.angeya: 只是刚见你妹妹的时候她一眼就报出我大名...
+xp.ba: 感觉有被冒犯到....
+@char cyan
+@shake cyan
+@playFX threshold:-0.32 duration:0.1
+cyan.sup: 怜她...可能就是...比较爱交朋友吧....
+@hide cyan
+@char cp
+cp.supe: 哦对了！实际上...
+cp.saddo: 我想和你说...
+cp: 我观察到糖雪球上面的糖霜分布很美哦。
+cp.smile: 像雪花一样。
+@hide cp
+@char cyan
+@hide xwp
+@char xp
+xp.supa: 啊！
+xp.comfye: 对哦，雪花也很好看。
+xp.comfy: 堆雪人也很好玩。
+xp.s: 但是江城很少下雪...
+@char cyan
+cyan.supe: 这样吗...
+cyan: 席会那边每年都会下大雪。
+cyan.smile: 下雪的时候，世界就会变得一片纯白....
+cyan.saddo: 非常安静。
+@printer Atest
+仟虹似乎很容易逐渐沉浸到自己的思绪里面。
+@char xp
+xp: 席会在哪？
+xp.s: 我从来没见过纯白的世界....
+
+
+@printer Atest
+xp: 嗯以及....
+xp.looklefto: 这些糖雪球是白霜做的
+xp.comfy: 要不我们一起去问她是怎么做的吧！
+@char cyan
+cyan.supe: 这样啊.....
+@hideAll
+@printer Atest
+仟虹喃喃着...
+@stopBgm
+@wait 0.5
+但她好像有点...重心不稳？
+@back id:su
+; @blur
+@char xp
+xp: .....仟————
+@printer Atest
+仟虹晕倒了。
+
+
+@playFX threshold:1.0 duration:3
+@printer xfull
+.....
+恭喜达成HE:《糖雪球》
+
+; 急救等@sfx
+@playFX threshold:-0.32 duration:3
+@back id:su
+@printer Atest
+几小时后
+医师: ...并无大碍...就是...
+医师: 仟虹小姐可能是吃了什么不干净的食物？
+医师: 加上本身的消化问题、疲劳过度...多方原因吧。
+@char xp
+xp.angeya: ?消化问题?疲劳过度?
+@printer Atest
+相昀疑惑地看怜，后者撇过头。
+@char lyen
+lyen.fc: ....
+lyen.wuyu: ....宴会上的食物不可能出问题。
+lyen.fc: 更何况她也一点没动啊....
+lyen.wuyu: 等下。
+lyen.f: .....
+@char xp
+xp.angeya: ？你瞪着我干嘛？
+@char lyen
+lyen: ...
+lyen: 她这几天吃的最多的应该...
+lyen.fc: 糖雪球。。。
+@char xp
+@shake xpt
+xp.angeya: ??
+xp.angeya: 糖雪球我也吃好吧！那我怎么一点事没有？
+lyen.ana: 你那糖雪球少说也放了好几天了吧！
+lyen.fc: 从哪来的也不知道。
+@playFX threshold:0.7 duration:0.1
+xp.ba: 白霜做的啊....
+@playFX threshold:-0.32 duration:0.1
+@hide lyen
+@char wifi
+wifi: 我不知道。
+@hide wifi
+@char lyen
+@shake lyen
+@spawn ShakeCamera params:,4,,,,,true,true
+lyen.fc: ....
+@char lyen pose:center
+lyen.fca: ....你们两个....
+lyen.an: 给，
+@wait 0.1
+lyen.ana: 我，
+@wait 0.1
+@shake lyen
+lyen.ana: 滚！！！！！！！
+@hide lyen
+医师: ...呃...二小姐息怒息怒！
+医师: 糖雪球的话...
+医师: 如果保存不当...确实容易坏? 或者正好吃到不新鲜的那个？
+医师: 但是都并没有大碍！休息会，调理一阵子就好了。
+@char lyen
+lyen.sm: ....
+lyen.sm: 没事就好，没事就好。
+
+就这样，仟虹迎来了美好的崭新的明天，
+@title
+
+@stop
+
+@bgm round
+; @bgm ed 有ed就好了。。。。
+
+商会和苏家也建立了良好的商贸关系。
+
+@char xp
+xp.ba: 这和菜市场区别在哪。
+
+
+@if be3=1
+    @hideAll
+    ; @sfx gun枪响
+    
+    @spawn ShakeCamera
+    @wait 4
+    ...........
+    @playFX threshold:1 duration:0.01
+    @back id:cg1cyendeath
+    @playFX threshold:0.5 duration:3
+    @wait 3

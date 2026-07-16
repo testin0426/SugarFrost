@@ -1,0 +1,22 @@
+@if loc1=="B"
+    @if loc2=="C"
+        @set path=1
+    @if loc2=="D"
+        @set path=2
+@if loc1=="C"
+    @if loc2=="B"
+        @set path=3
+    @if loc2=="D"
+        @set path=4
+@if loc1=="D"
+    @if loc2=="B"
+        @set path=5
+    @if loc2=="C"
+        @set path=6
+
+
+
+@set d=1
+
+@goto Eth/situ/Ajiang/runtime/jnight
+@stop
