@@ -7,6 +7,7 @@
   <Project Path="Unity.ProBuilder.csproj" />
   <Project Path="Unity.ScriptableBuildPipeline.Editor.csproj" />
   <Project Path="Unity.Mathematics.csproj" />
+  <Project Path="Unity.Cinemachine.Editor.csproj" />
   <Project Path="Unity.2D.Psdimporter.Editor.csproj" />
   <Project Path="Unity.MemoryProfiler.Editor.csproj" />
   <Project Path="Unity.InferenceEngine.Microsoft.Msagl.csproj" />
@@ -44,6 +45,7 @@
   <Project Path="Unity.InferenceEngine.Editor.csproj" />
   <Project Path="UnityEditor.TestRunner.csproj" />
   <Project Path="Unity.AI.Pbr.csproj" />
+  <Project Path="Unity.Cinemachine.csproj" />
   <Project Path="Unity.RenderPipelines.Universal.Runtime.csproj" />
   <Project Path="Unity.Physics.Hybrid.csproj" />
   <Project Path="Unity.Burst.CodeGen.csproj" />
@@ -55,6 +57,7 @@
   <Project Path="UnityEngine.TestRunner.csproj" />
   <Project Path="Unity.2D.Tilemap.Editor.csproj" />
   <Project Path="Unity.Entities.UI.Editor.csproj" />
+  <Project Path="Unity.Splines.Editor.csproj" />
   <Project Path="Unity.PerformanceTesting.csproj" />
   <Project Path="Unity.Entities.Hybrid.csproj" />
   <Project Path="Unity.FilmInternalUtilities.csproj" />
@@ -79,7 +82,6 @@
   <Project Path="Unity.Rider.Editor.csproj" />
   <Project Path="Unity.AI.Generators.IO.csproj" />
   <Project Path="Unity.Entities.Editor.csproj" />
-  <Project Path="Cinemachine.csproj" />
   <Project Path="Unity.InternalAPIEditorBridge.001.csproj" />
   <Project Path="HFDownloader.csproj" />
   <Project Path="Unity.InternalAPIEditorBridge.002.csproj" />
@@ -97,7 +99,6 @@
   <Project Path="Unity.RenderPipelines.Universal.2D.Editor.Overrides.csproj" />
   <Project Path="Unity.Postprocessing.Runtime.csproj" />
   <Project Path="Unity.VisualScripting.State.csproj" />
-  <Project Path="com.unity.cinemachine.editor.csproj" />
   <Project Path="Unity.AI.Generators.Redux.csproj" />
   <Project Path="Unity.AI.Toolkit.Accounts.csproj" />
   <Project Path="Unity.AI.Generators.UI.csproj" />
@@ -154,6 +155,7 @@
   <Project Path="Unity.InternalAPIEngineBridge.002.csproj" />
   <Project Path="Unity.InferenceEngine.Editor.Visualizer.csproj" />
   <Project Path="MagicaCloth2Example.csproj" />
+  <Project Path="Unity.Splines.csproj" />
   <Project Path="Unity.Mathematics.Editor.csproj" />
   <Project Path="Unity.CollabProxy.Editor.csproj" />
   <Project Path="Unity.2D.Common.Runtime.csproj" />

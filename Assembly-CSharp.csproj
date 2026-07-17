@@ -205,7 +205,6 @@
     <Compile Include="Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_VividLight.cs" />
     <Compile Include="Assets\Camera Filter Pack\Scripts\CameraFilterPack_3D_Fog_Smoke.cs" />
     <Compile Include="Assets\Scirpts\VisibilityFadeBridge.cs" />
-    <Compile Include="Assets\RawCameraTest.cs" />
     <Compile Include="Assets\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Warp.cs" />
     <Compile Include="Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Radial_Fast.cs" />
     <Compile Include="Assets\Scirpts\CharacterAppearanceBridge.cs" />
@@ -256,7 +255,6 @@
     <Compile Include="Assets\Camera Filter Pack\Scripts\CameraFilterPack_Atmosphere_Rain.cs" />
     <Compile Include="Assets\Scirpts\command\AnimateUIFXCommand.cs" />
     <Compile Include="Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Glitch2.cs" />
-    <Compile Include="Assets\CameraDebug.cs" />
     <Compile Include="Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga_Flash.cs" />
     <Compile Include="Assets\Camera Filter Pack\Scripts\CameraFilterPack_OldFilm_Cutting1.cs" />
     <Compile Include="Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Exclusion.cs" />
@@ -2005,14 +2003,6 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Idaocracy.NaninovelSceneAssistant.Runtime">
-      <HintPath>Library\ScriptAssemblies\Idaocracy.NaninovelSceneAssistant.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Idaocracy.NaninovelSceneAssistant.Editor">
-      <HintPath>Library\ScriptAssemblies\Idaocracy.NaninovelSceneAssistant.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj" />
@@ -2050,6 +2040,7 @@
     <ProjectReference Include="Unity.Recorder.Base.csproj" />
     <ProjectReference Include="Unity.AppUI.Undo.csproj" />
     <ProjectReference Include="Unity.AI.MCP.Runtime.csproj" />
+    <ProjectReference Include="Unity.Splines.Editor.csproj" />
     <ProjectReference Include="Unity.UnifiedRayTracing.Runtime.csproj" />
     <ProjectReference Include="Unity.2D.Aseprite.Common.csproj" />
     <ProjectReference Include="Unity.2D.PixelPerfect.csproj" />
@@ -2089,7 +2080,6 @@
     <ProjectReference Include="Unity.Entities.Build.csproj" />
     <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj" />
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj" />
     <ProjectReference Include="Unity.Numerics.Linear.Dense.csproj" />
     <ProjectReference Include="Unity.ProBuilder.csproj" />
     <ProjectReference Include="Unity.MemoryProfiler.Editor.MemoryProfilerModule.csproj" />
@@ -2100,6 +2090,7 @@
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.Shared.csproj" />
     <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj" />
     <ProjectReference Include="Unity.InputSystem.csproj" />
+    <ProjectReference Include="Unity.Splines.csproj" />
     <ProjectReference Include="Unity.AppUI.Redux.csproj" />
     <ProjectReference Include="Unity.AI.MCP.Editor.csproj" />
     <ProjectReference Include="Unity.Transforms.csproj" />
@@ -2110,7 +2101,6 @@
     <ProjectReference Include="UnityEditor.UI.Analytics.csproj" />
     <ProjectReference Include="Unity.Numerics.Linear.Sparse.csproj" />
     <ProjectReference Include="Unity.Physics.Hybrid.csproj" />
-    <ProjectReference Include="Cinemachine.csproj" />
     <ProjectReference Include="Unity.2D.IK.Runtime.csproj" />
     <ProjectReference Include="Unity.AI.Assistant.Agent.Dynamic.Extension.Editor.csproj" />
     <ProjectReference Include="Unity.MemoryProfiler.csproj" />
@@ -2132,7 +2122,9 @@
     <ProjectReference Include="Unity.Burst.Editor.csproj" />
     <ProjectReference Include="Unity.VisualScripting.Core.csproj" />
     <ProjectReference Include="Unity.Mathematics.Editor.csproj" />
+    <ProjectReference Include="Unity.Cinemachine.Editor.csproj" />
     <ProjectReference Include="Unity.Physics.csproj" />
+    <ProjectReference Include="Unity.Cinemachine.csproj" />
     <ProjectReference Include="Unity.Entities.UI.Editor.csproj" />
     <ProjectReference Include="Elringus.Naninovel.Editor.csproj" />
     <ProjectReference Include="PoseEditor.csproj" />

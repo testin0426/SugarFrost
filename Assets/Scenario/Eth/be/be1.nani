@@ -69,17 +69,17 @@ xp.b: (....这谁。)
 @playFX threshold:0.7 duration:0.1
 @char yel.he
 @char yel.he
-@animate yel posZ:50 time:0.01
+;@async yel posZ:50 time:0.01
 yel.he: 怜二小姐竟然还有空给鄙人接风呢。
 @char yel.ane pose:center
 @char yel.ane
 @c2l yel t:0.1
-@animate yel posZ:100 time:0.01
+;@async yel posZ:100 time:0.01
 @char yel pose:right
 @char lyen
 @c2r lyen t:0.1
 @char lyen.sm
-@animate yel posZ:50 time:0.01
+;@async yel posZ:50 time:0.01
 @playFX threshold:-0.32 duration:0.1
 @shake lyen power:0.1
 lyen.ja: 叶老板大驾光临，晚辈再忙也定会赶来。
@@ -126,13 +126,13 @@ yel.sma: 不过我们家相昀也是。
 yel.sada: 要是能有半分二小姐那样的处事能力就好喽。
 @playFX threshold:-0.32 duration:0.01
 @playFX threshold:0.7 duration:0.01
-@animate yel posZ:100 time:0.01
+;@async yel posZ:100 time:0.01
 @char xp
 xp.angeya: ？？？她？？？
 @hideChars
 @playFX threshold:0.7 duration:0.01
 @playFX threshold:-0.32 duration:0.01
-@animate lyen posZ:50 time:0.01
+;@async lyen posZ:50 time:0.01
 @char lyen
 lyen.sm: .....
 @hideAll
@@ -163,8 +163,8 @@ xp.b: ....
 @hideChars
 @char xp
 xp.s: (我想回江城晒太阳.....）
-@animate lyen posZ:100 time:0.01
-@animate yel posZ:100 time:0.01
+;@async lyen posZ:100 time:0.01
+;@async yel posZ:100 time:0.01
 @playFX threshold:0.0 duration:0.01 wait:false
 
 @playFX threshold:1.0 duration:0.2  wait:false

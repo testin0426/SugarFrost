@@ -15,13 +15,6 @@
         "com.unity.nuget.newtonsoft-json": "3.2.2"
       }
     },
-    "com.idaocracy.naninovelsceneassistant": {
-      "version": "https://github.com/idaocracy/NaninovelSceneAssistant.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "066c28317b2dff3dc5c97a13997e2a0dbef9ae43"
-    },
     "com.sidefx.vat": {
       "version": "file:C:/Users/tinf/Downloads/SideFXLabs-Development/unity/shaders/URP_VAT3",
       "depth": 0,
@@ -204,11 +197,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.cinemachine": {
-      "version": "2.10.7",
+      "version": "3.1.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.test-framework": "1.1.31"
+        "com.unity.splines": "2.0.0",
+        "com.unity.modules.imgui": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -516,6 +510,17 @@
         "com.unity.render-pipelines.core": "17.3.0",
         "com.unity.searcher": "4.9.3"
       }
+    },
+    "com.unity.splines": {
+      "version": "2.9.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
       "version": "1.6.0",

@@ -1,13 +1,12 @@
 {
   "dependencies": {
-    "com.idaocracy.naninovelsceneassistant": "https://github.com/idaocracy/NaninovelSceneAssistant.git",
     "com.sidefx.vat": "file:C:/Users/tinf/Downloads/SideFXLabs-Development/unity/shaders/URP_VAT3",
     "com.unity.adaptiveperformance": "6.0.0",
     "com.unity.ai.assistant": "2.14.0-pre.1",
     "com.unity.ai.inference": "2.6.1",
     "com.unity.animation.rigging": "1.4.1",
     "com.unity.burst": "1.8.29",
-    "com.unity.cinemachine": "2.10.7",
+    "com.unity.cinemachine": "3.1.7",
     "com.unity.collab-proxy": "2.12.4",
     "com.unity.collections": "2.6.6",
     "com.unity.feature.2d": "2.0.2",

@@ -18,4 +18,5 @@
 @set L=0
 @set num=0
 
+@goto Eth/AAtest
 @stop

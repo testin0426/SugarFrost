@@ -32,7 +32,7 @@
 @rtfx obj:lyen prop:_MaskFeather to:0.43 duration:0
 
 @camera offset:0.82,1.97,0.00 zoom:0.933 time:0
-@camera offset:-0.38,1.97,0.00 zoom:0.933 time:10 wait:true
+@camera offset:-0.38,1.97,0.00 zoom:0.933 time:10
 
 @hidePrinter
 @resetText fullnos

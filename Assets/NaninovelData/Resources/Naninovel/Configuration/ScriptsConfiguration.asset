@@ -19,18 +19,19 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
     - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ScriptParser: Naninovel.ScriptAssetParser, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+  ScriptCompiler: Naninovel.ScriptCompiler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   CompilerLocalization: {fileID: 11400000, guid: ecfd5703894a0fa4d828e75ccc400869, type: 2}
-  StableIdentification: 0
   InitializationScript: 
   TitleScript: Eth/title
-  StartGameScript: Eth/invitation
+  StartGameScript: Eth/fight/fightest
   AutoAddScripts: 0
   AutoResolvePath: 1
   HotReloadScripts: 1
   WatchScripts: 1
   ShowScriptNavigator: 0
+  EnableStoryEditor: 1
+  ShowSelectedScript: 1
   EnableVisualEditor: 1
   HideUnusedParameters: 1
   SelectPlayedScript: 1
